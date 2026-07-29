@@ -1,8 +1,9 @@
-// The portfolio collector. Reads config.json, fetches a keyless quote for every
-// distinct holding (symbols shared across portfolios — e.g. MSTR, GOOGL — are
-// fetched ONCE and reused), and writes docs/data/portfolio.json which the static
-// dashboard renders. Designed to ALWAYS produce a payload: an individual
-// symbol's failure is recorded in `errors` and its card degrades gracefully,
+// The portfolio collector. Reads config.json and, for every DISTINCT holding
+// (symbols shared across portfolios — MSTR, GOOGL — are gathered once and
+// reused), fetches: a keyless price quote, recent Google-News headlines, and
+// (for equities) recent SEC EDGAR filings. Writes docs/data/portfolio.json which
+// the static site renders. Designed to ALWAYS produce a payload: any single
+// fetch failure is recorded in `errors` and that slice degrades gracefully,
 // never failing the whole run.
 //
 // Run locally: node scripts/collect.mjs
@@ -11,91 +12,146 @@ import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { fetchQuote } from "./price.mjs";
+import { fetchGoogleNews, fetchEdgarFilings } from "./sources.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const config = JSON.parse(readFileSync(join(root, "config.json"), "utf8"));
 
-// The Yahoo symbol for a holding: crypto carries an explicit "<SYM>-USD" mapping
-// in config; everything else quotes under its own ticker.
+const NEWS_MAX_AGE_MS = 30 * 24 * 60 * 60 * 1000; // headlines older than 30d drop
+const NEWS_PER_HOLDING = 8;
+const FILINGS_PER_HOLDING = 8;
+
 const yahooSymbol = (h) => h.yahoo ?? h.symbol;
 
-async function main() {
-  // 1) Collect the distinct Yahoo symbols across both portfolios, fetch each once.
-  const symbols = new Map(); // yahooSymbol -> { holding fields }
-  for (const p of config.portfolios ?? []) {
-    for (const h of p.holdings ?? []) {
-      const ys = yahooSymbol(h);
-      if (!symbols.has(ys)) symbols.set(ys, h);
+// Dedupe key for a headline: strip the Google-News " - Publisher" suffix and
+// punctuation so wire reprints of one story collapse to a single item.
+function newsKey(title) {
+  return String(title)
+    .replace(/\s+-\s+[^-]+$/, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]+/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 120);
+}
+
+const byDateDesc = (a, b) => String(b.publishedAt ?? "").localeCompare(String(a.publishedAt ?? ""));
+
+async function gatherNews(h, errors) {
+  if (!h.newsQuery) return [];
+  try {
+    const raw = await fetchGoogleNews(h.newsQuery);
+    const now = Date.now();
+    const seen = new Map();
+    for (const it of raw) {
+      const t = Date.parse(it.publishedAt);
+      if (!Number.isFinite(t) || now - t > NEWS_MAX_AGE_MS) continue; // fresh only
+      const k = newsKey(it.title);
+      if (!k || seen.has(k)) continue;
+      seen.set(k, it);
     }
+    return [...seen.values()].sort(byDateDesc).slice(0, NEWS_PER_HOLDING);
+  } catch (e) {
+    errors.push({ symbol: h.symbol, source: "news", error: String(e?.message ?? e) });
+    return [];
+  }
+}
+
+async function gatherFilings(h, errors) {
+  if (!h.cik) return [];
+  try {
+    const raw = await fetchEdgarFilings(h.cik, FILINGS_PER_HOLDING);
+    return raw.sort(byDateDesc).slice(0, FILINGS_PER_HOLDING);
+  } catch (e) {
+    errors.push({ symbol: h.symbol, source: "filings", error: String(e?.message ?? e) });
+    return [];
+  }
+}
+
+async function main() {
+  // 1) Distinct holdings across both portfolios (keyed by symbol — shared names
+  //    carry identical config, so one fetch serves every portfolio it's in).
+  const distinct = new Map(); // symbol -> holding config
+  for (const p of config.portfolios ?? []) {
+    for (const h of p.holdings ?? []) if (!distinct.has(h.symbol)) distinct.set(h.symbol, h);
   }
 
   const errors = [];
-  const quotes = {}; // keyed by yahooSymbol
-  const entries = [...symbols.entries()];
-  const results = await Promise.all(
-    entries.map(async ([ys, h]) => {
-      try {
-        const q = await fetchQuote(ys);
-        if (!q) {
-          errors.push({ symbol: h.symbol, yahoo: ys, error: "no quote returned" });
-          return [ys, null];
-        }
-        return [ys, q];
-      } catch (e) {
-        errors.push({ symbol: h.symbol, yahoo: ys, error: String(e?.message ?? e) });
-        return [ys, null];
-      }
+
+  // 2) Fetch quote + news + filings for each distinct holding, concurrently.
+  const enriched = new Map(); // symbol -> { quote, news, filings }
+  await Promise.all(
+    [...distinct.values()].map(async (h) => {
+      const [quote, news, filings] = await Promise.all([
+        fetchQuote(yahooSymbol(h)).catch((e) => {
+          errors.push({ symbol: h.symbol, source: "price", error: String(e?.message ?? e) });
+          return null;
+        }),
+        gatherNews(h, errors),
+        gatherFilings(h, errors),
+      ]);
+      if (!quote) errors.push({ symbol: h.symbol, source: "price", error: "no quote returned" });
+      enriched.set(h.symbol, { quote, news, filings });
     }),
   );
-  for (const [ys, q] of results) if (q) quotes[ys] = q;
 
-  // 2) Assemble per-portfolio holding lists with their quote attached, plus a
-  //    deterministic (keyless) per-portfolio summary: best/worst mover today and
-  //    the count of holdings that are up.
+  // 3) Assemble per-portfolio holding lists + a deterministic per-portfolio
+  //    summary (best/worst mover today, up/down split, average move).
   const portfolios = (config.portfolios ?? []).map((p) => {
     const holdings = (p.holdings ?? []).map((h) => {
-      const ys = yahooSymbol(h);
+      const e = enriched.get(h.symbol) ?? {};
       return {
         symbol: h.symbol,
         name: h.name ?? h.symbol,
         type: h.type ?? "stock",
-        yahoo: ys,
-        quote: quotes[ys] ?? null,
+        yahoo: yahooSymbol(h),
+        cik: h.cik ?? null,
+        quote: e.quote ?? null,
+        news: e.news ?? [],
+        filings: e.filings ?? [],
       };
     });
 
     const withChange = holdings.filter((h) => h.quote && Number.isFinite(h.quote.changePct));
-    const sortedByDay = [...withChange].sort((a, b) => b.quote.changePct - a.quote.changePct);
+    const sorted = [...withChange].sort((a, b) => b.quote.changePct - a.quote.changePct);
     const up = withChange.filter((h) => h.quote.changePct > 0).length;
     const down = withChange.filter((h) => h.quote.changePct < 0).length;
-    const summary = withChange.length
-      ? {
-          holdings: holdings.length,
-          priced: withChange.length,
-          up,
-          down,
-          topGainer: sortedByDay[0]
-            ? { symbol: sortedByDay[0].symbol, changePct: sortedByDay[0].quote.changePct }
-            : null,
-          topLoser: sortedByDay[sortedByDay.length - 1]
-            ? {
-                symbol: sortedByDay[sortedByDay.length - 1].symbol,
-                changePct: sortedByDay[sortedByDay.length - 1].quote.changePct,
-              }
-            : null,
-          avgChangePct:
-            Math.round((withChange.reduce((a, h) => a + h.quote.changePct, 0) / withChange.length) * 100) / 100,
-        }
-      : { holdings: holdings.length, priced: 0, up: 0, down: 0, topGainer: null, topLoser: null, avgChangePct: null };
-
+    const summary = {
+      holdings: holdings.length,
+      priced: withChange.length,
+      up,
+      down,
+      newsCount: holdings.reduce((a, h) => a + h.news.length, 0),
+      filingsCount: holdings.reduce((a, h) => a + h.filings.length, 0),
+      topGainer: sorted[0] ? { symbol: sorted[0].symbol, changePct: sorted[0].quote.changePct } : null,
+      topLoser: sorted.length
+        ? { symbol: sorted[sorted.length - 1].symbol, changePct: sorted[sorted.length - 1].quote.changePct }
+        : null,
+      avgChangePct: withChange.length
+        ? Math.round((withChange.reduce((a, h) => a + h.quote.changePct, 0) / withChange.length) * 100) / 100
+        : null,
+    };
     return { key: p.key, name: p.name, note: p.note ?? null, summary, holdings };
   });
+
+  // 4) A cross-portfolio "latest" wire: the freshest headlines and filings across
+  //    all distinct holdings, tagged with their symbol, for the front-page feed.
+  const allNews = [];
+  const allFilings = [];
+  for (const [symbol, e] of enriched) {
+    for (const n of e.news ?? []) allNews.push({ ...n, symbol });
+    for (const f of e.filings ?? []) allFilings.push({ ...f, symbol });
+  }
+  allNews.sort(byDateDesc);
+  allFilings.sort(byDateDesc);
 
   const payload = {
     generatedAt: new Date().toISOString(),
     siteTitle: config.siteTitle,
     tagline: config.tagline,
     portfolios,
+    latestNews: allNews.slice(0, 30),
+    latestFilings: allFilings.slice(0, 20),
     errors,
   };
 
@@ -103,12 +159,12 @@ async function main() {
   mkdirSync(dataDir, { recursive: true });
   writeFileSync(join(dataDir, "portfolio.json"), JSON.stringify(payload, null, 2));
 
-  const priced = Object.keys(quotes).length;
+  const priced = [...enriched.values()].filter((e) => e.quote).length;
   console.log(
-    `collected: ${priced}/${symbols.size} symbols priced across ${portfolios.length} portfolios ` +
-      `(${errors.length} errors)`,
+    `collected: ${priced}/${distinct.size} priced · ${allNews.length} headlines · ${allFilings.length} filings ` +
+      `across ${portfolios.length} portfolios (${errors.length} errors)`,
   );
-  for (const e of errors) console.warn(`  error: ${e.symbol} (${e.yahoo}): ${e.error}`);
+  for (const e of errors) console.warn(`  error: ${e.symbol} [${e.source}]: ${e.error}`);
 }
 
 await main();

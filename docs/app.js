@@ -1,218 +1,430 @@
-// Jack Portfolio dashboard front end: fills the overview band and per-portfolio
-// card grids from data/portfolio.json, draws a sparkline per holding, and
-// re-polls every 5 minutes. All text is set via textContent (no HTML injection);
-// the only markup built by hand is the inline SVG sparkline from numeric data.
+// Jack Portfolio front end: renders the overview board, ticker tape, per-portfolio
+// card grids, and the unified News + Filings wires from data/portfolio.json, wires
+// up the tabs and a per-holding detail drawer, and re-polls every 5 minutes. All
+// feed text is set via textContent (no HTML injection); the only hand-built markup
+// is the inline SVG sparkline drawn from numeric data.
 
 const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const TYPE_LABELS = { stock: "Equity", etf: "ETF", crypto: "Crypto" };
 
-const TYPE_LABELS = { stock: "Stock", etf: "ETF", crypto: "Crypto" };
+let lastData = null;          // latest payload
+const holdingIndex = new Map(); // symbol -> holding (for the drawer)
 
 function el(tag, className, text) {
-  const node = document.createElement(tag);
-  if (className) node.className = className;
-  if (text != null) node.textContent = text;
-  return node;
+  const n = document.createElement(tag);
+  if (className) n.className = className;
+  if (text != null) n.textContent = text;
+  return n;
+}
+
+// Only absolute http(s) URLs reach an href; anything else collapses to "#".
+function safeUrl(url) {
+  if (typeof url !== "string") return "#";
+  try {
+    const u = new URL(url);
+    return u.protocol === "http:" || u.protocol === "https:" ? u.href : "#";
+  } catch { return "#"; }
 }
 
 function timeAgo(iso) {
-  if (!iso) return "never";
+  if (!iso) return "—";
   const mins = Math.round((Date.now() - Date.parse(iso)) / 60000);
-  if (!Number.isFinite(mins)) return "unknown";
+  if (!Number.isFinite(mins)) return "—";
   if (mins < 1) return "just now";
   if (mins < 60) return `${mins}m ago`;
-  const hours = Math.round(mins / 60);
-  if (hours < 48) return `${hours}h ago`;
-  return `${Math.round(hours / 24)}d ago`;
+  const h = Math.round(mins / 60);
+  if (h < 48) return `${h}h ago`;
+  return `${Math.round(h / 24)}d ago`;
 }
 
-// Format a price with sensible precision: sub-$10 (many crypto / cheap tickers)
-// keep 4 decimals, everything else 2, with thousands separators.
 function fmtPrice(n) {
   if (!Number.isFinite(n)) return "—";
-  // Sub-$1 assets (some crypto / pennies) need more precision; everything else 2dp.
   const dp = Math.abs(n) < 1 ? 4 : 2;
   return `$${n.toLocaleString("en-US", { minimumFractionDigits: dp, maximumFractionDigits: dp })}`;
 }
-
 function fmtPct(n) {
   if (!Number.isFinite(n)) return "—";
-  const sign = n > 0 ? "+" : n < 0 ? "−" : "";
-  return `${sign}${Math.abs(n).toFixed(2)}%`;
+  const s = n > 0 ? "+" : n < 0 ? "−" : "";
+  return `${s}${Math.abs(n).toFixed(2)}%`;
 }
-
-// Direction class for coloring a change value.
 function dirClass(n) {
   if (!Number.isFinite(n) || n === 0) return "is-flat";
   return n > 0 ? "is-up" : "is-down";
 }
 
-// Build an inline SVG sparkline from a numeric close series, colored to match the
-// trailing-window direction. Returns null if there's too little data to draw.
+// EDGAR's primary-doc description often just repeats the form code ("10-K" for a
+// 10-K). Show it only when it adds something beyond the form badge.
+function filingDesc(f) {
+  const d = (f.desc || "").trim();
+  return d && d.toUpperCase() !== (f.form || "").toUpperCase() ? d : "";
+}
+
+// Strip a Google-News " - Publisher" suffix for a cleaner headline (the source is
+// shown separately from the item's `source` field).
+function cleanTitle(t) {
+  const m = /^(.*\S)\s+-\s+[^-]{2,45}$/.exec(t ?? "");
+  return (m ? m[1] : t ?? "").trim();
+}
+
+// Inline SVG sparkline from a numeric close series, colored by trailing direction.
 function sparkline(series, direction) {
   if (!Array.isArray(series) || series.length < 2) return null;
-  const w = 120;
-  const h = 34;
-  const pad = 2;
-  const min = Math.min(...series);
-  const max = Math.max(...series);
+  const w = 120, h = 36, pad = 2;
+  const min = Math.min(...series), max = Math.max(...series);
   const span = max - min || 1;
   const step = (w - pad * 2) / (series.length - 1);
-  const pts = series.map((v, i) => {
-    const x = pad + i * step;
-    const y = pad + (h - pad * 2) * (1 - (v - min) / span);
-    return [x, y];
-  });
+  const pts = series.map((v, i) => [pad + i * step, pad + (h - pad * 2) * (1 - (v - min) / span)]);
   const d = pts.map((p, i) => `${i === 0 ? "M" : "L"}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(" ");
-
-  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  const NS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(NS, "svg");
   svg.setAttribute("class", `spark ${direction}`);
   svg.setAttribute("viewBox", `0 0 ${w} ${h}`);
-  svg.setAttribute("width", String(w));
-  svg.setAttribute("height", String(h));
   svg.setAttribute("preserveAspectRatio", "none");
   svg.setAttribute("aria-hidden", "true");
-
-  // Soft area fill under the line.
-  const area = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  const area = document.createElementNS(NS, "path");
   area.setAttribute("class", "spark-area");
   area.setAttribute("d", `${d} L${pts[pts.length - 1][0].toFixed(1)},${h} L${pts[0][0].toFixed(1)},${h} Z`);
   svg.appendChild(area);
-
-  const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-  path.setAttribute("class", "spark-line");
-  path.setAttribute("d", d);
-  svg.appendChild(path);
+  const line = document.createElementNS(NS, "path");
+  line.setAttribute("class", "spark-line");
+  line.setAttribute("d", d);
+  svg.appendChild(line);
   return svg;
 }
 
-// A TradingView symbol for the chart link: crypto routes to the CRYPTO:<SYM>USD
-// pair, everything else opens the plain ticker (TradingView resolves the venue).
 function tvUrl(h) {
   const sym = h.type === "crypto" ? `CRYPTO:${h.symbol}USD` : h.symbol;
   return `https://www.tradingview.com/symbols/${encodeURIComponent(sym)}/`;
 }
 
+// ---- ticker tape ----------------------------------------------------------------
+
+function tapeItems(portfolios) {
+  const seen = new Set();
+  const out = [];
+  for (const p of portfolios) {
+    for (const h of p.holdings ?? []) {
+      if (seen.has(h.symbol) || !h.quote) continue;
+      seen.add(h.symbol);
+      const item = el("span", "tape-item");
+      item.appendChild(el("span", "tape-sym", h.symbol));
+      item.appendChild(el("span", "tape-px", fmtPrice(h.quote.price)));
+      item.appendChild(el("span", `tape-ch ${dirClass(h.quote.changePct)}`, fmtPct(h.quote.changePct)));
+      out.push(item);
+    }
+  }
+  return out;
+}
+
+// ---- overview board -------------------------------------------------------------
+
+function boardCells(data) {
+  const cells = [];
+  for (const p of data.portfolios ?? []) {
+    const s = p.summary ?? {};
+    const cell = el("div", "board-cell is-hero");
+    cell.appendChild(el("div", "bc-label", p.name.toUpperCase()));
+    cell.appendChild(el("div", `bc-val ${dirClass(s.avgChangePct)}`, fmtPct(s.avgChangePct)));
+    const sub = el("div", "bc-sub");
+    sub.append(
+      document.createTextNode(`${s.priced ?? 0} priced · `),
+      Object.assign(el("span", "up", `${s.up ?? 0}▲`)),
+      document.createTextNode(" "),
+      Object.assign(el("span", "down", `${s.down ?? 0}▼`)),
+    );
+    cell.appendChild(sub);
+    cells.push(cell);
+  }
+  const distinct = new Set();
+  for (const p of data.portfolios ?? []) for (const h of p.holdings ?? []) distinct.add(h.symbol);
+  const stat = (label, val, sub) => {
+    const c = el("div", "board-cell");
+    c.appendChild(el("div", "bc-label", label));
+    c.appendChild(el("div", "bc-val", val));
+    c.appendChild(el("div", "bc-sub", sub));
+    return c;
+  };
+  cells.push(stat("Positions", String(distinct.size), `${(data.portfolios ?? []).length} portfolios`));
+  cells.push(stat("Headlines", String((data.latestNews ?? []).length), "last 30 days"));
+  cells.push(stat("Filings", String((data.latestFilings ?? []).length), "SEC EDGAR"));
+  return cells;
+}
+
+// ---- holdings -------------------------------------------------------------------
+
 function holdingCard(h) {
   const q = h.quote;
-  const dayDir = dirClass(q?.changePct);
-  const winDir = dirClass(q?.windowChangePct);
-
-  const card = el("a", `card ${q ? dayDir : "is-flat"}`);
-  card.href = tvUrl(h);
-  card.target = "_blank";
-  card.rel = "noopener noreferrer";
-  card.title = `Open ${h.symbol} chart on TradingView`;
+  const card = el("div", `card ${q ? dirClass(q.changePct) : "is-flat"}`);
+  card.tabIndex = 0;
+  card.setAttribute("role", "button");
+  card.setAttribute("aria-label", `${h.symbol} details`);
 
   const head = el("div", "card-head");
-  const idBlock = el("div", "card-id");
-  idBlock.appendChild(el("span", "card-sym", h.symbol));
-  idBlock.appendChild(el("span", "card-name", h.name));
-  head.appendChild(idBlock);
-  head.appendChild(el("span", `card-type type-${h.type}`, TYPE_LABELS[h.type] ?? "Stock"));
+  const id = el("div", "card-id");
+  id.appendChild(el("span", "card-sym", h.symbol));
+  id.appendChild(el("span", "card-name", h.name));
+  head.appendChild(id);
+  head.appendChild(el("span", `card-type type-${h.type}`, TYPE_LABELS[h.type] ?? "Equity"));
   card.appendChild(head);
 
   if (q) {
-    const priceRow = el("div", "card-price-row");
-    priceRow.appendChild(el("span", "card-price", fmtPrice(q.price)));
-    const day = el("span", `card-day ${dayDir}`, `${fmtPct(q.changePct)} today`);
-    priceRow.appendChild(day);
-    card.appendChild(priceRow);
-
-    const spark = sparkline(q.spark, winDir);
-    if (spark) card.appendChild(spark);
-
+    const px = el("div", "card-px-row");
+    px.appendChild(el("span", "card-px", fmtPrice(q.price)));
+    px.appendChild(el("span", `card-ch ${dirClass(q.changePct)}`, `${fmtPct(q.changePct)}`));
+    card.appendChild(px);
+    const sp = sparkline(q.spark, dirClass(q.windowChangePct));
+    if (sp) card.appendChild(sp);
     const foot = el("div", "card-foot");
-    const win = el("span", `card-win ${winDir}`, `${fmtPct(q.windowChangePct)} · ${q.windowDays ?? "—"}d`);
-    foot.appendChild(win);
-    foot.appendChild(el("span", "card-open", "chart ↗"));
+    foot.appendChild(el("span", "card-win", `${fmtPct(q.windowChangePct)} · ${q.windowDays ?? "—"}d`));
+    const tags = el("span", "card-tags");
+    const nTag = el("span", "card-tag"); nTag.append(Object.assign(el("b", null, String(h.news?.length ?? 0))), document.createTextNode(" news"));
+    tags.appendChild(nTag);
+    if (h.type !== "crypto" && h.type !== "etf") {
+      const fTag = el("span", "card-tag"); fTag.append(Object.assign(el("b", null, String(h.filings?.length ?? 0))), document.createTextNode(" SEC"));
+      tags.appendChild(fTag);
+    }
+    foot.appendChild(tags);
     card.appendChild(foot);
   } else {
     card.appendChild(el("p", "card-noquote", "Price unavailable — retries next cycle."));
   }
+
+  const open = () => openDrawer(h.symbol);
+  card.addEventListener("click", open);
+  card.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
   return card;
 }
 
-function summaryChips(s) {
-  const wrap = el("div", "pf-chips");
-  const chip = (label, value, cls) => {
-    const c = el("span", `pf-chip${cls ? " " + cls : ""}`);
-    c.appendChild(el("span", "pf-chip-num", value));
-    c.appendChild(el("span", "pf-chip-label", label));
-    return c;
-  };
-  wrap.appendChild(chip("Holdings", String(s.holdings ?? "—")));
-  if (Number.isFinite(s.avgChangePct)) wrap.appendChild(chip("Avg today", fmtPct(s.avgChangePct), dirClass(s.avgChangePct)));
-  wrap.appendChild(chip("Up / Down", `${s.up ?? 0} / ${s.down ?? 0}`));
-  if (s.topGainer) wrap.appendChild(chip(`▲ ${s.topGainer.symbol}`, fmtPct(s.topGainer.changePct), "is-up"));
-  if (s.topLoser) wrap.appendChild(chip(`▼ ${s.topLoser.symbol}`, fmtPct(s.topLoser.changePct), "is-down"));
-  return wrap;
-}
-
 function portfolioSection(p) {
-  const section = el("section", "pf");
-  section.id = `pf-${p.key}`;
-
+  const sec = el("section", "pf");
   const head = el("div", "pf-head");
-  const titleWrap = el("div");
-  titleWrap.appendChild(el("h2", "pf-title", p.name));
-  if (p.note) titleWrap.appendChild(el("p", "pf-note", p.note));
-  head.appendChild(titleWrap);
-  head.appendChild(summaryChips(p.summary ?? {}));
-  section.appendChild(head);
-
+  const title = el("h2", "pf-title", p.name);
+  if (p.note) title.appendChild(el("span", "pf-note", p.note));
+  head.appendChild(title);
+  const s = p.summary ?? {};
+  const meta = el("span", "pf-meta");
+  meta.append(
+    document.createTextNode(`${s.holdings ?? 0} holdings · avg `),
+    Object.assign(el("span", dirClass(s.avgChangePct), fmtPct(s.avgChangePct))),
+  );
+  head.appendChild(meta);
+  sec.appendChild(head);
   const grid = el("div", "grid");
   for (const h of p.holdings ?? []) grid.appendChild(holdingCard(h));
-  section.appendChild(grid);
-  return section;
+  sec.appendChild(grid);
+  return sec;
 }
+
+// ---- wires (news + filings) -----------------------------------------------------
+
+function newsRow(item) {
+  const a = el("a", "wire-row");
+  a.href = safeUrl(item.url);
+  a.target = "_blank";
+  a.rel = "noopener noreferrer";
+  if (item.symbol) a.appendChild(el("span", "chip", item.symbol));
+  const main = el("div", "wire-main");
+  main.appendChild(el("div", "wire-title", cleanTitle(item.title)));
+  const sub = el("div", "wire-sub");
+  if (item.source) sub.appendChild(el("span", null, item.source));
+  sub.appendChild(el("span", "dot", "·"));
+  sub.appendChild(el("span", "wire-when", timeAgo(item.publishedAt)));
+  main.appendChild(sub);
+  a.appendChild(main);
+  return a;
+}
+
+function filingRow(item) {
+  const a = el("a", "wire-row");
+  a.href = safeUrl(item.url);
+  a.target = "_blank";
+  a.rel = "noopener noreferrer";
+  if (item.symbol) a.appendChild(el("span", "chip", item.symbol));
+  const main = el("div", "wire-main");
+  const head = el("div", "wire-title");
+  head.appendChild(el("span", "form-badge", item.form ?? "FILING"));
+  const dtext = filingDesc(item);
+  if (dtext) head.appendChild(document.createTextNode(` ${dtext}`));
+  main.appendChild(head);
+  if (item.explain) main.appendChild(el("div", "wire-explain", item.explain));
+  const sub = el("div", "wire-sub");
+  sub.appendChild(el("span", null, "SEC EDGAR"));
+  sub.appendChild(el("span", "dot", "·"));
+  sub.appendChild(el("span", "wire-when", item.publishedAt ? item.publishedAt.slice(0, 10) : "—"));
+  main.appendChild(sub);
+  a.appendChild(main);
+  return a;
+}
+
+// ---- detail drawer --------------------------------------------------------------
+
+let drawerLastFocus = null;
+
+function drawerStat(label, val, cls) {
+  const s = el("div", "dr-stat");
+  s.appendChild(el("div", "dr-stat-l", label));
+  s.appendChild(el("div", `dr-stat-v ${cls ?? ""}`.trim(), val));
+  return s;
+}
+
+function openDrawer(symbol) {
+  const h = holdingIndex.get(symbol);
+  if (!h) return;
+  drawerLastFocus = document.activeElement;
+  const body = document.getElementById("drawer-body");
+  const q = h.quote;
+
+  const head = el("div", "dr-head");
+  const id = el("div");
+  id.appendChild(Object.assign(el("div", "dr-sym"), { id: "drawer-sym", textContent: h.symbol }));
+  id.appendChild(el("div", "dr-name", `${h.name} · ${TYPE_LABELS[h.type] ?? "Equity"}`));
+  head.appendChild(id);
+  const nodes = [head];
+
+  if (q) {
+    const pxRow = el("div", "dr-px-row");
+    pxRow.appendChild(el("span", "dr-px", fmtPrice(q.price)));
+    pxRow.appendChild(el("span", `dr-ch ${dirClass(q.changePct)}`, `${fmtPct(q.changePct)} today`));
+    nodes.push(pxRow);
+
+    const sp = sparkline(q.spark, dirClass(q.windowChangePct));
+    if (sp) { const wrap = el("div", "dr-spark"); wrap.appendChild(sp); nodes.push(wrap); }
+
+    const stats = el("div", "dr-stats");
+    stats.appendChild(drawerStat("Prev close", fmtPrice(q.prevClose)));
+    stats.appendChild(drawerStat(`~${q.windowDays ?? ""}d move`, fmtPct(q.windowChangePct), dirClass(q.windowChangePct)));
+    stats.appendChild(drawerStat("Currency", q.currency ?? "USD"));
+    nodes.push(stats);
+  } else {
+    nodes.push(el("p", "dr-empty", "Live price unavailable right now — it retries on the next refresh."));
+  }
+
+  const chart = el("a", "dr-chart-link", "Open full chart on TradingView ↗");
+  chart.href = tvUrl(h); chart.target = "_blank"; chart.rel = "noopener noreferrer";
+  nodes.push(chart);
+
+  // News section
+  const newsSec = el("div", "dr-section");
+  newsSec.appendChild(Object.assign(el("h3", "dr-h", "News"), {}));
+  newsSec.appendChild(el("p", "dr-h-sub", `${h.news?.length ?? 0} recent headlines`));
+  if (h.news?.length) {
+    for (const n of h.news) {
+      const a = el("a", "dr-item");
+      a.href = safeUrl(n.url); a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.appendChild(el("div", "dr-item-title", cleanTitle(n.title)));
+      const sub = el("div", "dr-item-sub");
+      sub.appendChild(el("span", null, n.source ?? "News"));
+      sub.appendChild(el("span", null, timeAgo(n.publishedAt)));
+      a.appendChild(sub);
+      newsSec.appendChild(a);
+    }
+  } else {
+    newsSec.appendChild(el("p", "dr-empty", "No recent headlines."));
+  }
+  nodes.push(newsSec);
+
+  // Filings section (equities only)
+  if (h.type !== "crypto" && h.type !== "etf") {
+    const fSec = el("div", "dr-section");
+    fSec.appendChild(el("h3", "dr-h", "SEC filings"));
+    fSec.appendChild(el("p", "dr-h-sub", `${h.filings?.length ?? 0} recent · via EDGAR`));
+    if (h.filings?.length) {
+      for (const f of h.filings) {
+        const a = el("a", "dr-item");
+        a.href = safeUrl(f.url); a.target = "_blank"; a.rel = "noopener noreferrer";
+        const t = el("div", "dr-item-title");
+        t.appendChild(el("span", "form-badge", f.form ?? "FILING"));
+        const dtext = filingDesc(f);
+        if (dtext) t.appendChild(document.createTextNode(` ${dtext}`));
+        a.appendChild(t);
+        if (f.explain) a.appendChild(el("div", "dr-item-explain", f.explain));
+        a.appendChild(el("div", "dr-item-sub", f.publishedAt ? f.publishedAt.slice(0, 10) : "—"));
+        fSec.appendChild(a);
+      }
+    } else {
+      fSec.appendChild(el("p", "dr-empty", "No recent filings."));
+    }
+    nodes.push(fSec);
+  }
+
+  body.replaceChildren(...nodes);
+  const drawer = document.getElementById("drawer");
+  drawer.hidden = false;
+  document.body.style.overflow = "hidden";
+  document.getElementById("drawer-close").focus();
+}
+
+function closeDrawer() {
+  document.getElementById("drawer").hidden = true;
+  document.body.style.overflow = "";
+  if (drawerLastFocus && typeof drawerLastFocus.focus === "function") drawerLastFocus.focus();
+}
+document.getElementById("drawer-close").addEventListener("click", closeDrawer);
+document.getElementById("drawer-backdrop").addEventListener("click", closeDrawer);
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeDrawer(); });
+
+// ---- tabs -----------------------------------------------------------------------
+
+function activateTab(name) {
+  for (const t of document.querySelectorAll(".tab")) {
+    const on = t.dataset.tab === name;
+    t.classList.toggle("is-active", on);
+    t.setAttribute("aria-selected", String(on));
+  }
+  for (const p of document.querySelectorAll(".panel")) {
+    const on = p.id === `panel-${name}`;
+    p.classList.toggle("is-active", on);
+    p.hidden = !on;
+  }
+  for (const a of document.querySelectorAll(".mast-nav a")) a.classList.toggle("is-active", a.dataset.nav === name);
+}
+for (const t of document.querySelectorAll(".tab")) t.addEventListener("click", () => activateTab(t.dataset.tab));
+for (const a of document.querySelectorAll(".mast-nav a")) a.addEventListener("click", () => activateTab(a.dataset.nav));
+
+// ---- render ---------------------------------------------------------------------
 
 function render(data) {
-  document.getElementById("updated").textContent = `LIVE · UPDATED ${timeAgo(data.generatedAt).toUpperCase()}`;
-  document.getElementById("foot-updated").textContent = data.generatedAt
-    ? new Date(data.generatedAt).toLocaleString()
+  lastData = data;
+  holdingIndex.clear();
+  for (const p of data.portfolios ?? []) for (const h of p.holdings ?? []) if (!holdingIndex.has(h.symbol)) holdingIndex.set(h.symbol, h);
+
+  document.getElementById("updated").textContent = `Updated ${timeAgo(data.generatedAt)}`;
+  document.getElementById("foot-updated").textContent = data.generatedAt ? new Date(data.generatedAt).toLocaleString() : "";
+  document.getElementById("board-date").textContent = data.generatedAt
+    ? new Date(data.generatedAt).toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" })
     : "";
 
-  const portfolios = data.portfolios ?? [];
+  // Ticker tape (rendered twice for a seamless -50% loop).
+  const items = tapeItems(data.portfolios ?? []);
+  const track = document.getElementById("tape");
+  track.replaceChildren(...items, ...items.map((n) => n.cloneNode(true)));
 
-  // Top nav: one link per portfolio.
-  const nav = document.getElementById("topnav");
-  nav.replaceChildren(
-    ...portfolios.map((p) => {
-      const a = el("a", null, p.name);
-      a.href = `#pf-${p.key}`;
-      return a;
-    }),
-  );
+  // Board
+  document.getElementById("board").replaceChildren(...boardCells(data));
 
-  // Overview: distinct holdings + a portfolio breakdown line.
+  // Tab counts
   const distinct = new Set();
-  let totalCards = 0;
-  for (const p of portfolios) for (const h of p.holdings ?? []) { distinct.add(h.symbol); totalCards++; }
-  document.getElementById("ov-sub").textContent =
-    `${distinct.size} distinct holdings across ${portfolios.length} portfolios ` +
-    `(${totalCards} positions${totalCards !== distinct.size ? ", some held in both" : ""}).`;
+  for (const p of data.portfolios ?? []) for (const h of p.holdings ?? []) distinct.add(h.symbol);
+  document.getElementById("tc-holdings").textContent = String(distinct.size);
+  document.getElementById("tc-news").textContent = String((data.latestNews ?? []).length);
+  document.getElementById("tc-filings").textContent = String((data.latestFilings ?? []).length);
 
-  const stats = document.getElementById("ov-stats");
-  stats.replaceChildren(
-    ...portfolios.map((p) => {
-      const s = p.summary ?? {};
-      const box = el("div", "ov-stat");
-      box.appendChild(el("span", "ov-stat-name", p.name.toUpperCase()));
-      const val = el("span", `ov-stat-val ${dirClass(s.avgChangePct)}`, fmtPct(s.avgChangePct));
-      box.appendChild(val);
-      box.appendChild(el("span", "ov-stat-sub", `avg move today · ${s.priced ?? 0} priced`));
-      return box;
-    }),
-  );
+  // Holdings panel
+  document.getElementById("holdings").replaceChildren(...(data.portfolios ?? []).map(portfolioSection));
 
-  const main = document.getElementById("portfolios");
-  main.replaceChildren(...portfolios.map(portfolioSection));
+  // News wire
+  const news = data.latestNews ?? [];
+  document.getElementById("news-wire").replaceChildren(...news.map(newsRow));
+  document.getElementById("news-empty").hidden = news.length > 0;
 
-  if (data.errors?.length) {
-    const note = el("p", "errors-note", `${data.errors.length} price fetch${data.errors.length === 1 ? "" : "es"} failed this cycle: ${data.errors.map((e) => e.symbol).join(", ")}. They retry next refresh.`);
-    main.appendChild(note);
-  }
+  // Filings wire
+  const filings = data.latestFilings ?? [];
+  document.getElementById("filings-wire").replaceChildren(...filings.map(filingRow));
+  document.getElementById("filings-empty").hidden = filings.length > 0;
 }
+
+const initialHolding = (new URLSearchParams(location.search).get("holding") || "").toUpperCase();
+let drawerOpened = false;
 
 let loadedOnce = false;
 async function load() {
@@ -221,14 +433,21 @@ async function load() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     render(await res.json());
     loadedOnce = true;
-  } catch (e) {
-    document.getElementById("updated").textContent = `OFFLINE · RETRYING (${e.message})`;
-    if (!loadedOnce) {
-      document.getElementById("loading").textContent =
-        "Couldn't load portfolio data yet — it publishes on the next scheduled run.";
+    // Shareable holding deep-link: ?holding=NVDA opens its drawer once, after data loads.
+    if (initialHolding && !drawerOpened && holdingIndex.has(initialHolding)) {
+      openDrawer(initialHolding);
+      drawerOpened = true;
     }
+  } catch (e) {
+    document.getElementById("updated").textContent = `Offline · retrying`;
+    if (!loadedOnce) document.getElementById("loading").textContent =
+      "Couldn't load portfolio data yet — it publishes on the next scheduled run.";
   }
 }
+
+// Deep-linkable tab: ?view=news / ?view=filings opens that panel on load.
+const initialView = new URLSearchParams(location.search).get("view");
+if (["holdings", "news", "filings"].includes(initialView)) activateTab(initialView);
 
 load();
 setInterval(load, 5 * 60 * 1000);

@@ -6,63 +6,107 @@
   <!-- Private-ish dashboard: keep it out of search indexes. -->
   <meta name="robots" content="noindex, nofollow" />
   <title>Jack Portfolio</title>
-  <meta name="description" content="Live prices across both portfolios, refreshed automatically." />
-  <meta name="theme-color" content="#05080f" />
+  <meta name="description" content="Live prices, news, and SEC filings across both portfolios." />
+  <meta name="theme-color" content="#0a0d12" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <!-- Versioned asset URLs so a redesign never renders against stale cached CSS/JS. -->
-  <link rel="stylesheet" href="style.css?v=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=2" />
 </head>
 <body>
 
-  <!-- ======== TOP NAV ======== -->
-  <header class="topbar">
-    <div class="shell topbar-inner">
-      <span class="brand">
-        <span class="brand-core" aria-hidden="true"></span>
-        <span class="brand-word">JACK<em>PORTFOLIO</em></span>
-      </span>
-      <nav class="topnav" aria-label="Portfolios" id="topnav"></nav>
-      <div class="live-pill">
-        <span class="pulse" aria-hidden="true"></span>
-        <span id="updated">SYNCING…</span>
+  <!-- ======== MASTHEAD ======== -->
+  <header class="mast">
+    <div class="shell mast-inner">
+      <a class="wordmark" href="./" aria-label="Jack Portfolio home">
+        <span class="wm-mark" aria-hidden="true"></span>
+        <span class="wm-text">Jack<span class="wm-thin">Portfolio</span></span>
+      </a>
+      <nav class="mast-nav" aria-label="Sections">
+        <a href="#panel" data-nav="holdings" class="is-active">Holdings</a>
+        <a href="#panel" data-nav="news">News</a>
+        <a href="#panel" data-nav="filings">Filings</a>
+      </nav>
+      <div class="mast-live">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span id="updated">Syncing…</span>
       </div>
     </div>
   </header>
 
-  <!-- ======== OVERVIEW BAND ======== -->
-  <section class="overview">
+  <!-- ======== TICKER TAPE ======== -->
+  <div class="tape" aria-label="Live holdings tape">
+    <div class="tape-clip"><div class="tape-track" id="tape"></div></div>
+  </div>
+
+  <!-- ======== OVERVIEW BOARD ======== -->
+  <section class="board">
     <div class="shell">
-      <h1 class="ov-title">PORTFOLIO<span class="accent">.</span> LIVE<span class="accent">.</span></h1>
-      <p class="ov-sub" id="ov-sub">Loading holdings…</p>
-      <div class="ov-stats" id="ov-stats"></div>
+      <p class="eyebrow">Portfolio overview<span class="eyebrow-sep">·</span><span id="board-date">—</span></p>
+      <h1 class="board-title">Two books.<br /><span class="accent">One view.</span></h1>
+      <p class="board-sub" id="board-sub">Live prices, news, and SEC filings across every position.</p>
+      <div class="board-grid" id="board"></div>
     </div>
   </section>
 
-  <!-- ======== PORTFOLIOS ======== -->
-  <main class="shell portfolios" id="portfolios">
-    <p class="empty" id="loading">Loading live prices…</p>
+  <!-- ======== TABS ======== -->
+  <div class="tabwrap" id="panel">
+    <div class="shell">
+      <nav class="tabs" role="tablist" aria-label="Views">
+        <button class="tab is-active" role="tab" aria-selected="true" data-tab="holdings">Holdings <span class="tab-c" id="tc-holdings"></span></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="news">News <span class="tab-c" id="tc-news"></span></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="filings">Filings <span class="tab-c" id="tc-filings"></span></button>
+      </nav>
+    </div>
+  </div>
+
+  <!-- ======== PANELS ======== -->
+  <main class="shell main">
+    <section class="panel is-active" id="panel-holdings" role="tabpanel">
+      <div id="holdings"><p class="empty" id="loading">Loading live data…</p></div>
+    </section>
+
+    <section class="panel" id="panel-news" role="tabpanel" hidden>
+      <p class="panel-note">Every holding's recent headlines, newest first, deduplicated and tagged by ticker. Click to read the source. <span class="muted">Not investment advice.</span></p>
+      <div id="news-wire" class="wire"></div>
+      <p class="empty" id="news-empty" hidden>No recent headlines in the current window.</p>
+    </section>
+
+    <section class="panel" id="panel-filings" role="tabpanel" hidden>
+      <p class="panel-note">Recent SEC EDGAR filings across the equity holdings, newest first, each with a plain-English note. <span class="muted">Crypto and ETFs are excluded.</span></p>
+      <div id="filings-wire" class="wire"></div>
+      <p class="empty" id="filings-empty" hidden>No filings in the current feed.</p>
+    </section>
   </main>
 
   <footer>
     <div class="shell foot-inner">
-      <div>
-        <span class="brand-word foot-brand">JACK<em>PORTFOLIO</em></span>
+      <div class="foot-brand-col">
+        <span class="wm-text foot-wm">Jack<span class="wm-thin">Portfolio</span></span>
         <p class="foot-fine">
           Personal holdings dashboard. Prices are end-of-day / lightly-delayed and
-          unofficial (keyless Yahoo Finance chart data); crypto quotes in USD.
-          Auto-refreshed by a scheduled job. <strong>Not investment advice.</strong>
+          unofficial (keyless Yahoo Finance chart data; crypto in USD). News via
+          Google News; filings via SEC EDGAR. Auto-refreshed on a schedule.
+          <strong>Not investment advice.</strong>
         </p>
       </div>
       <div class="foot-meta">
-        <span>Prices: Yahoo Finance (delayed) · Charts: TradingView</span>
+        <span>Prices: Yahoo Finance · News: Google News · Filings: SEC EDGAR · Charts: TradingView</span>
         <span>Auto-generated · <span id="foot-updated"></span></span>
       </div>
     </div>
   </footer>
 
+  <!-- ======== HOLDING DETAIL DRAWER ======== -->
+  <div class="drawer" id="drawer" hidden>
+    <div class="drawer-backdrop" id="drawer-backdrop"></div>
+    <aside class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-sym">
+      <button class="drawer-close" id="drawer-close" aria-label="Close">✕</button>
+      <div id="drawer-body"></div>
+    </aside>
+  </div>
+
   <noscript><p class="shell empty">This dashboard needs JavaScript to render <code>data/portfolio.json</code>.</p></noscript>
-  <script src="app.js?v=1"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T20:30:07.202Z",
+  "generatedAt": "2026-07-29T20:51:12.682Z",
   "siteTitle": "Jack Portfolio",
-  "tagline": "Live prices across both portfolios, refreshed automatically",
+  "tagline": "Live prices, news, and SEC filings across both portfolios",
   "portfolios": [
     {
       "key": "individual",
@@ -12,6 +12,8 @@
         "priced": 10,
         "up": 1,
         "down": 9,
+        "newsCount": 80,
+        "filingsCount": 64,
         "topGainer": {
           "symbol": "GOOGL",
           "changePct": 0.9
@@ -20,7 +22,7 @@
           "symbol": "SOFI",
           "changePct": -8.9
         },
-        "avgChangePct": -3.67
+        "avgChangePct": -3.66
       },
       "holdings": [
         {
@@ -28,6 +30,7 @@
           "name": "Fermi Inc.",
           "type": "stock",
           "yahoo": "FRMI",
+          "cik": "0002071778",
           "quote": {
             "price": 5.86,
             "prevClose": 6.28,
@@ -60,13 +63,154 @@
             "asOf": "2026-07-29T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
-          }
+          },
+          "news": [
+            {
+              "title": "Fermi Ord Shs (FRMI) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIN0RrRmFyRUlVZjNFVGljU0JXSkR5TjZXYXRlbGRuQjdrcVlYNkNuckp0NkVvalhRVkVmaUkxYllCRUJwWF9RSkVlQzVhejN0dEIyRlRwQkF5NEJPaHMwT0RxbVBpWG8?oc=5",
+              "source": "TradingKey",
+              "publishedAt": "2026-07-29T10:47:25.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Fermi Inc. (NASDAQ:FRMI) Given Average Rating of \"Moderate Buy\" by Analysts - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX3ZKMEJuUTROWXlRWDZlaVhmUFZaRHBvS1c1UDNSSGF3Wm5zdlF4c2ZzcWU5aFFXZUtBNlFEZ1ExYkM3eDhzbjFhVEpsVW1SVEVvdWduSFhSMkltQ3ctZ25nWnJwaGpGdmg1Z2VZdlZ5WjNwUGNGdUU4LTNvdE43cEh4NE1Eanpjb2VkXzdiSTZ1aGtBMWN4dFV3NnZaSkVYYXJqVS1ZUFNERldtTTFzVTdMc1pGOEpOMHRFT0VFX3M?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-07-29T06:17:46.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Analysts Conflicted on These NA Names: SpaceX (SPCX), Fermi Inc. (FRMI) and Cerebras Systems, Inc. Class A (CBRS) - The Globe and Mail",
+              "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOVWZ6RnhhQk1vSER0c2hTbTZFRzZ3NHlGQjJTQWE5NV9pb1F3M3diN3gtOHVJM1E1QUxJcGVRUWxJeDUwWVFTWWNTYzllc0tIYVlaZzZleUpRaUJxT3VhVmozNEQ4dmhLOWM0Ukl3U3dHaVJ6UkppeThBY0JfanpQSnhYUWdaU1JvYWx1T2VQRXlacGtJVENfS1dkaUdiMmlWVjBwMjMzQVlaQVc2MHVJVFZGZkl6ZGwwUkpxeXA0VWtDTndBU2hmT20yLXVvRGlfVzFiallLVElmN3pwNUVRbHRXR0RPXzFDZkVnVUszaHRKa0NCQWVtVVZRRVZDaTUwdmtkYU1GcGVZWjJnM3lERUJaM3BiYnJw?oc=5",
+              "source": "The Globe and Mail",
+              "publishedAt": "2026-07-28T14:08:32.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Fermi (NASDAQ:FRMI) Given New $11.00 Price Target at Mizuho - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc3JaVDc2ZlBRMHFTZGlqS21JcllGV2lpa25fTW1VRER2M09MaVRrby1RRUtXdkZONk05Q2RLem9VSXptTXZTR2NXRGk1X1pEbUNTb1YyMkViallxMF94eDFaS2Z5MjdOT0xROGRYU2U5aGtXRHNod2VBVTZscjhFYW5EcW14VWRvX0YxSjQ5dnJDaDFnNDBhc010WDhDYnNFM0FnMEw3S3dMWjJf?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-07-28T12:29:53.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Fermi (NASDAQ:FRMI) Stock Price Down 6.9% - Here's Why - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa2duemNrMDRUOEJUTlczY1RoRlduRjAzQXhHSzlZYmxjNk1zZkJhQzNVYUtNQ0JTSTN4RDljRW9mT2lhU0FNVU1obGg4Ny1GRlUxMXh2RHdsX0gzSzNFZEM2cHhpdGdhSkprNG9OUmpheDVlcEVBdTNHVWNvelRCNmkxUnZaYUFOQVFnT1RrMk9FZVl5VTdmUExBZWducXZyeUE?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-07-27T17:41:28.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Does Fermi (FRMI) Have the Governance Backbone to Match Its New Leadership Bench? - simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYzZ1QlNRS3JSaTFDUUI1elRTSnpQRllycmk4TG42UHd0bWpENE8xTkRwaWFtaVQzYjhZanlwa1dTR1ViMjVpMnhMZlZMeU1BX1d0clFxeFRPTHdoaURHc1Q2bC1BUHR4TTA1NEpySl9PRUZ5LURiRDdRRXNWRmhXbXFSQlpkbFQwTUNaX19STkh5by1uV0JIcldwZEZqZVZpeHJWRGh4bUF3amNlU2gxVVNJcjdBeGpQdGJFUDdHMEJVaHN4eGfSAcsBQVVfeXFMTWxwQUxkZlNya3dHN2NhYXQ5SkRpcUp5bV94WV8zUC05TnRYd1lhRnJrcC0yd3BkbVBZdGNuNWV1Ull3RW1KcUJzdnk2M2d3XzVCaHc5di1GT1E3SEhtRHV6WUlhVFBYbU5SUlJTaDFOMmtDU3lCRVpMZlo2Y25fbDhOb0dPU2N1VE56Tm1zUWZURXlfbWdCQW52LTZ4bFIwcXJOLTNjN1hHMXU0eDItM2hubWl5V0NMTFYxaENUZURUbkVMaUJkWlN0OWc?oc=5",
+              "source": "simplywall.st",
+              "publishedAt": "2026-07-27T15:58:42.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "FRMI Jul 2026 13.000 call (FRMI260731C00013000) Interactive Stock Chart - Yahoo! Finance Canada",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxSHNKaU9iQzBndEx4cjRWYjRMNC1oYVByM09FNjIwVkY4MU5vaDNhWEhfLW15LWgxTkNKRWdqaWpHalVqYWxtQmM1Y1ZQblIyLUxmTVJlOVBmZWJsQW1nRHU2S1d4MVBsWlhsVG9B?oc=5",
+              "source": "Yahoo! Finance Canada",
+              "publishedAt": "2026-07-27T06:33:47.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Weiss Asset Management LP Has $14.10 Million Holdings in Fermi Inc. $FRMI - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOG40NEhKanFIdjBxejU1dXRPQ3JiUFNsNEJpV2ppUHdKdzdUUXpTQ09FbHZTaW1sRUtyLWRIYmpLTnJjcmtKZ01DX1RmOU9rYUtOdzJ4LWxIZlBSNFl0dkM1WlNqaXBnTmF1Zzd6eFNTOEc3THJGYmkyMHVvYTBWdlZ1aFFtaFZHZm5JOC1NcjhpSVA3a1VGWHY0MUJaVkpFWDhMbzhPNFNxOTlUS29Ib2tMV3VDQ2w5SGwxbnpMeENTenJ5LXBnSHRR?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-07-26T10:39:36.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "8-K — Fermi Inc. (CURRENT REPORT)",
+              "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026080917/ea0298895-8k_fermi.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-23T20:34:58.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "CURRENT REPORT",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "8-K/A — Fermi Inc. (AMENDMENT NO. 1 TO FORM 8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026079998/ea0298708-8ka1_fermi.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-21T20:01:13.000Z",
+              "kind": "filing",
+              "form": "8-K/A",
+              "desc": "AMENDMENT NO. 1 TO FORM 8-K",
+              "explain": "Material event — a significant development the company must disclose promptly. (amended)."
+            },
+            {
+              "title": "SCHEDULE 13G — Fermi Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/2071778/000212347026000005/xslSCHEDULE_13G_X02/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-20T20:49:41.000Z",
+              "kind": "filing",
+              "form": "SCHEDULE 13G",
+              "desc": "",
+              "explain": "Passive stake — a >5% holder with no control intent."
+            },
+            {
+              "title": "8-K — Fermi Inc. (CURRENT REPORT)",
+              "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026078366/ea0298074-8k_fermi.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-15T20:54:32.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "CURRENT REPORT",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "8-K — Fermi Inc. (CURRENT REPORT)",
+              "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026077385/ea0297782-8k_fermi.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-13T13:15:42.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "CURRENT REPORT",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "8-K — Fermi Inc. (CURRENT REPORT)",
+              "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026076788/ea0297535-8k_fermi.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-09T21:11:38.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "CURRENT REPORT",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "SCHEDULE 13D/A — Fermi Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/2071778/000212347026000004/xslSCHEDULE_13D_X02/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-08T22:05:07.000Z",
+              "kind": "filing",
+              "form": "SCHEDULE 13D/A",
+              "desc": "",
+              "explain": "Activist stake — a >5% holder intending to influence the company. (amended)."
+            },
+            {
+              "title": "DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
+              "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026076168/ea0297342-dfan14a_toby.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-08T10:10:00.000Z",
+              "kind": "filing",
+              "form": "DFAN14A",
+              "desc": "DEFINITIVE ADDITIONAL MATERIALS",
+              "explain": "Proxy solicitation by a non-management party (e.g. an activist)."
+            }
+          ]
         },
         {
           "symbol": "MSTR",
           "name": "Strategy (MicroStrategy)",
           "type": "stock",
           "yahoo": "MSTR",
+          "cik": "0001050446",
           "quote": {
             "price": 93.33,
             "prevClose": 96.16,
@@ -99,13 +243,154 @@
             "asOf": "2026-07-29T20:00:00.000Z",
             "currency": "USD",
             "exchange": "NMS"
-          }
+          },
+          "news": [
+            {
+              "title": "Strategy (MSTR) Stock Forecast: Bitcoin Holdings Face Q2 Test as $101 Resistance Comes Into Focus - FXLeaders",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUV9hcF9NazQxeVRBMmZacWF0cENPVXhrQUk5cjQ3UEVRcU94ZDZCeHpEaUYwRW9Id0NuQktPR0pDTHlHdU5sSE5QQzJjeThVdkF0dVJNVlhEek04RDYzbXEtbldJTVpyZTZIYnhlcElpU3p3cVVPN0Q1V0J3UTFFQzlWcFdFQm10VHprZU52a0thUHZsXzRhcnJIazMxMVRP?oc=5",
+              "source": "FXLeaders",
+              "publishedAt": "2026-07-29T11:19:39.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Bear of the Day: Strategy (MSTR) - TradingView",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMDlUYjZOVTFoSkowX0M4RWJzMmxnNFk1dmF4bDRFUUthMGgtbVRIZ21OSXI0RkF2UTg4c1VTR25xNV83X1NyUnJmTVFVVU1ZWXJnRFZ1MnczSk9aTFRCdHBjNTNEQ1B4VnlCS1hPV1UxaU5NcjZGMGQ5RWp5dG5IR2p1RUFpLUdtb0F5el9n?oc=5",
+              "source": "TradingView",
+              "publishedAt": "2026-07-29T10:00:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "MicroStrategy director sells shares ahead of July 30 earnings - thestreet.com",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYl83SnBSd3dMd1RRRmdtdXNNX2RCX3FiSzVVYlZGNFhFNjlxenROc3VWTjB3a1UyNGtrT0RqVDljT0pDMG02aEhRNEplSENpcDREQ200RHhGaE5ZOVNDd0hiME9wT3YySGVGei10WXgzdmxpdXdxRGY2OHZ4ZGwtampfY0ZMNEFpNG54b21Md25QRDdlbXFKdGtncDEwNTJKZDY3NQ?oc=5",
+              "source": "thestreet.com",
+              "publishedAt": "2026-07-29T09:30:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Is MicroStrategy (MSTR) Shifting From Pure Bitcoin Proxy To Balanced Crypto Treasury Manager? - simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSnVPa0ZTTm9pVjg5N0tZVFdoTHBxWXpILXdIOVhmYTEycGEweHFhYlhLZzRNaWI3N0VJbm9FdEF6VGZKRWdqbzIxb1VVeno0N0Njd21mQy1Ec2Y0MUFkN3N4QWc1OHdNVzdBckUyc2YzUkpWQWw0VWJnS2JpOHEtZFRtOWR6VkF5WlVlS3p6ejdndjVYdG1NQ0JGRTZ3NTZscjdNT1JFQXdnc2RSWi1EVk4wLTNaTVhMV3VtakJVVXVzVG56RlHSAcsBQVVfeXFMUDllSllFVjI5Umc5a002Q0NHVkN5SkszOWpQWHRGRmpIb195amtSc2lnRzRnWjktVlNUelpoQnJMaFd1M2xOaVNGNlc1bmJHMFluZHNiSUExVXVneDl0dmNnQ3QtUHNOWmpvRHNYeURpN0RfWWR5dmNOaWh5UnhWZXRjaDAxRG1TcGhXM2g3cHRTdl9vckh6OFdnaExVS3lzY0RqUDRYbmNhV2UteXAwSzhSODFjM2N2TGItUEhiSjU0MDlsOGNGR1BTcnM?oc=5",
+              "source": "simplywall.st",
+              "publishedAt": "2026-07-29T02:35:16.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Michael Saylor Says Bitcoin Has Won, So Why Did MicroStrategy Stop Buying BTC? - BeInCrypto",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BOXlFcUpFbHFIblF6bm1jOUJLLWNBNVUxXzlwdUFRVU1TRDV5R1llRFNiU3dDNk9WZ0FlVWVFcjFuT0RwM2UzTFhsZ0wydWpWVmRWMjlmb0VxdldpbzJXZXRwb0RuNFh5RGtFd3dB?oc=5",
+              "source": "BeInCrypto",
+              "publishedAt": "2026-07-28T18:10:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "How Investors May Respond To Strategy (MSTR) Prioritizing Cash Over Bitcoin Accumulation - Yahoo Finance UK",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWk12VWpVRjJrcy1kOGFGbUlpUFJZRkFIdldKT292Y3lBM2VCQ2dsdjRodHVqRm5xbF9fdkJGZEpCcUxzLUhnX0VtYzJNZ1VDMEhWak9HNHI4YV82cjlQT2xGcWJPZGhfUV9WeEVoUWJJaVdMS0VocEVrd2duOGlOOFBMMmdrRE9yMEVreA?oc=5",
+              "source": "Yahoo Finance UK",
+              "publishedAt": "2026-07-28T02:08:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Is Strategy (MSTR) Cheap As Its $544.5 Million Stock Sale Lifts Cash To $3.75b? - simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTzdUQkp0Y29FdExSVEVNaUdoeTdublBrb1RaUXlvTlFWYnUxNWhZblBsQmJ1alh6QXRwR3ZkNk1ULVFpbm9TX0dzT19rVE1rUUd3c3drcGtzNnJRcXRKa2xYSkZMVW8wSjUtM2gzeHA0WG9pNGFULWljN0JROVFhaUUtMmQxMGhpa05kRFlabThNMDFkajllTjFJdFhXUU5zelZNd2c2b3pqSXVUR3djQlJKMHRfRlFPT3o1bmJGTlNsNjlK0gHKAUFVX3lxTFBSSXJBclQxRnRvMlEzbjZjMWhOVGRLaktES1A4c3ZfOW15eW1SRWNuZjdyYUVTcVBtT2JRRUNMYWxYX1dQTmVBOXpIalNydU91Z2lmVmtiYzFZcmdDaG42SVVWODloWlMyZDNnYTNSWjZLb24ybmJFc3ZFM0NkWDVlTUcxNjREZV9vcDdacGI0bmZrWFI0T0M2aXFVWUw2bkp6bEdLSXdzVW1lS0pWbzFwRVpxTlRFTjBuZjNyN2hwYWNrNnlpMHBvM3c?oc=5",
+              "source": "simplywall.st",
+              "publishedAt": "2026-07-28T01:38:32.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Peter Schiff Says Saylor Just Wiped 66% Off MicroStrategy’s Bitcoin Yield - BeInCrypto",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42cnd1S2JJOXpkM1lKX1pELXVfNVUySUpVMVk1U0NZLVQ4cFRoYUV6MjJJUnJTclQ3SFVCS0t1VjczeGh2a1ZYTFVzM0o0QzVzbTVkbWRpTE00VmtoTVZ2WTJublU?oc=5",
+              "source": "BeInCrypto",
+              "publishedAt": "2026-07-27T17:15:00.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "4 — Strategy Inc (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526321074/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T16:30:04.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "144 — Strategy Inc",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326005383/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T15:29:03.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
+            {
+              "title": "8-K — Strategy Inc (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526316917/mstr-20260727.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T08:00:17.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "144 — Strategy Inc",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326005361/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-24T16:09:08.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
+            {
+              "title": "4 — Strategy Inc (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526314630/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-23T18:04:11.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "144 — Strategy Inc",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326005327/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-22T16:04:58.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
+            {
+              "title": "8-K — Strategy Inc (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526308369/mstr-20260720.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-20T08:00:16.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "8-K — Strategy Inc (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526301483/mstr-20260713.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-13T08:00:14.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            }
+          ]
         },
         {
           "symbol": "NVDA",
           "name": "NVIDIA",
           "type": "stock",
           "yahoo": "NVDA",
+          "cik": "0001045810",
           "quote": {
             "price": 190.01,
             "prevClose": 197.01,
@@ -138,13 +423,154 @@
             "asOf": "2026-07-29T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
-          }
+          },
+          "news": [
+            {
+              "title": "Nvidia, Micron, AMD sink after SK Hynix results fail to impress, AI trade unwinds - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWUlxWFJRejR0OTFqbFpPV2lDZG52eHl2ZldZTGxTTENpVmV5bUNKbm1iQmtMRVROblBJVDNOcjhaNUlBUHRFbnFFVDRMSDNCQzNhbkl3ajNoUmQ5ZGpFNkpRV3E0VFkza3NJbVF5VzVmRl85VG5lbUhwN3dqV19uUkwxakp6ekxkeFluWXNWcS0wS0xsMXRqQ0Q2VzE1U2hid3BXRkhLVTFOZm9aRGVqai1OVF9HWW85VWpxVzFHaG92VU0wRi01bGlHc3dLNWRq?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-07-29T20:24:43.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "NVIDIA Corp Stock (NVDA) Closed Down by 3.42% on Jul 29: Drivers Behind the Movement - TradingKey",
+              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPckxkdm5Rak8zaGRzMjhwU0kzU1cyMWFHN0pxaDkwWVI0NjNsbEtWSWpRYzBmaC1VR054WUV4dWFsNE5qWU9VTnBoQlRjcG8xNk5DVmE5OExEWWIwZEEtd3ctV25ZaTZCeVFLREhGbHg2cEhPRWdTdFV1OTR1Z3BLN3VoOXZxd2YycUs4?oc=5",
+              "source": "TradingKey",
+              "publishedAt": "2026-07-29T20:15:53.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Nvidia’s $5 Billion SSI Bet Could Protect Its Post-LLM Lead (NASDAQ:NVDA) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeXIyRFIyd1pBSzg3RE92eV9OZkhSb1ptY3ZBdEZBMW9VWUVESVNHNE8xQllnWFdYbnIyUGROdFFiSDZRV3NFVWJLRzdkbXVBbWI1NXdQU1hpTnE4WDg1RUtvNk15ZUZPNEJ1aUhKZUFmMjJ5UnJLLWJMdG5RQ1NndC1wRVlQMG05TTZRSXJGbHJDWk5pUHNEZHJwSVRBUQ?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-07-29T20:05:58.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Nvidia's Ongoing Dominance: Reasons To Keep Buying (NASDAQ:NVDA) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZGpJWjItZ2VNUGNxTEVrMno0UlZ2dEs4TWk1VTUxZUdKOXN1RVplcXBvYWp0MDNObGpudFZwN0lOVllhc2F4UDFFVDRHbjZMZDhKaGJQS0JEdUg5TkkzT3I0alB0bWc3NVduM0RiOVlmRDFSelg3eE1PZ25scE0yb0dFYXktQnVxS0MwTUVFOUkwdw?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-07-29T18:37:40.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Semiconductor Crash: 3 Stocks to Buy Now While They Are Still on Sale - The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOU9FbzN4bVJvRVVvbHlDQkc0X081UnNEX2ZYZHpoU3pTeEp4OE53Nm5ZbHZiYUV4QjZEcm9WMWk4bnZONDFmbk5XbkJ3dlR2bF9LdHRPTy1QazBQQXgyMGFEX0t4aEU4enI2cHVGZ2N0U3c3UEJETlppUHlnd2ZMUjJwUjFTbHRkWktKODRqbGcwcElOYnlTeg?oc=5",
+              "source": "The Motley Fool",
+              "publishedAt": "2026-07-29T18:30:06.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "NVIDIA Stock Falls 2.3% as AI-Chip Selloff Deepens - Yahoo! Finance Canada",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GUXdpdm9jdFFWZ2RPWm9IMEoxOHNFcVp3ek92ekZ4REtlV0pEQjVhNFFMcmRqcDBCWDNVdlpKSXdjUWpmSmhBanBzdmxHbVMzeGhGLUxCa2hOQ0Fha0p5b05vbkF1c0d0VWRTTzhNZ2JNZ05xREhJanhrZw?oc=5",
+              "source": "Yahoo! Finance Canada",
+              "publishedAt": "2026-07-29T18:29:52.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Wedbush Spots Hidden Risk in Nvidia's AI Expansion - TradingView",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaWlJX1M5SWM0d2N1M25rOTZma0pyM1ZvTV83clVwbGM5dDNaRUVwazVoU1dwMzFNVXNBODU3MV80c3NmSnRkbjBPOWdvVXBaN1NQWXQ5U2gtcVRram1VRzFGeTN1V1FPUUFlN1FJbGVVYzRDdmt4TUVBcVpiZmpPbUk1dndYLVBtQlptcWxVXzNDMlkxSlZsLThpRVo2THNLRU5Rb1NBdVZiSmpKYUNJ?oc=5",
+              "source": "TradingView",
+              "publishedAt": "2026-07-29T18:25:43.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Cathie Wood Just Bought Nvidia Stock Again - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdXdTX1ZoM3RaQUp0d2JWNHp3YlUxMVZIMEt4QTZHbU50Q2dkeFpnT0Mtb1I1ZUNDbFMyUkF3THd1a1NfMmctSG9QMXpkSEl4RVFsZXBQRmt6M1FWV3A1SDBicXFCeWlndDV3SVlKYVV4ZWhtZ3FGWUJkb2pic1lIV0YtaVpaRVFHUEdyamtWWmFlRkFjTlpORXgxQQ?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-07-29T18:25:02.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "SCHEDULE 13G — NVIDIA CORP",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000062/xslSCHEDULE_13G_X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-20T21:00:07.000Z",
+              "kind": "filing",
+              "form": "SCHEDULE 13G",
+              "desc": "",
+              "explain": "Passive stake — a >5% holder with no control intent."
+            },
+            {
+              "title": "3 — NVIDIA CORP (FORM 3)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000131026426000002/xslF345X06/wk-form3_1784149389.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-15T21:03:12.000Z",
+              "kind": "filing",
+              "form": "3",
+              "desc": "FORM 3",
+              "explain": "Initial insider ownership statement."
+            },
+            {
+              "title": "4 — NVIDIA CORP (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000005/xslF345X06/wk-form4_1783371701.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-06T21:01:46.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "8-K — NVIDIA CORP (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060/nvda-20260628.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-02T13:23:16.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "8-K — NVIDIA CORP (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056/nvda-20260624.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-06-30T20:27:26.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "4 — NVIDIA CORP (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000009/xslF345X06/wk-form4_1782767219.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-06-29T21:07:02.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — NVIDIA CORP (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000172529226000004/xslF345X06/wk-form4_1782767179.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-06-29T21:06:22.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — NVIDIA CORP (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119765226000007/xslF345X06/wk-form4_1782767137.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-06-29T21:05:39.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            }
+          ]
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "type": "stock",
           "yahoo": "GOOGL",
+          "cik": "0001652044",
           "quote": {
             "price": 336.71,
             "prevClose": 333.71,
@@ -177,13 +603,154 @@
             "asOf": "2026-07-29T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
-          }
+          },
+          "news": [
+            {
+              "title": "I Keep Buying Alphabet Because of This Silicon Shift Expected to Hit By Year End - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRFhFdDc4Y0JPQ3dyTUcxSDhPV1l5Uk5kaGo4SzdUWEZBb3pqNzlCM1JUU0p4d2p2Z3dDWnlBLURNdzNFR0VTdk9SV0RzSGtEMkM3MEc4UWRNS0dOQ0FRWVNrVlE1WDFLb0FFOFlGejN4eERFZzhSbFdNYm1lZUs0VFIwYjl3MGdEanVEemVOWldKbGFtdlA0NUlEV3h5UzNtdWhHdHVfSnN0VFJnTjhPQWJMTUZ0aFZlWDVRV25rOWRxZw?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-07-29T17:55:51.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "QUICK SPARK: Google, Amazon, Nvidia Among 2026's Top 10 Most-Shorted Stocks - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYWVQUk5RSWk3MEo2ZzhWVmx5Zk1RRm83MDhsSzc3TTRnLXVNRWx3ZlE2c3I3UHEzNEttV2ZKYXoya0c1dnBtSEhxdFV5dTFuNkVpa0MwWlRIZFZTXzlrbjdBSkRYVXpEZThKRGVPOWhIVFBaNVdwRmNiWFNiSnYtdmZqaXM5V3JudndvTmtKS0VNRm9KWXhtb1ZZSk1jT0dyanRaLXlpeG10MDQtX28xRl81STI3a2tmcmVaV0JZVy1NUQ?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-07-29T17:25:23.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Alphabet Is Down 18% From Its High After a Stellar Quarter—Overdone, or More Downside Ahead? - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONk1kQU53UmlKOXplY0hfSWY0cEZ5aEdFNDdrUjh0a0UwMlR2aklPSTVEWk0yUF9qdFFfSURCWm9FcnpGX1MxNkhvLWJweE1TRE9RWVhCMGlKN0tTOFhuMEh5Nk9JTmptelk2eWdYVldaVGc5X29QMnBTOGNyaGgxWFVYQ3N4dnZFTkdtMTVDNWFOek4xeUlpNnNvNENFSFpyTkgwQTB5Slh3ZzlPQWp1Rm1ZbU9ydC1SamlLWDVxaFdnaTQ?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-07-29T17:12:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Prediction: Meta Stock Will Pop After Q2 Earnings. 3 Reasons Why - The Globe and Mail",
+              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNeDhoeHdiTEw0U2ZoYUFieXBpNDIwa1RiTWRBUE8xWW9ONi1kQWdLU0o4YXJqblNJSVF2MUJqTFNnRkRQc1RvRnNZTmxWUFlBM3MxRmZFbUxHX3FyekdteVpLU2ZhZVcyV29oRC1Sd09ZRnV3dDdUaF9KWlpiNnM3aElaOW9vZVEtMFBrNlZlc0g4R0Z4N1NmR1R3LXd5dm1lVlNSeFRsbU50b3VSVDFWWTliVjg4UEtXRzVfd1p2SzkwOWNwaGYwb2tybGwtRTJZRjRzNDVGQzU3T1Jjc29YMjRn?oc=5",
+              "source": "The Globe and Mail",
+              "publishedAt": "2026-07-29T15:56:34.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Alphabet: Burning Cash On Big AI Bet (NASDAQ:GOOG) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRzVaMDNmTzVwdmIxODU3cWhXd1NZT2ZDMi1YZHdWYlc5RGNYOVFTWkhWUERrcDQwbktlaWxiTUpVR0ppQ2pHOURpR05wQTRTVE5WWENwaGRhM3otaFFILWpIX2pjaWxuWFl5YkpyYmZFNDM0Q1NBVXVZNVJYUFZrSFlB?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-07-29T13:28:16.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Alphabet (GOOGL) Faces A Valuation Test After Its Huge AI Spending Plan - simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ0NwLU8xUTZveFp6bEE3dGt4U0c2MnNtaGY0azlzUmEtN3JaVnVRVERJYnJ2emZQc3llZWRwWjN6V0hyZXl6VTg4WVpqczg0cnJjTmRkUFBlNnJSbngzNTlJMTV2NHByNGxFcEVkWnRBcWJpTHM1bU5BMlRseVJCUGp5VkVtN25CTXFFQmVfazg3Z2RfUWc0cElENzBrdEtHU0psdndoZ0NIeEtmdE5hdWxLeU15ZDByMkZWQ0NlN3QwMk3SAcgBQVVfeXFMTzdwRG03b2xQcmlSdmpiUFlGMDFYdTZ0R1ljSmZsekpralZDYUJCN0hrV0Y0VnpvbzRpUmM2T1RseG1pZC1Ec0xDUzRDVFlqMEUtNXRBblJaLUNyQkdTZHRQM0V4YXZpbmRabFZPLXNyY0JPVjlnQXlsWGZ5TTN5blNYaFhET3dPNkxGOVN0ZVdaempBaklsNVVPa1ZZd1NWbEtrcXFHYjE5UHpMb3pkU0VGOGFQbXhJeEJ1c0FEUU1NbE5XaEs4WlE?oc=5",
+              "source": "simplywall.st",
+              "publishedAt": "2026-07-29T13:21:01.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "GOOGL Fueled S&P 500 Q2 EPS Growth, but Carson Research Says Its Blowout Quarter Came With a Catch - TradingView",
+              "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaFhSdkptV3Fua3FubnE2cktnWVdmeVJ5U3o1dkpDMWdqYkVzQUF4UUFxdWYxVFVlYmhDS2FNdGJROWVRUWFteEM5R241cWNMQk01MGlJNXZtYl93TlF1amw5bTljNzhfVkFjcm16NmczWm8zcU4zLThTU3lsSWRKOVE5a0RjWnNFdTFVR2FFTENBRFhoNXhGam9EOEtuTnV6dHo0Mnp1UGFFZjBPUzh1M1lJSmFobUItNWJQREhwS0VsM296cHdZRGJtdEhia2FNbkV5RkgtZ2VJTkNqVnJmcU1sa3c2blJacGx2WA?oc=5",
+              "source": "TradingView",
+              "publishedAt": "2026-07-29T10:41:04.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Alphabet (NASDAQ:GOOGL) Trading 2.2% Higher Following Analyst Upgrade - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVHB3S2xRWGRpZncxZHlGYWowQ2tmMC1yTTd2Y3lOZUtwVFZHQ3M3MVotVEV0Snc3eU91dWNqUnRFMWlMXzZsQUlWM3Q0bzh4Mk5IRTRrWmVwaFlMMGpJMlFGdU5RcjdLazJITE1JbkZhNy1mbGZIU2MwSXdsbElkYlMzejB4NGRfSGxfWlVhdmtvMk5lWHNJajI4ajJkQ3d4V3lsTFJOZXRKSEVxdVA0b0txbFpVNVRlSkE?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-07-28T21:02:42.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "144 — Alphabet Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000195004726007407/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-29T16:20:51.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321684/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T20:00:38.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321683/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T20:00:06.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321678/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T19:59:52.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321676/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T19:59:23.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321674/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T19:58:47.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321672/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T19:57:22.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000116840426000039/xslF345X06/form4-07272026_100703.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T18:21:12.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            }
+          ]
         },
         {
           "symbol": "AMZN",
           "name": "Amazon",
           "type": "stock",
           "yahoo": "AMZN",
+          "cik": "0001018724",
           "quote": {
             "price": 226.65,
             "prevClose": 230.86,
@@ -216,13 +783,154 @@
             "asOf": "2026-07-29T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
-          }
+          },
+          "news": [
+            {
+              "title": "Amazon (AMZN) Tops The Fortune Global 500 After Ending Walmart's 12 Year Run - simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYV9Dajlhb1kxMVJkN19SVk81dXJwdU9GM2pEdnZMSThBdnlONkt0c1pzcHRFbGpXSV9uZXRaTWNKOHFkZjQzZjZZN3VFeXBwYmlsTm9Hb04zOTVlV2NJb1VUNnZGdzFfMUlIQUNXSHdId0tOSjZIc1c1aF9UQVA2bEVxV1NybFJKRXRPSmRjNUIzVFVNdGgwdE5VbjdJTkdIM0V1c2dUeUFqWFdNTlhhYVEtcVdWbHh1dGxERDU0QmZKaFRC0gHKAUFVX3lxTE1QS094WXFCeGNUSVpwZjhWQnVvRjhSMEU3dzI5QWY2b2hCcXdTUG40RGFwQTlPZWN2Mkg4dTlVQkhtN3Jac0MxQWJmMUczSURlZ2pIRnd3bXBwSXV4eGUtLWRBUUFXRlpQc09WWFpLSHJ0d3Y5ZE1KMmFDRWFvMUR4RF9zWFJKaXN4Qm1WaDBUeUZJbDVZY3p4VnZteVlyZ05EQmhOaDc2WEhtSHVrMGNlOGVsRmxLT1pGOUJsVEg0MUJHRG9POFlkSHc?oc=5",
+              "source": "simplywall.st",
+              "publishedAt": "2026-07-29T19:35:01.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Why Amazon’s Solid Q2 Won’t Be Enough to Lift AMZN Stock - Barchart.com",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTVNVbE1WYk9IWmtEdUdkS2k0UDh6bzBsWVZxMkNLQ1pnV3M1aUp6VjlSVm50aUw4ekFvWFBOeUs4SGNSY0RqWF83cmNjRmdFdU13ei1HRWdEOW1STFF6QjJyMVE5R0ZoSElLSnRoc0s3QXU1NlpqejJYRGxvVjE4WVZhTmN1SWtNcnlSbll1dDltQ2pTT0EwSmZoX1RySWM?oc=5",
+              "source": "Barchart.com",
+              "publishedAt": "2026-07-29T19:28:05.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Amazon Stock: Q2 Earnings Could Highlight 'Prescient' AI Approach - Investor's Business Daily",
+              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVjlxSjFHa0NGVmV0LU5UNmp0NXNvTU5GM0lCQWRneUVXbFJ3LVYtSVd0X05vZk1PSmRwWldyMWt0SkdSeEV1TEJVSFRKTnZpRWNGZUppXzNZSUlPazVpM2Y5eGlCekZWMUlBMnAzS0dRVGs0ZHBHdGdxMzZySGlOX0Y1VGhmV0xCNVRreS16WQ?oc=5",
+              "source": "Investor's Business Daily",
+              "publishedAt": "2026-07-29T18:47:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Amazon Stock Falls as $25 Billion Bond Sale Signals AI Debt Fatigue - Yahoo Finance Singapore",
+              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWVfemlDMjhqYTVFTW9tZG5FQkEyaDdpRFBuM1ZJbGpOQ0RQTGdSaURvUWl1Skd0TUNTS1pNQmFNZGU4UTJMLV9zelVhRm1jT0pzUUtYc3V6X2tySUFZdk9kYzlnTjZWTGNBWXFWQzQ0MlE4dlQ2OUg0NXM5bkl4QTdpX0Y?oc=5",
+              "source": "Yahoo Finance Singapore",
+              "publishedAt": "2026-07-29T18:46:34.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Amazon (NASDAQ: AMZN) Stock Price Targets $307 As AWS Reacceleration, Ad Growth Fuel Bull Case - foreignpolicyjournal.com",
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS3lPekJvQ2xIcml4RlFTUXluZ2lLY0FrMi1vdTY0bE1zVUgyOXVoSC0wYWtmSll4WEY1WG96R01XamlzMHZYbV9LYUpYbWtTblNMS3hTZlpCdXFQMVJXc0NaZ2VlQmdId2VUS0duUGhkdHdfRjNWUjNodlZDdnpYUnl3VTAzemFEOUZLeXdzc1owd3pPZlVfSmRnVXRtaUNuWlB4N1JlUXdLQVN3bmNQTzh3cGpNZ1RuZ3JZbWtteExhSGhfNkx4Y3NxbWs4Nm1Sc1RMdQ?oc=5",
+              "source": "foreignpolicyjournal.com",
+              "publishedAt": "2026-07-29T18:26:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "QUICK SPARK: Google, Amazon, Nvidia Among 2026's Top 10 Most-Shorted Stocks - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYWVQUk5RSWk3MEo2ZzhWVmx5Zk1RRm83MDhsSzc3TTRnLXVNRWx3ZlE2c3I3UHEzNEttV2ZKYXoya0c1dnBtSEhxdFV5dTFuNkVpa0MwWlRIZFZTXzlrbjdBSkRYVXpEZThKRGVPOWhIVFBaNVdwRmNiWFNiSnYtdmZqaXM5V3JudndvTmtKS0VNRm9KWXhtb1ZZSk1jT0dyanRaLXlpeG10MDQtX28xRl81STI3a2tmcmVaV0JZVy1NUQ?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-07-29T17:25:23.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Amazon's Warehouse Robot Army Keeps Growing. Is Symbotic Still the Best Way to Play It? - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaVhwOFFwNEhRcUk3SUVFa2p4UVh4RjZXdGVzT3AxeGJBeG9VYW5ESVVVekFiT05FWXFORVdiMmtJRGRCN1hWSGtCQm4tVzRVTkFMN0N4MlZDdDAyalJheWlLcVJRSGFyTkNzbjFTOGlCS0ZwTDctcjB5M2U4aUdNV2ZaU21PZFl5VXdrdnUyN0dzOWNRZ0NaVEVFVmc3ZFMw?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-07-29T15:25:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Anthropic’s IPO Could Be a $240 Billion Moment for Amazon (AMZN) - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZHprNVl3eXBEdVhIYmkxMEtKZ1hYNTNWZ3N6UEppZ1NaOHg1Y0ZCWkRiNEw3cE80RVhpSU55ZG1FdXRGTzNnY2VCS3lPWDVkeGZkbHBxTXoxNVM1MzJ3aHlTakRlUHZlQ3EyaF9obUR2eFhlTE9ZWkhsbHE1MGl6U0lEUXZodmtwVUh0Y2FyWlM3UUlCVy1KMUVaRQ?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-07-29T14:38:20.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "8-K — AMAZON COM INC (FORM 8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926082293/tm2619352d4_8k.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-09T20:46:08.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "FORM 8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "424B5 — AMAZON COM INC (424B5)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926081786/tm2619352-2_424b5.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-08T20:09:26.000Z",
+              "kind": "filing",
+              "form": "424B5",
+              "desc": "424B5",
+              "explain": "Prospectus for a specific offering being sold."
+            },
+            {
+              "title": "FWP — AMAZON COM INC (FWP)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926081334/tm2619352d3_fwp.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-07T21:10:43.000Z",
+              "kind": "filing",
+              "form": "FWP",
+              "desc": "FWP",
+              "explain": "Free writing prospectus — supplemental material for an offering."
+            },
+            {
+              "title": "424B5 — AMAZON COM INC (424B5)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926080950/tm2619352-1_424b5.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-07T11:44:21.000Z",
+              "kind": "filing",
+              "form": "424B5",
+              "desc": "424B5",
+              "explain": "Prospectus for a specific offering being sold."
+            },
+            {
+              "title": "4 — AMAZON COM INC (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000022/xslF345X06/wk-form4_1783023822.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-02T20:23:45.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "8-K — AMAZON COM INC (FORM 8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926073562/tm2613616d5_8k.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-06-12T21:00:28.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "FORM 8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "424B5 — AMAZON COM INC (424B5)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926072332/tm2613616-2_424b5.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-06-10T20:10:58.000Z",
+              "kind": "filing",
+              "form": "424B5",
+              "desc": "424B5",
+              "explain": "Prospectus for a specific offering being sold."
+            },
+            {
+              "title": "8-K — AMAZON COM INC (FORM 8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926072140/tm2613616d4_8k.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-06-10T13:00:19.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "FORM 8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            }
+          ]
         },
         {
           "symbol": "SOFI",
           "name": "SoFi Technologies",
           "type": "stock",
           "yahoo": "SOFI",
+          "cik": "0001818874",
           "quote": {
             "price": 15.25,
             "prevClose": 16.74,
@@ -255,13 +963,154 @@
             "asOf": "2026-07-29T20:00:00.000Z",
             "currency": "USD",
             "exchange": "NMS"
-          }
+          },
+          "news": [
+            {
+              "title": "SoFi Earnings: Shares Trading Lower as Market Overlooks Strong Fundamentals - Morningstar",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWm9sc25oUGhaWmNNUm9LVkx5eDVvV3hibVRnNjZpbVFRcjVMQ1o0NS1KUGltUnkzS0xsaU9NdXlnRGJISXN2ZXdnbndUZWJIOV9qc2pmZ3FmbDBSMGljemkyakhOSFo5TW5EYnlmd0owOU1iS2FfSVo5SjFXM1lnT0dNcENad1RaYUY1U2FsbHFnM0NLTHozeVEyOU5XeEtqQ2djYTd4SFVfQQ?oc=5",
+              "source": "Morningstar",
+              "publishedAt": "2026-07-29T19:19:26.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "SoFi Earnings Growth Soars, Stock Drops - Barron's",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUGhoV21DV1lVbjNwZnFmUUhjaG12ZGtFVWo1Z3ltT2w5WFlEemVrN1ZwTndhVk1iVEg3Y0trY0V3ODktY2xtcFgzLVZJNGVxLTdYRE1NanFJSWlLMy1UbEFuSjJSdENqejYxNExBTXpaazZ5NVJwZ3VvY3NBSzZUdHYwOElRTjg?oc=5",
+              "source": "Barron's",
+              "publishedAt": "2026-07-29T19:17:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "SoFi (SOFI) Stock Could Be 20% Stretched As Takeover Talk Builds - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNXUxN3FSaEhnMkNwRkxNNnlmd1ZGU1BIYU5hbkFlZlU4U0ZBZllnWkdzQmNnUkl4X0R6amFFOGNKM3ZDQ05PTVVLVWJxbjB0RFRvUFJDS1JnZnoxSTNhb0tXbXVjNVRSQk5nX29VQVNtMl9OSGVJUFB3N0g2OXhDYWg0bWtoU1l0TXNuTjVuTHl0MEU?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-07-29T19:09:55.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "SOFI Stock Pulls Back As Traders Eye Key Support - StocksToTrade",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ1VxWk1Tb1ZRaEZVRXNfYThNTDEtWXdVSnZMUzQwbEUtenBtX2pscVFJbHdyNmdvVUpoaVFFNHpsWjR3WERmVTAtOVNtT19IS192aEJDNmNNZ280b1VFZ2dKZEVCVWs1dWdOblJtMDhNTUgyNUJSM0Jub3ROUXVYNFFR?oc=5",
+              "source": "StocksToTrade",
+              "publishedAt": "2026-07-29T19:05:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "SOFI Stock Pullback Has Traders Watching Key Support - timothysykes.com",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWTVUOFQyclJxeVFMUGdveW1BZ21USGdoS0wyNkxJaXp3WHl4ZnFkdWNUSnU4QXRHMm1ER05jY1B6by1PTzBGUE14aDdKZ05CZDZkc05hSUxZTHM3bzJjNmo3aHh6NzlOc2pfVEVoU0RmNFJYazdKaG1lQ3JSVWxoRQ?oc=5",
+              "source": "timothysykes.com",
+              "publishedAt": "2026-07-29T19:03:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "SoFi Technologies: Opportunity Knocks On This Huge Correction (NASDAQ:SOFI) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaXBZc2ZuVHdlT2NzWncxZUdjMVVDREZoelE5cGtaRDE0UkVyczNQQ2s3aEI1YUZyWHUtcERiUm9rZUViQjFOS2R2UV9mRHREeVR3NXJYNHVPTVlOLTIzY004VG9QZ1NTc1pFNzZUUk90aXlzTGhiSlNnSW1PMV95eU9KRjNZekt1dGt4ZzdvRXhncTQwSXhfNENPcTYzN0UzUDlN?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-07-29T18:56:05.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Vertiv, SoFi, GE HealthCare, Micron, SK Hynix, Garmin, and More Stocks That Explain Today’s Market - Barron's",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0NkM0aDJQVkdVMDB3XzBoYUE4QkxsQXRTcXMwLW40b0ZQd1EwU1ZTcVM5dnhKRHBuVGlfLTVCQzdwTDRJMUpEakQ0QlpLT2V6U2o5Qk8xbnlNdTFpSkhSMWRHblM?oc=5",
+              "source": "Barron's",
+              "publishedAt": "2026-07-29T18:54:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "SoFi Stock Sinks After Blowout Earnings Fail to Impress Wall Street - TradingView",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSUt3UG0tbFJtaU1Ma0QzLTV0SjFqM1FyUUJER0xHVGZHU19KWGQxNHN1aExhZzRWSlFMdkF5SWxEWmJLeDFjQklFTC1aZkI5eWJoSW9JMllJa2lhaC16elN1OGNNLTEtNXZ0UjJfVmoxejd6LWFsUnlha0w1M2M4a2p6MGtIQkl1RXo5MzBQMExTbENOd2lHVlJ2cWVrZnFRaXYyTVVaZ2FWdzMwS3E5YnhxbjBDZkxPbks5enZJcGpfbW9EUnc?oc=5",
+              "source": "TradingView",
+              "publishedAt": "2026-07-29T18:32:40.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "8-K — SoFi Technologies, Inc. (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000050/sofi-20260729.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-29T07:06:09.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1818874/000119646026000004/xslF345X06/wk-form4_1785193365.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T23:02:48.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1818874/000186616126000004/xslF345X06/wk-form4_1785193327.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T23:02:10.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1818874/000189257926000006/xslF345X06/wk-form4_1785193302.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T23:01:45.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1818874/000146083526000002/xslF345X06/wk-form4_1785193272.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T23:01:15.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1818874/000188760126000006/xslF345X06/wk-form4_1785193222.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T23:00:25.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1818874/000201152526000002/xslF345X06/wk-form4_1785193179.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T22:59:42.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1818874/000133891326000008/xslF345X06/wk-form4_1785193145.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T22:59:08.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            }
+          ]
         },
         {
           "symbol": "HOOD",
           "name": "Robinhood Markets",
           "type": "stock",
           "yahoo": "HOOD",
+          "cik": "0001783879",
           "quote": {
             "price": 89.84,
             "prevClose": 92.76,
@@ -294,13 +1143,154 @@
             "asOf": "2026-07-29T20:00:00.000Z",
             "currency": "USD",
             "exchange": "NMS"
-          }
+          },
+          "news": [
+            {
+              "title": "Robinhood Markets earnings beat by $0.20, revenue topped estimates - Investing.com",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZlE0SWFLMGNUNTJvcjNmNWV0S3JveFI3Q3p3dVhYclo1OEI4eGoyVXZ5M3QzeTlDRnRqNmZyeXp6ZzliMVlfbU5pVXlfYXFqb1dJdmVodk1La3VzUkdsUUNIWG5ybG9SSWRMRXktNlR0RHM1bEJwR2lkTExHem5iWFRFZ3hPTC1FbW5ZNjQtSWoxS1ZuaHNyU3p6aEVscVNzQmNvT0FMdDlfVzJTeW45cw?oc=5",
+              "source": "Investing.com",
+              "publishedAt": "2026-07-29T20:38:42.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Robinhood's latest earnings beat Wall Street estimates - thestreet.com",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObXVYMHpHMUpGcmYzSGExdWZOMGVma0QydmpETElZcXNSVTlSb2VDZUpxWkkzb0ZSY1ZjSDVtXzk0VDBKc1Z3ZndsU1poRi1CaTFobXc2MGJIa0ZyVlYtTUtaNU1BeEx1M2dRVkM3SEsyY1NKMnE4SjBjSkRyS3hjejE2cTJIQ21jZ2dnWGRRMFNWbnRsYkQ1QnpB?oc=5",
+              "source": "thestreet.com",
+              "publishedAt": "2026-07-29T20:37:56.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Robinhood Q2 earnings, revenue beat as equities, options trading shine (HOOD:NASDAQ) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUjAwX3hwOHBLVDFxSlA5RnJCM0lUcTlKUlJlV1pEUEhDemp1UFpMZ1REVzkwLUs4VVRIbV9KRjdXRE5YUWhqOURmUGRGU1B6TWVWS0xHQWNqT25UR0RwbzNscndVODM5Vzc4WGdNM3BSWmJ1OW5HSEsxUFA4RmRLMmdWNU5PLUJCNmR2MzROeEhOWWFBMlV6VzJDWTh2NFpQQU12dVRSYTVUUQ?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-07-29T20:26:48.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Robinhood Stock Climbs After Q2 Report Shows Record Revenues and More - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNS3J5ZnZjYnRQSnFmZTd4U1Y0dGpwVF82UmVodGQ3OUNzWmNDb2RKdVlZclE5TmVpYTVsZWRmRW5xb2l6YWp5UkNSQlJqakp5RE5wcjZyeGc4OTZqN3ItZjFWUzF3amNLaFNQNmhKc2oyYWgxeXRhaXk0UnNKNXJsYWlCU1FZNy1yZGVHc3NCREdDTXVWakRwaTFoQzV4Tk03ajVTd0JIUmFEVy1kb19TbDVxMlZCa1FmN0gxVkgxTnItXzh2?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-07-29T20:25:38.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Robinhood Crypto Revenue Tops Estimates Despite 38% Drop, How Will Stock React? - BeInCrypto",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZTEIyNFlLV1p1dVB0R2J4UWdTdEFKUG5XdmNPT3E2cWhIVGdOdFl5Y2tRNUt6bWotQUF6YWRwNkZlWXZ4NGxqRi10QnlmN1lvTm12UnA5VElaRU1RaGctWl8tNXpEdVFCSGxadFZaWVRHb1ROREE?oc=5",
+              "source": "BeInCrypto",
+              "publishedAt": "2026-07-29T20:23:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Robinhood Earnings: What the Numbers Say - Barron's",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43VmQwVGwwZkNTSWNRMFNPTWZXUTJkNDRJRnRrQmcxU2hmTmVSUHIxUHpJNXFRMWJVQlE0T3h2dE5GUWhocGRRdXBjVzhVVUxlTW9vb054RmkxVjZsSlJ4OHZldXBqX0QwVEx5eGJaazZKblRTRHhYUUhDNmw?oc=5",
+              "source": "Barron's",
+              "publishedAt": "2026-07-29T20:19:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Robinhood Stock Dips Ahead of Q2 Earnings Report - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeVZlUngzTFU4c2hCOHZYZG0wd0Y3bHFXVy1EQU12aXBWdkVlaUxQZUoxQ1hfRmRKZTVYY1FRTUg4QlFvYjR0a3F4bmtwTXdhSkFvTEhIR01PWW8zN01JX2RuaEpWTjZvT2pvQWlEM0c5NXJpVlU0RVU4QjRNeFFIRTNQWkx0QzJSNFZIalVTNUpySE0tcW5OTnZpSTgwVEV0aXFCc0p6T1BPRGFJTEE?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-07-29T19:24:04.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Robinhood Earnings Due. Here Is What To Watch And Expect. - Investor's Business Daily",
+              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLU9oVmZYcVJKNWtid2VTWEszY0ZRNEtfOVF6cm5kVjM1TnlQS01faHo0TUYxOXpFUEUybURjZVVfZU0yc0JSMWZhWEpTRENDQzVnZG9XQUhZZTR5dTRGcE9mWlRLbVZqYkoxeUgxQ1Fkb21XdGFVTzZBYmI5aUp4azNrczM?oc=5",
+              "source": "Investor's Business Daily",
+              "publishedAt": "2026-07-29T17:24:00.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "8-K — Robinhood Markets, Inc. (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000113/hood-20260729.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-29T16:05:14.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "4 — Robinhood Markets, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000104/xslF345X06/wk-form4_1785273623.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T17:20:25.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Robinhood Markets, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000187091426000021/xslF345X06/wk-form4_1785271065.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T16:37:48.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Robinhood Markets, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000101/xslF345X06/wk-form4_1784928110.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-24T17:21:52.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "144 — Robinhood Markets, Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000195004726007296/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-24T16:19:53.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
+            {
+              "title": "SCHEDULE 13G/A — Robinhood Markets, Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000095010326011121/xslSCHEDULE_13G_X02/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-23T20:44:56.000Z",
+              "kind": "filing",
+              "form": "SCHEDULE 13G/A",
+              "desc": "",
+              "explain": "Passive stake — a >5% holder with no control intent. (amended)."
+            },
+            {
+              "title": "4 — Robinhood Markets, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000099/xslF345X06/wk-form4_1784753008.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-22T16:43:31.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Robinhood Markets, Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000097/xslF345X06/wk-form4_1784580144.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-20T16:42:26.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            }
+          ]
         },
         {
           "symbol": "QBTS",
           "name": "D-Wave Quantum",
           "type": "stock",
           "yahoo": "QBTS",
+          "cik": "0001907982",
           "quote": {
             "price": 16.18,
             "prevClose": 17.64,
@@ -333,18 +1323,159 @@
             "asOf": "2026-07-29T20:00:00.000Z",
             "currency": "USD",
             "exchange": "NGM"
-          }
+          },
+          "news": [
+            {
+              "title": "D-Wave quantum EVP Ames sells $52,041 in stock - Investing.com",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMjRSc3g4eVNtSy1URGEwd25RdXBGSkw4M01iM0ljaktlOG12emFHYkpwbzZsUmRNRTNMQVVwWkVKVjVaWUJKZjdwTmY3c1BRTkVWN0dodVhKZldON0RabXJEc1Z1aWlWaFZlWVlqLXV0NWFZQm5FOFJoQVNtMHNrX19RTHFXODRzeVo4QnkxcjkxTWVNWDhaaEhMam9tdTFFc2tZSi1SOE40b3Jn?oc=5",
+              "source": "Investing.com",
+              "publishedAt": "2026-07-29T20:32:37.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Form 4 D Wave Quantum Inc For: 29 July By Investing.com - Investing.com Canada",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWVsRU9vVlF1S2dlZ3ZZRWdzQTVrMDJpT0MyWUJYRTBwckh1RXFISm9Cd1V3dGsyOGpPZWVUdHBGRGdBZzVRS3cyV3NaTmY5bFN2M1V6U2V6NVA2M204cXkzbkVtOTdpbkFkREVpTTZLMzdVVk9neEN5cEpkcEdybDZPTkM4LWU0ZjFYNEJJRGdBQWFpSXp1ZmZHU3J2RXM?oc=5",
+              "source": "Investing.com Canada",
+              "publishedAt": "2026-07-29T20:23:48.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "D-Wave Quantum: A Company That Makes Money on Quantum Computing, Yet Its Stock Keeps Falling - ad-hoc-news.de",
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUFRtTU0tRGUtOTQ1TU5EbGt6Mi12cUNSZ0R5SWxtWkpnWnlsWkp4dWdvSU4xbkpobXNpWnJZMUpUd01BTzViS2Z6ZXhibVNyUEJneHVGbVI0Z3FEYjREbEpzakRQWWxFVUNyZDI3eVZHU0dEWDRwcjRZMnB1N3dYTGxqXzFFZ3lNZzZpenR4UWdGb3F4cDQ0akZzU2N3aVp4UUhwQmpOcy10T0JJdkdNNzN2bEowRXFPNUFOZGVSa29mQ204RWdxbkNqb3FhYUlTaXFWNEdBUjNCQQ?oc=5",
+              "source": "ad-hoc-news.de",
+              "publishedAt": "2026-07-29T20:22:55.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "IonQ, Rigetti, and D-Wave Quantum Are Down 30% in a Month. Is More Pain Coming for Quantum Computing Stocks? - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPaVB2UTdnS200VlEtSjdseG1INUlJbmR4WEJBQUxfU0d4TTNCa3FkY3NPYnhnblBwaVpzTU0zVVJza0lHN1o1X2ZCcUpUWUhZUzZtVC13Vk11emJFbldtekIwZFJFQkFsMjRicDd4OFpyN0xtLXBOME03WmJKMnF1NkllSW9yLWNsbE81Q05xcGZDUktoX1JIX1UzTlZFQ1kyS1plM0JDRW1YVWREYTRpRWpNc3pjOEgyOVJIVjRRX0k2NjUwVENFYlUzc1RVNWV4SmJ3dm91Q1pZR2xibnpLWA?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-07-29T19:04:37.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "RGTI vs. QBTS: Which Quantum Stock Is Better Ahead of Q2 Earnings? - The Globe and Mail",
+              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWmZ2OEtVLUVxaGdzQnQ5dHNDdVRieHZyZE5iamYzcnZKWGQ2ODhsUlBkcDVZWTlFYU1VOWZQWGQ4eDdoSmk1dUZudXJJbHA0Um5ENk5XVW5fbzlxcEJ6Ymo1Z2pSWnI1OFJTd2dXYW1DUEtXazRCV2FqdnhPMXM0RFZJbG9CWjZscHN2SjVYVlBnOFU1djIzcHhBQXFiWFctTzBZbFctRjJ2VTRPemx3QnNHdVB1TW9oNDFRcWxUYTdDdEpwaWIyU1dzUHMxZ1ZhaFhnaWkyMWswbk9WX3lsZy1R?oc=5",
+              "source": "The Globe and Mail",
+              "publishedAt": "2026-07-29T18:26:18.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "D-Wave Quantum (NYSE:QBTS) Upgraded to Strong-Buy at Benchmark - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZkJkN3RlOUxELTVvVXMzM3FzYWFrYnFnYUwyWGVIa0xfeEZ6RENxMlZxZzctczhaVDN6NTR3dTJYOW9nVFZuNFhEZl9nMFZzaXBoTUlDanl6a3U2ZFhfTjFxdjhOVFdaNEYwdXZ6ZHVzb2VPazNocUloSHphRnhLd2tBUTI0R1FtM2thQ0RXOTlfVTBTd2NmcFliRDRtTkVQOHdXN1R4RW5NQ3AtcVVWRi1sNA?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-07-29T11:55:37.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "D-Wave’s AT&T Deal Shows Quantum Computing Is Moving Beyond Theory - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUEZLTXdRZi1XYU13eDE4aVQ0eWJ3VjdtOEt2cE5KZ2hhR0xaRXBqcGhmYlVEcm90SzEtSzhHUkRrMFRzbFBUWmEyQmdraW5rZ0JyeklrWjJSZTA4ZUZlZXZ1RHd3X21yN2FoQmpiTTV2NDUzMGZyaGtsdzdXWHRKY0NFR2hld05hdFpoSHZGSEs5V3VzX2dQM0JiQmxEcUQyUEFFTkhERG9Jdw?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-07-29T11:23:48.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Encore Global Management LP Takes $433,000 Position in D-Wave Quantum Inc. $QBTS - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaUxwTTdMdU15bzZtVXNZaWpGazVFSERTWlVCUlhKWm5BYnlnbmRYb0xRbTc0VDZDdHFTVHhuNC1xbnhZVXhrajJTcGwxQWcwMWVuM0NxcEFvOXZkM2phTzRKNXJlaVZSdm53MFVoX28tUlBKUFNZRDZQWFJvYXFHYk56LXk1Y2hMcG4zMHZDTTZSb1QwcjgwQjJ4Wnp0TkxGdWdZMkt6Q0Z4WFJCenlRSk5SYk8wbDM3bE1sTl9SdjFBUGRSRVJ2elowYzBaMm5tal9z?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-07-29T08:26:29.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "SCHEDULE 13G/A — D-Wave Quantum Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1907982/000201238326002797/xslSCHEDULE_13G_X02/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-29T15:19:52.000Z",
+              "kind": "filing",
+              "form": "SCHEDULE 13G/A",
+              "desc": "",
+              "explain": "Passive stake — a >5% holder with no control intent. (amended)."
+            },
+            {
+              "title": "8-K — D-Wave Quantum Inc. (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000117/qbts-20260727.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T11:01:47.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "CERT — D-Wave Quantum Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1907982/000135445726000729/QBTS_8A_Cert_0001907982.pdf",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-24T20:37:05.000Z",
+              "kind": "filing",
+              "form": "CERT",
+              "desc": "",
+              "explain": "Exchange certification of a security's listing approval."
+            },
+            {
+              "title": "8-A12B — D-Wave Quantum Inc. (8-A12B)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000115/form8-a12b.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-24T20:23:12.000Z",
+              "kind": "filing",
+              "form": "8-A12B",
+              "desc": "8-A12B",
+              "explain": "Registration of a security for exchange listing."
+            },
+            {
+              "title": "25 — D-Wave Quantum Inc. (25)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000114/form25.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-24T20:22:37.000Z",
+              "kind": "filing",
+              "form": "25",
+              "desc": "25",
+              "explain": "Notice of delisting or withdrawal of a security from an exchange."
+            },
+            {
+              "title": "8-K — D-Wave Quantum Inc. (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000109/qbts-20260724.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-24T11:00:52.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "4 — D-Wave Quantum Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1907982/000212932126000011/xslF345X06/wk-form4_1784671121.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-21T21:58:43.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "144 — D-Wave Quantum Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1907982/000196858226000736/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-20T22:02:38.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            }
+          ]
         },
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "type": "crypto",
           "yahoo": "ETH-USD",
+          "cik": null,
           "quote": {
-            "price": 1881.98,
+            "price": 1883.41,
             "prevClose": 1919.95,
-            "changePct": -1.98,
-            "windowChangePct": 16.88,
+            "changePct": -1.9,
+            "windowChangePct": 16.97,
             "windowDays": 31,
             "spark": [
               1610.21,
@@ -377,23 +1508,83 @@
               1953.41,
               1890.61,
               1919.95,
-              1881.98
+              1883.41
             ],
-            "asOf": "2026-07-29T20:30:01.000Z",
+            "asOf": "2026-07-29T20:51:07.000Z",
             "currency": "USD",
             "exchange": "CCC"
-          }
+          },
+          "news": [
+            {
+              "title": "ETH price range on Jul 30, 2026 at 5pm EDT Crypto Prediction Market - Robinhood",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNHNhRnk3SFV1NXhTWGhvdDE2OEFZOGJ1LUZTMS1vZURyWGd2UndsUlY0R085TGs3THh2QkdIZUxEOHBuLTFqRmxkcUp2MktwX2dUYzRFR1ljYW5wS2M3cW1HQ05QWms3aVprSFpOa0VKMzlmUVMtdWM5ZGlBeVJ5MUY3eU45ekZ3cWgxUktmanpMWHgtV3BLV0RpdHBHNS04YmFYSHlUcENPMC1Ba1ZESmJlN1Q2Zw?oc=5",
+              "source": "Robinhood",
+              "publishedAt": "2026-07-29T20:03:45.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Ethereum Price Forecast: Can Fed decision unsettle the calmness in ETH? - fxstreet.com",
+              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObVQ2WXFUYjExQTVWR3BzZldBRFZSV0dwanpmdFdXd2JKcTljSW80b0ZWVkd5cklFNzRRbjNrdzgwTmtXOFFuUV9fLU50U0N6dUF4MHRWalh2dTNKM2d0ZnJfVWpYS0NMSHF4eng2NFNTdjdYY1NiWS1kTEZCU29QTXc4cnAtZ1RCVTdWTEFOSlA2VVNTZDl3SllEWkdrdE5NOEdwNlF6d1JkTjdFZEZEZVB0ZVlCbDRUTzRmZF9Bakx6cDd3MlgwRA?oc=5",
+              "source": "fxstreet.com",
+              "publishedAt": "2026-07-29T19:32:32.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Ethereum Price Prediction: Can ETH Reach $2,050 After Morgan Stanley Lists Its New ETP? - Cryptonews.net",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2ZXZqNHk1X2ZmN3k3enB2d29jbnV2d2czMnhtUVdNVkplam9hWTJ3ZmtTYkhJM3FXTUh0WlB5dllVRTA4ZGFKa2JtYVRBMFdDcTFNT255NnNBdw?oc=5",
+              "source": "Cryptonews.net",
+              "publishedAt": "2026-07-29T19:11:27.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Current price of Ethereum for July 29, 2026 - Fortune",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JS0NoWDRUbzdTNjJyQ0FKcGlTR2JrcUgzOUFSc2pvOGNGd0E4T0kya3ZqSkJQcFJTMTEyTjUzWEVvU2RBUkdCYmZRbndpUUNJZmRLOUdja2hfV1o4MzNKSGRjUExPdWVz?oc=5",
+              "source": "Fortune",
+              "publishedAt": "2026-07-29T19:09:57.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Cryptocurrencies: Bitcoin Inches Down 4% This Week - ETF Database",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQX2d6T0lXWU1YTmFzdXBpdDBQMmVuZ3djMmx1cERyd0Y4dVMzemNXeDdaUUN6Tjd2X05lQzdBTEVMMG1tcG10WWZpcHRab0RNZXVfcUFIbWdxazNzUTBPcXpoVUF4bzZILTBaeEZOMndwWDZtaTZKckF3dVFBNjlYai1mYnI3azRvZUFLeVJTSWU3RE0?oc=5",
+              "source": "ETF Database",
+              "publishedAt": "2026-07-29T19:07:09.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Current price of Bitcoin for July 29, 2026 - Fortune",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iQ05JLTBYU2N4czR1MS15aU1FdmYySldWX1ZiQ2RGZGtiVWlSdnhJQzFKWDRYWUl0S2FkQXZ1U180bGZNQXFQaWw3QUZtdDN2RkFVWEdudVd0MEtCbjdPNmZwR2ItMDg?oc=5",
+              "source": "Fortune",
+              "publishedAt": "2026-07-29T18:55:23.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Bitcoin, Ethereum Wobble as Fed Holds Rates Steady - Decrypt",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBlNWF6SlhHRjJtUGFvS3c5VGdZN1NqRzZRblNfeTJmTGFiNzU2MXRwandtTXNPaFJkcWdRR2lRZUN3cUJLUmg3c1hqbG1vS0U1SXdaSERHSS1PS1pvY204SEtVR3htcWxEVFJCcEJJUGxTcEtCU0lqOUJTUdIBgwFBVV95cUxPOFdtaTJLNnEzbzdYemhfWVV1dEl3R2c1WmRERnZjdWszYmtXeGJKemFSNUhCRFpoVy1RQlk1blJlRUlleExKeGxMSW95QWoxb3pJWjZ2QldjUHR3eG5ZblJ0TFZPaTdYN29fTjNUQTVwX1JaZVFvS29GMVpLVzBEWTdrWQ?oc=5",
+              "source": "Decrypt",
+              "publishedAt": "2026-07-29T18:43:45.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Raoul Pal Reveals the Next 100x Crypto Trade and It Is Not Bitcoin, Ethereum or XRP - Coinpedia Fintech News",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRlpJVnFEanFLSWdSUlg1MngxekQ1MDdRQzQtQ2k1c0xadXNUX2JZTUxBZ2lJRWp1Uk1EbGpvWGEwVEZERUY1b0NRZy0wSXhWQWNtSTdHMGlDTmlVRUVLNkVKQlpiamZsR1JxMUtHRXFGVFl1ck9Ld3ZPM2xNZy1UbkQxdm9mdVROLUZlRDJYTmMxaXp3N04zU3p4NFBxUXhmanROcEJPMlBXXzY0OTZvY18tYULSAbQBQVVfeXFMTUZaSVZxRGpxS0lnUlJYNTJ4MXpENTA3UUM0LUNpNXNMWnVzVF9iWU1MQWdpSUVqdVJNRGxqb1hhMFRGREVGNW9DUWctMEl4VkFjbUk3RzBpQ05pVUVFSzZFSkJaYmpmbEdScTFLR0VxRlRZdXJPS3d2TzNsTWctVG5EMXZvZnVUTi1GZUQyWE5jMWl6dzdOM1N6eDRQcVF4Zmp0TnBCTzJQV182NDk2b2NfLWFC?oc=5",
+              "source": "Coinpedia Fintech News",
+              "publishedAt": "2026-07-29T18:32:47.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": []
         },
         {
           "symbol": "XRP",
           "name": "XRP",
           "type": "crypto",
           "yahoo": "XRP-USD",
+          "cik": null,
           "quote": {
             "price": 1.06,
             "prevClose": 1.068,
-            "changePct": -0.34,
-            "windowChangePct": 0.66,
+            "changePct": -0.29,
+            "windowChangePct": 0.72,
             "windowDays": 31,
             "spark": [
               1.0573,
@@ -426,12 +1617,71 @@
               1.1117,
               1.0653,
               1.068,
-              1.0643
+              1.0649
             ],
-            "asOf": "2026-07-29T20:30:02.000Z",
+            "asOf": "2026-07-29T20:51:07.000Z",
             "currency": "USD",
             "exchange": "CCC"
-          }
+          },
+          "news": [
+            {
+              "title": "XRP price at Jul 30, 2026 at 5pm EDT? Crypto Prediction Market - Robinhood",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUUc0V3Zfb0ZwelZjOGR1MjcwSnJrWGRWM3YzYnk4S3RNcUJ3QzVQSjdjVTNOc2J0T3RwcGFtR2tfSUdHRFpneEstbFFOaFFIekM1UGY5dXhadzlyV0pPbXlob1FzOFB1VjJya3ZCUU5keE1oRkdmU3A1XzhZUGJYNHFOZUlQNVM3VzBtdmE4dEZ5NDBsQkJQOWVKdXFsV25MMkdVY2U4T2VQeXBnM2c?oc=5",
+              "source": "Robinhood",
+              "publishedAt": "2026-07-29T20:03:45.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Raoul Pal Reveals the Next 100x Crypto Trade and It Is Not Bitcoin, Ethereum or XRP - Coinpedia Fintech News",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRlpJVnFEanFLSWdSUlg1MngxekQ1MDdRQzQtQ2k1c0xadXNUX2JZTUxBZ2lJRWp1Uk1EbGpvWGEwVEZERUY1b0NRZy0wSXhWQWNtSTdHMGlDTmlVRUVLNkVKQlpiamZsR1JxMUtHRXFGVFl1ck9Ld3ZPM2xNZy1UbkQxdm9mdVROLUZlRDJYTmMxaXp3N04zU3p4NFBxUXhmanROcEJPMlBXXzY0OTZvY18tYULSAbQBQVVfeXFMTUZaSVZxRGpxS0lnUlJYNTJ4MXpENTA3UUM0LUNpNXNMWnVzVF9iWU1MQWdpSUVqdVJNRGxqb1hhMFRGREVGNW9DUWctMEl4VkFjbUk3RzBpQ05pVUVFSzZFSkJaYmpmbEdScTFLR0VxRlRZdXJPS3d2TzNsTWctVG5EMXZvZnVUTi1GZUQyWE5jMWl6dzdOM1N6eDRQcVF4Zmp0TnBCTzJQV182NDk2b2NfLWFC?oc=5",
+              "source": "Coinpedia Fintech News",
+              "publishedAt": "2026-07-29T18:32:47.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Bitcoin, Ethereum, Dogecoin, XRP Hold Steady as Fed Leaves Rates Unchanged - TradingView",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaVRoZzlxRmpDQnY2NlBvbi1vdWlGZHltMnlaSDFBSVh2elZyZE16WnhwQVpnTzk2cDFrdWNqM2MzME82SGlELUtJMk12V2ctQmpSRVhEY3RDd3I0b2FQeDlaVHVtLWxCQTEwbDFiMDJtT1pqVWVBZFR1Y3dPUUFKWlFUdzY3VmdlcGh4NjNONThTaVdlckFyX2hwODdMTHdzb3BuMXdmOUJDeEZOTC05OGQzaEJDeGN3QzdrV3VlUlkzb0pXc1ppOVNB?oc=5",
+              "source": "TradingView",
+              "publishedAt": "2026-07-29T18:25:45.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Cryptocurrencies price prediction: XRP, Wall Street & Bitcoin – American Wrap 29 July - fxstreet.com",
+              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTNnaG56V0NYd1g0bjVETkVWMFEzLVlWdkJvaEF6UEFJb09XVnFqS0N3TE52S21PN09jWjJodXU2MTlxN0JZdXl2UkJ6Nmd1Vk1mMUY0U05OM0cxaGxMSWUyd1FHNUl6cWhSU2Rqc3RDRG96M0FxSXdJdVJqMkZSQVNoSW14Qk5odXVzMTBDREJmZ2JwY0pRRDZfRjdaclVvWWI0aC1qNHMzam9iSDhwN0ZfS09keDlZU1lTNktrRnZ3ZGFEbXQ5RTJyaktQWUs0aDE1aWVB?oc=5",
+              "source": "fxstreet.com",
+              "publishedAt": "2026-07-29T18:15:39.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "XRP breakout odds rise amid utility boost - fxstreet.com",
+              "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRTFGbXdQZUNVSTJYMjdWb3JuQV9DM3ZoemV5ckpVenhobHBQRWZKX1pSb3I0RmFRZW9rLVdvM2RGRm1mNjhtcWVWYTJGWHBLQWdsdEdGa2o1SURSNF9DWTVmUUc0a2hkZUczNGYzUGpKYVgxRHNYQ05va3R1V3dNWEJrdFB3VndTSXU4TWh2b21qcXNxMFpMYUNOVEFGVF90RlFDNThjcGZRVmVDejRyNkNRcFF0TDZNT3c2VkxNVFNNcmVxaHdyVHhXLVRHYnVDdGpWOGF5aDQxZ28?oc=5",
+              "source": "fxstreet.com",
+              "publishedAt": "2026-07-29T16:00:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "OSL HK Launches Retail XRP Trading as Price Rises and Open Interest Falls - kucoin.com",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOck15dkxVU1o1eXhobGx4d2Y0Yk1McnRwQlBEQWdfSUVCdjVzaVV3NGNTSzEyU28wSVpQb3l0UXBiMExPLXFhYXRJSlpWZGFWU3RZMlhpOGQxcTByZDhPdHI1cFZLazBZYWl0ZGU3ZWZWSjJ4M1dfZEUzNF9DYzJYN1hMTFJmMzJWOGhpQmVQSzZiM2lzdWJBTkFxQmM1WnNHb2FVUXlzbkRqRkE?oc=5",
+              "source": "kucoin.com",
+              "publishedAt": "2026-07-29T15:13:36.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "XRP Retail Trading Goes Live in Hong Kong on OSL. Here’s What It’s Actually Worth - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaGVOcmk5Q1NoS0YyZXVzaVhTVHMzUm1PbDI5X0k1ZUlaS0MyMlVURDFVSnl6ZEtud011NDFRTTZ1WnNOTU1OWDhHU0c5ZXRmdHdkT3M4T01kR0dPVXZFYmJZMDlMNnBRVUd0QU9GeUJWNS1fNjVkRTVqQWJfSVN0R0xtZE5uaEE1X214MHI1LW41NE80YnFsODR4Qms4am5tbVMxRVY5dTBPWlpiMGFrME5tWXlLa2RIZ0F5Z2E0Yi1JeVdYM1JkQkI1QVlTUTRHTmdZ?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-07-29T15:12:52.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Why Does XRP Fall Faster Than Every Other Major Coin? - BeInCrypto",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oQ0FOcGVKeUcxWXY4VUROb0lMMkN2RlNuT3ZjWUJkSkYtRTNzeUV6SXdXcDJiU2g3aVNhd0RHUFNZalJKTUhKS0JMNEp5b3FKRW5aY3Z0MG9DMmdaN2IzRVR6MVdSMUhZTy0yOC1n?oc=5",
+              "source": "BeInCrypto",
+              "publishedAt": "2026-07-29T15:00:00.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": []
         }
       ]
     },
@@ -444,6 +1694,8 @@
         "priced": 6,
         "up": 1,
         "down": 5,
+        "newsCount": 43,
+        "filingsCount": 32,
         "topGainer": {
           "symbol": "GOOGL",
           "changePct": 0.9
@@ -460,6 +1712,7 @@
           "name": "Palantir Technologies",
           "type": "stock",
           "yahoo": "PLTR",
+          "cik": "0001321655",
           "quote": {
             "price": 123,
             "prevClose": 123.53,
@@ -492,13 +1745,154 @@
             "asOf": "2026-07-29T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
-          }
+          },
+          "news": [
+            {
+              "title": "Dear Palantir Stock Fans, Mark Your Calendars for August 3 - Barchart.com",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOHcyRHBTNGpEaGUwZHRObG1fU1N3dWVVZ1pQcm1tZXNKUjEzM3Q2ZHBUSGwwbVJ1cEJ0SVEzWWhtSTRIOGo3MVV0OTh5QlJDSmh0RmlrV3NCYVdIYnJmWUQzNERZZENsVE1XdzNFUWxrT2JMY0xxWjR1ejcwWWZkb3Q5RktQNndRSlFpdGdwa2lET255RnREaGVXT204OVAwUV9z?oc=5",
+              "source": "Barchart.com",
+              "publishedAt": "2026-07-29T19:01:45.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "The Playbook for Palantir Ahead of Q3 Earnings - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN2wwT2ppYmgza0pFNjZ6M2FqY2lXS0xPaHpSaUNVOHVKdlJwSkFRdW1MRGlUWm9HUWpIODl0VE5Kd1NVOWZvNjZOSGRnRTJJOVNFNVE3UUdhSnJYNFNsZTBNdHA2R2R4aDV5R3lpMmhHcjZIOWpUdmlENVNHUGJxR1RzWW9YcmdMZlVSTUQ4c2l3VHpz?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-07-29T17:42:16.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "PLTR vs. ACN: Which Leading Tech Stock Should You Consider? - TradingView",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLXdNZGJES1JrTmJvV2lTOXZVTHJkeEZjQ3huNExDeFVuZ002RUdDcWhFZVVGU0V1U3ExX3h5eWYtdmtzUzFQaUxlUzQzUDVzaG52c1RNUlNNRVMtY0hGb3p1ekNfVU5QTWNlZV9uUmNwdTJTLXplaUFOcXk3VlVxdjF6RWc1OVhkQVVsSFJmQl9HNE0wUWVvc1pwNGlscS1WOHVFX1UtTjJPVEhKSnlIa09n?oc=5",
+              "source": "TradingView",
+              "publishedAt": "2026-07-29T17:02:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Famous Investor Michael Burry Is Short Nvidia, Palantir, and Tesla. Why I'd Buy 1 of the Stocks, Hold Another, and Sell the Third. - The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbTRRMWVLdEg3Mk1CMGI2Q2xzaVZQSHNINUJ0LWhncHJZZVZPTkhnN19HTFdQak1QWGF3Rk5zVFZDQTRPMGFYckR4alVOcE5QR0NEOEcwTnRsTXJqWFpzU0NpZmdUaFl3OVR3V1VwT3c2T0JSa0tKTm5Zdm1fZkYxRlRsOU44OTdxRDNtdk55OHRRaVdia04wUQ?oc=5",
+              "source": "The Motley Fool",
+              "publishedAt": "2026-07-29T16:15:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Palantir Earnings Could Jolt This ETF - ETF Database",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeDExMDZKbWtQcDB0Z19EbEV1TElTRk5GYjlBY0lLWkpWd3YyVnk0NlFIMlZwOGhxUTZqYlVJWXZyeFZEYjA0bGo3c1E5aTFFS0NTSzI2em5Jcm1SVmN5NHRIcGtZbkFUaVZXdVh4LXh3M093cURFZ3otSDFYbWxTdHpR?oc=5",
+              "source": "ETF Database",
+              "publishedAt": "2026-07-29T15:06:12.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Microsoft vs Palantir: Which AI Stock Has More Upside in 2026? - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTjRUNmw3ZjRxZGtmdTVlOGZ5emJhcFVEeVlRNTVXbUtMZ3dId0Z0WkZIcmxIYXo2aE1pU1FyMTZnOTdaU2RSd2JDUTFrbWNvTnIyTW90djVxclJVM2NoSVdBQWVmOVB5c1RvVEhQMno4ZnRjcXlxSF9JRVBhN3pEVHJZWTg0MDlweTI4NUxqUnJvaTNSVE5IZHlKclZsV1FzRGJ3TVpOaw?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-07-29T14:00:39.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Should You 'Buy' or 'Sell' Palantir Stock Before Aug. 3 Earnings? - TradingView",
+              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVWp0T1BCTjBPOTA3M0EwV21ad0NmNXVCMmxTejZ4cUQycmdoRkhCT2F1azhzdGxTOVlWZnc3S0VuNEVQQm1ab2swc19mZGI0dmxCcFFWVFJuNW5RaG9Ec0tiMEMyc1JYSXc2dkgwNXhVODdUMmlZX2hIY0ltZWJic3YxemszQldYZVdtVlBhN2VDMmhvaGlSb2lESmx4MXdqR2dROVoxRWY0aWJiYkJPdnA0eng2Ym5QbVNr?oc=5",
+              "source": "TradingView",
+              "publishedAt": "2026-07-29T13:29:12.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Palantir Stock Price Forecast — Options Traders Expect a Large Swing in PLTR as Earnings Near - TipRanks",
+              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcnpQUm9xN3lYUkJSYllIcnl3SEF1YTVLSExLOGVmdkswYmlLOW9kelFVMXJTb0g4UVNROGhkRHV1aXJBSk9uQk9GZkNHWURLWXhhb2tGRHVXZkJFV3BQcE81NEJYT1R1NjRLR3JvSG05VTlKOGR3Znh0YlliSnJBQzdWWDdkS1h0ZVNubU9pZjUwajk4Y241STd0Mkt3Vk5LeGRFbE5NNUgxZTdLRXpudmo5YVhkb1p1Z3VtcDBB?oc=5",
+              "source": "TipRanks",
+              "publishedAt": "2026-07-29T13:23:10.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "4 — Palantir Technologies Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000013/xslF345X06/wk-form4_1784937605.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-25T00:00:08.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Palantir Technologies Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000018/xslF345X06/wk-form4_1784333024.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-18T00:03:46.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "144 — Palantir Technologies Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1321655/000196858226000731/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-15T20:43:53.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
+            {
+              "title": "4 — Palantir Technologies Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000009/xslF345X06/wk-form4_1783468921.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-08T00:02:04.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "144 — Palantir Technologies Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1321655/000196922326000758/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-02T20:06:08.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
+            {
+              "title": "SCHEDULE 13G — Palantir Technologies Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000036/xslSCHEDULE_13G_X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-02T00:25:05.000Z",
+              "kind": "filing",
+              "form": "SCHEDULE 13G",
+              "desc": "",
+              "explain": "Passive stake — a >5% holder with no control intent."
+            },
+            {
+              "title": "4 — Palantir Technologies Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000016/xslF345X06/wk-form4_1781740835.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-06-18T00:00:38.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Palantir Technologies Inc. (FORM 4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000011/xslF345X06/wk-form4_1781568055.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-06-16T00:00:58.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "FORM 4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            }
+          ]
         },
         {
           "symbol": "MSTR",
           "name": "Strategy (MicroStrategy)",
           "type": "stock",
           "yahoo": "MSTR",
+          "cik": "0001050446",
           "quote": {
             "price": 93.33,
             "prevClose": 96.16,
@@ -531,13 +1925,154 @@
             "asOf": "2026-07-29T20:00:00.000Z",
             "currency": "USD",
             "exchange": "NMS"
-          }
+          },
+          "news": [
+            {
+              "title": "Strategy (MSTR) Stock Forecast: Bitcoin Holdings Face Q2 Test as $101 Resistance Comes Into Focus - FXLeaders",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUV9hcF9NazQxeVRBMmZacWF0cENPVXhrQUk5cjQ3UEVRcU94ZDZCeHpEaUYwRW9Id0NuQktPR0pDTHlHdU5sSE5QQzJjeThVdkF0dVJNVlhEek04RDYzbXEtbldJTVpyZTZIYnhlcElpU3p3cVVPN0Q1V0J3UTFFQzlWcFdFQm10VHprZU52a0thUHZsXzRhcnJIazMxMVRP?oc=5",
+              "source": "FXLeaders",
+              "publishedAt": "2026-07-29T11:19:39.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Bear of the Day: Strategy (MSTR) - TradingView",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMDlUYjZOVTFoSkowX0M4RWJzMmxnNFk1dmF4bDRFUUthMGgtbVRIZ21OSXI0RkF2UTg4c1VTR25xNV83X1NyUnJmTVFVVU1ZWXJnRFZ1MnczSk9aTFRCdHBjNTNEQ1B4VnlCS1hPV1UxaU5NcjZGMGQ5RWp5dG5IR2p1RUFpLUdtb0F5el9n?oc=5",
+              "source": "TradingView",
+              "publishedAt": "2026-07-29T10:00:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "MicroStrategy director sells shares ahead of July 30 earnings - thestreet.com",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYl83SnBSd3dMd1RRRmdtdXNNX2RCX3FiSzVVYlZGNFhFNjlxenROc3VWTjB3a1UyNGtrT0RqVDljT0pDMG02aEhRNEplSENpcDREQ200RHhGaE5ZOVNDd0hiME9wT3YySGVGei10WXgzdmxpdXdxRGY2OHZ4ZGwtampfY0ZMNEFpNG54b21Md25QRDdlbXFKdGtncDEwNTJKZDY3NQ?oc=5",
+              "source": "thestreet.com",
+              "publishedAt": "2026-07-29T09:30:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Is MicroStrategy (MSTR) Shifting From Pure Bitcoin Proxy To Balanced Crypto Treasury Manager? - simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSnVPa0ZTTm9pVjg5N0tZVFdoTHBxWXpILXdIOVhmYTEycGEweHFhYlhLZzRNaWI3N0VJbm9FdEF6VGZKRWdqbzIxb1VVeno0N0Njd21mQy1Ec2Y0MUFkN3N4QWc1OHdNVzdBckUyc2YzUkpWQWw0VWJnS2JpOHEtZFRtOWR6VkF5WlVlS3p6ejdndjVYdG1NQ0JGRTZ3NTZscjdNT1JFQXdnc2RSWi1EVk4wLTNaTVhMV3VtakJVVXVzVG56RlHSAcsBQVVfeXFMUDllSllFVjI5Umc5a002Q0NHVkN5SkszOWpQWHRGRmpIb195amtSc2lnRzRnWjktVlNUelpoQnJMaFd1M2xOaVNGNlc1bmJHMFluZHNiSUExVXVneDl0dmNnQ3QtUHNOWmpvRHNYeURpN0RfWWR5dmNOaWh5UnhWZXRjaDAxRG1TcGhXM2g3cHRTdl9vckh6OFdnaExVS3lzY0RqUDRYbmNhV2UteXAwSzhSODFjM2N2TGItUEhiSjU0MDlsOGNGR1BTcnM?oc=5",
+              "source": "simplywall.st",
+              "publishedAt": "2026-07-29T02:35:16.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Michael Saylor Says Bitcoin Has Won, So Why Did MicroStrategy Stop Buying BTC? - BeInCrypto",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BOXlFcUpFbHFIblF6bm1jOUJLLWNBNVUxXzlwdUFRVU1TRDV5R1llRFNiU3dDNk9WZ0FlVWVFcjFuT0RwM2UzTFhsZ0wydWpWVmRWMjlmb0VxdldpbzJXZXRwb0RuNFh5RGtFd3dB?oc=5",
+              "source": "BeInCrypto",
+              "publishedAt": "2026-07-28T18:10:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "How Investors May Respond To Strategy (MSTR) Prioritizing Cash Over Bitcoin Accumulation - Yahoo Finance UK",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWk12VWpVRjJrcy1kOGFGbUlpUFJZRkFIdldKT292Y3lBM2VCQ2dsdjRodHVqRm5xbF9fdkJGZEpCcUxzLUhnX0VtYzJNZ1VDMEhWak9HNHI4YV82cjlQT2xGcWJPZGhfUV9WeEVoUWJJaVdMS0VocEVrd2duOGlOOFBMMmdrRE9yMEVreA?oc=5",
+              "source": "Yahoo Finance UK",
+              "publishedAt": "2026-07-28T02:08:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Is Strategy (MSTR) Cheap As Its $544.5 Million Stock Sale Lifts Cash To $3.75b? - simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTzdUQkp0Y29FdExSVEVNaUdoeTdublBrb1RaUXlvTlFWYnUxNWhZblBsQmJ1alh6QXRwR3ZkNk1ULVFpbm9TX0dzT19rVE1rUUd3c3drcGtzNnJRcXRKa2xYSkZMVW8wSjUtM2gzeHA0WG9pNGFULWljN0JROVFhaUUtMmQxMGhpa05kRFlabThNMDFkajllTjFJdFhXUU5zelZNd2c2b3pqSXVUR3djQlJKMHRfRlFPT3o1bmJGTlNsNjlK0gHKAUFVX3lxTFBSSXJBclQxRnRvMlEzbjZjMWhOVGRLaktES1A4c3ZfOW15eW1SRWNuZjdyYUVTcVBtT2JRRUNMYWxYX1dQTmVBOXpIalNydU91Z2lmVmtiYzFZcmdDaG42SVVWODloWlMyZDNnYTNSWjZLb24ybmJFc3ZFM0NkWDVlTUcxNjREZV9vcDdacGI0bmZrWFI0T0M2aXFVWUw2bkp6bEdLSXdzVW1lS0pWbzFwRVpxTlRFTjBuZjNyN2hwYWNrNnlpMHBvM3c?oc=5",
+              "source": "simplywall.st",
+              "publishedAt": "2026-07-28T01:38:32.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Peter Schiff Says Saylor Just Wiped 66% Off MicroStrategy’s Bitcoin Yield - BeInCrypto",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42cnd1S2JJOXpkM1lKX1pELXVfNVUySUpVMVk1U0NZLVQ4cFRoYUV6MjJJUnJTclQ3SFVCS0t1VjczeGh2a1ZYTFVzM0o0QzVzbTVkbWRpTE00VmtoTVZ2WTJublU?oc=5",
+              "source": "BeInCrypto",
+              "publishedAt": "2026-07-27T17:15:00.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "4 — Strategy Inc (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526321074/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T16:30:04.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "144 — Strategy Inc",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326005383/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T15:29:03.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
+            {
+              "title": "8-K — Strategy Inc (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526316917/mstr-20260727.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T08:00:17.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "144 — Strategy Inc",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326005361/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-24T16:09:08.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
+            {
+              "title": "4 — Strategy Inc (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526314630/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-23T18:04:11.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "144 — Strategy Inc",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326005327/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-22T16:04:58.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
+            {
+              "title": "8-K — Strategy Inc (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526308369/mstr-20260720.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-20T08:00:16.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "8-K — Strategy Inc (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526301483/mstr-20260713.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-13T08:00:14.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            }
+          ]
         },
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "type": "stock",
           "yahoo": "MSFT",
+          "cik": "0000789019",
           "quote": {
             "price": 390.54,
             "prevClose": 393.35,
@@ -570,13 +2105,154 @@
             "asOf": "2026-07-29T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
-          }
+          },
+          "news": [
+            {
+              "title": "Microsoft (MSFT) Stock Jumps After Earnings as Azure Growth Hits 43%- Is AI Spending Paying Off? - Stocks Down Under",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XUE4yek9QNGYzVmxpZDVuRndyU1JxSm1MRF9RdThwQkdNTkJFWWh0cU4wMlk3SDNmaVctd1g5UHRxRjVxSlFsZlhha1d4NDM2cFNpQjM4UVlqQkh0TDhGaHRkTFdWbDllYm1zYlUtSkxfVXJlLTdORVFn?oc=5",
+              "source": "Stocks Down Under",
+              "publishedAt": "2026-07-29T20:47:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "After-Hours Stock Movers: META, MSFT, CMG, SBUX, CVNA, LRCX, FTNT, QCOM, TDOC - Investing.com",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMW5HVmFNckNrc3FmYUw5dFd6UUpINkctSUF2a1dLbnRsMEV3RW9Sc2YtbGhZRkp3ZHd3YzcwSjN1NWdXbEdDdnBMa3pORXMzUFNXX2NRMFY3RGU2cjRvR296dzdIWkIyaFFsMEdLSllyZWxkS3FSb3h0NHBEMHpBaXlSNUc3UGNEbElkellOazRGcTY3N3RmWkZKc0I3VzdRYTI0ME5tV040VkU3ZmptOS1DVVF5NFBXNjJvQWtFMXJ3S1hPNk5EdmhB?oc=5",
+              "source": "Investing.com",
+              "publishedAt": "2026-07-29T20:37:31.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Microsoft Shares Rise Over 4% as Q4 Azure Revenue Beats and Commercial RPO Surges 84% - TradingKey",
+              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMDNYTTZjS2VCWUhPbEptQ3p2blhVRDRnQmhFMzBEX2VPQ0FSYXdXTWQxTkdBdDh6X3I2ZjRLUGNXT2Z1Wk1IbTBqNlJhdk5NX1c4LUlRcDQ3OF9ZQUpxd1ZvT3o0cllqWmV5Zl81Y1c0c2NLa0ZpbGJtcEpLbC14cHV6OXFwZGlMMlFJTVNnbVcybkRoaGxrRlZCT0xUR0xFNUd6X0pqVVVPMC1LZjQwazVwMk9zTkZGbVRHNndsWktPRDdIZ0hGZmZkM1c2NjNhNWJacENBTmMzcnJZdGtz?oc=5",
+              "source": "TradingKey",
+              "publishedAt": "2026-07-29T20:37:30.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Microsoft’s (NASDAQ:MSFT) Q2 CY2026: Beats On Revenue - TradingView",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkp6cURjV3hfdFZaellEbDhPQ3AxQlp3Qm5tMlZXb21kX3AxendFMjdjZmFHam9fRlVpS3dxQVRaa1V2WGpFTXN5bzdDUkZCQnRjcTMwMWl2aUU0YzNNQ1JPdThlemFEWFFaUm5UWjNzbTNBZU1wekFoZlUxNGFYbUxIa1BHQ3M1T2JYcnY0dWRZTTFIeUcxM2hoZUowVDhNY3NlcFJZU0tQUnUwc0NVWg?oc=5",
+              "source": "TradingView",
+              "publishedAt": "2026-07-29T20:23:45.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Microsoft Q4 Earnings Highlights: 14th Straight Double Beat, Cloud Revenue Up 27% - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZE9rVGQ2enoxZ3BVTFdieXk0YngyTUZteGFESkVvMG1HSnkwWGRnY0ZOQ0ZHOVFlRVFwb3hkUm9rSURwc2VLZWFnSjNEa1FjWlFhbjRDbUhfMVVPT1RMNmFTZ2Z5UTg3SWFCZEUwMHBsQmFCZ2lWQUJKbTlKSG00MmpKd1YyYnNQVl9lLU5IaV83eGViTDlYeGlkZWQwNV9JN0YtcU1QZjMzeUNKX1hrbEMxdEd1R2pTNGF6d0JoWWVFMGJfNXFFUHB6UktBWF9s?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-07-29T20:22:53.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Microsoft Smashes June-Quarter Targets On AI, Cloud Strength - Investor's Business Daily",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcVYyMk5NeVllNWtoSTdFLWVaRlJveVNFYUdKVU9abkpHdDJWUGpqYXMwMmwwRFlqRXZOQUtLX29FVWFyQWdud2hlbVVIeVAzRGlrUC1TTW90RE1uN05sWm1XaW12VTVaaEV6cUdSWmJNZDUtTG5GcHZHeWZ6NVhjWkJDU1czelhTc0ZJbURPY1Q?oc=5",
+              "source": "Investor's Business Daily",
+              "publishedAt": "2026-07-29T20:14:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Microsoft tops Q4 expectations, on strong Azure growth - Yahoo! Finance Canada",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZlo4VXVnTThoN29VZHdoNDE2UXRJb0cwX3hTLVA4WjYwdWM2cmd3Ri1maVgxb2dvOHItZWlRVHBuWEFiVWl4a2gtdUx5SC16dmF1M0thdzlnQUxSVUVnS3BZeXlqMlowd1ljNl9VNVZ3Qlo1Y21palNWcEhuVC1GRzlUVmYxOGFwZ0ZKaG1aV2ZvUUNJRnlYVnBaQ3dWR2VCN0s1TA?oc=5",
+              "source": "Yahoo! Finance Canada",
+              "publishedAt": "2026-07-29T20:12:55.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Microsoft Beats Wall Street Expectations, With 31% Jump in Profits - WSJ",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaDkyU1ptM2xGN2M5QUJtclpSMFJtQVd4VlZJeTJKbXJPb2Q4cW1VUlZubjVoQ291MnB3T3AwT1RQcENGTmtEVHB3bUNsTzBRRjlHTjQ0dGpabWpZM3pZTGlIcjNGcGRTdDlDc2tCc01QYUxtaXpHREFvSWV6VC1Nbw?oc=5",
+              "source": "WSJ",
+              "publishedAt": "2026-07-29T20:12:00.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "10-K — MICROSOFT CORP (10-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-29T16:08:01.000Z",
+              "kind": "filing",
+              "form": "10-K",
+              "desc": "10-K",
+              "explain": "Annual report — audited financials and a full business review."
+            },
+            {
+              "title": "8-K — MICROSOFT CORP (8-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-29T16:04:53.000Z",
+              "kind": "filing",
+              "form": "8-K",
+              "desc": "8-K",
+              "explain": "Material event — a significant development the company must disclose promptly."
+            },
+            {
+              "title": "PX14A6G — MICROSOFT CORP",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000121465926008806/w721267px14a6g.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-22T14:59:22.000Z",
+              "kind": "filing",
+              "form": "PX14A6G",
+              "desc": "",
+              "explain": "Exempt shareholder solicitation — a non-management proxy note."
+            },
+            {
+              "title": "4 — MICROSOFT CORP (STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES)",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000139/xslF345X06/form4.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-15T22:05:53.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "PX14A6G — MICROSOFT CORP",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000121465926008121/j72261px14a6g.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-02T16:31:40.000Z",
+              "kind": "filing",
+              "form": "PX14A6G",
+              "desc": "",
+              "explain": "Exempt shareholder solicitation — a non-management proxy note."
+            },
+            {
+              "title": "4 — MICROSOFT CORP (STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES)",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000137/xslF345X06/form4.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-01T22:03:47.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "11-K — MICROSOFT CORP (11-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526282817/msft-20251231.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-06-25T20:16:55.000Z",
+              "kind": "filing",
+              "form": "11-K",
+              "desc": "11-K",
+              "explain": "Annual report for an employee stock/savings plan."
+            },
+            {
+              "title": "11-K — MICROSOFT CORP (11-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526282773/d839790d11k.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-06-25T20:10:50.000Z",
+              "kind": "filing",
+              "form": "11-K",
+              "desc": "11-K",
+              "explain": "Annual report for an employee stock/savings plan."
+            }
+          ]
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "type": "stock",
           "yahoo": "GOOGL",
+          "cik": "0001652044",
           "quote": {
             "price": 336.71,
             "prevClose": 333.71,
@@ -609,13 +2285,154 @@
             "asOf": "2026-07-29T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
-          }
+          },
+          "news": [
+            {
+              "title": "I Keep Buying Alphabet Because of This Silicon Shift Expected to Hit By Year End - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRFhFdDc4Y0JPQ3dyTUcxSDhPV1l5Uk5kaGo4SzdUWEZBb3pqNzlCM1JUU0p4d2p2Z3dDWnlBLURNdzNFR0VTdk9SV0RzSGtEMkM3MEc4UWRNS0dOQ0FRWVNrVlE1WDFLb0FFOFlGejN4eERFZzhSbFdNYm1lZUs0VFIwYjl3MGdEanVEemVOWldKbGFtdlA0NUlEV3h5UzNtdWhHdHVfSnN0VFJnTjhPQWJMTUZ0aFZlWDVRV25rOWRxZw?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-07-29T17:55:51.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "QUICK SPARK: Google, Amazon, Nvidia Among 2026's Top 10 Most-Shorted Stocks - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYWVQUk5RSWk3MEo2ZzhWVmx5Zk1RRm83MDhsSzc3TTRnLXVNRWx3ZlE2c3I3UHEzNEttV2ZKYXoya0c1dnBtSEhxdFV5dTFuNkVpa0MwWlRIZFZTXzlrbjdBSkRYVXpEZThKRGVPOWhIVFBaNVdwRmNiWFNiSnYtdmZqaXM5V3JudndvTmtKS0VNRm9KWXhtb1ZZSk1jT0dyanRaLXlpeG10MDQtX28xRl81STI3a2tmcmVaV0JZVy1NUQ?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-07-29T17:25:23.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Alphabet Is Down 18% From Its High After a Stellar Quarter—Overdone, or More Downside Ahead? - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONk1kQU53UmlKOXplY0hfSWY0cEZ5aEdFNDdrUjh0a0UwMlR2aklPSTVEWk0yUF9qdFFfSURCWm9FcnpGX1MxNkhvLWJweE1TRE9RWVhCMGlKN0tTOFhuMEh5Nk9JTmptelk2eWdYVldaVGc5X29QMnBTOGNyaGgxWFVYQ3N4dnZFTkdtMTVDNWFOek4xeUlpNnNvNENFSFpyTkgwQTB5Slh3ZzlPQWp1Rm1ZbU9ydC1SamlLWDVxaFdnaTQ?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-07-29T17:12:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Prediction: Meta Stock Will Pop After Q2 Earnings. 3 Reasons Why - The Globe and Mail",
+              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNeDhoeHdiTEw0U2ZoYUFieXBpNDIwa1RiTWRBUE8xWW9ONi1kQWdLU0o4YXJqblNJSVF2MUJqTFNnRkRQc1RvRnNZTmxWUFlBM3MxRmZFbUxHX3FyekdteVpLU2ZhZVcyV29oRC1Sd09ZRnV3dDdUaF9KWlpiNnM3aElaOW9vZVEtMFBrNlZlc0g4R0Z4N1NmR1R3LXd5dm1lVlNSeFRsbU50b3VSVDFWWTliVjg4UEtXRzVfd1p2SzkwOWNwaGYwb2tybGwtRTJZRjRzNDVGQzU3T1Jjc29YMjRn?oc=5",
+              "source": "The Globe and Mail",
+              "publishedAt": "2026-07-29T15:56:34.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Alphabet: Burning Cash On Big AI Bet (NASDAQ:GOOG) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRzVaMDNmTzVwdmIxODU3cWhXd1NZT2ZDMi1YZHdWYlc5RGNYOVFTWkhWUERrcDQwbktlaWxiTUpVR0ppQ2pHOURpR05wQTRTVE5WWENwaGRhM3otaFFILWpIX2pjaWxuWFl5YkpyYmZFNDM0Q1NBVXVZNVJYUFZrSFlB?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-07-29T13:28:16.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Alphabet (GOOGL) Faces A Valuation Test After Its Huge AI Spending Plan - simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ0NwLU8xUTZveFp6bEE3dGt4U0c2MnNtaGY0azlzUmEtN3JaVnVRVERJYnJ2emZQc3llZWRwWjN6V0hyZXl6VTg4WVpqczg0cnJjTmRkUFBlNnJSbngzNTlJMTV2NHByNGxFcEVkWnRBcWJpTHM1bU5BMlRseVJCUGp5VkVtN25CTXFFQmVfazg3Z2RfUWc0cElENzBrdEtHU0psdndoZ0NIeEtmdE5hdWxLeU15ZDByMkZWQ0NlN3QwMk3SAcgBQVVfeXFMTzdwRG03b2xQcmlSdmpiUFlGMDFYdTZ0R1ljSmZsekpralZDYUJCN0hrV0Y0VnpvbzRpUmM2T1RseG1pZC1Ec0xDUzRDVFlqMEUtNXRBblJaLUNyQkdTZHRQM0V4YXZpbmRabFZPLXNyY0JPVjlnQXlsWGZ5TTN5blNYaFhET3dPNkxGOVN0ZVdaempBaklsNVVPa1ZZd1NWbEtrcXFHYjE5UHpMb3pkU0VGOGFQbXhJeEJ1c0FEUU1NbE5XaEs4WlE?oc=5",
+              "source": "simplywall.st",
+              "publishedAt": "2026-07-29T13:21:01.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "GOOGL Fueled S&P 500 Q2 EPS Growth, but Carson Research Says Its Blowout Quarter Came With a Catch - TradingView",
+              "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaFhSdkptV3Fua3FubnE2cktnWVdmeVJ5U3o1dkpDMWdqYkVzQUF4UUFxdWYxVFVlYmhDS2FNdGJROWVRUWFteEM5R241cWNMQk01MGlJNXZtYl93TlF1amw5bTljNzhfVkFjcm16NmczWm8zcU4zLThTU3lsSWRKOVE5a0RjWnNFdTFVR2FFTENBRFhoNXhGam9EOEtuTnV6dHo0Mnp1UGFFZjBPUzh1M1lJSmFobUItNWJQREhwS0VsM296cHdZRGJtdEhia2FNbkV5RkgtZ2VJTkNqVnJmcU1sa3c2blJacGx2WA?oc=5",
+              "source": "TradingView",
+              "publishedAt": "2026-07-29T10:41:04.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Alphabet (NASDAQ:GOOGL) Trading 2.2% Higher Following Analyst Upgrade - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVHB3S2xRWGRpZncxZHlGYWowQ2tmMC1yTTd2Y3lOZUtwVFZHQ3M3MVotVEV0Snc3eU91dWNqUnRFMWlMXzZsQUlWM3Q0bzh4Mk5IRTRrWmVwaFlMMGpJMlFGdU5RcjdLazJITE1JbkZhNy1mbGZIU2MwSXdsbElkYlMzejB4NGRfSGxfWlVhdmtvMk5lWHNJajI4ajJkQ3d4V3lsTFJOZXRKSEVxdVA0b0txbFpVNVRlSkE?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-07-28T21:02:42.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": [
+            {
+              "title": "144 — Alphabet Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000195004726007407/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-29T16:20:51.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321684/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T20:00:38.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321683/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T20:00:06.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321678/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T19:59:52.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321676/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T19:59:23.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321674/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T19:58:47.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc. (4)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321672/xslF345X06/ownership.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-28T19:57:22.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "4",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            },
+            {
+              "title": "4 — Alphabet Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000116840426000039/xslF345X06/form4-07272026_100703.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-07-27T18:21:12.000Z",
+              "kind": "filing",
+              "form": "4",
+              "desc": "",
+              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
+            }
+          ]
         },
         {
           "symbol": "VOO",
           "name": "Vanguard S&P 500 ETF",
           "type": "etf",
           "yahoo": "VOO",
+          "cik": null,
           "quote": {
             "price": 670.63,
             "prevClose": 680.96,
@@ -648,13 +2465,73 @@
             "asOf": "2026-07-29T20:00:00.000Z",
             "currency": "USD",
             "exchange": "PCX"
-          }
+          },
+          "news": [
+            {
+              "title": "Bouchey Financial Group, Ltd.'s Vanguard S&P 500 ETF(VOO) Holding History - GuruFocus",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR2c0cVZFQ0xXWVh6NUZxUG4zVU1QdXExbE1VLWt3ejV5V3RMVl9XQVZ1MDFZaWxsS0dfZkRhRXFVaDhQLWFsSENnZVl5eTJjTW5waDVhSWVSRExNYkh2WFViNTFfNXQteE9HYWdOdjB6Q2wxSXFPc043ZVJ1RHlFZVM5U0tCdXM?oc=5",
+              "source": "GuruFocus",
+              "publishedAt": "2026-07-28T09:29:40.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Vanguard S&P 500 ETF (VOO) Latest Announcement & Press Release - Moomoo",
+              "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPMVZSQXk4TjlWbS1iQ2g2dnB1aXhxa3dSQk9sdXJ2Z053c3doMEgxZGpyTWM4NEo2NVd6VWt6X3RiWDhxQ245SzhIRTNEUGVaZEdDSFNOWnpQLVJSdF83RUZsd1pTNVZyX3cteE9tZHZuREQ1ajlCbUQtNmRCX2VYZF9wM1VyQzB1bXFMQ3BrVW11RlRMOUUzdGNPOFo5WncwYk05MU5wajVtY0Fjc1ZGc1VlY29aWGdwWTZGdThKbERTUk9PLXRjczR0UW5YR21GeWNNVDdQY01aZzYyWnVibTlFSmFOVjVNU2R4eXNPVmV0bm5yekJQc3NQUGJZYnVjSXBXbzg5VExjX282S25ib2tDb1E3SVZITGVWT3dzbm1yazU3UTJ1U3ptd295S0xhSWxoN0pRZmlldHo4bEpiejg1WjlRQQ?oc=5",
+              "source": "Moomoo",
+              "publishedAt": "2026-07-27T19:23:33.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "VOO vs VTI vs SPY vs QQQ: Which ETF Fits Your Goal? - EBC Financial Group",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOUF6N1h4emxrRkU3YUYwSTZoMEN1azd3c2RJMGl6VWdkQmRUY1hybkFKZDBsMGRSbHc1U0VJYkVuRTM2UXJ4aWVqTTBxUjJxellIQ2FkQ0RqYUlpYnBUN2daVUJSUmVYemR2MVRDaVM3ZnFYU1dnMEM3aG9PTWpYdw?oc=5",
+              "source": "EBC Financial Group",
+              "publishedAt": "2026-07-27T07:05:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "This Vanguard ETF Consistently Beats the S&P 500. Here's Why More Outperformance Is Possible. - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc3VVeEI3dE9kWEVlZ1NFbnN4VXZ4ZnBYN0o3WkFSajJhcW9qRjhOTGd5VkQxMktJeVVmVmxaTzk4bjgtRFVBT0lUWEdwalZrNTB5RU5WVWhNZVFxRlJqS0N3cGFLblU3N1JBMHYycVNBNEhmNkh2ZWNxTDAzclo2LUVtTlc3cEhmV1JFQTVVN2NaOHV0dV9FU0VNcmp6ZUE?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-07-27T03:29:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "$10,000 Invested in Vanguard's S&P 500 ETF at Its Launch Is Worth This Much Today. - The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVGYtVFEweTZRWktJOG5PeTN4R3FjaW9LaldSTFREOGYxbjhsMGIycGJCRktmVlI3eGF1Y3dGLWhkVWRLZFpiMV9sbUdPTHRuRTVGRTBqY1AtakJWN0dXUHhXc3lMdFlOa3preWNRMU5qYzZsSGFneU8yZXRIYXFpSjA4dmNKMGtabkRJZ2E3b1JKUGpHaVc4Zw?oc=5",
+              "source": "The Motley Fool",
+              "publishedAt": "2026-07-27T00:47:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Here’s Why SCHD is Beating the S&P 500 in 2026 YTD - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOF82RVVtRnhsbGUxNEpiZDlZd1dtcFQ4TnNlMkpVbDNZQUs5blI0SVZmTm13TFF6OS0ybElHRXE3dVowc3UzX3NYR2NzZW1abTk1dHB6RGVYZmNzUGRfUHRtM1lvZE1MMTlvMkxrTWI1cTctVWRETGE5dDM0SlR4T1l0empqWXhKY0VfOGpIM1Y0VW5mTHF3?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-07-26T22:07:43.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Top Three Catalysts for VOO, QQQ and DIA ETFs This Week - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONkx1bmttdjNWLVZ3YXFLR3lhNVBwOHhvbDZQSkdLX0h5Y1NLbVZRV3JKSVY0MllmcTBlMnFEZGtlSm1GZE41Qlh5SGhIRXJvSU9BR2RCb0QyZEJIMjBBVF8zdHZidm5pUVZBOFI1VVVxRnhpZWMwR1dFb1lZeFF0dEM0Mk5iQ0JBakZlemp0TWd4N3h0WHJQcGd0d2ZpV3MzaWFoVVJ2TXJreWhHZjZwNg?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-07-26T19:55:16.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Is It Really Safe to Invest in the Vanguard S&P 500 ETF Right Now? Here's What History Says. - The Globe and Mail",
+              "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPRlpJZWtMNmQ4eEEybjJIT1R0OEZWbXAxYUpzc1B6X041NV9yUUcxdkNtaUx6RWFmRXU4TFJ5dlRCSnFleGlUQjcyd3g0alRqbWU4Mk1UQlhQS3NIOTFCbTlvc01KZmN6MGFRNnBRVm5PYlRBZXlBam5BV1VYZU11bXg5NFdSdWZjaml3aWNyVnhMWVBtRWdydEpjcnRNY0hYNWFFNFEwczNPWWwwd3E1dWh3MWJHZzVXblVIaFc0T1BlTEdBYmgxblR1YUUtelJwcWdLNnAwaklhQkZjUDZNcl9NSVlpNTlBY1hHM2IxT3hWWWxzWjNmR2tsZFFaZndLQ3VxYk5R?oc=5",
+              "source": "The Globe and Mail",
+              "publishedAt": "2026-07-26T17:22:49.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": []
         },
         {
           "symbol": "UFO",
           "name": "Procure Space ETF",
           "type": "etf",
           "yahoo": "UFO",
+          "cik": null,
           "quote": {
             "price": 42.86,
             "prevClose": 43.83,
@@ -687,9 +2564,497 @@
             "asOf": "2026-07-29T20:00:00.000Z",
             "currency": "USD",
             "exchange": "NGM"
-          }
+          },
+          "news": [
+            {
+              "title": "UFO ETF: The Space Economy Is Moving From Ambition To Execution (NASDAQ:UFO) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTy1iQkZYWXBWOGJfaDUtR3AwQlg0OTRYMG1IWDZscllZNHE1eTJPb20xa3NLX2dMTTA1NkhMamdpVGlqQ1dBSXdEaVVBazVXT011M1VWZ1NiaU1oSFlTRVNoNGF6VDZTOG1SRmFCbTVscUx6VktYY3hTNm1STms2dWdscE53bTNzWUlvZG00R0E2b1h1Y2JwX3lPWVY5YlNjU1BtVndR?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-07-28T14:46:03.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "The UFO ETF Is Crashing Back to Earth as SpaceX Stock Treads Water Below $135 - Barchart.com",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYkFrMmRzc1lHZE01VXVkaC04TnhhOTFMbzhNeTdUZE0xdFhndmRmRzluV0U5Wk1jazlpMEdkLS1keW5Rd3hUOFByNExPc2JKUW9LZXVZb1Rjcnp1cHM4ZkpaeDhzdGwzcklfdlcwT0lmblBKRmItelhHOW9QS01Ud2xMdzRYXzdzOTAyT0p3M0poSVVXTG5YcjFWdlp4amo2Q0ZuM0hqUERxaVFueWtRMDRyRXJSWjJMMGE5ZQ?oc=5",
+              "source": "Barchart.com",
+              "publishedAt": "2026-07-21T07:00:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Roundhill Space & Technology ETF Down 6.1 - Moomoo",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOamhuTERPQXNmV2ZPR3NiMGRQQTE4V2c0cXF2NWJwY3dLTS02bXpoTmtfV1JkVV81cS1PaVVmZWN6VnpJT3JTZXQ2aDBFRk9LVlhhT1EtdEgzb2M0SkItNlNaZzZOenI0aXk3ZmV5WkNteEczV0c1eWlHbHMyRmlBb0tTRkJDNWZOM2Eta1F0TWJ5S3hTM2NlSXpBNWs3RUg5VkE?oc=5",
+              "source": "Moomoo",
+              "publishedAt": "2026-07-16T16:26:32.000Z",
+              "kind": "news"
+            }
+          ],
+          "filings": []
         }
       ]
+    }
+  ],
+  "latestNews": [
+    {
+      "title": "Microsoft (MSFT) Stock Jumps After Earnings as Azure Growth Hits 43%- Is AI Spending Paying Off? - Stocks Down Under",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XUE4yek9QNGYzVmxpZDVuRndyU1JxSm1MRF9RdThwQkdNTkJFWWh0cU4wMlk3SDNmaVctd1g5UHRxRjVxSlFsZlhha1d4NDM2cFNpQjM4UVlqQkh0TDhGaHRkTFdWbDllYm1zYlUtSkxfVXJlLTdORVFn?oc=5",
+      "source": "Stocks Down Under",
+      "publishedAt": "2026-07-29T20:47:00.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "Robinhood Markets earnings beat by $0.20, revenue topped estimates - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZlE0SWFLMGNUNTJvcjNmNWV0S3JveFI3Q3p3dVhYclo1OEI4eGoyVXZ5M3QzeTlDRnRqNmZyeXp6ZzliMVlfbU5pVXlfYXFqb1dJdmVodk1La3VzUkdsUUNIWG5ybG9SSWRMRXktNlR0RHM1bEJwR2lkTExHem5iWFRFZ3hPTC1FbW5ZNjQtSWoxS1ZuaHNyU3p6aEVscVNzQmNvT0FMdDlfVzJTeW45cw?oc=5",
+      "source": "Investing.com",
+      "publishedAt": "2026-07-29T20:38:42.000Z",
+      "kind": "news",
+      "symbol": "HOOD"
+    },
+    {
+      "title": "Robinhood's latest earnings beat Wall Street estimates - thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObXVYMHpHMUpGcmYzSGExdWZOMGVma0QydmpETElZcXNSVTlSb2VDZUpxWkkzb0ZSY1ZjSDVtXzk0VDBKc1Z3ZndsU1poRi1CaTFobXc2MGJIa0ZyVlYtTUtaNU1BeEx1M2dRVkM3SEsyY1NKMnE4SjBjSkRyS3hjejE2cTJIQ21jZ2dnWGRRMFNWbnRsYkQ1QnpB?oc=5",
+      "source": "thestreet.com",
+      "publishedAt": "2026-07-29T20:37:56.000Z",
+      "kind": "news",
+      "symbol": "HOOD"
+    },
+    {
+      "title": "After-Hours Stock Movers: META, MSFT, CMG, SBUX, CVNA, LRCX, FTNT, QCOM, TDOC - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMW5HVmFNckNrc3FmYUw5dFd6UUpINkctSUF2a1dLbnRsMEV3RW9Sc2YtbGhZRkp3ZHd3YzcwSjN1NWdXbEdDdnBMa3pORXMzUFNXX2NRMFY3RGU2cjRvR296dzdIWkIyaFFsMEdLSllyZWxkS3FSb3h0NHBEMHpBaXlSNUc3UGNEbElkellOazRGcTY3N3RmWkZKc0I3VzdRYTI0ME5tV040VkU3ZmptOS1DVVF5NFBXNjJvQWtFMXJ3S1hPNk5EdmhB?oc=5",
+      "source": "Investing.com",
+      "publishedAt": "2026-07-29T20:37:31.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "Microsoft Shares Rise Over 4% as Q4 Azure Revenue Beats and Commercial RPO Surges 84% - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMDNYTTZjS2VCWUhPbEptQ3p2blhVRDRnQmhFMzBEX2VPQ0FSYXdXTWQxTkdBdDh6X3I2ZjRLUGNXT2Z1Wk1IbTBqNlJhdk5NX1c4LUlRcDQ3OF9ZQUpxd1ZvT3o0cllqWmV5Zl81Y1c0c2NLa0ZpbGJtcEpLbC14cHV6OXFwZGlMMlFJTVNnbVcybkRoaGxrRlZCT0xUR0xFNUd6X0pqVVVPMC1LZjQwazVwMk9zTkZGbVRHNndsWktPRDdIZ0hGZmZkM1c2NjNhNWJacENBTmMzcnJZdGtz?oc=5",
+      "source": "TradingKey",
+      "publishedAt": "2026-07-29T20:37:30.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "D-Wave quantum EVP Ames sells $52,041 in stock - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMjRSc3g4eVNtSy1URGEwd25RdXBGSkw4M01iM0ljaktlOG12emFHYkpwbzZsUmRNRTNMQVVwWkVKVjVaWUJKZjdwTmY3c1BRTkVWN0dodVhKZldON0RabXJEc1Z1aWlWaFZlWVlqLXV0NWFZQm5FOFJoQVNtMHNrX19RTHFXODRzeVo4QnkxcjkxTWVNWDhaaEhMam9tdTFFc2tZSi1SOE40b3Jn?oc=5",
+      "source": "Investing.com",
+      "publishedAt": "2026-07-29T20:32:37.000Z",
+      "kind": "news",
+      "symbol": "QBTS"
+    },
+    {
+      "title": "Robinhood Q2 earnings, revenue beat as equities, options trading shine (HOOD:NASDAQ) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUjAwX3hwOHBLVDFxSlA5RnJCM0lUcTlKUlJlV1pEUEhDemp1UFpMZ1REVzkwLUs4VVRIbV9KRjdXRE5YUWhqOURmUGRGU1B6TWVWS0xHQWNqT25UR0RwbzNscndVODM5Vzc4WGdNM3BSWmJ1OW5HSEsxUFA4RmRLMmdWNU5PLUJCNmR2MzROeEhOWWFBMlV6VzJDWTh2NFpQQU12dVRSYTVUUQ?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-07-29T20:26:48.000Z",
+      "kind": "news",
+      "symbol": "HOOD"
+    },
+    {
+      "title": "Robinhood Stock Climbs After Q2 Report Shows Record Revenues and More - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNS3J5ZnZjYnRQSnFmZTd4U1Y0dGpwVF82UmVodGQ3OUNzWmNDb2RKdVlZclE5TmVpYTVsZWRmRW5xb2l6YWp5UkNSQlJqakp5RE5wcjZyeGc4OTZqN3ItZjFWUzF3amNLaFNQNmhKc2oyYWgxeXRhaXk0UnNKNXJsYWlCU1FZNy1yZGVHc3NCREdDTXVWakRwaTFoQzV4Tk03ajVTd0JIUmFEVy1kb19TbDVxMlZCa1FmN0gxVkgxTnItXzh2?oc=5",
+      "source": "Benzinga",
+      "publishedAt": "2026-07-29T20:25:38.000Z",
+      "kind": "news",
+      "symbol": "HOOD"
+    },
+    {
+      "title": "Nvidia, Micron, AMD sink after SK Hynix results fail to impress, AI trade unwinds - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWUlxWFJRejR0OTFqbFpPV2lDZG52eHl2ZldZTGxTTENpVmV5bUNKbm1iQmtMRVROblBJVDNOcjhaNUlBUHRFbnFFVDRMSDNCQzNhbkl3ajNoUmQ5ZGpFNkpRV3E0VFkza3NJbVF5VzVmRl85VG5lbUhwN3dqV19uUkwxakp6ekxkeFluWXNWcS0wS0xsMXRqQ0Q2VzE1U2hid3BXRkhLVTFOZm9aRGVqai1OVF9HWW85VWpxVzFHaG92VU0wRi01bGlHc3dLNWRq?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-29T20:24:43.000Z",
+      "kind": "news",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "Form 4 D Wave Quantum Inc For: 29 July By Investing.com - Investing.com Canada",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWVsRU9vVlF1S2dlZ3ZZRWdzQTVrMDJpT0MyWUJYRTBwckh1RXFISm9Cd1V3dGsyOGpPZWVUdHBGRGdBZzVRS3cyV3NaTmY5bFN2M1V6U2V6NVA2M204cXkzbkVtOTdpbkFkREVpTTZLMzdVVk9neEN5cEpkcEdybDZPTkM4LWU0ZjFYNEJJRGdBQWFpSXp1ZmZHU3J2RXM?oc=5",
+      "source": "Investing.com Canada",
+      "publishedAt": "2026-07-29T20:23:48.000Z",
+      "kind": "news",
+      "symbol": "QBTS"
+    },
+    {
+      "title": "Microsoft’s (NASDAQ:MSFT) Q2 CY2026: Beats On Revenue - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkp6cURjV3hfdFZaellEbDhPQ3AxQlp3Qm5tMlZXb21kX3AxendFMjdjZmFHam9fRlVpS3dxQVRaa1V2WGpFTXN5bzdDUkZCQnRjcTMwMWl2aUU0YzNNQ1JPdThlemFEWFFaUm5UWjNzbTNBZU1wekFoZlUxNGFYbUxIa1BHQ3M1T2JYcnY0dWRZTTFIeUcxM2hoZUowVDhNY3NlcFJZU0tQUnUwc0NVWg?oc=5",
+      "source": "TradingView",
+      "publishedAt": "2026-07-29T20:23:45.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "Robinhood Crypto Revenue Tops Estimates Despite 38% Drop, How Will Stock React? - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZTEIyNFlLV1p1dVB0R2J4UWdTdEFKUG5XdmNPT3E2cWhIVGdOdFl5Y2tRNUt6bWotQUF6YWRwNkZlWXZ4NGxqRi10QnlmN1lvTm12UnA5VElaRU1RaGctWl8tNXpEdVFCSGxadFZaWVRHb1ROREE?oc=5",
+      "source": "BeInCrypto",
+      "publishedAt": "2026-07-29T20:23:00.000Z",
+      "kind": "news",
+      "symbol": "HOOD"
+    },
+    {
+      "title": "D-Wave Quantum: A Company That Makes Money on Quantum Computing, Yet Its Stock Keeps Falling - ad-hoc-news.de",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUFRtTU0tRGUtOTQ1TU5EbGt6Mi12cUNSZ0R5SWxtWkpnWnlsWkp4dWdvSU4xbkpobXNpWnJZMUpUd01BTzViS2Z6ZXhibVNyUEJneHVGbVI0Z3FEYjREbEpzakRQWWxFVUNyZDI3eVZHU0dEWDRwcjRZMnB1N3dYTGxqXzFFZ3lNZzZpenR4UWdGb3F4cDQ0akZzU2N3aVp4UUhwQmpOcy10T0JJdkdNNzN2bEowRXFPNUFOZGVSa29mQ204RWdxbkNqb3FhYUlTaXFWNEdBUjNCQQ?oc=5",
+      "source": "ad-hoc-news.de",
+      "publishedAt": "2026-07-29T20:22:55.000Z",
+      "kind": "news",
+      "symbol": "QBTS"
+    },
+    {
+      "title": "Microsoft Q4 Earnings Highlights: 14th Straight Double Beat, Cloud Revenue Up 27% - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZE9rVGQ2enoxZ3BVTFdieXk0YngyTUZteGFESkVvMG1HSnkwWGRnY0ZOQ0ZHOVFlRVFwb3hkUm9rSURwc2VLZWFnSjNEa1FjWlFhbjRDbUhfMVVPT1RMNmFTZ2Z5UTg3SWFCZEUwMHBsQmFCZ2lWQUJKbTlKSG00MmpKd1YyYnNQVl9lLU5IaV83eGViTDlYeGlkZWQwNV9JN0YtcU1QZjMzeUNKX1hrbEMxdEd1R2pTNGF6d0JoWWVFMGJfNXFFUHB6UktBWF9s?oc=5",
+      "source": "Benzinga",
+      "publishedAt": "2026-07-29T20:22:53.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "Robinhood Earnings: What the Numbers Say - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43VmQwVGwwZkNTSWNRMFNPTWZXUTJkNDRJRnRrQmcxU2hmTmVSUHIxUHpJNXFRMWJVQlE0T3h2dE5GUWhocGRRdXBjVzhVVUxlTW9vb054RmkxVjZsSlJ4OHZldXBqX0QwVEx5eGJaazZKblRTRHhYUUhDNmw?oc=5",
+      "source": "Barron's",
+      "publishedAt": "2026-07-29T20:19:00.000Z",
+      "kind": "news",
+      "symbol": "HOOD"
+    },
+    {
+      "title": "NVIDIA Corp Stock (NVDA) Closed Down by 3.42% on Jul 29: Drivers Behind the Movement - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPckxkdm5Rak8zaGRzMjhwU0kzU1cyMWFHN0pxaDkwWVI0NjNsbEtWSWpRYzBmaC1VR054WUV4dWFsNE5qWU9VTnBoQlRjcG8xNk5DVmE5OExEWWIwZEEtd3ctV25ZaTZCeVFLREhGbHg2cEhPRWdTdFV1OTR1Z3BLN3VoOXZxd2YycUs4?oc=5",
+      "source": "TradingKey",
+      "publishedAt": "2026-07-29T20:15:53.000Z",
+      "kind": "news",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "Microsoft Smashes June-Quarter Targets On AI, Cloud Strength - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcVYyMk5NeVllNWtoSTdFLWVaRlJveVNFYUdKVU9abkpHdDJWUGpqYXMwMmwwRFlqRXZOQUtLX29FVWFyQWdud2hlbVVIeVAzRGlrUC1TTW90RE1uN05sWm1XaW12VTVaaEV6cUdSWmJNZDUtTG5GcHZHeWZ6NVhjWkJDU1czelhTc0ZJbURPY1Q?oc=5",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-29T20:14:00.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "Microsoft tops Q4 expectations, on strong Azure growth - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZlo4VXVnTThoN29VZHdoNDE2UXRJb0cwX3hTLVA4WjYwdWM2cmd3Ri1maVgxb2dvOHItZWlRVHBuWEFiVWl4a2gtdUx5SC16dmF1M0thdzlnQUxSVUVnS3BZeXlqMlowd1ljNl9VNVZ3Qlo1Y21palNWcEhuVC1GRzlUVmYxOGFwZ0ZKaG1aV2ZvUUNJRnlYVnBaQ3dWR2VCN0s1TA?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "publishedAt": "2026-07-29T20:12:55.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "Microsoft Beats Wall Street Expectations, With 31% Jump in Profits - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaDkyU1ptM2xGN2M5QUJtclpSMFJtQVd4VlZJeTJKbXJPb2Q4cW1VUlZubjVoQ291MnB3T3AwT1RQcENGTmtEVHB3bUNsTzBRRjlHTjQ0dGpabWpZM3pZTGlIcjNGcGRTdDlDc2tCc01QYUxtaXpHREFvSWV6VC1Nbw?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-07-29T20:12:00.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "Nvidia’s $5 Billion SSI Bet Could Protect Its Post-LLM Lead (NASDAQ:NVDA) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeXIyRFIyd1pBSzg3RE92eV9OZkhSb1ptY3ZBdEZBMW9VWUVESVNHNE8xQllnWFdYbnIyUGROdFFiSDZRV3NFVWJLRzdkbXVBbWI1NXdQU1hpTnE4WDg1RUtvNk15ZUZPNEJ1aUhKZUFmMjJ5UnJLLWJMdG5RQ1NndC1wRVlQMG05TTZRSXJGbHJDWk5pUHNEZHJwSVRBUQ?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-07-29T20:05:58.000Z",
+      "kind": "news",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "ETH price range on Jul 30, 2026 at 5pm EDT Crypto Prediction Market - Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNHNhRnk3SFV1NXhTWGhvdDE2OEFZOGJ1LUZTMS1vZURyWGd2UndsUlY0R085TGs3THh2QkdIZUxEOHBuLTFqRmxkcUp2MktwX2dUYzRFR1ljYW5wS2M3cW1HQ05QWms3aVprSFpOa0VKMzlmUVMtdWM5ZGlBeVJ5MUY3eU45ekZ3cWgxUktmanpMWHgtV3BLV0RpdHBHNS04YmFYSHlUcENPMC1Ba1ZESmJlN1Q2Zw?oc=5",
+      "source": "Robinhood",
+      "publishedAt": "2026-07-29T20:03:45.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    },
+    {
+      "title": "XRP price at Jul 30, 2026 at 5pm EDT? Crypto Prediction Market - Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUUc0V3Zfb0ZwelZjOGR1MjcwSnJrWGRWM3YzYnk4S3RNcUJ3QzVQSjdjVTNOc2J0T3RwcGFtR2tfSUdHRFpneEstbFFOaFFIekM1UGY5dXhadzlyV0pPbXlob1FzOFB1VjJya3ZCUU5keE1oRkdmU3A1XzhZUGJYNHFOZUlQNVM3VzBtdmE4dEZ5NDBsQkJQOWVKdXFsV25MMkdVY2U4T2VQeXBnM2c?oc=5",
+      "source": "Robinhood",
+      "publishedAt": "2026-07-29T20:03:45.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
+      "title": "Amazon (AMZN) Tops The Fortune Global 500 After Ending Walmart's 12 Year Run - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYV9Dajlhb1kxMVJkN19SVk81dXJwdU9GM2pEdnZMSThBdnlONkt0c1pzcHRFbGpXSV9uZXRaTWNKOHFkZjQzZjZZN3VFeXBwYmlsTm9Hb04zOTVlV2NJb1VUNnZGdzFfMUlIQUNXSHdId0tOSjZIc1c1aF9UQVA2bEVxV1NybFJKRXRPSmRjNUIzVFVNdGgwdE5VbjdJTkdIM0V1c2dUeUFqWFdNTlhhYVEtcVdWbHh1dGxERDU0QmZKaFRC0gHKAUFVX3lxTE1QS094WXFCeGNUSVpwZjhWQnVvRjhSMEU3dzI5QWY2b2hCcXdTUG40RGFwQTlPZWN2Mkg4dTlVQkhtN3Jac0MxQWJmMUczSURlZ2pIRnd3bXBwSXV4eGUtLWRBUUFXRlpQc09WWFpLSHJ0d3Y5ZE1KMmFDRWFvMUR4RF9zWFJKaXN4Qm1WaDBUeUZJbDVZY3p4VnZteVlyZ05EQmhOaDc2WEhtSHVrMGNlOGVsRmxLT1pGOUJsVEg0MUJHRG9POFlkSHc?oc=5",
+      "source": "simplywall.st",
+      "publishedAt": "2026-07-29T19:35:01.000Z",
+      "kind": "news",
+      "symbol": "AMZN"
+    },
+    {
+      "title": "Ethereum Price Forecast: Can Fed decision unsettle the calmness in ETH? - fxstreet.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObVQ2WXFUYjExQTVWR3BzZldBRFZSV0dwanpmdFdXd2JKcTljSW80b0ZWVkd5cklFNzRRbjNrdzgwTmtXOFFuUV9fLU50U0N6dUF4MHRWalh2dTNKM2d0ZnJfVWpYS0NMSHF4eng2NFNTdjdYY1NiWS1kTEZCU29QTXc4cnAtZ1RCVTdWTEFOSlA2VVNTZDl3SllEWkdrdE5NOEdwNlF6d1JkTjdFZEZEZVB0ZVlCbDRUTzRmZF9Bakx6cDd3MlgwRA?oc=5",
+      "source": "fxstreet.com",
+      "publishedAt": "2026-07-29T19:32:32.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    },
+    {
+      "title": "Why Amazon’s Solid Q2 Won’t Be Enough to Lift AMZN Stock - Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTVNVbE1WYk9IWmtEdUdkS2k0UDh6bzBsWVZxMkNLQ1pnV3M1aUp6VjlSVm50aUw4ekFvWFBOeUs4SGNSY0RqWF83cmNjRmdFdU13ei1HRWdEOW1STFF6QjJyMVE5R0ZoSElLSnRoc0s3QXU1NlpqejJYRGxvVjE4WVZhTmN1SWtNcnlSbll1dDltQ2pTT0EwSmZoX1RySWM?oc=5",
+      "source": "Barchart.com",
+      "publishedAt": "2026-07-29T19:28:05.000Z",
+      "kind": "news",
+      "symbol": "AMZN"
+    },
+    {
+      "title": "Robinhood Stock Dips Ahead of Q2 Earnings Report - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeVZlUngzTFU4c2hCOHZYZG0wd0Y3bHFXVy1EQU12aXBWdkVlaUxQZUoxQ1hfRmRKZTVYY1FRTUg4QlFvYjR0a3F4bmtwTXdhSkFvTEhIR01PWW8zN01JX2RuaEpWTjZvT2pvQWlEM0c5NXJpVlU0RVU4QjRNeFFIRTNQWkx0QzJSNFZIalVTNUpySE0tcW5OTnZpSTgwVEV0aXFCc0p6T1BPRGFJTEE?oc=5",
+      "source": "Benzinga",
+      "publishedAt": "2026-07-29T19:24:04.000Z",
+      "kind": "news",
+      "symbol": "HOOD"
+    },
+    {
+      "title": "SoFi Earnings: Shares Trading Lower as Market Overlooks Strong Fundamentals - Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWm9sc25oUGhaWmNNUm9LVkx5eDVvV3hibVRnNjZpbVFRcjVMQ1o0NS1KUGltUnkzS0xsaU9NdXlnRGJISXN2ZXdnbndUZWJIOV9qc2pmZ3FmbDBSMGljemkyakhOSFo5TW5EYnlmd0owOU1iS2FfSVo5SjFXM1lnT0dNcENad1RaYUY1U2FsbHFnM0NLTHozeVEyOU5XeEtqQ2djYTd4SFVfQQ?oc=5",
+      "source": "Morningstar",
+      "publishedAt": "2026-07-29T19:19:26.000Z",
+      "kind": "news",
+      "symbol": "SOFI"
+    },
+    {
+      "title": "SoFi Earnings Growth Soars, Stock Drops - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUGhoV21DV1lVbjNwZnFmUUhjaG12ZGtFVWo1Z3ltT2w5WFlEemVrN1ZwTndhVk1iVEg3Y0trY0V3ODktY2xtcFgzLVZJNGVxLTdYRE1NanFJSWlLMy1UbEFuSjJSdENqejYxNExBTXpaazZ5NVJwZ3VvY3NBSzZUdHYwOElRTjg?oc=5",
+      "source": "Barron's",
+      "publishedAt": "2026-07-29T19:17:00.000Z",
+      "kind": "news",
+      "symbol": "SOFI"
+    },
+    {
+      "title": "Ethereum Price Prediction: Can ETH Reach $2,050 After Morgan Stanley Lists Its New ETP? - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2ZXZqNHk1X2ZmN3k3enB2d29jbnV2d2czMnhtUVdNVkplam9hWTJ3ZmtTYkhJM3FXTUh0WlB5dllVRTA4ZGFKa2JtYVRBMFdDcTFNT255NnNBdw?oc=5",
+      "source": "Cryptonews.net",
+      "publishedAt": "2026-07-29T19:11:27.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    },
+    {
+      "title": "Current price of Ethereum for July 29, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JS0NoWDRUbzdTNjJyQ0FKcGlTR2JrcUgzOUFSc2pvOGNGd0E4T0kya3ZqSkJQcFJTMTEyTjUzWEVvU2RBUkdCYmZRbndpUUNJZmRLOUdja2hfV1o4MzNKSGRjUExPdWVz?oc=5",
+      "source": "Fortune",
+      "publishedAt": "2026-07-29T19:09:57.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    }
+  ],
+  "latestFilings": [
+    {
+      "title": "144 — Alphabet Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000195004726007407/xsl144X01/primary_doc.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-29T16:20:51.000Z",
+      "kind": "filing",
+      "form": "144",
+      "desc": "",
+      "explain": "Notice of a proposed sale of restricted/insider stock.",
+      "symbol": "GOOGL"
+    },
+    {
+      "title": "10-K — MICROSOFT CORP (10-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-29T16:08:01.000Z",
+      "kind": "filing",
+      "form": "10-K",
+      "desc": "10-K",
+      "explain": "Annual report — audited financials and a full business review.",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "8-K — Robinhood Markets, Inc. (8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000113/hood-20260729.htm",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-29T16:05:14.000Z",
+      "kind": "filing",
+      "form": "8-K",
+      "desc": "8-K",
+      "explain": "Material event — a significant development the company must disclose promptly.",
+      "symbol": "HOOD"
+    },
+    {
+      "title": "8-K — MICROSOFT CORP (8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-29T16:04:53.000Z",
+      "kind": "filing",
+      "form": "8-K",
+      "desc": "8-K",
+      "explain": "Material event — a significant development the company must disclose promptly.",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "SCHEDULE 13G/A — D-Wave Quantum Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1907982/000201238326002797/xslSCHEDULE_13G_X02/primary_doc.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-29T15:19:52.000Z",
+      "kind": "filing",
+      "form": "SCHEDULE 13G/A",
+      "desc": "",
+      "explain": "Passive stake — a >5% holder with no control intent. (amended).",
+      "symbol": "QBTS"
+    },
+    {
+      "title": "8-K — SoFi Technologies, Inc. (8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000050/sofi-20260729.htm",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-29T07:06:09.000Z",
+      "kind": "filing",
+      "form": "8-K",
+      "desc": "8-K",
+      "explain": "Material event — a significant development the company must disclose promptly.",
+      "symbol": "SOFI"
+    },
+    {
+      "title": "4 — Alphabet Inc. (4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321684/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-28T20:00:38.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "GOOGL"
+    },
+    {
+      "title": "4 — Alphabet Inc. (4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321683/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-28T20:00:06.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "GOOGL"
+    },
+    {
+      "title": "4 — Alphabet Inc. (4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321678/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-28T19:59:52.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "GOOGL"
+    },
+    {
+      "title": "4 — Alphabet Inc. (4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321676/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-28T19:59:23.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "GOOGL"
+    },
+    {
+      "title": "4 — Alphabet Inc. (4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321674/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-28T19:58:47.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "GOOGL"
+    },
+    {
+      "title": "4 — Alphabet Inc. (4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526321672/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-28T19:57:22.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "GOOGL"
+    },
+    {
+      "title": "4 — Robinhood Markets, Inc. (FORM 4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000104/xslF345X06/wk-form4_1785273623.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-28T17:20:25.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "FORM 4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "HOOD"
+    },
+    {
+      "title": "4 — Robinhood Markets, Inc. (FORM 4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1783879/000187091426000021/xslF345X06/wk-form4_1785271065.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-28T16:37:48.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "FORM 4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "HOOD"
+    },
+    {
+      "title": "4 — Strategy Inc (4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526321074/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-28T16:30:04.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "MSTR"
+    },
+    {
+      "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818874/000119646026000004/xslF345X06/wk-form4_1785193365.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-27T23:02:48.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "FORM 4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "SOFI"
+    },
+    {
+      "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818874/000186616126000004/xslF345X06/wk-form4_1785193327.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-27T23:02:10.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "FORM 4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "SOFI"
+    },
+    {
+      "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818874/000189257926000006/xslF345X06/wk-form4_1785193302.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-27T23:01:45.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "FORM 4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "SOFI"
+    },
+    {
+      "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818874/000146083526000002/xslF345X06/wk-form4_1785193272.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-27T23:01:15.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "FORM 4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "SOFI"
+    },
+    {
+      "title": "4 — SoFi Technologies, Inc. (FORM 4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818874/000188760126000006/xslF345X06/wk-form4_1785193222.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-27T23:00:25.000Z",
+      "kind": "filing",
+      "form": "4",
+      "desc": "FORM 4",
+      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
+      "symbol": "SOFI"
     }
   ],
   "errors": []

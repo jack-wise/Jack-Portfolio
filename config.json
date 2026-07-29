@@ -1,22 +1,22 @@
 {
   "siteTitle": "Jack Portfolio",
-  "tagline": "Live prices across both portfolios, refreshed automatically",
+  "tagline": "Live prices, news, and SEC filings across both portfolios",
   "portfolios": [
     {
       "key": "individual",
       "name": "Individual",
       "note": "Personal brokerage + crypto",
       "holdings": [
-        { "symbol": "FRMI", "name": "Fermi Inc.", "type": "stock" },
-        { "symbol": "MSTR", "name": "Strategy (MicroStrategy)", "type": "stock" },
-        { "symbol": "NVDA", "name": "NVIDIA", "type": "stock" },
-        { "symbol": "GOOGL", "name": "Alphabet", "type": "stock" },
-        { "symbol": "AMZN", "name": "Amazon", "type": "stock" },
-        { "symbol": "SOFI", "name": "SoFi Technologies", "type": "stock" },
-        { "symbol": "HOOD", "name": "Robinhood Markets", "type": "stock" },
-        { "symbol": "QBTS", "name": "D-Wave Quantum", "type": "stock" },
-        { "symbol": "ETH", "name": "Ethereum", "type": "crypto", "yahoo": "ETH-USD" },
-        { "symbol": "XRP", "name": "XRP", "type": "crypto", "yahoo": "XRP-USD" }
+        { "symbol": "FRMI", "name": "Fermi Inc.", "type": "stock", "cik": "0002071778", "newsQuery": "\"Fermi Inc\" OR FRMI OR \"Fermi America\"" },
+        { "symbol": "MSTR", "name": "Strategy (MicroStrategy)", "type": "stock", "cik": "0001050446", "newsQuery": "MicroStrategy OR \"Strategy MSTR\" bitcoin stock" },
+        { "symbol": "NVDA", "name": "NVIDIA", "type": "stock", "cik": "0001045810", "newsQuery": "NVIDIA OR NVDA stock" },
+        { "symbol": "GOOGL", "name": "Alphabet", "type": "stock", "cik": "0001652044", "newsQuery": "Alphabet OR Google GOOGL stock" },
+        { "symbol": "AMZN", "name": "Amazon", "type": "stock", "cik": "0001018724", "newsQuery": "Amazon OR AMZN stock" },
+        { "symbol": "SOFI", "name": "SoFi Technologies", "type": "stock", "cik": "0001818874", "newsQuery": "SoFi OR SOFI Technologies stock" },
+        { "symbol": "HOOD", "name": "Robinhood Markets", "type": "stock", "cik": "0001783879", "newsQuery": "Robinhood OR HOOD Markets stock" },
+        { "symbol": "QBTS", "name": "D-Wave Quantum", "type": "stock", "cik": "0001907982", "newsQuery": "\"D-Wave Quantum\" OR QBTS" },
+        { "symbol": "ETH", "name": "Ethereum", "type": "crypto", "yahoo": "ETH-USD", "newsQuery": "Ethereum OR ETH crypto price" },
+        { "symbol": "XRP", "name": "XRP", "type": "crypto", "yahoo": "XRP-USD", "newsQuery": "XRP OR Ripple crypto price" }
       ]
     },
     {
@@ -24,12 +24,12 @@
       "name": "Joint",
       "note": "Shared account",
       "holdings": [
-        { "symbol": "PLTR", "name": "Palantir Technologies", "type": "stock" },
-        { "symbol": "MSTR", "name": "Strategy (MicroStrategy)", "type": "stock" },
-        { "symbol": "MSFT", "name": "Microsoft", "type": "stock" },
-        { "symbol": "GOOGL", "name": "Alphabet", "type": "stock" },
-        { "symbol": "VOO", "name": "Vanguard S&P 500 ETF", "type": "etf" },
-        { "symbol": "UFO", "name": "Procure Space ETF", "type": "etf" }
+        { "symbol": "PLTR", "name": "Palantir Technologies", "type": "stock", "cik": "0001321655", "newsQuery": "Palantir OR PLTR stock" },
+        { "symbol": "MSTR", "name": "Strategy (MicroStrategy)", "type": "stock", "cik": "0001050446", "newsQuery": "MicroStrategy OR \"Strategy MSTR\" bitcoin stock" },
+        { "symbol": "MSFT", "name": "Microsoft", "type": "stock", "cik": "0000789019", "newsQuery": "Microsoft OR MSFT stock" },
+        { "symbol": "GOOGL", "name": "Alphabet", "type": "stock", "cik": "0001652044", "newsQuery": "Alphabet OR Google GOOGL stock" },
+        { "symbol": "VOO", "name": "Vanguard S&P 500 ETF", "type": "etf", "newsQuery": "\"VOO\" Vanguard S&P 500 ETF" },
+        { "symbol": "UFO", "name": "Procure Space ETF", "type": "etf", "newsQuery": "\"Procure Space ETF\" OR \"UFO ETF\"" }
       ]
     }
   ]
