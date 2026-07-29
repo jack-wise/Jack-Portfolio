@@ -1,0 +1,47 @@
+# Refreshes live prices every 30 minutes and commits the data, which GitHub
+# Pages (serving /docs on main) picks up automatically. The collector is fully
+# keyless and dependency-free — no secrets or npm install needed.
+#
+# GitHub cron is best-effort (runs can start late); scheduled workflows pause
+# after ~60 days of repo inactivity, which the collector's own commits prevent.
+
+name: update-portfolio
+
+on:
+  schedule:
+    - cron: "3,33 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-portfolio
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Collect prices
+        run: node scripts/collect.mjs
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "portfolio-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "No changes this cycle."
+            exit 0
+          fi
+          git commit -m "data: refresh $(date -u +'%Y-%m-%dT%H:%MZ')"
+          git pull --rebase origin main
+          git push origin main
