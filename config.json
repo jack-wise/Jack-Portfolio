@@ -7,16 +7,16 @@
       "name": "Individual",
       "note": "Personal brokerage + crypto",
       "holdings": [
-        { "symbol": "FRMI", "name": "Fermi Inc.", "type": "stock", "cik": "0002071778", "newsQuery": "\"Fermi Inc\" OR FRMI OR \"Fermi America\"" },
-        { "symbol": "MSTR", "name": "Strategy (MicroStrategy)", "type": "stock", "cik": "0001050446", "newsQuery": "MicroStrategy OR \"Strategy MSTR\" bitcoin stock" },
-        { "symbol": "NVDA", "name": "NVIDIA", "type": "stock", "cik": "0001045810", "newsQuery": "NVIDIA OR NVDA stock" },
-        { "symbol": "GOOGL", "name": "Alphabet", "type": "stock", "cik": "0001652044", "newsQuery": "Alphabet OR Google GOOGL stock" },
-        { "symbol": "AMZN", "name": "Amazon", "type": "stock", "cik": "0001018724", "newsQuery": "Amazon OR AMZN stock" },
-        { "symbol": "SOFI", "name": "SoFi Technologies", "type": "stock", "cik": "0001818874", "newsQuery": "SoFi OR SOFI Technologies stock" },
-        { "symbol": "HOOD", "name": "Robinhood Markets", "type": "stock", "cik": "0001783879", "newsQuery": "Robinhood OR HOOD Markets stock" },
-        { "symbol": "QBTS", "name": "D-Wave Quantum", "type": "stock", "cik": "0001907982", "newsQuery": "\"D-Wave Quantum\" OR QBTS" },
-        { "symbol": "ETH", "name": "Ethereum", "type": "crypto", "yahoo": "ETH-USD", "newsQuery": "Ethereum OR ETH crypto price" },
-        { "symbol": "XRP", "name": "XRP", "type": "crypto", "yahoo": "XRP-USD", "newsQuery": "XRP OR Ripple crypto price" }
+        { "symbol": "FRMI", "name": "Fermi Inc.", "type": "stock", "cik": "0002071778", "weight": 27.28, "newsQuery": "\"Fermi Inc\" OR FRMI OR \"Fermi America\"" },
+        { "symbol": "MSTR", "name": "Strategy (MicroStrategy)", "type": "stock", "cik": "0001050446", "weight": 14.54, "newsQuery": "MicroStrategy OR \"Strategy MSTR\" bitcoin stock" },
+        { "symbol": "NVDA", "name": "NVIDIA", "type": "stock", "cik": "0001045810", "weight": 9.37, "newsQuery": "NVIDIA OR NVDA stock" },
+        { "symbol": "GOOGL", "name": "Alphabet", "type": "stock", "cik": "0001652044", "weight": 10.84, "newsQuery": "Alphabet OR Google GOOGL stock" },
+        { "symbol": "AMZN", "name": "Amazon", "type": "stock", "cik": "0001018724", "weight": 5.74, "newsQuery": "Amazon OR AMZN stock" },
+        { "symbol": "SOFI", "name": "SoFi Technologies", "type": "stock", "cik": "0001818874", "weight": 11.86, "newsQuery": "SoFi OR SOFI Technologies stock" },
+        { "symbol": "HOOD", "name": "Robinhood Markets", "type": "stock", "cik": "0001783879", "weight": 5.75, "newsQuery": "Robinhood OR HOOD Markets stock" },
+        { "symbol": "QBTS", "name": "D-Wave Quantum", "type": "stock", "cik": "0001907982", "weight": 7.12, "newsQuery": "\"D-Wave Quantum\" OR QBTS" },
+        { "symbol": "ETH", "name": "Ethereum", "type": "crypto", "yahoo": "ETH-USD", "weight": 1.75, "newsQuery": "Ethereum OR ETH crypto price" },
+        { "symbol": "XRP", "name": "XRP", "type": "crypto", "yahoo": "XRP-USD", "weight": 1.50, "newsQuery": "XRP OR Ripple crypto price" }
       ]
     },
     {

@@ -256,6 +256,146 @@ function filingRow(item) {
   return a;
 }
 
+// ---- weighted treemap (Finviz-style map) ----------------------------------------
+
+const mapState = { pf: null, metric: "day" };
+
+// The metric a tile is colored by: today's % or the trailing-window %.
+function metricPct(h) {
+  if (!h.quote) return null;
+  return mapState.metric === "window" ? h.quote.windowChangePct : h.quote.changePct;
+}
+
+// Finviz-style heat color: neutral slate at 0, ramping to green up / red down,
+// clamped at ±3%. Unpriced holdings render neutral.
+function heatColor(pct) {
+  const neutral = [42, 47, 58], green = [34, 176, 102], red = [214, 66, 74];
+  if (!Number.isFinite(pct)) return `rgb(${neutral.join(",")})`;
+  const t = Math.max(-1, Math.min(1, pct / 3));
+  const target = t >= 0 ? green : red;
+  const f = Math.abs(t);
+  const c = [0, 1, 2].map((i) => Math.round(neutral[i] + (target[i] - neutral[i]) * f));
+  return `rgb(${c[0]},${c[1]},${c[2]})`;
+}
+
+// Squarified treemap (Bruls/Huizing/van Wijk): lay items into rows along the
+// shorter side, growing each row while it keeps aspect ratios closer to square.
+// Returns [{ ref, x, y, w, h }] in pixels.
+function squarify(items, X, Y, W, H) {
+  const out = [];
+  const pos = items.filter((i) => i.value > 0);
+  const total = pos.reduce((s, i) => s + i.value, 0);
+  if (!pos.length || total <= 0) return out;
+  const nodes = pos
+    .map((i) => ({ ref: i.ref, area: (i.value / total) * (W * H) }))
+    .sort((a, b) => b.area - a.area);
+
+  const worst = (row, rowArea, side) => {
+    const mx = Math.max(...row.map((r) => r.area));
+    const mn = Math.min(...row.map((r) => r.area));
+    const s2 = rowArea * rowArea, side2 = side * side;
+    return Math.max((side2 * mx) / s2, s2 / (side2 * mn));
+  };
+
+  let rect = { x: X, y: Y, w: W, h: H };
+  let i = 0;
+  while (i < nodes.length) {
+    const side = Math.min(rect.w, rect.h);
+    let row = [nodes[i]], rowArea = nodes[i].area, j = i + 1;
+    while (j < nodes.length) {
+      if (worst(row.concat(nodes[j]), rowArea + nodes[j].area, side) <= worst(row, rowArea, side)) {
+        row.push(nodes[j]); rowArea += nodes[j].area; j++;
+      } else break;
+    }
+    // Lay the row along the shorter side, then shrink the rect.
+    if (rect.w >= rect.h) {
+      const rw = rowArea / rect.h;
+      let cy = rect.y;
+      for (const n of row) { const rh = n.area / rw; out.push({ ref: n.ref, x: rect.x, y: cy, w: rw, h: rh }); cy += rh; }
+      rect = { x: rect.x + rw, y: rect.y, w: rect.w - rw, h: rect.h };
+    } else {
+      const rh = rowArea / rect.w;
+      let cx = rect.x;
+      for (const n of row) { const rw = n.area / rh; out.push({ ref: n.ref, x: cx, y: rect.y, w: rw, h: rh }); cx += rw; }
+      rect = { x: rect.x, y: rect.y + rh, w: rect.w, h: rect.h - rh };
+    }
+    i = j;
+  }
+  return out;
+}
+
+function renderMap() {
+  const container = document.getElementById("treemap");
+  if (!lastData || !container) return;
+  const pfs = lastData.portfolios ?? [];
+  if (!mapState.pf) mapState.pf = pfs[0]?.key ?? null;
+  const pf = pfs.find((p) => p.key === mapState.pf) ?? pfs[0];
+  if (!pf) return;
+  const holdings = pf.holdings ?? [];
+  const n = holdings.length || 1;
+  const hasWeights = holdings.length > 0 && holdings.every((h) => Number.isFinite(h.weight));
+  document.getElementById("map-weight-note").textContent = hasWeights
+    ? ""
+    : "Equal-weighted — no weights set for this book yet.";
+
+  const items = holdings.map((h) => ({ ref: h, value: Number.isFinite(h.weight) ? h.weight : 100 / n }));
+  const W = container.clientWidth || 960;
+  const H = container.clientHeight || 560;
+  const rects = squarify(items, 0, 0, W, H);
+  const GAP = 2;
+
+  const tiles = rects.map((r) => {
+    const h = r.ref;
+    const pct = metricPct(h);
+    const w = Math.max(0, r.w - GAP), ht = Math.max(0, r.h - GAP);
+    const tile = el("div", "tile");
+    tile.style.cssText = `left:${r.x}px;top:${r.y}px;width:${w}px;height:${ht}px;background:${heatColor(pct)}`;
+    tile.title = `${h.symbol} · ${h.name} · ${fmtPct(pct)} · ${Number.isFinite(h.weight) ? h.weight.toFixed(2) + "%" : "≈" + (100 / n).toFixed(1) + "%"}`;
+    tile.tabIndex = 0;
+    tile.setAttribute("role", "button");
+
+    const symSize = Math.max(9, Math.min(ht * 0.34, w / (h.symbol.length * 0.64), 34));
+    const sym = el("div", "tile-sym", h.symbol);
+    sym.style.fontSize = `${symSize}px`;
+    tile.appendChild(sym);
+    if (ht > 46 && w > 44 && Number.isFinite(pct)) {
+      const ch = el("div", "tile-ch", fmtPct(pct));
+      ch.style.fontSize = `${Math.max(9, Math.min(symSize * 0.5, 15))}px`;
+      tile.appendChild(ch);
+    }
+    if (ht > 78 && w > 56) {
+      const wt = el("div", "tile-wt", `${Number.isFinite(h.weight) ? h.weight.toFixed(2) : (100 / n).toFixed(1)}%`);
+      wt.style.fontSize = `${Math.max(8, Math.min(symSize * 0.4, 12))}px`;
+      tile.appendChild(wt);
+    }
+    const open = () => openDrawer(h.symbol);
+    tile.addEventListener("click", open);
+    tile.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+    return tile;
+  });
+  container.replaceChildren(...tiles);
+}
+
+// Portfolio + metric segmented controls.
+function setSegActive(group, btn) {
+  for (const b of group.querySelectorAll(".seg-btn")) b.classList.toggle("is-active", b === btn);
+}
+document.getElementById("map-metric").addEventListener("click", (e) => {
+  const btn = e.target.closest(".seg-btn");
+  if (!btn) return;
+  mapState.metric = btn.dataset.metric;
+  setSegActive(document.getElementById("map-metric"), btn);
+  renderMap();
+});
+// Re-lay the map on resize when it's the active view (debounced).
+let mapResizeTimer = null;
+addEventListener("resize", () => {
+  if (document.getElementById("panel-map")?.classList.contains("is-active")) {
+    clearTimeout(mapResizeTimer);
+    mapResizeTimer = setTimeout(renderMap, 150);
+  }
+});
+
 // ---- detail drawer --------------------------------------------------------------
 
 let drawerLastFocus = null;
@@ -377,6 +517,7 @@ function activateTab(name) {
     p.hidden = !on;
   }
   for (const a of document.querySelectorAll(".mast-nav a")) a.classList.toggle("is-active", a.dataset.nav === name);
+  if (name === "map") renderMap(); // measure + lay out now the panel is visible
 }
 for (const t of document.querySelectorAll(".tab")) t.addEventListener("click", () => activateTab(t.dataset.tab));
 for (const a of document.querySelectorAll(".mast-nav a")) a.addEventListener("click", () => activateTab(a.dataset.nav));
@@ -421,6 +562,20 @@ function render(data) {
   const filings = data.latestFilings ?? [];
   document.getElementById("filings-wire").replaceChildren(...filings.map(filingRow));
   document.getElementById("filings-empty").hidden = filings.length > 0;
+
+  // Map: portfolio selector (built from the data; active state preserved across polls).
+  if (!mapState.pf) mapState.pf = (data.portfolios ?? [])[0]?.key ?? null;
+  const pfSeg = document.getElementById("map-pf");
+  pfSeg.replaceChildren(
+    ...(data.portfolios ?? []).map((p) => {
+      const b = el("button", `seg-btn${p.key === mapState.pf ? " is-active" : ""}`, p.name);
+      b.dataset.pf = p.key;
+      b.addEventListener("click", () => { mapState.pf = p.key; setSegActive(pfSeg, b); renderMap(); });
+      return b;
+    }),
+  );
+  // If the map is the visible tab during a refresh, re-lay it with fresh data.
+  if (document.getElementById("panel-map").classList.contains("is-active")) renderMap();
 }
 
 const initialHolding = (new URLSearchParams(location.search).get("holding") || "").toUpperCase();
@@ -447,7 +602,7 @@ async function load() {
 
 // Deep-linkable tab: ?view=news / ?view=filings opens that panel on load.
 const initialView = new URLSearchParams(location.search).get("view");
-if (["holdings", "news", "filings"].includes(initialView)) activateTab(initialView);
+if (["holdings", "map", "news", "filings"].includes(initialView)) activateTab(initialView);
 
 load();
 setInterval(load, 5 * 60 * 1000);

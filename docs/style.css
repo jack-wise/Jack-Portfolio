@@ -177,6 +177,38 @@ a { color: inherit; text-decoration: none; }
 .card-tag b { color: var(--ink); font-weight: 600; }
 .card-noquote { font-size: 12px; color: var(--faint); font-style: italic; margin: 0; }
 
+/* ================= MAP (weighted treemap) ================= */
+
+.map-bar { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-bottom: 18px; }
+.map-note { margin: 0; max-width: 560px; }
+.map-controls { display: flex; gap: 10px; flex-wrap: wrap; }
+.seg { display: inline-flex; background: var(--surface); border: 1px solid var(--line); border-radius: 9px; padding: 3px; gap: 2px; }
+.seg-btn {
+  appearance: none; background: none; border: none; cursor: pointer;
+  font-family: var(--sans); font-size: 12.5px; font-weight: 500; color: var(--dim);
+  padding: 6px 13px; border-radius: 6px; transition: color 140ms, background 140ms; white-space: nowrap;
+}
+.seg-btn:hover { color: var(--ink); }
+.seg-btn.is-active { color: var(--ink); background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--line-2); }
+
+.treemap { position: relative; width: 100%; height: 560px; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--bg-2); }
+@media (max-width: 680px) { .treemap { height: 460px; } }
+.tile {
+  position: absolute; overflow: hidden; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  border: 1px solid rgba(6, 8, 12, 0.55); border-radius: 3px;
+  transition: filter 140ms ease, outline-color 140ms ease;
+  outline: 1.5px solid transparent; outline-offset: -1.5px;
+}
+.tile:hover { filter: brightness(1.14); outline-color: rgba(255, 255, 255, 0.85); z-index: 2; }
+.tile-sym { font-family: var(--serif); font-weight: 600; color: #fff; letter-spacing: -0.01em; line-height: 1; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+.tile-ch { font-family: var(--mono); font-weight: 500; color: rgba(255, 255, 255, 0.92); margin-top: 3px; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+.tile-wt { font-family: var(--mono); color: rgba(255, 255, 255, 0.72); margin-top: 2px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+
+.map-legend { display: flex; align-items: center; gap: 12px; margin-top: 16px; }
+.ml-label { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.ml-bar { flex: 1; max-width: 320px; height: 8px; border-radius: 4px; background: linear-gradient(90deg, #d6424a, #2a2f3a 50%, #22b066); }
+
 /* ================= WIRE (news + filings) ================= */
 
 .wire { border-top: 1px solid var(--line); }

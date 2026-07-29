@@ -106,6 +106,7 @@ async function main() {
         type: h.type ?? "stock",
         yahoo: yahooSymbol(h),
         cik: h.cik ?? null,
+        weight: Number.isFinite(h.weight) ? h.weight : null,
         quote: e.quote ?? null,
         news: e.news ?? [],
         filings: e.filings ?? [],

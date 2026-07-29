@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="stylesheet" href="style.css?v=3" />
 </head>
 <body>
 
@@ -54,6 +54,7 @@
     <div class="shell">
       <nav class="tabs" role="tablist" aria-label="Views">
         <button class="tab is-active" role="tab" aria-selected="true" data-tab="holdings">Holdings <span class="tab-c" id="tc-holdings"></span></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="map">Map</button>
         <button class="tab" role="tab" aria-selected="false" data-tab="news">News <span class="tab-c" id="tc-news"></span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="filings">Filings <span class="tab-c" id="tc-filings"></span></button>
       </nav>
@@ -64,6 +65,25 @@
   <main class="shell main">
     <section class="panel is-active" id="panel-holdings" role="tabpanel">
       <div id="holdings"><p class="empty" id="loading">Loading live data…</p></div>
+    </section>
+
+    <section class="panel" id="panel-map" role="tabpanel" hidden>
+      <div class="map-bar">
+        <p class="panel-note map-note">Tiles sized by <strong>portfolio weight</strong>, colored by price move. <span class="muted" id="map-weight-note"></span></p>
+        <div class="map-controls">
+          <div class="seg" id="map-pf" role="group" aria-label="Portfolio"></div>
+          <div class="seg" id="map-metric" role="group" aria-label="Color by">
+            <button class="seg-btn is-active" data-metric="day">Today</button>
+            <button class="seg-btn" data-metric="window">~1M</button>
+          </div>
+        </div>
+      </div>
+      <div class="treemap" id="treemap"></div>
+      <div class="map-legend">
+        <span class="ml-label">−3%</span>
+        <span class="ml-bar" aria-hidden="true"></span>
+        <span class="ml-label">+3%</span>
+      </div>
     </section>
 
     <section class="panel" id="panel-news" role="tabpanel" hidden>
@@ -107,6 +127,6 @@
   </div>
 
   <noscript><p class="shell empty">This dashboard needs JavaScript to render <code>data/portfolio.json</code>.</p></noscript>
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>

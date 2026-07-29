@@ -14,6 +14,9 @@ GitHub Actions (cron */30) ──► scripts/collect.mjs ──► docs/data/por
 - **Holdings** — every position as a card grouped by portfolio: last price, day
   change, trailing-window (~1mo) move, and an inline sparkline. Click a card for a
   **detail drawer** with its price stats, recent news, and SEC filings.
+- **Map** — a Finviz-style **squarified treemap**: tiles sized by portfolio
+  weight (`weight` in config), colored by price move (green up / red down),
+  toggle Today vs ~1M and Individual vs Joint. Click a tile to open its drawer.
 - **News** — a unified, deduplicated wire of every holding's recent headlines,
   newest first, tagged by ticker.
 - **Filings** — a unified SEC EDGAR feed across the equities, each with a
@@ -37,8 +40,9 @@ never anything actionable.
 
 - `portfolios[]` — each has a `key`, `name`, optional `note`, and `holdings[]`.
 - Each holding: `symbol`, `name`, `type` (`stock` | `etf` | `crypto`), a
-  `newsQuery` (Google News search), and — for equities — a `cik` (SEC EDGAR).
-  Crypto adds a `yahoo` override (e.g. `"yahoo": "ETH-USD"`).
+  `newsQuery` (Google News search), an optional `weight` (percent, for the Map),
+  and — for equities — a `cik` (SEC EDGAR). Crypto adds a `yahoo` override
+  (e.g. `"yahoo": "ETH-USD"`). A book with no weights renders equal-weighted.
 
 To add or remove a holding, edit `config.json`. New equities need their SEC CIK
 (look it up in `https://www.sec.gov/files/company_tickers.json`).
