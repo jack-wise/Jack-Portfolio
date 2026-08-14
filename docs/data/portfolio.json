@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T20:02:51.337Z",
+  "generatedAt": "2026-08-14T20:37:52.969Z",
   "siteTitle": "Jack Portfolio",
   "tagline": "Live prices, news, and SEC filings across both portfolios",
   "portfolios": [
@@ -22,7 +22,7 @@
           "symbol": "MSTR",
           "changePct": -4.18
         },
-        "avgChangePct": -1.29
+        "avgChangePct": -1.3
       },
       "holdings": [
         {
@@ -127,6 +127,16 @@
           ],
           "filings": [
             {
+              "title": "SCHEDULE 13G/A — Fermi Inc.",
+              "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026089998/xslSCHEDULE_13G_X02/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-08-14T16:01:03.000Z",
+              "kind": "filing",
+              "form": "SCHEDULE 13G/A",
+              "desc": "",
+              "explain": "Passive stake — a >5% holder with no control intent. (amended)."
+            },
+            {
               "title": "8-K — Fermi Inc. (CURRENT REPORT)",
               "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026089340/ea0302016-8k_fermi.htm",
               "source": "SEC EDGAR",
@@ -195,16 +205,6 @@
               "form": "8-K",
               "desc": "CURRENT REPORT",
               "explain": "Material event — a significant development the company must disclose promptly."
-            },
-            {
-              "title": "8-K — Fermi Inc. (CURRENT REPORT)",
-              "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026076788/ea0297535-8k_fermi.htm",
-              "source": "SEC EDGAR",
-              "publishedAt": "2026-07-09T21:11:38.000Z",
-              "kind": "filing",
-              "form": "8-K",
-              "desc": "CURRENT REPORT",
-              "explain": "Material event — a significant development the company must disclose promptly."
             }
           ]
         },
@@ -252,13 +252,6 @@
           },
           "news": [
             {
-              "title": "MicroStrategy sends harsh response to fresh MSCI delisting threat - Yahoo Finance Singapore",
-              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTXJ2YlhVeGFGRTVpZmRybEs1TEs1ZGlsUWRzRmdGS1p0b2d6OUtFTHJ1NXY1bmtUUkpiUWpEZnN4ZmNKV1lXWWNiLU1pQ29SajdDYjcyaW1HRUJ6ZF95cURBWXFPb0t1NTZzdkcwcWd5VDNBVEtvNE9qcUxmNi1yVUZ4cmJOYU92a3JxNWNzNndjQWc?oc=5",
-              "source": "Yahoo Finance Singapore",
-              "publishedAt": "2026-08-14T17:27:33.000Z",
-              "kind": "news"
-            },
-            {
               "title": "Why Strategy (MSTR) Shares Are Trading Lower Today - TradingView",
               "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNUtJRnk0NW40TWlDSUlKNDJkR0QtdWc5UjJPOEFIeUJZSF85UFc4U0VmRVpIYnhicU4tT0JlMTFCRnVTNHRqdDc0XzdhQnNvOV8yTUVzNWRJbFVBWWlXcUtCLW5qcEtmWDh2a3p6SEJUc1p2MlYxSHpNcTVSSmtsYnViQ2txSVZTMTYweE1BS09NQXhNRTNZT0JNblhaNWJ3cENVRUkwWmlLWmsxb2c?oc=5",
               "source": "TradingView",
@@ -266,10 +259,17 @@
               "kind": "news"
             },
             {
-              "title": "Strategy (MSTR) Falls as Bitcoin Slides and Investors Stay Focused on Treasury Losses - Quiver Quantitative",
+              "title": "Strategy (MSTR) Falls as Bitcoin Slides and Investors Stay Focused on Treasury Losses - quiverquant.com",
               "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNY3laWjBIMWo2aDhIZTZJMExaaDBiZ3N0LVpvUTlyRzh2Y2ZXc1d5VENfcWxsUDNvQWZyWUg3dWd0TDdWT0RuNFlvcjlqUDFQdlQxX1B4REdGVlNZS19jQkJMN213T2VuaWV1WjRhTTN2VXNQWnUtUGExM3hrR1Z4N3N3ZXdOYmtCcWFRZjB1VU80Q3hMb1RISzlrazViX081c2lHQnNSQXQ1blRhVDJ1cVFRT3JPWGg4UlA1bGVKVQ?oc=5",
-              "source": "Quiver Quantitative",
+              "source": "quiverquant.com",
               "publishedAt": "2026-08-14T14:52:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "MicroStrategy sends harsh response to fresh MSCI delisting threat - thestreet.com",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMG9laThsZ3Z3LVVob3RsbU03U1hCVzdYaGotYUNyRl96LUJRN0Z2N2stbFU1YjI5NVE4dThmOEc3ZE51c3IwQm5VSGpYd2VlM1RxWjZSUHplY29WcEF4T2MtNjNvTGw5Y3NkM3ZFWG1sQTV3dTNTMXFzbTJXZVltN1RUX2U4dWROdUpjNmxRZ0FLNnhYcG5iVi13Yld0aWhiUVRlMEZhTGxGZw?oc=5",
+              "source": "thestreet.com",
+              "publishedAt": "2026-08-14T14:27:33.000Z",
               "kind": "news"
             },
             {
@@ -301,14 +301,24 @@
               "kind": "news"
             },
             {
-              "title": "MicroStrategy stock down 75% but analysts see 1... - pluang.com",
+              "title": "MicroStrategy stock down 75% but analysts see 1... - Pluang",
               "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UMGVGSlJ0OS13Nk9HRG1KaWxBRzNtN1ZkY3Rac0plZDJvT25OVzVJdTVGcGp2ZFlIOHVoWkhGcERmTlhpTElpWWhGSGw4THRlQ3FKVVUydzdVWVd5T3pGOEpKZDljLU03WUZEMWYzU3JsLXNMSnFlaTlvczNldw?oc=5",
-              "source": "pluang.com",
+              "source": "Pluang",
               "publishedAt": "2026-08-11T14:09:19.000Z",
               "kind": "news"
             }
           ],
           "filings": [
+            {
+              "title": "FWP — Strategy Inc (FWP)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526352145/d169243dfwp.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-08-14T16:02:54.000Z",
+              "kind": "filing",
+              "form": "FWP",
+              "desc": "FWP",
+              "explain": "Free writing prospectus — supplemental material for an offering."
+            },
             {
               "title": "4 — Strategy Inc (4)",
               "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526342315/xslF345X06/ownership.xml",
@@ -378,16 +388,6 @@
               "form": "8-K/A",
               "desc": "8-K/A",
               "explain": "Material event — a significant development the company must disclose promptly. (amended)."
-            },
-            {
-              "title": "8-K — Strategy Inc (8-K)",
-              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000162828026051027/mstr-20260730.htm",
-              "source": "SEC EDGAR",
-              "publishedAt": "2026-07-30T20:00:23.000Z",
-              "kind": "filing",
-              "form": "8-K",
-              "desc": "8-K",
-              "explain": "Material event — a significant development the company must disclose promptly."
             }
           ]
         },
@@ -463,6 +463,13 @@
               "kind": "news"
             },
             {
+              "title": "Nvidia Will Report Q2 Earnings on August 26. Let’s Look at Who Owns NVDA Stock - TipRanks",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMzNjN0x4N1FjaVFja09MakVQREJxRWh6UlhWLUtKMFFEeFRtVENmbmpyTHNEYTYyN3VoWUFMSzA3ZWhONkhMVGF6UjdvejlweXZiX0dwT0ltWjR6V215VXZqMG01cEFLVmxWTG9mTUVVeFlPenlOMTRwYXlnbkg3eW9fQ0FXTUFaZ2FYa3FZM2pTRDlXVHhHam45aW1FaWlVOEtJdGJ2MlotQQ?oc=5",
+              "source": "TipRanks",
+              "publishedAt": "2026-08-14T15:58:12.000Z",
+              "kind": "news"
+            },
+            {
               "title": "Nvidia earnings preview: What’s next for Nvidia stock - Yahoo Finance",
               "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQU2FTeUdJNFFOUWFvLTllX3M4aGlfTjByUktJOFVCYlltUHZKcm5nNTBmQnhGd0Z0RDl6UlNkR2hJTl9fR3hkQTJ5aFZraWVhSHpVLXlEWVdHMVFnTXgtbDdaNlAxTWJFbFV2S2tXWGRXcnFlSHZyMXJiV3hLWk5DbGJKZk9PZm1VQmc?oc=5",
               "source": "Yahoo Finance",
@@ -477,21 +484,24 @@
               "kind": "news"
             },
             {
-              "title": "NVIDIA unveils $500B AI infrastructure financin... - pluang.com",
+              "title": "NVIDIA unveils $500B AI infrastructure financin... - Pluang",
               "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcy1DbnlGaDlUXzJudkxrZnFjYnRibnZLZkI3T1JBMjNzUGFSZDFJa0VxVWIxQlFKeEpvc3dXeWlFQjM3WldVeFl3cDFWV0E3Y1FZOWR5WVRhUGx2RGlYTks4a2R2TkduSXdIZ09fR01Nay10NldzYkMzZXZ5V0lrWVJIMU1yTnVpRmVmLVZjOWNUQTlUWkxfUTl3?oc=5",
-              "source": "pluang.com",
+              "source": "Pluang",
               "publishedAt": "2026-08-14T15:17:09.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "The $5.2 Trillion Company Just Asked Wall Street for $500 Billion More - 24/7 Wall St.",
-              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdExIMlI3ODkyTXhIMV9iOWt0N2M4SXF4RkJPWW54ZVkwZWhWMFMyakcyMjFfT2l3M3YwdzVsZldOWkpRX2lKVm9ZQzVacU5Oek5qTzRMV0Q3TjBtbEZzV3ZmRUotTlBQSm4xNzFLZUFqZ2N2ci00c0tPWEt5TUc2NDRQbXVOcnRVc1B3bW93YVhKZlEyRlBadmY5RnFQUmxPTy1qdkdOR1ktX1NnRXpoZU1B?oc=5",
-              "source": "24/7 Wall St.",
-              "publishedAt": "2026-08-14T15:00:33.000Z",
               "kind": "news"
             }
           ],
           "filings": [
+            {
+              "title": "13F-HR — NVIDIA CORP",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000065/xslForm13F_X02/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-08-14T16:19:53.000Z",
+              "kind": "filing",
+              "form": "13F-HR",
+              "desc": "",
+              "explain": "Institutional manager's quarterly holdings disclosure."
+            },
             {
               "title": "4 — NVIDIA CORP (FORM 4)",
               "url": "https://www.sec.gov/Archives/edgar/data/1045810/000131026426000008/xslF345X06/wk-form4_1786569187.xml",
@@ -561,16 +571,6 @@
               "form": "8-K",
               "desc": "8-K",
               "explain": "Material event — a significant development the company must disclose promptly."
-            },
-            {
-              "title": "4 — NVIDIA CORP (FORM 4)",
-              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000009/xslF345X06/wk-form4_1782767219.xml",
-              "source": "SEC EDGAR",
-              "publishedAt": "2026-06-29T21:07:02.000Z",
-              "kind": "filing",
-              "form": "4",
-              "desc": "FORM 4",
-              "explain": "Insider transaction — an officer/director/10% owner bought or sold shares."
             }
           ]
         },
@@ -822,9 +822,9 @@
               "kind": "news"
             },
             {
-              "title": "Amazon restocked the viral Wirkin bag—shop the $60 designer dupe - usatoday.com",
+              "title": "Amazon restocked the viral Wirkin bag—shop the $60 designer dupe - USA Today",
               "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeG1GTE81eHo5OGZrOFIyVEhycWJ6SjVSZXh5SzJjQkpDY0N0cUgza0VMQ2VfbHdZaUZCRHRRLWZlbWtUUlRCcHZkVHBfaU1FeHk3NUxNYWUwZ29MdGdsMElLdjFhX2VDM0tySTdVeUhzWW1zVFl0aE9JTnJFN0lFTnExbks3YVZDNVpvR1QwbGZlblNxNElLYk5FU2JhNlp5TWZYRU9pbDFwZ2hwcGhVWURxbzE3ZldnYk85Mg?oc=5",
-              "source": "usatoday.com",
+              "source": "USA Today",
               "publishedAt": "2026-08-14T17:29:00.000Z",
               "kind": "news"
             },
@@ -1026,9 +1026,9 @@
               "kind": "news"
             },
             {
-              "title": "SoFi Stock (SOFI) Rises 8% as Company Holds Profit Guidance - TechStock²",
+              "title": "SoFi Stock (SOFI) Rises 8% as Company Holds Profit Guidance - ts2.tech",
               "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZm91U3lfNjl3MmJTWEw2VXVEMU1DbHhjcUdOZVdUVXFNU3ZwNGl5R1pVdFNQVG1FcnVtZHR6VVhNakczczZLa3I0MENrazZLZ0pLT1RCZlFaeXgzdHNESzFzb052bGpJa1ZYNVVsaVZTMWpzVkg4RWRmWDhOTzVNS1RvVGFVbndaQlotZnRSbzlrMmYtdU0ybUFR?oc=5",
-              "source": "TechStock²",
+              "source": "ts2.tech",
               "publishedAt": "2026-08-11T17:52:59.000Z",
               "kind": "news"
             },
@@ -1209,9 +1209,9 @@
               "kind": "news"
             },
             {
-              "title": "Robinhood Shares Rise 4.7% After July Data Highlight Changes in Trading Activity - TechStock²",
+              "title": "Robinhood Shares Rise 4.7% After July Data Highlight Changes in Trading Activity - ts2.tech",
               "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdDJyX1hnT2VldHhacWpOZXIwWEJSRHRKQ2hCTVNMa0ttcFJJUzhWeDVaN3huSnU4TDRVRWNHeHdPa0ZVd3ZLQWkwVzJKeHZ0LXpMcDhiV0N3dU81WFBtZFpORWVkdk90TUZXbTRqSmw3Rk1IZmFBcHlYc09tOHZERFd5bkNGdVhZRUE?oc=5",
-              "source": "TechStock²",
+              "source": "ts2.tech",
               "publishedAt": "2026-08-14T00:24:21.000Z",
               "kind": "news"
             },
@@ -1497,10 +1497,10 @@
           "cik": null,
           "weight": 1.75,
           "quote": {
-            "price": 1879.38,
+            "price": 1877.88,
             "prevClose": 1883.99,
-            "changePct": -0.24,
-            "windowChangePct": -0.53,
+            "changePct": -0.32,
+            "windowChangePct": -0.61,
             "windowDays": 32,
             "spark": [
               1889.48,
@@ -1534,13 +1534,20 @@
               1881.37,
               1878.14,
               1883.99,
-              1879.38
+              1877.88
             ],
-            "asOf": "2026-08-14T20:02:44.000Z",
+            "asOf": "2026-08-14T20:37:49.000Z",
             "currency": "USD",
             "exchange": "CCC"
           },
           "news": [
+            {
+              "title": "Ethereum’s tokenization bid gains momentum as assets hits over $17 billion - Cryptonews.net",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0yZURZa181aDBORVVBbUNQejJOZUo1TEFJNkh1Z2Fhc1g0TG5FS2tfTFFpcEJxSkdFXzc5akgzYTNVMEwwZEZsbTlsZWJ1cHREMVc5cE5OVlJhQQ?oc=5",
+              "source": "Cryptonews.net",
+              "publishedAt": "2026-08-14T20:04:39.000Z",
+              "kind": "news"
+            },
             {
               "title": "ETH price range on Aug 14, 2026 at 4pm EDT Crypto Prediction Market - Robinhood",
               "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWjl2RzloWjZyaEhjckJ5T0sxeW81Uml0YUpRSjk5UVo0Y3NOWC1ZcWtDYVlXLUtrSW8tQkRNZkRDa3E3a0NxdHlkMmc5SkFsamt6MmF2QlplLWFoSDBBR1U3WnVpM185bzBZeXJoN1BWN1J6dk5SZVNHbHpfNnZ2aGpQNmlGZ0RVU0pRU29XVEVkc0JDNEd4S0stSEw5Z1ZVRWZlQTh5UVVtVjBmYXNXTUtIX1Vudw?oc=5",
@@ -1549,9 +1556,9 @@
               "kind": "news"
             },
             {
-              "title": "Cryptocurrency prices mostly decline with Bitco... - pluang.com",
+              "title": "Cryptocurrency prices mostly decline with Bitco... - Pluang",
               "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ1J2ajFSeHdaS19KSk52S2kxMWlPLTJTLUxvUl91U3FWOUZmb3o3NnVVSUYzTzdSODV3N05icWhjVmN0V1NtWmhjSkhxVjFURnNyODFGc3ZvQ1ZJUF9uUy1UY3E3UFV2ZG1xTlAtNktjWG1zZ3I0QXRkODhUOVowUFE4T3hLc2w0b0lqX2ZjRzU?oc=5",
-              "source": "pluang.com",
+              "source": "Pluang",
               "publishedAt": "2026-08-14T16:47:41.000Z",
               "kind": "news"
             },
@@ -1589,13 +1596,6 @@
               "source": "CryptoPotato",
               "publishedAt": "2026-08-14T11:16:00.000Z",
               "kind": "news"
-            },
-            {
-              "title": "Bitcoin slips as U.S. inflation fails to spark gains, ETFs see August's first two-day drawdown - CoinDesk",
-              "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONmU2a1VvSXJpTjJha2VNLXl3Q3lyLWlkWENMLWVtcHhwMDlVOE85WXdELXh1VG44b2RkSGZXaHMyNk4zTHVEaWV4VHNTZ3ZuMFB0VXpMQ1hQUG5HYjg3UmlrWXU5Y2tUbGI1eVNwVWVnM3pjZHZ1UW44ZGJXMTIxeW43ODVoNzlkZ0htdXNoRnAxdUthNmZ3YkhDekNaLUhLTzFVNEtYUWJPTW9WZU15Yi1QZ3B4dE5yclJNVDdKVVdGdHZzUEpkcWltTHNYRU9vY2c?oc=5",
-              "source": "CoinDesk",
-              "publishedAt": "2026-08-14T11:06:12.000Z",
-              "kind": "news"
             }
           ],
           "filings": []
@@ -1608,10 +1608,10 @@
           "cik": null,
           "weight": 1.5,
           "quote": {
-            "price": 0.9974,
+            "price": 0.998,
             "prevClose": 1.0081,
-            "changePct": -1.06,
-            "windowChangePct": -10.23,
+            "changePct": -1,
+            "windowChangePct": -10.18,
             "windowDays": 32,
             "spark": [
               1.1111,
@@ -1645,18 +1645,32 @@
               1.0219,
               1.0044,
               1.0081,
-              0.9974
+              0.998
             ],
-            "asOf": "2026-08-14T20:02:41.000Z",
+            "asOf": "2026-08-14T20:37:46.000Z",
             "currency": "USD",
             "exchange": "CCC"
           },
           "news": [
             {
+              "title": "Investor Loses 45.5% on $1,000 XRP Investment in 2026 Amid Bear Market - KuCoin",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWWFMQXd2eXBocWp2MS1sTXZscVF4V1V0am5WYU8tWEFScmZpbGtyN0Etd0lyQXRTQ2hyblJ4Q3BEYnhPRXlXdGUtUFVXRUxVVlpGbUNLMlFmaHRHR0RLR3NvQ0VSd21XbzUzcVR4aXU3bGs0aS1ZYjhKOVRJcmlUUUlrZ1ZVemF4dm43eVh5aUxZalJaNWhtc0ZBNUowNGhzVHRBTA?oc=5",
+              "source": "KuCoin",
+              "publishedAt": "2026-08-14T20:02:52.000Z",
+              "kind": "news"
+            },
+            {
               "title": "Ripple Is Valued at $50 Billion While XRP Trades at $1: Is XRP Undervalued? - 24/7 Wall St.",
               "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOczhrUWJKR1ZLZEdYTVg5UFQ5UThLU2xtTDQzZmVPdXp1VW5Ud1ZkYUpkNGpMOUhNTU40NmJjVjFkZEtEcmpKNU1tYXpPYTFXRFBTM0dUM05WMUZIb01vZkd5c0wtNFp5SFM2LWFnY1ZZZ3FJcmVfQ1BVM3dXNnlNRGVMcE5KbllnVG9YdlhvZGRiM1N2OEVVMlBIMmRLRDNOOUwyR3pxNm93RE4tRGY2WV9SOFluUVA5cDNDXzFvYjJXaVB5dmxNaTR3?oc=5",
               "source": "24/7 Wall St.",
               "publishedAt": "2026-08-14T19:55:23.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Why XRP Could Still Crash 50% from Current Prices - Cryptonews.net",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5a3lPcmJZdlpZOFRGMWptX2NxcEVVZlNRN1hvQTNQYUxLUFJfdFZPVzZocWxVSlRlSWVpbVdKUlRlTVEzY01fWmNxdEkwNEc4SFM2bXVYV2JDcTQ?oc=5",
+              "source": "Cryptonews.net",
+              "publishedAt": "2026-08-14T18:34:43.000Z",
               "kind": "news"
             },
             {
@@ -1692,20 +1706,6 @@
               "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNW92dDNYWC1IU2lyZy1keXZ0WFFrZTlPZ0hFaHk3eFF1LTYyYmxEbGZkRXUxVGZ3a3JrTGZMcVk5THFLcVdrZ0ZHME1sajRabVBVQVVnRWFmYU1jMTR3bGNXTjVrZXpXRXZtNmpQSFQwOV85ZlhMU281T3RsZlhQRk5zQmN6NkhCWTRyN0NqaHg?oc=5",
               "source": "Yahoo Finance",
               "publishedAt": "2026-08-14T17:19:25.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "XRP Breaks $1 Floor, $4.06B In Ledger Assets Still Fail To Lift Price - Yellow.com",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LX0VEV24yU09tTVU2T2lWOEhVdVZTcVVHcGhIQUd4V3VHM3d1NzdBT09qNzBLQWxwVjZLRnowendtcGlpN1ozT1pSa2FtbXlVeTFpcWlXMFFYMHAzZUFCN1A4LVVvQQ?oc=5",
-              "source": "Yellow.com",
-              "publishedAt": "2026-08-14T16:41:25.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "XRP Price Falls Below $1 Again Despite Record Network Adoption - BeInCrypto",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlOXpkQzVQTmRNX1pMM1lwVmNfaTAwTDhSdllFMFZ1RGZ0clJHRzJjWE44b3BoeE4tQVpLMnFLbEZJc3NWbTJWbE1TdnF5dEU1Z2pDMlp1VVQtZURqeWhlaDBrMUxSMGdhZ0hkM3NXYlhTWWc?oc=5",
-              "source": "BeInCrypto",
-              "publishedAt": "2026-08-14T15:56:00.000Z",
               "kind": "news"
             }
           ],
@@ -1962,13 +1962,6 @@
           },
           "news": [
             {
-              "title": "MicroStrategy sends harsh response to fresh MSCI delisting threat - Yahoo Finance Singapore",
-              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTXJ2YlhVeGFGRTVpZmRybEs1TEs1ZGlsUWRzRmdGS1p0b2d6OUtFTHJ1NXY1bmtUUkpiUWpEZnN4ZmNKV1lXWWNiLU1pQ29SajdDYjcyaW1HRUJ6ZF95cURBWXFPb0t1NTZzdkcwcWd5VDNBVEtvNE9qcUxmNi1yVUZ4cmJOYU92a3JxNWNzNndjQWc?oc=5",
-              "source": "Yahoo Finance Singapore",
-              "publishedAt": "2026-08-14T17:27:33.000Z",
-              "kind": "news"
-            },
-            {
               "title": "Why Strategy (MSTR) Shares Are Trading Lower Today - TradingView",
               "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNUtJRnk0NW40TWlDSUlKNDJkR0QtdWc5UjJPOEFIeUJZSF85UFc4U0VmRVpIYnhicU4tT0JlMTFCRnVTNHRqdDc0XzdhQnNvOV8yTUVzNWRJbFVBWWlXcUtCLW5qcEtmWDh2a3p6SEJUc1p2MlYxSHpNcTVSSmtsYnViQ2txSVZTMTYweE1BS09NQXhNRTNZT0JNblhaNWJ3cENVRUkwWmlLWmsxb2c?oc=5",
               "source": "TradingView",
@@ -1976,10 +1969,17 @@
               "kind": "news"
             },
             {
-              "title": "Strategy (MSTR) Falls as Bitcoin Slides and Investors Stay Focused on Treasury Losses - Quiver Quantitative",
+              "title": "Strategy (MSTR) Falls as Bitcoin Slides and Investors Stay Focused on Treasury Losses - quiverquant.com",
               "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNY3laWjBIMWo2aDhIZTZJMExaaDBiZ3N0LVpvUTlyRzh2Y2ZXc1d5VENfcWxsUDNvQWZyWUg3dWd0TDdWT0RuNFlvcjlqUDFQdlQxX1B4REdGVlNZS19jQkJMN213T2VuaWV1WjRhTTN2VXNQWnUtUGExM3hrR1Z4N3N3ZXdOYmtCcWFRZjB1VU80Q3hMb1RISzlrazViX081c2lHQnNSQXQ1blRhVDJ1cVFRT3JPWGg4UlA1bGVKVQ?oc=5",
-              "source": "Quiver Quantitative",
+              "source": "quiverquant.com",
               "publishedAt": "2026-08-14T14:52:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "MicroStrategy sends harsh response to fresh MSCI delisting threat - thestreet.com",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMG9laThsZ3Z3LVVob3RsbU03U1hCVzdYaGotYUNyRl96LUJRN0Z2N2stbFU1YjI5NVE4dThmOEc3ZE51c3IwQm5VSGpYd2VlM1RxWjZSUHplY29WcEF4T2MtNjNvTGw5Y3NkM3ZFWG1sQTV3dTNTMXFzbTJXZVltN1RUX2U4dWROdUpjNmxRZ0FLNnhYcG5iVi13Yld0aWhiUVRlMEZhTGxGZw?oc=5",
+              "source": "thestreet.com",
+              "publishedAt": "2026-08-14T14:27:33.000Z",
               "kind": "news"
             },
             {
@@ -2011,14 +2011,24 @@
               "kind": "news"
             },
             {
-              "title": "MicroStrategy stock down 75% but analysts see 1... - pluang.com",
+              "title": "MicroStrategy stock down 75% but analysts see 1... - Pluang",
               "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UMGVGSlJ0OS13Nk9HRG1KaWxBRzNtN1ZkY3Rac0plZDJvT25OVzVJdTVGcGp2ZFlIOHVoWkhGcERmTlhpTElpWWhGSGw4THRlQ3FKVVUydzdVWVd5T3pGOEpKZDljLU03WUZEMWYzU3JsLXNMSnFlaTlvczNldw?oc=5",
-              "source": "pluang.com",
+              "source": "Pluang",
               "publishedAt": "2026-08-11T14:09:19.000Z",
               "kind": "news"
             }
           ],
           "filings": [
+            {
+              "title": "FWP — Strategy Inc (FWP)",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526352145/d169243dfwp.htm",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-08-14T16:02:54.000Z",
+              "kind": "filing",
+              "form": "FWP",
+              "desc": "FWP",
+              "explain": "Free writing prospectus — supplemental material for an offering."
+            },
             {
               "title": "4 — Strategy Inc (4)",
               "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526342315/xslF345X06/ownership.xml",
@@ -2088,16 +2098,6 @@
               "form": "8-K/A",
               "desc": "8-K/A",
               "explain": "Material event — a significant development the company must disclose promptly. (amended)."
-            },
-            {
-              "title": "8-K — Strategy Inc (8-K)",
-              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000162828026051027/mstr-20260730.htm",
-              "source": "SEC EDGAR",
-              "publishedAt": "2026-07-30T20:00:23.000Z",
-              "kind": "filing",
-              "form": "8-K",
-              "desc": "8-K",
-              "explain": "Material event — a significant development the company must disclose promptly."
             }
           ]
         },
@@ -2145,16 +2145,16 @@
           },
           "news": [
             {
-              "title": "Microsoft Stock (MSFT) Opinions on AI-Driven Growth and Analyst Sentiment - Quiver Quantitative",
+              "title": "Microsoft Stock (MSFT) Opinions on AI-Driven Growth and Analyst Sentiment - quiverquant.com",
               "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMVVfYklrOVk5eGJtT0gtVC00RFJ2aF9RYXhkdVJrUUdpY1VnMGlxNHVGcmVadXotYlpZOWhfZDhremNIWm1yekg5Y1cwdlZhTjZUM2N6SkFSM0lBNFN1MTNpUHZSRUJkbnB2MDhSX2NISGZIMldSNThZUkJVUDZTb0xma1VPbElhbC1XSFVVMFZDN0NTazhHajZDNkVhdi1yOUlVX1FpQV9UVXdfX1k0?oc=5",
-              "source": "Quiver Quantitative",
+              "source": "quiverquant.com",
               "publishedAt": "2026-08-14T17:37:00.000Z",
               "kind": "news"
             },
             {
-              "title": "Microsoft Stock Is Down 5% This Year But It’s Up 33% Since June. Here’s Where Shares Could Go in 2026. - TIKR.com",
+              "title": "Microsoft Stock Is Down 5% This Year But It’s Up 33% Since June. Here’s Where Shares Could Go in 2026. - tikr.com",
               "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcmFKVlZBVWZnOEMyaUk2VEwyWUNOdjFydHNYTXBvZzl5X2tMaHNteW4tdnZPWnU1SFFYbk5jd2k0NXNSQjRLaGZBNWJvQXY0Yi0yeGw4Qmp6cUtUTlpCN3FtbDdIUDdaN1lkeUp2c1YtZjZieU5Da2FNcW8yT2tBUldObm1KRzZEWTcteFZFdzlMaGtiSU41SF8zNlZ2SnAwcFAwSzljbmJ1LVl2Z1ZKN3NyQVNKR1o1TG5sal93NA?oc=5",
-              "source": "TIKR.com",
+              "source": "tikr.com",
               "publishedAt": "2026-08-14T16:58:31.000Z",
               "kind": "news"
             },
@@ -2475,10 +2475,10 @@
           "cik": null,
           "weight": null,
           "quote": {
-            "price": 713.59,
+            "price": 713.61,
             "prevClose": 714.95,
             "changePct": -0.19,
-            "windowChangePct": 2.85,
+            "windowChangePct": 2.86,
             "windowDays": 23,
             "spark": [
               693.8,
@@ -2503,7 +2503,7 @@
               708.42,
               710.17,
               714.95,
-              713.59
+              713.61
             ],
             "asOf": "2026-08-14T20:00:00.000Z",
             "currency": "USD",
@@ -2532,9 +2532,9 @@
               "kind": "news"
             },
             {
-              "title": "FXAIX Beats VOO on Fees in Retirement Accounts; Costs More in Taxable Ones - Tech Times",
+              "title": "FXAIX Beats VOO on Fees in Retirement Accounts; Costs More in Taxable Ones - techtimes.com",
               "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNczVzNW9aVlhWdmVibHJIQ3E5STJyN0JJSFgzeFBoLVJsQXV5VmhLSXBnV205dU1qOVdaUDh3YVAzWmVVU2ozSkxCcjBTa1lVSVVjVkxSMmY0bG9YY0tnQTNBNzU5TjFpM25IYWFpWU5XRHBSdGVzR1lsYy1pYXlBOHRDSDhfT0JEbHNlaUxXZjFQNjlib3c3ei1zcVU1SlVQTEdWWTA1elhjYkMtU2RYcmJtOE9PdnEtdTZB?oc=5",
-              "source": "Tech Times",
+              "source": "techtimes.com",
               "publishedAt": "2026-08-14T10:17:16.000Z",
               "kind": "news"
             },
@@ -2581,7 +2581,7 @@
             "prevClose": 48.47,
             "changePct": 0.02,
             "windowChangePct": 6.85,
-            "windowDays": 23,
+            "windowDays": 22,
             "spark": [
               45.37,
               43.68,
@@ -2595,7 +2595,6 @@
               43.83,
               42.86,
               43.82,
-              43.79,
               45.45,
               47.57,
               46.59,
@@ -2654,6 +2653,22 @@
     }
   ],
   "latestNews": [
+    {
+      "title": "Ethereum’s tokenization bid gains momentum as assets hits over $17 billion - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0yZURZa181aDBORVVBbUNQejJOZUo1TEFJNkh1Z2Fhc1g0TG5FS2tfTFFpcEJxSkdFXzc5akgzYTNVMEwwZEZsbTlsZWJ1cHREMVc5cE5OVlJhQQ?oc=5",
+      "source": "Cryptonews.net",
+      "publishedAt": "2026-08-14T20:04:39.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    },
+    {
+      "title": "Investor Loses 45.5% on $1,000 XRP Investment in 2026 Amid Bear Market - KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWWFMQXd2eXBocWp2MS1sTXZscVF4V1V0am5WYU8tWEFScmZpbGtyN0Etd0lyQXRTQ2hyblJ4Q3BEYnhPRXlXdGUtUFVXRUxVVlpGbUNLMlFmaHRHR0RLR3NvQ0VSd21XbzUzcVR4aXU3bGs0aS1ZYjhKOVRJcmlUUUlrZ1ZVemF4dm43eVh5aUxZalJaNWhtc0ZBNUowNGhzVHRBTA?oc=5",
+      "source": "KuCoin",
+      "publishedAt": "2026-08-14T20:02:52.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
     {
       "title": "Ripple Is Valued at $50 Billion While XRP Trades at $1: Is XRP Undervalued? - 24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOczhrUWJKR1ZLZEdYTVg5UFQ5UThLU2xtTDQzZmVPdXp1VW5Ud1ZkYUpkNGpMOUhNTU40NmJjVjFkZEtEcmpKNU1tYXpPYTFXRFBTM0dUM05WMUZIb01vZkd5c0wtNFp5SFM2LWFnY1ZZZ3FJcmVfQ1BVM3dXNnlNRGVMcE5KbllnVG9YdlhvZGRiM1N2OEVVMlBIMmRLRDNOOUwyR3pxNm93RE4tRGY2WV9SOFluUVA5cDNDXzFvYjJXaVB5dmxNaTR3?oc=5",
@@ -2735,6 +2750,14 @@
       "symbol": "NVDA"
     },
     {
+      "title": "Why XRP Could Still Crash 50% from Current Prices - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5a3lPcmJZdlpZOFRGMWptX2NxcEVVZlNRN1hvQTNQYUxLUFJfdFZPVzZocWxVSlRlSWVpbVdKUlRlTVEzY01fWmNxdEkwNEc4SFM2bXVYV2JDcTQ?oc=5",
+      "source": "Cryptonews.net",
+      "publishedAt": "2026-08-14T18:34:43.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
       "title": "Palantir (NASDAQ:PLTR) Shares Climb As AI Software Adoption Accelerates - Kalkine Media",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZEVRRHBtWTBfNThxdDZHc2Y1VllJMnRJMVlOYkFkQS03cEFQaF9pdEdOZVkwcWxEUHRiZV9yanB1Y0Jsa213dXpHVWtKY05ibzhsbXFWN2FwY3FGVmRlR2FfcGNSQ3A3SGZjMVNQZnN1Zm5HQnZhZ1dFWU40emNKN2E2bTZsVkVFcjU2ZVRNMFFMYUQzTU9fYXU3WnpxeXgyWG5PeGdFR08xTzF6SGItMUdyU3p1bTlzeG9TQzN0QU9uVjJuMmc?oc=5",
       "source": "Kalkine Media",
@@ -2799,9 +2822,9 @@
       "symbol": "QBTS"
     },
     {
-      "title": "Microsoft Stock (MSFT) Opinions on AI-Driven Growth and Analyst Sentiment - Quiver Quantitative",
+      "title": "Microsoft Stock (MSFT) Opinions on AI-Driven Growth and Analyst Sentiment - quiverquant.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMVVfYklrOVk5eGJtT0gtVC00RFJ2aF9RYXhkdVJrUUdpY1VnMGlxNHVGcmVadXotYlpZOWhfZDhremNIWm1yekg5Y1cwdlZhTjZUM2N6SkFSM0lBNFN1MTNpUHZSRUJkbnB2MDhSX2NISGZIMldSNThZUkJVUDZTb0xma1VPbElhbC1XSFVVMFZDN0NTazhHajZDNkVhdi1yOUlVX1FpQV9UVXdfX1k0?oc=5",
-      "source": "Quiver Quantitative",
+      "source": "quiverquant.com",
       "publishedAt": "2026-08-14T17:37:00.000Z",
       "kind": "news",
       "symbol": "MSFT"
@@ -2815,20 +2838,12 @@
       "symbol": "AMZN"
     },
     {
-      "title": "Amazon restocked the viral Wirkin bag—shop the $60 designer dupe - usatoday.com",
+      "title": "Amazon restocked the viral Wirkin bag—shop the $60 designer dupe - USA Today",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeG1GTE81eHo5OGZrOFIyVEhycWJ6SjVSZXh5SzJjQkpDY0N0cUgza0VMQ2VfbHdZaUZCRHRRLWZlbWtUUlRCcHZkVHBfaU1FeHk3NUxNYWUwZ29MdGdsMElLdjFhX2VDM0tySTdVeUhzWW1zVFl0aE9JTnJFN0lFTnExbks3YVZDNVpvR1QwbGZlblNxNElLYk5FU2JhNlp5TWZYRU9pbDFwZ2hwcGhVWURxbzE3ZldnYk85Mg?oc=5",
-      "source": "usatoday.com",
+      "source": "USA Today",
       "publishedAt": "2026-08-14T17:29:00.000Z",
       "kind": "news",
       "symbol": "AMZN"
-    },
-    {
-      "title": "MicroStrategy sends harsh response to fresh MSCI delisting threat - Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTXJ2YlhVeGFGRTVpZmRybEs1TEs1ZGlsUWRzRmdGS1p0b2d6OUtFTHJ1NXY1bmtUUkpiUWpEZnN4ZmNKV1lXWWNiLU1pQ29SajdDYjcyaW1HRUJ6ZF95cURBWXFPb0t1NTZzdkcwcWd5VDNBVEtvNE9qcUxmNi1yVUZ4cmJOYU92a3JxNWNzNndjQWc?oc=5",
-      "source": "Yahoo Finance Singapore",
-      "publishedAt": "2026-08-14T17:27:33.000Z",
-      "kind": "news",
-      "symbol": "MSTR"
     },
     {
       "title": "XRP Price Prediction: Can XRP Hold $1 as CLARITY Act Stalls? - Altcoin Buzz",
@@ -2855,28 +2870,20 @@
       "symbol": "XRP"
     },
     {
-      "title": "Microsoft Stock Is Down 5% This Year But It’s Up 33% Since June. Here’s Where Shares Could Go in 2026. - TIKR.com",
+      "title": "Microsoft Stock Is Down 5% This Year But It’s Up 33% Since June. Here’s Where Shares Could Go in 2026. - tikr.com",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcmFKVlZBVWZnOEMyaUk2VEwyWUNOdjFydHNYTXBvZzl5X2tMaHNteW4tdnZPWnU1SFFYbk5jd2k0NXNSQjRLaGZBNWJvQXY0Yi0yeGw4Qmp6cUtUTlpCN3FtbDdIUDdaN1lkeUp2c1YtZjZieU5Da2FNcW8yT2tBUldObm1KRzZEWTcteFZFdzlMaGtiSU41SF8zNlZ2SnAwcFAwSzljbmJ1LVl2Z1ZKN3NyQVNKR1o1TG5sal93NA?oc=5",
-      "source": "TIKR.com",
+      "source": "tikr.com",
       "publishedAt": "2026-08-14T16:58:31.000Z",
       "kind": "news",
       "symbol": "MSFT"
     },
     {
-      "title": "Cryptocurrency prices mostly decline with Bitco... - pluang.com",
+      "title": "Cryptocurrency prices mostly decline with Bitco... - Pluang",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ1J2ajFSeHdaS19KSk52S2kxMWlPLTJTLUxvUl91U3FWOUZmb3o3NnVVSUYzTzdSODV3N05icWhjVmN0V1NtWmhjSkhxVjFURnNyODFGc3ZvQ1ZJUF9uUy1UY3E3UFV2ZG1xTlAtNktjWG1zZ3I0QXRkODhUOVowUFE4T3hLc2w0b0lqX2ZjRzU?oc=5",
-      "source": "pluang.com",
+      "source": "Pluang",
       "publishedAt": "2026-08-14T16:47:41.000Z",
       "kind": "news",
       "symbol": "ETH"
-    },
-    {
-      "title": "XRP Breaks $1 Floor, $4.06B In Ledger Assets Still Fail To Lift Price - Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LX0VEV24yU09tTVU2T2lWOEhVdVZTcVVHcGhIQUd4V3VHM3d1NzdBT09qNzBLQWxwVjZLRnowendtcGlpN1ozT1pSa2FtbXlVeTFpcWlXMFFYMHAzZUFCN1A4LVVvQQ?oc=5",
-      "source": "Yellow.com",
-      "publishedAt": "2026-08-14T16:41:25.000Z",
-      "kind": "news",
-      "symbol": "XRP"
     },
     {
       "title": "Why Strategy (MSTR) Shares Are Trading Lower Today - TradingView",
@@ -2885,17 +2892,42 @@
       "publishedAt": "2026-08-14T16:35:43.000Z",
       "kind": "news",
       "symbol": "MSTR"
-    },
-    {
-      "title": "Robinhood CIO: AI Boom Could Keep Stocks Ripping - Robinhood Markets (NASDAQ:HOOD) - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWWtnRXVzQ1l4WVNyTVQzVUVaSjljQnh3dWZLSTNXTnN5SFR6bEYyNmxDeFdiZ3FMWUtYam9HcVZpWFA5ZXZHUlowc2dsTlRibEY4RHJkeUt2ek9ncnNZOUdsOXE0YUc3eEFWaFBoYzBwYnBHdTRvem5YX0xKcndWTXEyN0dKWkppRXRQMTFjMTM1M2xocjZUWmpLWQ?oc=5",
-      "source": "Benzinga",
-      "publishedAt": "2026-08-14T16:30:51.000Z",
-      "kind": "news",
-      "symbol": "HOOD"
     }
   ],
   "latestFilings": [
+    {
+      "title": "13F-HR — NVIDIA CORP",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000065/xslForm13F_X02/primary_doc.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-08-14T16:19:53.000Z",
+      "kind": "filing",
+      "form": "13F-HR",
+      "desc": "",
+      "explain": "Institutional manager's quarterly holdings disclosure.",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "FWP — Strategy Inc (FWP)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526352145/d169243dfwp.htm",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-08-14T16:02:54.000Z",
+      "kind": "filing",
+      "form": "FWP",
+      "desc": "FWP",
+      "explain": "Free writing prospectus — supplemental material for an offering.",
+      "symbol": "MSTR"
+    },
+    {
+      "title": "SCHEDULE 13G/A — Fermi Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026089998/xslSCHEDULE_13G_X02/primary_doc.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-08-14T16:01:03.000Z",
+      "kind": "filing",
+      "form": "SCHEDULE 13G/A",
+      "desc": "",
+      "explain": "Passive stake — a >5% holder with no control intent. (amended).",
+      "symbol": "FRMI"
+    },
     {
       "title": "S-4/A — AMAZON COM INC (S-4/A)",
       "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926096195/tm2617924-3_s4a.htm",
@@ -3082,39 +3114,6 @@
       "desc": "FORM 4",
       "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
       "symbol": "HOOD"
-    },
-    {
-      "title": "4 — NVIDIA CORP (FORM 4)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000007/xslF345X06/wk-form4_1786135642.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-08-07T20:47:24.000Z",
-      "kind": "filing",
-      "form": "4",
-      "desc": "FORM 4",
-      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
-      "symbol": "NVDA"
-    },
-    {
-      "title": "424B2 — Alphabet Inc. (424B2)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526340264/d32286d424b2.htm",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-08-07T20:13:55.000Z",
-      "kind": "filing",
-      "form": "424B2",
-      "desc": "424B2",
-      "explain": null,
-      "symbol": "GOOGL"
-    },
-    {
-      "title": "4 — Alphabet Inc. (4)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526338824/xslF345X06/ownership.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-08-07T01:34:36.000Z",
-      "kind": "filing",
-      "form": "4",
-      "desc": "4",
-      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
-      "symbol": "GOOGL"
     }
   ],
   "errors": []
