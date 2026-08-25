@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:55:13.415Z",
+  "generatedAt": "2026-08-25T20:24:37.313Z",
   "siteTitle": "Jack Portfolio",
   "tagline": "Live prices, news, and SEC filings across both portfolios",
   "portfolios": [
@@ -16,13 +16,13 @@
         "filingsCount": 64,
         "topGainer": {
           "symbol": "HOOD",
-          "changePct": 8.14
+          "changePct": 8.17
         },
         "topLoser": {
-          "symbol": "ETH",
-          "changePct": -0.84
+          "symbol": "XRP",
+          "changePct": -1.21
         },
-        "avgChangePct": 2.56
+        "avgChangePct": 2.57
       },
       "holdings": [
         {
@@ -33,10 +33,10 @@
           "cik": "0002071778",
           "weight": 27.28,
           "quote": {
-            "price": 6,
+            "price": 6.01,
             "prevClose": 5.62,
-            "changePct": 6.76,
-            "windowChangePct": -17.01,
+            "changePct": 6.94,
+            "windowChangePct": -16.87,
             "windowDays": 22,
             "spark": [
               7.23,
@@ -60,9 +60,9 @@
               5.97,
               5.92,
               5.62,
-              6
+              6.01
             ],
-            "asOf": "2026-08-25T19:55:10.000Z",
+            "asOf": "2026-08-25T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -215,10 +215,10 @@
           "cik": "0001050446",
           "weight": 14.54,
           "quote": {
-            "price": 127.19,
+            "price": 126.83,
             "prevClose": 122.63,
-            "changePct": 3.72,
-            "windowChangePct": 28.93,
+            "changePct": 3.42,
+            "windowChangePct": 28.57,
             "windowDays": 22,
             "spark": [
               98.65,
@@ -242,9 +242,9 @@
               112.39,
               119.25,
               122.63,
-              127.19
+              126.83
             ],
-            "asOf": "2026-08-25T19:55:12.000Z",
+            "asOf": "2026-08-25T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -307,6 +307,16 @@
             }
           ],
           "filings": [
+            {
+              "title": "144 — Strategy Inc",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326006438/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-08-25T16:03:49.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
             {
               "title": "144 — Strategy Inc",
               "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326006404/xsl144X01/primary_doc.xml",
@@ -376,16 +386,6 @@
               "form": "8-K",
               "desc": "8-K",
               "explain": "Material event — a significant development the company must disclose promptly."
-            },
-            {
-              "title": "144 — Strategy Inc",
-              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326005795/xsl144X01/primary_doc.xml",
-              "source": "SEC EDGAR",
-              "publishedAt": "2026-08-07T21:33:03.000Z",
-              "kind": "filing",
-              "form": "144",
-              "desc": "",
-              "explain": "Notice of a proposed sale of restricted/insider stock."
             }
           ]
         },
@@ -397,10 +397,10 @@
           "cik": "0001045810",
           "weight": 9.37,
           "quote": {
-            "price": 213.09,
+            "price": 213.05,
             "prevClose": 208.48,
-            "changePct": 2.21,
-            "windowChangePct": 8.44,
+            "changePct": 2.19,
+            "windowChangePct": 8.42,
             "windowDays": 22,
             "spark": [
               196.51,
@@ -424,25 +424,46 @@
               216.85,
               214.72,
               208.48,
-              213.09
+              213.05
             ],
-            "asOf": "2026-08-25T19:55:12.000Z",
+            "asOf": "2026-08-25T20:00:00.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
             {
-              "title": "Nvidia Could Grow Revenue 97% and Still Disappoint Wall Street on Aug. 26 - The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVFSM0U5Xy1uNHljb2pIVURpWjMyTUE0UGhFd2ljUkhnRERSTVlmbzF5Q1lUNlAtRFBIcHpRMTdQczVicHR2b05VVzNTTUxKRUFTMXZRRkNnUU1VdDdoWXpaUjhJQzR5ZjFmWnd5ZUE0X1ltbExWekdQX2ZOYVBZcmhPcUZCZWdLc3hoV0JFSURBS0ctM3g0?oc=5",
-              "source": "The Motley Fool",
-              "publishedAt": "2026-08-25T19:48:55.000Z",
+              "title": "Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls. - MarketWatch",
+              "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQ25SbHVEYzJrLWpmdHBSTFBTOXd5NklBcFhrZEkwQndEeUdnUlNGZElFNmw2Qm80dTZHLVIwX1liM05ONldGMmh3VjdJb1RsaUJYZFcxckJlSVdKcl8yTlRrdkdYUWw2T3RHQTc2SU9Tc3J4TjU0M2VTeHVnVlRLMWtrOFBPOVliT2M0dGJYcG1MVE5nSVhmb1ZqTGdzTEFwVDU3TXh2a2hqREhUUHhaN1ROTVRidXdpdnFwQ0RVenFTWHpUcEJET2RLYzJUSEFaV19EWXpfYnpFdHFONGstUTliUWFrVGgybW4xeFVsS0xuZw?oc=5",
+              "source": "MarketWatch",
+              "publishedAt": "2026-08-25T20:07:00.000Z",
               "kind": "news"
             },
             {
-              "title": "History Says Nvidia Is Likely To Fall on Wednesday. Here's Why That's Not Bad News - The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa3cyUGlVclJjcXNLLVBNUUdleTRnY1dhNmd5WVdSNE9FQ2FGQjVaYUtYZEllMTlTSGNVOFJfT1pkN3pPX2hZYnZVQ0p1azJxQmVKUm5yWmpINkpGYlE0RmhkQ1ZKbFBqSXhtQUdBbHJPSDZvald2X0JmNk16Q21XWFRaRFk2NXBBZ05rX01PaFA5YXZCTXo2Yw?oc=5",
+              "title": "Nvidia Could Grow Revenue 97% and Still Disappoint Wall Street on Aug. 26 - The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVFSM0U5Xy1uNHljb2pIVURpWjMyTUE0UGhFd2ljUkhnRERSTVlmbzF5Q1lUNlAtRFBIcHpRMTdQczVicHR2b05VVzNTTUxKRUFTMXZRRkNnUU1VdDdoWXpaUjhJQzR5ZjFmWnd5ZUE0X1ltbExWekdQX2ZOYVBZcmhPcUZCZWdLc3hoV0JFSURBS0ctM3g0?oc=5",
               "source": "The Motley Fool",
-              "publishedAt": "2026-08-25T19:47:45.000Z",
+              "publishedAt": "2026-08-25T20:05:52.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "History Says Nvidia Is Likely To Fall on Wednesday. Here's Why That's Not Bad News - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOUw2Sktlb0NtM2NIRUdBRHB3SS0tS3haYzJCS2lrMWxBV2xzSE0zX2h0Z0NWN2l4MThVUVRObkhJTzlLbnJHUGdFOFM2WFAta3pOR25HYjFWbWJrSmlUakRwam9ORnlsaE80WlZvRllMbDJqTnFxazJacTg2RHVPZWZxMkp1NXM3S1ZicXhsSFNyOFFnUXdoMFBJWVM?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-08-25T20:05:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Here’s How Much Nvidia Stock Is Expected to Move After Earnings - Investopedia",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRUVrUnBqVHJPeXJmX1FJcmRUZ19XWmJkZU5RcUJLbUxIc1pLOTdiME5Kb1NXTTEyNFdPVjhrZlNnTXh0b21zcmMtSGxzMmhFNW5EaHdRVFVqT21vdU90ZDlaSVUtb29EY25hQVJXV3NiN2lTOVVDZ2hjZ2U0Qjk0YTVwWHp2b25MRmlqS0g4QVNpVVdMUVFMOHFQU0RDZTdqSlpRTEZqdnp5RHdTQlhVcDFEd2gzN3NCXy1DdVBERTVtQQ?oc=5",
+              "source": "Investopedia",
+              "publishedAt": "2026-08-25T19:44:27.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Here's what investors should watch for from Nvidia earnings, CIO says - Fox Business",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04OFBBVDEzN1NnbVhmQnZLWTdQMTk0NXBhLTFza3Z5VlhGd19WSmdGT2FKdWM3ZWN6TUN4U0s2aDVGc3dRakdMYkpvV3dnMVJBZ2NjMFY2Y0o1ZWs?oc=5",
+              "source": "Fox Business",
+              "publishedAt": "2026-08-25T19:43:59.000Z",
               "kind": "news"
             },
             {
@@ -464,27 +485,6 @@
               "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV3pENmFZYXVSSlpSSThTOWM4eFk1WG9SaXlKLXY2c3ZIN3lUVXRrWDl5LUlFdDk4NmszLVVpcVVIU0UtMWpUZkItM2ItRDBXSnpuT2l2SXp2eXVfX25Pa2FyM2t5X0p5Q0l4MWRhRUZYMVlXUElhbFphNkMzY0FFcG9Pa2FHdGxZc0p3bm43X3V6UGVHbENfYlA1OEVmZ29pZnhEVTNJczg3UXJWUnVKZ2U5ZFA0SVlmaFJfYS1jQTF3ZDVD?oc=5",
               "source": "StartupHub.ai",
               "publishedAt": "2026-08-25T19:08:30.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Nvidia Stock Climbs -- BMO Sets $340 Target Ahead of Earnings - GuruFocus",
-              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQnNoVDByN1hodUJmSHVyYndtbWdNRWpBLTJLSWdRY2FLQm1WVmZyVjRQY3d3MmZyaVdKTWIwakljU1FkdGlsQm1WOV95ZWh3dW5uNjJXSjQxZE5aSTBabUs0ZlBnNlNRUUp4SExLUTlCSFMwTVppTVZ0MEJDaTQ0NXpkTjNrQUdkcWw1TUp6UDUtZF9IZ09mVnF6aGM?oc=5",
-              "source": "GuruFocus",
-              "publishedAt": "2026-08-25T19:00:58.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Nvidia’s Losing Streak Is Ending. Be Careful What You Wish For. - Barron's",
-              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR2JEWV9ERjBialIwd3NYLTM0YXE3N0FtNllqOXRmVV9kLWY1QngwcnZuQUFMbVF4NVhkY1NUcUNMVFAySU1GVWRzN3REbjk2N1hxMWZzWEV1NGszdzNWU3k0bV9ZTlppeDFwOXo0TWFwOF90ckNKb0c4amJIYmRWdUFwS1QzS0pDWWk0?oc=5",
-              "source": "Barron's",
-              "publishedAt": "2026-08-25T18:56:00.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Jensen Huang Said Nvidia's $30 Billion OpenAI Investment Might Be the Last. Nvidia Just Guaranteed Up to $105 Billion of OpenAI's Leases. - The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNa0l4ZHpVcmliRHJLYUd4ZVRSbExIWFlpYUlyWFRZTUhDZUlHdVpZTFE2OWVrWjIxX1hoMmU4a3NXZFNxeTR4WVAyalVVcWNNQXkzcG8wTEJTSkx5eVVLSkltTWVVaFhBdThVQ3dFVXNwMWE1cnF4RFdwaHkyTHJHYkRNZFdQdVVZN1pkdjBmWWhTQ0lMZ09EclVFa3IzVW1jMmVCcXg0TmxmTURKMTc5LWc4VWN6aGkzVWgwcDU2Q2QyUFBmUVhSNXdNYmtUNzR6ZG95dEhTQ0xlTmxOQU5wOHFLQkVIS3BCcWREaUtMT0lhemtKOXRLQzdJVWUxSUV0ZEtQOFNqcV9ucjItQS1j?oc=5",
-              "source": "The Motley Fool",
-              "publishedAt": "2026-08-25T18:48:09.000Z",
               "kind": "news"
             }
           ],
@@ -579,10 +579,10 @@
           "cik": "0001652044",
           "weight": 10.84,
           "quote": {
-            "price": 346.38,
+            "price": 346.96,
             "prevClose": 348.06,
-            "changePct": -0.48,
-            "windowChangePct": 6.07,
+            "changePct": -0.32,
+            "windowChangePct": 6.25,
             "windowDays": 22,
             "spark": [
               326.56,
@@ -606,9 +606,9 @@
               340.67,
               344.82,
               348.06,
-              346.38
+              346.96
             ],
-            "asOf": "2026-08-25T19:55:10.000Z",
+            "asOf": "2026-08-25T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -761,10 +761,10 @@
           "cik": "0001018724",
           "weight": 5.74,
           "quote": {
-            "price": 261.2,
+            "price": 261.06,
             "prevClose": 262.07,
-            "changePct": -0.33,
-            "windowChangePct": 12.88,
+            "changePct": -0.39,
+            "windowChangePct": 12.82,
             "windowDays": 22,
             "spark": [
               231.39,
@@ -788,9 +788,9 @@
               260.11,
               258.63,
               262.07,
-              261.2
+              261.06
             ],
-            "asOf": "2026-08-25T19:55:11.000Z",
+            "asOf": "2026-08-25T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -817,9 +817,9 @@
               "kind": "news"
             },
             {
-              "title": "Sonos Quietly Drops Beam Gen 2 Dolby Atmos Soundbar Near Its Record Low to Clear Out Stock on Amazon - kotaku.com",
+              "title": "Sonos Quietly Drops Beam Gen 2 Dolby Atmos Soundbar Near Its Record Low to Clear Out Stock on Amazon - Kotaku",
               "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcVNjTzVKd0Q5SGhkQmFFdjNNTmZmMzVNWnZHSDRlT0dZNHptOWVnR1NCbDVYbnc4X2ZDMFBNMHlRSFBJTmhkN0h1eEQ3ZmxkaVF4czB0b25HaXZpMF9kUjNqUVQwWFZYbFNrX1owNUhhaE1Va2FIcXl6d0hlV2owNGFBMnEwTnk0UzdpZ21FY2ladTI0amozbHdycWJId29VQV81UEhDX0NkSkQwUVJzOTI3Sk1CT3VtZVRndFM1Ul9oZWlHR1lLTDVR?oc=5",
-              "source": "kotaku.com",
+              "source": "Kotaku",
               "publishedAt": "2026-08-25T14:45:40.000Z",
               "kind": "news"
             },
@@ -943,10 +943,10 @@
           "cik": "0001818874",
           "weight": 11.86,
           "quote": {
-            "price": 18.93,
+            "price": 19,
             "prevClose": 18.24,
-            "changePct": 3.76,
-            "windowChangePct": 12.11,
+            "changePct": 4.17,
+            "windowChangePct": 12.56,
             "windowDays": 22,
             "spark": [
               16.88,
@@ -970,9 +970,9 @@
               17.92,
               18.91,
               18.24,
-              18.92
+              19
             ],
-            "asOf": "2026-08-25T19:55:11.000Z",
+            "asOf": "2026-08-25T20:00:00.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -1125,10 +1125,10 @@
           "cik": "0001783879",
           "weight": 5.75,
           "quote": {
-            "price": 112.06,
+            "price": 112.09,
             "prevClose": 103.62,
-            "changePct": 8.14,
-            "windowChangePct": 17.15,
+            "changePct": 8.17,
+            "windowChangePct": 17.19,
             "windowDays": 22,
             "spark": [
               95.65,
@@ -1152,25 +1152,25 @@
               95.1,
               108.13,
               103.62,
-              112.06
+              112.09
             ],
-            "asOf": "2026-08-25T19:55:11.000Z",
+            "asOf": "2026-08-25T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
             {
+              "title": "Why Is Robinhood (HOOD) Stock Rocketing Higher Today - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFBRMzlzRDVzT2N4OWpiVm1JdHQzTzAtcm1HT3hOemxYRGNDUm8tNmxRamMzbjR4UXhYSFl0QTV0XzhsRHBjcmNlQXFyZ1F1eHdOeVhJeGRkMEJMR09DRGpQMm9aX3duQ2pndkFoRHp2bFYzdk9SYmlrYXhwamp1WU1KaDl2Z2gtYnJTUms3SGtQNHM2S3RzM0xsdjlpRzVZ?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-08-25T20:06:44.000Z",
+              "kind": "news"
+            },
+            {
               "title": "157-year-old Wall Street giant has a new call on Coinbase and Robinhood - thestreet.com",
               "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWWVHZDhJcm96TnV3eGJlekpva3RlUHRaWTlBY2plaGNKaWpHXzJjUTRpTXN5ai14bUdHZGlocE5Gek80TmYtczFVSHB5ZUdCSzBLX1pNTkJfZ1NDNktySFZqRlNNMHBPRFJlc3RBaldaQnU3Unl6UW8waDBINGtXLWRtZ0IwNnMtV1FCZWR5S2pQM2RGSVctV2RlLUtmbktZM3Q4V2xJUkY0b3p4S2MwWEx3?oc=5",
               "source": "thestreet.com",
               "publishedAt": "2026-08-25T19:35:00.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Why Is Robinhood (HOOD) Stock Rocketing Higher Today - TradingView",
-              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNU05ZLThRX2plTGs1RWVFZkx1STlybTRaQ01LR1RHWjFNRjE2NmNONlRFRUJZYXVDUldVZld3ck9TWWl2SFlRNFppM2pldlY5aWI5dEtCN083SHFVUFd0SVRjd1FzTHRSUGNpZVR6SllkN2RkakF6QnpJbW14R01NT0c5RGJFTnUyS1kwWE5maGtTRUd0MTh0bUp0QnVmX3hmTnl6aDljT05QR0N0dHBzbg?oc=5",
-              "source": "TradingView",
-              "publishedAt": "2026-08-25T19:20:50.000Z",
               "kind": "news"
             },
             {
@@ -1307,10 +1307,10 @@
           "cik": "0001907982",
           "weight": 7.12,
           "quote": {
-            "price": 19.32,
+            "price": 19.35,
             "prevClose": 18.68,
-            "changePct": 3.4,
-            "windowChangePct": -1,
+            "changePct": 3.59,
+            "windowChangePct": -0.82,
             "windowDays": 22,
             "spark": [
               19.51,
@@ -1334,13 +1334,20 @@
               18.8,
               20.39,
               18.68,
-              19.32
+              19.35
             ],
-            "asOf": "2026-08-25T19:55:12.000Z",
+            "asOf": "2026-08-25T20:00:00.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
+            {
+              "title": "Rigetti RGTI and QBTS Stock Rebounds, but $20 Resistance Remains a Major Barrier - FXLeaders",
+              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcVBoZFZLckltYmR3ZkdRdWxvVTlkclZqc0wzanlGXzFvOFVMMm9zTDBOZlNXVHNWTEg2R1ptM0o0QTVxUlpsREt6ckpkSFd5dE1sM2ZpMXBaaUE2VHlKbEtjRzY5SzFHc3lFaXlYeXRrODRCbHNLTGJUZHJQajVWRGVBenFMaTdBZzM4cTRSdUpzX0NPN3NqUE9fR2RiRTdIYUs4Y21fQUlrQVZtRExocGNfSFVTT202eVF5WVB3?oc=5",
+              "source": "FXLeaders",
+              "publishedAt": "2026-08-25T20:23:20.000Z",
+              "kind": "news"
+            },
             {
               "title": "D-Wave Quantum: A Bookings Bonanza That Wall Street Can't Quite Agree On - Ad-hoc-news.de",
               "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNGQ1TFlhNEF3WkJiVzhDUmFWSlpjcVUtZ3JRVXJ3d2t3RDJ3dWxCM18tOXBka1RxNmtFcUl0VURWY2NHNEgtdV9sbDNYQUpFM0NsZ0g4a0JFT0dHaDdmNTM0X0tuUmZjMHVPaWg2ZVJBWWZJQkNYMFlFUGVja2cyMGd1cHZyX3ZBbjFXMHZzMExvckJaaWhsYXhKVzFidVlCRlFBaGpzeGsxTDVkQkVUSnJrdTRqTFJ5MVM3MFd5aFBLS1lLVnBVVmZ6TTUxN0dBRHktamxjMFd6Tmc?oc=5",
@@ -1388,13 +1395,6 @@
               "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYTRmcGNIVEkzdE5nMmdlQUpXYlEtQ2xSRFpwSXdTN2J4ZkJUQVBMNHp1RzlNcTdFOXhqSlJGX2dRVVVVR0JpWG9JWnlpQnpXZ3k0VHJRc0ZucVpwRnJmeUZOeHY3N2FVNHlGTnAzUmlMeGpTQU1VckJWRFE4V2Y2enV3YzF4Sk5ia3JxVWRYOEVoNTBfTU9LOG50RFlvNS1MUlRGQk0tU25xYkJfVGNPVm5B?oc=5",
               "source": "GuruFocus",
               "publishedAt": "2026-08-24T23:33:14.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "D-Wave Quantum vs. Rigetti Computing: Which Quantum Computing Stock Is a Better Investment in 2026? - The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcUoxbVF2MkpTa1U2a0l1VEE1S200eF9sb1B2TDBHTHNUcWdMZy1mcFYxdHlfS3o0MHVzWHU4eFFnMDRISjV3bWlncUl5ZkJPSWdaWUd1bi10UEdqVVkzQ1ZJeGg5RGpNMFVBTGFZekNEU1UxZ196RllmLWlJOUQ0cmFFb2ZrcFA4QXNFSTZ1TGdIUkEwbXc1NllyeXhtd1pJTDMwdlY5OFlFRm01UkNaVVNVQzBJc3dWT3F2dk9WWmRObGE4S2MxMF9kY3d2WGN5QWh4UkstWkhCNFlvVHlacnB0MA?oc=5",
-              "source": "The Motley Fool",
-              "publishedAt": "2026-08-24T23:00:00.000Z",
               "kind": "news"
             }
           ],
@@ -1489,10 +1489,10 @@
           "cik": null,
           "weight": 1.75,
           "quote": {
-            "price": 2460.89,
+            "price": 2459.94,
             "prevClose": 2481.83,
-            "changePct": -0.84,
-            "windowChangePct": 31.37,
+            "changePct": -0.88,
+            "windowChangePct": 31.32,
             "windowDays": 32,
             "spark": [
               1873.22,
@@ -1526,25 +1526,25 @@
               2424.25,
               2463.82,
               2481.83,
-              2460.89
+              2459.94
             ],
-            "asOf": "2026-08-25T19:55:08.000Z",
+            "asOf": "2026-08-25T20:22:56.000Z",
             "currency": "USD",
             "exchange": "CCC"
           },
           "news": [
             {
-              "title": "ETH price on Aug 25, 2026 at 2pm EDT Crypto Prediction Market - Robinhood",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMy1LN0RmQXNxcXBvTUxMYzlzU3BJTjBnWEdycVgtcTVxYW5uSUNWVEdSTmJWcmZob0MzOVJaSENySktpVjA5U04yZXg5ZkpPRnJZdU1BVzJrQXhiZFBiY19FdmxnQldmLXo0aC16bGlWeGlRSXFsOF9RU3c1Y0pqbXh2X3VhdWQxVlduNDhzOHFSTFhTV0hEZnZRQVFOaGlXVFRIOG1SYldzc3FNdkE?oc=5",
+              "title": "ETH price on Aug 26, 2026 at 5pm EDT Crypto Prediction Market - Robinhood",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcXhKU3VuQWs5RjIxODc4YVRmRUpBbGhNVWJxRnQxeFVzWXJDeDRTa1NYMTJxZmJXRzlxVmdiSXJQdl85UVA4aW0xb2dQS0FxQnRpTlI2MHRsTTJyNE9vempDLThtdTh1ZWJFN0ZXMnFLS2NYRGNNWktrc0gxVVNJMWVTNmZMQUJTcmJLWmdLZXBLR3FKZGxrLUM3T2pYTlFONFJIS2RMQTdUWXA3QkE?oc=5",
               "source": "Robinhood",
-              "publishedAt": "2026-08-25T17:07:46.000Z",
+              "publishedAt": "2026-08-25T20:18:27.000Z",
               "kind": "news"
             },
             {
-              "title": "ETH price range on Aug 25, 2026 at 2pm EDT Crypto Prediction Market - Robinhood",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaS1VbTdwN0Raa0UydzU4RnlPeDBXTF9oMnhkeDV1Z3BVQ0VVd2hyOS1VRDZ0OF8zSFhGc21IVDFIVEVadWo4d1Vfc2kwd0tuVktGSUlLdDJxMzhVSnpVbm5tYkt3dWpraVpkSUxmN1VjMzIzb09IYjdkOVlHODhMd20xMGJQTE5IbDRvNlBXaThVdnN6cGlkNFc1YzZKVDllaXlzcnZsMzR6V004VjVIVGtyX1Bxdw?oc=5",
+              "title": "ETH price range on Aug 26, 2026 at 5pm EDT Crypto Prediction Market - Robinhood",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeVdGcEwwR1o0RkdBMm01MkgxdzlBS3FtazhLTFZSZjNjSklWYkZqRk42WVUxWlk5M0JzZS1PdHJKc2g1akZMenpfN04wX00tZkJfdlpxZFdVMERpZHhTelJVc01xTFlpNUZENEpBMWxYaEp6cDR6cl91ckRhR215WWVlVGJrNGwyNkJsVWRBTE0xT0p5ck9aQk95ZnpjOG1TOFV1V2haT0NYZ3FjR1dMSmFWS2tiUQ?oc=5",
               "source": "Robinhood",
-              "publishedAt": "2026-08-25T17:07:44.000Z",
+              "publishedAt": "2026-08-25T20:16:24.000Z",
               "kind": "news"
             },
             {
@@ -1600,10 +1600,10 @@
           "cik": null,
           "weight": 1.5,
           "quote": {
-            "price": 1.47,
+            "price": 1.46,
             "prevClose": 1.479,
-            "changePct": -0.73,
-            "windowChangePct": 33.81,
+            "changePct": -1.21,
+            "windowChangePct": 33.15,
             "windowDays": 32,
             "spark": [
               1.0973,
@@ -1637,18 +1637,25 @@
               1.4637,
               1.5222,
               1.479,
-              1.4683
+              1.4611
             ],
-            "asOf": "2026-08-25T19:55:07.000Z",
+            "asOf": "2026-08-25T20:22:53.000Z",
             "currency": "USD",
             "exchange": "CCC"
           },
           "news": [
             {
-              "title": "XRP price at Aug 25, 2026 at 4pm EDT? Crypto Prediction Market - Robinhood",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNE1fTnRuVjZJZHY3RFpqM0JsRngycXNtUjdhazdPLWZfN0Q3QlB4eGUyNWZ1d2ZQOEl5a0twdnFvQ3E2SC1GTWpYMXd3MDlnMUQwUG5Rb1JQQjFRVlRYczVFdmNUTHBYLVRHaXZzbm5WVmV4V1JqdVJ1VEZRQXFjM3RkUFFlRm5pWWNhV19wUktWX0ViSVRRd1IweW5makdkR0RtcGZsenh6Y09IN1E?oc=5",
+              "title": "XRP price at Aug 26, 2026 at 5pm EDT? Crypto Prediction Market - Robinhood",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbUZ4YXFfN19LMVJjTWtuQjJGMjFiejZweTVSTzUzWUNGWkh4MzJvRU1jZVdsa0d5ZTRCLXZScnB6NHBpd0pjd1NCbkVWOWFBajU2dGJUa01YbmdPbHEtQTkyMEExcEJmY3BrM3U3dHhNYUpIQlFOeXVQeDB4ZEhtMkhxTFlvQXhfSkhuZFhVN3NhaEZlbjh2b1FVN0l0eTdKQTRoQmh6b3k1MU9HalE?oc=5",
               "source": "Robinhood",
-              "publishedAt": "2026-08-25T19:04:10.000Z",
+              "publishedAt": "2026-08-25T20:18:28.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "BTC Price Today Nears $81K, XRP Pulls Back and Apeing’s Upcoming Launch Eyes the Next 100x Crypto This Bull Run - StreetInsider",
+              "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOclVfVnFYd3BsS3hJWTlTZndPX1E0SE1IbG90ZkJUS2hfWlVnMjNnc1hqMHlnUkhUcE04MnB4SnpZT2t2U3NMd2hnUTJDT2R3amtDTFN6VU5IbnFXQUF2bXh2NkFMU21sR2Y1R1NHWnRxLXJaWmxXcExzUmlHLVM1djJfY0VULUlaa3FTZmJCdHdSVWM2ZklGQ19zTjNSR0VYTzBCNnBpTG5ZYmNBaV8tRUVTTVBWODQyczZsWElWaXFzRHF5ZVQ2dlRTb3BGdk1sOVdUVmJQaXptZjBsSmljMHVPYTVPc2dFTkpKTkU2eHJ1NnoyYWxrQXVJLU1oQ2pjeVpweGNkZFZIX3dIeFhPUFltT2Y1NF9S?oc=5",
+              "source": "StreetInsider",
+              "publishedAt": "2026-08-25T20:17:26.000Z",
               "kind": "news"
             },
             {
@@ -1692,13 +1699,6 @@
               "source": "Cryptonews.net",
               "publishedAt": "2026-08-25T16:56:36.000Z",
               "kind": "news"
-            },
-            {
-              "title": "This XRP rival soars over 25% in a week - Cryptonews.net",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0M1hkMnhKYkdfMnVoRG94R0U0N0ZRNXl0MlhCWm10V29oa2tmX1FWdVJpX01WX192MEM5cW1KT2FlVW90VVVUb0twRUR0U2QzbnFNT0dyRFRmUGM?oc=5",
-              "source": "Cryptonews.net",
-              "publishedAt": "2026-08-25T16:42:12.000Z",
-              "kind": "news"
             }
           ],
           "filings": []
@@ -1718,13 +1718,13 @@
         "filingsCount": 32,
         "topGainer": {
           "symbol": "MSTR",
-          "changePct": 3.72
+          "changePct": 3.42
         },
         "topLoser": {
           "symbol": "PLTR",
-          "changePct": -1.43
+          "changePct": -1.8
         },
-        "avgChangePct": 0.51
+        "avgChangePct": 0.39
       },
       "holdings": [
         {
@@ -1735,10 +1735,10 @@
           "cik": "0001321655",
           "weight": null,
           "quote": {
-            "price": 173.37,
+            "price": 172.73,
             "prevClose": 175.89,
-            "changePct": -1.43,
-            "windowChangePct": 31.81,
+            "changePct": -1.8,
+            "windowChangePct": 31.32,
             "windowDays": 22,
             "spark": [
               131.53,
@@ -1762,9 +1762,9 @@
               173.96,
               179.94,
               175.89,
-              173.37
+              172.73
             ],
-            "asOf": "2026-08-25T19:55:12.000Z",
+            "asOf": "2026-08-25T20:00:00.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -1798,13 +1798,6 @@
               "kind": "news"
             },
             {
-              "title": "PLHI: Palantir High-Income ETF's 10.81% Screener Yield Puts It on the 2026 Watchlist - kalkine.ca",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcVpfOS1xRU56T1d5WFhGeVVVSFQwd09uUng2R3hoZ0RMeXFsZGJlTXl5aDdBOVlyZU5hQndMeVgwZ3NzSHFOd19QYXhkZzVQWGhpeDdVV0h3WTJGZ3hFMXIyeHR2dVRLZXFrTWVSU2V4VVpCTVFWREk5Y1lZaWJmS3FvYm8xdlk3VU94TzdFdUo2cFptZnJ4WHBiM2pnMl9ISWE0YkFXN19ydnpJUHB0eDJrYlFkTUtzRW1RQTFBaFJZNENx?oc=5",
-              "source": "kalkine.ca",
-              "publishedAt": "2026-08-25T15:25:00.000Z",
-              "kind": "news"
-            },
-            {
               "title": "Selling Palantir at a Big Profit to Increase Our Cash on Hand - TheStreet Pro",
               "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa2NTTElIZjZDQkJXUjVjMVZhZDNjYTN0V2xwRFUxWW5adkoweWw0NFRmS2VTNXV5NHdNZXFOM3BOdTBUN2hQR2F5WTdsY1g2d0poYjVweEowS2ExY3o3Mmt3by1RSGRwWE5qRm9ISHZXRTR6OHl1Y1NISzRSMG1rN1Rqb0FfZ0dnWW4tM19pNFZ1VzltMWo1ZnpVU292dw?oc=5",
               "source": "TheStreet Pro",
@@ -1823,6 +1816,13 @@
               "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeWVPekdQZFBXTk5aV1p6ZTZ3dGFMdzlKTTZYU2ExVG5lMHFUdlp5UEU2Tzk4V1NTMW5na2VTVkZMMlNScVZmRWx0RWtFLV9nM2xzS3pLa09lazB0anNBR3ZxenJKMXRRaEpDcXNHaVFPZDBJaHp0N0w5U0hHdHVyM284U0RIV3M4Q3Z6MGNqUXF0WS1NZkJLV3ExSnl0TE9nVUg2US1MSUZmak9QeXBOeTF1LUJNeFZHX0QxM0xtcl94WmVsdlFkS0hKTjc?oc=5",
               "source": "Barchart.com",
               "publishedAt": "2026-08-25T14:55:51.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "The Real Question Behind Palantir Stock’s High Price - Trefis",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZlpaYnRVSG1oanBzdjZqMVNSVW1TRnZRZTRrb0xHaDVyNU9GSkpBeVBjU0UxcUViWERhbXBpbEhwb0pFSmVWMDNtelF1ZGxldnZCUnZ2RDh1WEkzcWJrYmpfbHB1WlBtaU4xRjZiUjZrU1BuMnRJTVNNZTNfdDVmWmk3eUdpMmpNb0ZISnZvNjFCeVdjZnpLdEVMTDhTOHlGMUlDMHU4QzJydFRTUmJpN1RB?oc=5",
+              "source": "Trefis",
+              "publishedAt": "2026-08-25T14:47:30.000Z",
               "kind": "news"
             }
           ],
@@ -1917,10 +1917,10 @@
           "cik": "0001050446",
           "weight": null,
           "quote": {
-            "price": 127.19,
+            "price": 126.83,
             "prevClose": 122.63,
-            "changePct": 3.72,
-            "windowChangePct": 28.93,
+            "changePct": 3.42,
+            "windowChangePct": 28.57,
             "windowDays": 22,
             "spark": [
               98.65,
@@ -1944,9 +1944,9 @@
               112.39,
               119.25,
               122.63,
-              127.19
+              126.83
             ],
-            "asOf": "2026-08-25T19:55:12.000Z",
+            "asOf": "2026-08-25T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -2009,6 +2009,16 @@
             }
           ],
           "filings": [
+            {
+              "title": "144 — Strategy Inc",
+              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326006438/xsl144X01/primary_doc.xml",
+              "source": "SEC EDGAR",
+              "publishedAt": "2026-08-25T16:03:49.000Z",
+              "kind": "filing",
+              "form": "144",
+              "desc": "",
+              "explain": "Notice of a proposed sale of restricted/insider stock."
+            },
             {
               "title": "144 — Strategy Inc",
               "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326006404/xsl144X01/primary_doc.xml",
@@ -2078,16 +2088,6 @@
               "form": "8-K",
               "desc": "8-K",
               "explain": "Material event — a significant development the company must disclose promptly."
-            },
-            {
-              "title": "144 — Strategy Inc",
-              "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326005795/xsl144X01/primary_doc.xml",
-              "source": "SEC EDGAR",
-              "publishedAt": "2026-08-07T21:33:03.000Z",
-              "kind": "filing",
-              "form": "144",
-              "desc": "",
-              "explain": "Notice of a proposed sale of restricted/insider stock."
             }
           ]
         },
@@ -2099,10 +2099,10 @@
           "cik": "0000789019",
           "weight": null,
           "quote": {
-            "price": 492.17,
+            "price": 491.71,
             "prevClose": 487.31,
-            "changePct": 1,
-            "windowChangePct": 26.49,
+            "changePct": 0.9,
+            "windowChangePct": 26.37,
             "windowDays": 22,
             "spark": [
               389.1,
@@ -2126,13 +2126,20 @@
               481.15,
               483.24,
               487.31,
-              492.17
+              491.71
             ],
-            "asOf": "2026-08-25T19:55:12.000Z",
+            "asOf": "2026-08-25T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
+            {
+              "title": "Microsoft stock jumps 28% in a month on strong earnings and cloud growth, eyeing $600 target. - Pluang",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSnlSSWc1d1g0bS12anhrWXJsbzluTXV0WlFPSTlNbmFoZG9hbzV6OUdoMjdLaG14R281dlZYRXZtc3VHUWdRVXowZlV3ZEFuNl9ocVVOSFRRaWtESkZodF8tZEtVWkFMazN4TVRwc0tXNnE2Z0tHWnlDNGlYdGcwTklpaGNpNW9PM1RXYjRqel9fOXhkZGZpd2J4MnQ5ZjFBNVpPdEpUaFNrWkJ6?oc=5",
+              "source": "Pluang",
+              "publishedAt": "2026-08-25T20:01:08.000Z",
+              "kind": "news"
+            },
             {
               "title": "Microsoft Just Ripped 28% in a Month. What Would It Take to Get MSFT Stock Up to $600? - 24/7 Wall St.",
               "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZDVfQV9ZaDF1UnBrYnJtdGNXRVBORHc1bzNZSE5EdGZjVDBJbTNkVlVQZ04zeEFnOVd5clRHQmNfSG41TUZUemFfcnhEUUJTTE1wRnA4TUVOY0dLMnJucWZiR0kzanJQSlQ3Q05BcTUxSWtIcFkwbXFPd2hFN1VOZTBXWUl3QWhlRk01U1F1Mlh1ck5yTXF4RDVJMjlMQ2FZQXZsT05QU3RuMExaRjF1eTgyQ3dDWm5nb1lZZVBDQTFfRkM2?oc=5",
@@ -2180,13 +2187,6 @@
               "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSFVBN2s1c3BlVXdlUXh4dUJPbUZaRG8zOW1XNjlDangxaTVYM3owbEdHaWJ6V2xFOFlpUVRiME9Id2E1RkxXUUNkTm04UGl2dW03X01VdjJLeEVjRWtLTjJvZElNQTJpb1JkNE94T0dieFJBbC1nZkpPZnFpSTlwU2pOUVBfYWo0SHZXNS1EdWdkY1M3UlFibGo2c2ZTSDhVVDNpQzk5bXB3cG10eTdJQkY5ZXFidGl6V2ZxQWpPU0J0SVBfUFNXc2diWFJlVjQ?oc=5",
               "source": "Barchart.com",
               "publishedAt": "2026-08-25T15:05:02.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "2 Tech Stocks I'd Load Up on Today and 1 I'd Avoid Until Further Notice - The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONUdaZDAxRVltMjFXNGEtS2g0clg4Q1lhZ2ZZTHFXWGdDaVp4MnFGUkRsRGREdDZSWVdPeDc2bEtqMVRQNFZ2ZFV1SzEwcVd4ME9CZUNnRHhGRTluNGl2U1psbWQ5TlRqd3JVYmtsMlp6NnczNXBZVjR4d0dCbFJhaWJtVURKdVZmWUcwalE4Uk9qaVVrOUE?oc=5",
-              "source": "The Motley Fool",
-              "publishedAt": "2026-08-25T14:45:00.000Z",
               "kind": "news"
             }
           ],
@@ -2281,10 +2281,10 @@
           "cik": "0001652044",
           "weight": null,
           "quote": {
-            "price": 346.38,
+            "price": 346.96,
             "prevClose": 348.06,
-            "changePct": -0.48,
-            "windowChangePct": 6.07,
+            "changePct": -0.32,
+            "windowChangePct": 6.25,
             "windowDays": 22,
             "spark": [
               326.56,
@@ -2308,9 +2308,9 @@
               340.67,
               344.82,
               348.06,
-              346.38
+              346.96
             ],
-            "asOf": "2026-08-25T19:55:10.000Z",
+            "asOf": "2026-08-25T20:00:01.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -2463,10 +2463,10 @@
           "cik": null,
           "weight": null,
           "quote": {
-            "price": 704.3,
+            "price": 704.02,
             "prevClose": 701.83,
-            "changePct": 0.35,
-            "windowChangePct": 3.68,
+            "changePct": 0.31,
+            "windowChangePct": 3.64,
             "windowDays": 22,
             "spark": [
               679.31,
@@ -2490,9 +2490,9 @@
               701.01,
               703.71,
               701.83,
-              704.29
+              704.02
             ],
-            "asOf": "2026-08-25T19:55:12.000Z",
+            "asOf": "2026-08-25T20:00:00.000Z",
             "currency": "USD",
             "exchange": "PCX"
           },
@@ -2564,10 +2564,10 @@
           "cik": null,
           "weight": null,
           "quote": {
-            "price": 44.62,
+            "price": 44.59,
             "prevClose": 44.67,
-            "changePct": -0.12,
-            "windowChangePct": 1.65,
+            "changePct": -0.18,
+            "windowChangePct": 1.59,
             "windowDays": 22,
             "spark": [
               43.89,
@@ -2591,9 +2591,9 @@
               45.69,
               45.92,
               44.67,
-              44.62
+              44.59
             ],
-            "asOf": "2026-08-25T19:54:39.000Z",
+            "asOf": "2026-08-25T20:00:00.000Z",
             "currency": "USD",
             "exchange": "NGM"
           },
@@ -2627,18 +2627,98 @@
   ],
   "latestNews": [
     {
-      "title": "Nvidia Could Grow Revenue 97% and Still Disappoint Wall Street on Aug. 26 - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVFSM0U5Xy1uNHljb2pIVURpWjMyTUE0UGhFd2ljUkhnRERSTVlmbzF5Q1lUNlAtRFBIcHpRMTdQczVicHR2b05VVzNTTUxKRUFTMXZRRkNnUU1VdDdoWXpaUjhJQzR5ZjFmWnd5ZUE0X1ltbExWekdQX2ZOYVBZcmhPcUZCZWdLc3hoV0JFSURBS0ctM3g0?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-25T19:48:55.000Z",
+      "title": "Rigetti RGTI and QBTS Stock Rebounds, but $20 Resistance Remains a Major Barrier - FXLeaders",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcVBoZFZLckltYmR3ZkdRdWxvVTlkclZqc0wzanlGXzFvOFVMMm9zTDBOZlNXVHNWTEg2R1ptM0o0QTVxUlpsREt6ckpkSFd5dE1sM2ZpMXBaaUE2VHlKbEtjRzY5SzFHc3lFaXlYeXRrODRCbHNLTGJUZHJQajVWRGVBenFMaTdBZzM4cTRSdUpzX0NPN3NqUE9fR2RiRTdIYUs4Y21fQUlrQVZtRExocGNfSFVTT202eVF5WVB3?oc=5",
+      "source": "FXLeaders",
+      "publishedAt": "2026-08-25T20:23:20.000Z",
+      "kind": "news",
+      "symbol": "QBTS"
+    },
+    {
+      "title": "XRP price at Aug 26, 2026 at 5pm EDT? Crypto Prediction Market - Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbUZ4YXFfN19LMVJjTWtuQjJGMjFiejZweTVSTzUzWUNGWkh4MzJvRU1jZVdsa0d5ZTRCLXZScnB6NHBpd0pjd1NCbkVWOWFBajU2dGJUa01YbmdPbHEtQTkyMEExcEJmY3BrM3U3dHhNYUpIQlFOeXVQeDB4ZEhtMkhxTFlvQXhfSkhuZFhVN3NhaEZlbjh2b1FVN0l0eTdKQTRoQmh6b3k1MU9HalE?oc=5",
+      "source": "Robinhood",
+      "publishedAt": "2026-08-25T20:18:28.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
+      "title": "ETH price on Aug 26, 2026 at 5pm EDT Crypto Prediction Market - Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcXhKU3VuQWs5RjIxODc4YVRmRUpBbGhNVWJxRnQxeFVzWXJDeDRTa1NYMTJxZmJXRzlxVmdiSXJQdl85UVA4aW0xb2dQS0FxQnRpTlI2MHRsTTJyNE9vempDLThtdTh1ZWJFN0ZXMnFLS2NYRGNNWktrc0gxVVNJMWVTNmZMQUJTcmJLWmdLZXBLR3FKZGxrLUM3T2pYTlFONFJIS2RMQTdUWXA3QkE?oc=5",
+      "source": "Robinhood",
+      "publishedAt": "2026-08-25T20:18:27.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    },
+    {
+      "title": "BTC Price Today Nears $81K, XRP Pulls Back and Apeing’s Upcoming Launch Eyes the Next 100x Crypto This Bull Run - StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOclVfVnFYd3BsS3hJWTlTZndPX1E0SE1IbG90ZkJUS2hfWlVnMjNnc1hqMHlnUkhUcE04MnB4SnpZT2t2U3NMd2hnUTJDT2R3amtDTFN6VU5IbnFXQUF2bXh2NkFMU21sR2Y1R1NHWnRxLXJaWmxXcExzUmlHLVM1djJfY0VULUlaa3FTZmJCdHdSVWM2ZklGQ19zTjNSR0VYTzBCNnBpTG5ZYmNBaV8tRUVTTVBWODQyczZsWElWaXFzRHF5ZVQ2dlRTb3BGdk1sOVdUVmJQaXptZjBsSmljMHVPYTVPc2dFTkpKTkU2eHJ1NnoyYWxrQXVJLU1oQ2pjeVpweGNkZFZIX3dIeFhPUFltT2Y1NF9S?oc=5",
+      "source": "StreetInsider",
+      "publishedAt": "2026-08-25T20:17:26.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
+      "title": "ETH price range on Aug 26, 2026 at 5pm EDT Crypto Prediction Market - Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeVdGcEwwR1o0RkdBMm01MkgxdzlBS3FtazhLTFZSZjNjSklWYkZqRk42WVUxWlk5M0JzZS1PdHJKc2g1akZMenpfN04wX00tZkJfdlpxZFdVMERpZHhTelJVc01xTFlpNUZENEpBMWxYaEp6cDR6cl91ckRhR215WWVlVGJrNGwyNkJsVWRBTE0xT0p5ck9aQk95ZnpjOG1TOFV1V2haT0NYZ3FjR1dMSmFWS2tiUQ?oc=5",
+      "source": "Robinhood",
+      "publishedAt": "2026-08-25T20:16:24.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    },
+    {
+      "title": "Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls. - MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQ25SbHVEYzJrLWpmdHBSTFBTOXd5NklBcFhrZEkwQndEeUdnUlNGZElFNmw2Qm80dTZHLVIwX1liM05ONldGMmh3VjdJb1RsaUJYZFcxckJlSVdKcl8yTlRrdkdYUWw2T3RHQTc2SU9Tc3J4TjU0M2VTeHVnVlRLMWtrOFBPOVliT2M0dGJYcG1MVE5nSVhmb1ZqTGdzTEFwVDU3TXh2a2hqREhUUHhaN1ROTVRidXdpdnFwQ0RVenFTWHpUcEJET2RLYzJUSEFaV19EWXpfYnpFdHFONGstUTliUWFrVGgybW4xeFVsS0xuZw?oc=5",
+      "source": "MarketWatch",
+      "publishedAt": "2026-08-25T20:07:00.000Z",
       "kind": "news",
       "symbol": "NVDA"
     },
     {
-      "title": "History Says Nvidia Is Likely To Fall on Wednesday. Here's Why That's Not Bad News - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa3cyUGlVclJjcXNLLVBNUUdleTRnY1dhNmd5WVdSNE9FQ2FGQjVaYUtYZEllMTlTSGNVOFJfT1pkN3pPX2hZYnZVQ0p1azJxQmVKUm5yWmpINkpGYlE0RmhkQ1ZKbFBqSXhtQUdBbHJPSDZvald2X0JmNk16Q21XWFRaRFk2NXBBZ05rX01PaFA5YXZCTXo2Yw?oc=5",
+      "title": "Why Is Robinhood (HOOD) Stock Rocketing Higher Today - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFBRMzlzRDVzT2N4OWpiVm1JdHQzTzAtcm1HT3hOemxYRGNDUm8tNmxRamMzbjR4UXhYSFl0QTV0XzhsRHBjcmNlQXFyZ1F1eHdOeVhJeGRkMEJMR09DRGpQMm9aX3duQ2pndkFoRHp2bFYzdk9SYmlrYXhwamp1WU1KaDl2Z2gtYnJTUms3SGtQNHM2S3RzM0xsdjlpRzVZ?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-08-25T20:06:44.000Z",
+      "kind": "news",
+      "symbol": "HOOD"
+    },
+    {
+      "title": "Nvidia Could Grow Revenue 97% and Still Disappoint Wall Street on Aug. 26 - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVFSM0U5Xy1uNHljb2pIVURpWjMyTUE0UGhFd2ljUkhnRERSTVlmbzF5Q1lUNlAtRFBIcHpRMTdQczVicHR2b05VVzNTTUxKRUFTMXZRRkNnUU1VdDdoWXpaUjhJQzR5ZjFmWnd5ZUE0X1ltbExWekdQX2ZOYVBZcmhPcUZCZWdLc3hoV0JFSURBS0ctM3g0?oc=5",
       "source": "The Motley Fool",
-      "publishedAt": "2026-08-25T19:47:45.000Z",
+      "publishedAt": "2026-08-25T20:05:52.000Z",
+      "kind": "news",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "History Says Nvidia Is Likely To Fall on Wednesday. Here's Why That's Not Bad News - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOUw2Sktlb0NtM2NIRUdBRHB3SS0tS3haYzJCS2lrMWxBV2xzSE0zX2h0Z0NWN2l4MThVUVRObkhJTzlLbnJHUGdFOFM2WFAta3pOR25HYjFWbWJrSmlUakRwam9ORnlsaE80WlZvRllMbDJqTnFxazJacTg2RHVPZWZxMkp1NXM3S1ZicXhsSFNyOFFnUXdoMFBJWVM?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-08-25T20:05:00.000Z",
+      "kind": "news",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "Microsoft stock jumps 28% in a month on strong earnings and cloud growth, eyeing $600 target. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSnlSSWc1d1g0bS12anhrWXJsbzluTXV0WlFPSTlNbmFoZG9hbzV6OUdoMjdLaG14R281dlZYRXZtc3VHUWdRVXowZlV3ZEFuNl9ocVVOSFRRaWtESkZodF8tZEtVWkFMazN4TVRwc0tXNnE2Z0tHWnlDNGlYdGcwTklpaGNpNW9PM1RXYjRqel9fOXhkZGZpd2J4MnQ5ZjFBNVpPdEpUaFNrWkJ6?oc=5",
+      "source": "Pluang",
+      "publishedAt": "2026-08-25T20:01:08.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "Here’s How Much Nvidia Stock Is Expected to Move After Earnings - Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRUVrUnBqVHJPeXJmX1FJcmRUZ19XWmJkZU5RcUJLbUxIc1pLOTdiME5Kb1NXTTEyNFdPVjhrZlNnTXh0b21zcmMtSGxzMmhFNW5EaHdRVFVqT21vdU90ZDlaSVUtb29EY25hQVJXV3NiN2lTOVVDZ2hjZ2U0Qjk0YTVwWHp2b25MRmlqS0g4QVNpVVdMUVFMOHFQU0RDZTdqSlpRTEZqdnp5RHdTQlhVcDFEd2gzN3NCXy1DdVBERTVtQQ?oc=5",
+      "source": "Investopedia",
+      "publishedAt": "2026-08-25T19:44:27.000Z",
+      "kind": "news",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "Here's what investors should watch for from Nvidia earnings, CIO says - Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04OFBBVDEzN1NnbVhmQnZLWTdQMTk0NXBhLTFza3Z5VlhGd19WSmdGT2FKdWM3ZWN6TUN4U0s2aDVGc3dRakdMYkpvV3dnMVJBZ2NjMFY2Y0o1ZWs?oc=5",
+      "source": "Fox Business",
+      "publishedAt": "2026-08-25T19:43:59.000Z",
       "kind": "news",
       "symbol": "NVDA"
     },
@@ -2667,14 +2747,6 @@
       "symbol": "NVDA"
     },
     {
-      "title": "Why Is Robinhood (HOOD) Stock Rocketing Higher Today - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNU05ZLThRX2plTGs1RWVFZkx1STlybTRaQ01LR1RHWjFNRjE2NmNONlRFRUJZYXVDUldVZld3ck9TWWl2SFlRNFppM2pldlY5aWI5dEtCN083SHFVUFd0SVRjd1FzTHRSUGNpZVR6SllkN2RkakF6QnpJbW14R01NT0c5RGJFTnUyS1kwWE5maGtTRUd0MTh0bUp0QnVmX3hmTnl6aDljT05QR0N0dHBzbg?oc=5",
-      "source": "TradingView",
-      "publishedAt": "2026-08-25T19:20:50.000Z",
-      "kind": "news",
-      "symbol": "HOOD"
-    },
-    {
       "title": "Palantir Lost an $875 Million Contract. Is the Stock Still a Buy? - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc2pLVmUyaEthdmJzd1U4bmg4ZlNxeFo1WXBIUWRzbndMM21aWkVWbFpXV1ByZi10VjE5QWthR2FpXzZocjJpcDZJYU1odDBEbW9JMjd4c1d3eWFNNGp4T21RZ19vYm8tYU1PN3I3eXFybW9BWlU5LVB0Um5nNDRVbFhoc25OUzBBekRzY0hGQjhyZGNoZFF1TA?oc=5",
       "source": "The Motley Fool",
@@ -2699,20 +2771,20 @@
       "symbol": "NVDA"
     },
     {
-      "title": "XRP price at Aug 25, 2026 at 4pm EDT? Crypto Prediction Market - Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNE1fTnRuVjZJZHY3RFpqM0JsRngycXNtUjdhazdPLWZfN0Q3QlB4eGUyNWZ1d2ZQOEl5a0twdnFvQ3E2SC1GTWpYMXd3MDlnMUQwUG5Rb1JQQjFRVlRYczVFdmNUTHBYLVRHaXZzbm5WVmV4V1JqdVJ1VEZRQXFjM3RkUFFlRm5pWWNhV19wUktWX0ViSVRRd1IweW5makdkR0RtcGZsenh6Y09IN1E?oc=5",
-      "source": "Robinhood",
-      "publishedAt": "2026-08-25T19:04:10.000Z",
-      "kind": "news",
-      "symbol": "XRP"
-    },
-    {
       "title": "Microsoft shares workaround after Windows KB5120708, KB5120705, KB5120710 break printing - Neowin",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWWFMUEpRYXExMmR6T3JYS3ZMR0Flbkx1aURjWi1BQzdqazl3czUyWWc4YnNCNEhFNU9GeVI3ZTNUaHBKT3BaYzVBSjVFZ1Z1TWdoV21WYTVoX3M3SkdaREVzbVpjYTZac0E1QkJnRF9HX1g5OTJsU2hvVzg4SHdrTjJZQnRiMXhEVWQ4SXh2Q04wTmxvN3hoWFNhVUNGR1BVb1Rzdll3YU9TMHk1NmswM0NabHByZ9IBtAFBVV95cUxOaTl0eVVvWGgxZzBHVkZMcmI1UUhPZGRsRmNvYnZ2cXk0eWc3UThxRUtLVFlrRElNQ0hwS0JrRU5ZSHpOc294VmgwWDFwbER5RFM4ajhYUnZJN2dLZEV1NFUyUm1lWlI2c0RaYlRHQm5IYjJCWGdNVG9FSHM2S2NyYUV4UzVxeXZyRnh6ZEZWUk1BMVIzR0lpUWZpSEhTN2d1cXJESm4xQU5hWHFhM1JfLTc2Yks?oc=5",
       "source": "Neowin",
       "publishedAt": "2026-08-25T19:04:02.000Z",
       "kind": "news",
       "symbol": "MSFT"
+    },
+    {
+      "title": "Robinhood Stock Surges As Crypto Rally And New Funds Ignite HOOD - StocksToTrade",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHViUFNfVTVBN25VRGZkR1dxb0xINlFBVVZENFFfTmo3YXFfTFdMYi1jTFFKcXp3THZRbkZOZUI1Y1RDd2RCRUp5eW01amRMZUYzZDJNbjJDYzBDbXBOLVVSSnYzSDlvRXJNTTZNTW5ucUtNWHRWaXVzZ2N2bGx5ZkRn?oc=5",
+      "source": "StocksToTrade",
+      "publishedAt": "2026-08-25T19:03:00.000Z",
+      "kind": "news",
+      "symbol": "HOOD"
     },
     {
       "title": "SOFI Stock Grinds Higher As Earnings Beat Fuels Bull–Bear Tug-Of-War - timothysykes.com",
@@ -2731,14 +2803,6 @@
       "symbol": "SOFI"
     },
     {
-      "title": "Robinhood Stock Surges As Crypto Rally And New Funds Ignite HOOD - StocksToTrade",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHViUFNfVTVBN25VRGZkR1dxb0xINlFBVVZENFFfTmo3YXFfTFdMYi1jTFFKcXp3THZRbkZOZUI1Y1RDd2RCRUp5eW01amRMZUYzZDJNbjJDYzBDbXBOLVVSSnYzSDlvRXJNTTZNTW5ucUtNWHRWaXVzZ2N2bGx5ZkRn?oc=5",
-      "source": "StocksToTrade",
-      "publishedAt": "2026-08-25T19:03:00.000Z",
-      "kind": "news",
-      "symbol": "HOOD"
-    },
-    {
       "title": "HOOD Stock Surges As Crypto Rally And New Funds Ignite Traders - timothysykes.com",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS1lZWjBrTUFrZ0h4YWdJQ1BJUzFsWDBpYjFocVFubE5UNDVOeExzMDBmRFBYaEhRLTdOSWZEb3FrMi0ydU9CSzVIckp0Wi1PUXdNcEJHNHdOT0FmdjF1QUtVSUZuN1JwUE5RMXV6M2M1RkhCLURCYUJOcGdTRmFvMnpZQXI5UQ?oc=5",
       "source": "timothysykes.com",
@@ -2747,36 +2811,12 @@
       "symbol": "HOOD"
     },
     {
-      "title": "Nvidia Stock Climbs -- BMO Sets $340 Target Ahead of Earnings - GuruFocus",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQnNoVDByN1hodUJmSHVyYndtbWdNRWpBLTJLSWdRY2FLQm1WVmZyVjRQY3d3MmZyaVdKTWIwakljU1FkdGlsQm1WOV95ZWh3dW5uNjJXSjQxZE5aSTBabUs0ZlBnNlNRUUp4SExLUTlCSFMwTVppTVZ0MEJDaTQ0NXpkTjNrQUdkcWw1TUp6UDUtZF9IZ09mVnF6aGM?oc=5",
-      "source": "GuruFocus",
-      "publishedAt": "2026-08-25T19:00:58.000Z",
-      "kind": "news",
-      "symbol": "NVDA"
-    },
-    {
       "title": "XRP News: Network Activity Jumps 654% as XRP Tests $1.5 Resistance - The Coin Republic",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSVVUM1djenltUFVlbS1IbWFBOWZOdDdkTFpFbkFiOTl1b2ZJaVpPeTFRT0Y2aFp6Y0gyZ0QyQlNpV2x4emc5ZFR6T0t5V2FWQnU4WlBTVmE1N1RLclFvcm1iZEhsa1drUXlGLVE4WWJhNWFYcXQzaFo1WWFEUTR6M3RTekUtNU9jOXZobkpLYXJ2MjNsNG5nVWpnd1hlMFdra3VFVU0xV3RQWWp4RllMNdIBsAFBVV95cUxOSVVUM1djenltUFVlbS1IbWFBOWZOdDdkTFpFbkFiOTl1b2ZJaVpPeTFRT0Y2aFp6Y0gyZ0QyQlNpV2x4emc5ZFR6T0t5V2FWQnU4WlBTVmE1N1RLclFvcm1iZEhsa1drUXlGLVE4WWJhNWFYcXQzaFo1WWFEUTR6M3RTekUtNU9jOXZobkpLYXJ2MjNsNG5nVWpnd1hlMFdra3VFVU0xV3RQWWp4RllMNQ?oc=5",
       "source": "The Coin Republic",
       "publishedAt": "2026-08-25T19:00:02.000Z",
       "kind": "news",
       "symbol": "XRP"
-    },
-    {
-      "title": "Nvidia’s Losing Streak Is Ending. Be Careful What You Wish For. - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR2JEWV9ERjBialIwd3NYLTM0YXE3N0FtNllqOXRmVV9kLWY1QngwcnZuQUFMbVF4NVhkY1NUcUNMVFAySU1GVWRzN3REbjk2N1hxMWZzWEV1NGszdzNWU3k0bV9ZTlppeDFwOXo0TWFwOF90ckNKb0c4amJIYmRWdUFwS1QzS0pDWWk0?oc=5",
-      "source": "Barron's",
-      "publishedAt": "2026-08-25T18:56:00.000Z",
-      "kind": "news",
-      "symbol": "NVDA"
-    },
-    {
-      "title": "Jensen Huang Said Nvidia's $30 Billion OpenAI Investment Might Be the Last. Nvidia Just Guaranteed Up to $105 Billion of OpenAI's Leases. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNa0l4ZHpVcmliRHJLYUd4ZVRSbExIWFlpYUlyWFRZTUhDZUlHdVpZTFE2OWVrWjIxX1hoMmU4a3NXZFNxeTR4WVAyalVVcWNNQXkzcG8wTEJTSkx5eVVLSkltTWVVaFhBdThVQ3dFVXNwMWE1cnF4RFdwaHkyTHJHYkRNZFdQdVVZN1pkdjBmWWhTQ0lMZ09EclVFa3IzVW1jMmVCcXg0TmxmTURKMTc5LWc4VWN6aGkzVWgwcDU2Q2QyUFBmUVhSNXdNYmtUNzR6ZG95dEhTQ0xlTmxOQU5wOHFLQkVIS3BCcWREaUtMT0lhemtKOXRLQzdJVWUxSUV0ZEtQOFNqcV9ucjItQS1j?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-25T18:48:09.000Z",
-      "kind": "news",
-      "symbol": "NVDA"
     },
     {
       "title": "What's Going On With the Drop in Palantir Stock Today? - Benzinga",
@@ -2825,49 +2865,20 @@
       "publishedAt": "2026-08-25T18:29:00.000Z",
       "kind": "news",
       "symbol": "XRP"
-    },
-    {
-      "title": "SoFi Rises 3% as the Stablecoin Trade Pulls Fintech Into the Crypto Bid, Coinbase Climbs 5% - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQUU5Nzc3clYxZ2hLMnc4UW5oMzJlWFU2Y3U5eHNTNi1weUZGcGNBcXNrLWxzTzJUMFZ3WF9KZGJGTGljNVdiTU1iSmRNbVNjd0ZyN0JzX0hCM2RXckpfb3JyLVM2RnpTWHNJekNpa1h4NWw1TDBQeWJWRE1wUGR1QzhxRVpMX0lleEJRc2ozVEpBRG41NHdhRUUyVWlUUWF6YVAzTnlUbkR1cE1lR25oUU1GTjc0WUZFd3ZuR2tCRk53UXE5emM0V1h6WXU?oc=5",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-08-25T18:27:34.000Z",
-      "kind": "news",
-      "symbol": "SOFI"
-    },
-    {
-      "title": "Sofi Stock Is Trending: A Key Level Just Came Into Play - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZ1FaY2tZeTJLcFNRcnpVbTFYcWZtelV3MUZxRXFELTJPZGNkSThRNzdBeFhrbVRkd3MwUGdNVVRFU2wxUE9yUWhXMWlLa1g5VklHZmo4RWJsMGRLQTZ4ZEc0TGtTRy1rYURCaUxDaXJ1V2JXT2RUUldjZldiem5tT0lNWnZOVV8wc1RGTTU3NVVGY09YMERpME1QeGtHRkU2QTU2LVBrTV9udldVX3Y4QmVpdWFndw?oc=5",
-      "source": "Benzinga",
-      "publishedAt": "2026-08-25T18:17:01.000Z",
-      "kind": "news",
-      "symbol": "SOFI"
-    },
-    {
-      "title": "XRP Price Falls Today After Explosive 46% Weekly Rally - Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRTh0aW5LanFfdHV5QjhtSVNFdE1OQWJya2lmdDg3R2ZCODRkTHlQTDVCWVRJNU00N2pHS0lzcmp3RmlkOWZvYUZYUEZjODJjWVRUSmhWSnRWaklYNzAwWmpoNUN2ajFQdERLSEZxWFdueUZCVzhYYm1NakpDZUNuMTNYS1dIXzhTMEJNNWNJa0hMRHJBNGJ3ONIBngFBVV95cUxQWFNqWUpaNzBkNy1SZC1UV2RGN1pSa3ZsdFFwSHRJUjZDS0FQSC1uTVA0SGQ3QW5mRUJ6VWV2LWIxcTNVZFI4b19LZ0JITlp6Wl8xYkpYcnBsZ2U3V0tXUVZRR2ZhZ2RDUnFoNFlGLVpOdk9HTVNkaDZsY1dmeTdTQ2xISWlRRXR3Qk1tY0ZoV0V3cmlBVVktWDRQQzl5dw?oc=5",
-      "source": "Coinpedia",
-      "publishedAt": "2026-08-25T17:57:14.000Z",
-      "kind": "news",
-      "symbol": "XRP"
-    },
-    {
-      "title": "XRP’s 654 % Network Surge Comes With A Major Volatility Warning - Cointribune",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZzQxUWRfb21BbmMtNnc5UXRDOVVxLThUMm0zZFVqUm5oS1dEM1o3SVJCdjRESVpXUjNaOFJfaktSRFYyNi1TQ29YMnNqNDRPcHJmZFRqeWNvaHJHMzBGYndNRnFRU2d0WVZmS2trRTh5ZDFCbnd3Nk9rNjFlM3o3d2Rn?oc=5",
-      "source": "Cointribune",
-      "publishedAt": "2026-08-25T17:35:00.000Z",
-      "kind": "news",
-      "symbol": "XRP"
-    },
-    {
-      "title": "SoFi Technologies Stablecoin Push: Can SoFiUSD Scale Payments? - Zacks Investment Research",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlE4b29NV09pSGFuMVQ2VjRqVklVSE9iS24zNWctZm5hY0swWFJhOWoyUkYzSDJnQ21NMGlGUnI4Zjl4VFNGOV9QM3hVcUhxNjVWZzFSelVZTmoySDlBV3k2V0QwWUpFMVBFSTVadnY1VVJOQkZsamdWUHZVSG5zN0lNVUdXanl2b2JUNGZSQmxJaGdIN2pPZG5nWTJnT0tFOXdF?oc=5",
-      "source": "Zacks Investment Research",
-      "publishedAt": "2026-08-25T17:33:30.000Z",
-      "kind": "news",
-      "symbol": "SOFI"
     }
   ],
   "latestFilings": [
+    {
+      "title": "144 — Strategy Inc",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050446/000195917326006438/xsl144X01/primary_doc.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-08-25T16:03:49.000Z",
+      "kind": "filing",
+      "form": "144",
+      "desc": "",
+      "explain": "Notice of a proposed sale of restricted/insider stock.",
+      "symbol": "MSTR"
+    },
     {
       "title": "4 — Palantir Technologies Inc. (FORM 4)",
       "url": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000015/xslF345X06/wk-form4_1787616201.xml",
@@ -3076,17 +3087,6 @@
       "desc": "FORM 4",
       "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
       "symbol": "SOFI"
-    },
-    {
-      "title": "4 — AMAZON COM INC (FORM 4)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000020/xslF345X06/wk-form4_1787174724.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-08-19T21:25:26.000Z",
-      "kind": "filing",
-      "form": "4",
-      "desc": "FORM 4",
-      "explain": "Insider transaction — an officer/director/10% owner bought or sold shares.",
-      "symbol": "AMZN"
     }
   ],
   "errors": []
