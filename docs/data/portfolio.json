@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T13:45:03.570Z",
+  "generatedAt": "2026-09-03T17:29:54.277Z",
   "siteTitle": "Jack Portfolio",
   "tagline": "Live prices, news, and SEC filings across both portfolios",
   "portfolios": [
@@ -10,19 +10,19 @@
       "summary": {
         "holdings": 10,
         "priced": 10,
-        "up": 9,
-        "down": 1,
-        "newsCount": 8,
+        "up": 10,
+        "down": 0,
+        "newsCount": 32,
         "filingsCount": 64,
         "topGainer": {
           "symbol": "HOOD",
-          "changePct": 12.79
+          "changePct": 14.98
         },
         "topLoser": {
-          "symbol": "FRMI",
-          "changePct": -0.21
+          "symbol": "QBTS",
+          "changePct": 1.09
         },
-        "avgChangePct": 3.66
+        "avgChangePct": 5.19
       },
       "holdings": [
         {
@@ -33,10 +33,10 @@
           "cik": "0002071778",
           "weight": 27.28,
           "quote": {
-            "price": 4.76,
+            "price": 4.88,
             "prevClose": 4.77,
-            "changePct": -0.21,
-            "windowChangePct": -21.06,
+            "changePct": 2.2,
+            "windowChangePct": -19.15,
             "windowDays": 24,
             "spark": [
               6.03,
@@ -62,9 +62,9 @@
               4.97,
               4.63,
               4.77,
-              4.76
+              4.875
             ],
-            "asOf": "2026-09-03T13:45:01.000Z",
+            "asOf": "2026-09-03T17:29:42.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -160,10 +160,10 @@
           "cik": "0001050446",
           "weight": 14.54,
           "quote": {
-            "price": 131.88,
+            "price": 140.67,
             "prevClose": 123.19,
-            "changePct": 7.05,
-            "windowChangePct": 39.03,
+            "changePct": 14.19,
+            "windowChangePct": 48.29,
             "windowDays": 24,
             "spark": [
               94.86,
@@ -189,13 +189,70 @@
               132.94,
               124.88,
               123.19,
-              131.88
+              140.67
             ],
-            "asOf": "2026-09-03T13:45:02.000Z",
+            "asOf": "2026-09-03T17:29:47.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
-          "news": [],
+          "news": [
+            {
+              "title": "B HODL stock performance jumps 67% while Bitcoin treasury sits 29% underwater - Cryptonews.net",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5hZVJIcUxBcjY1dlRhd1cxczVYU1BncjMzNG4xYk9zNFdGWi1SVGttMno0dUFrTFNsa3FHcW9YWWJDZFR6U043YXotNGNCUGM4WHZOU3EzLTE?oc=5",
+              "source": "Cryptonews.net",
+              "publishedAt": "2026-09-03T15:30:14.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Strategy (MSTR) Looks Cheap As Bitcoin Buying Resumes With 4,603 More Coins - Yahoo Finance Singapore",
+              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQem1pZkxsZ2pxMHJzMU9yd1VaM1otRDBjQTh3Rjhncm9HOUE5Y1JYZGdWd0h5ZUFTNkp6c19KMG9tc0VQTWVsaDJOQVpxbzlIektHaXZiRldaUExSbTBuSXM0UzhMS1JBajM5YVp0M0FjLUxCWll5MXVNSTlOQ2NNVTR1ZzE0aTRKdGc?oc=5",
+              "source": "Yahoo Finance Singapore",
+              "publishedAt": "2026-09-03T03:27:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "MicroStrategy Claims Reserve Capital Surpasses S&P 500 Financials Except Berkshire - KuCoin",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZERFVDBJaXRsWHhPelpWV0gyejNKMWdBYkxwQ1BYM2dMaElwWVUwdk1KcmRlMW1IaVRMdmV3NVE0UklkU2VlSUxsbHBCWnVUZVJ4MzhUWDR2ZVFsb3ZMZGlGWXlRejJLdThxcnRHODFnMi1aSU1maUh5QjUyVGc5VEFERmtiQjY5a090WXlLT3ZSVXU3eXVDRFR3OVNuRGJ0aWJzUGtnT05JSmVzc05KSWRhVEJlUkU?oc=5",
+              "source": "KuCoin",
+              "publishedAt": "2026-09-02T20:23:16.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Why Strategy (MSTR) Stock Is Trading Lower Today - StockStory",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUkdjalRoYmtBYkdqUmE5U1ZUY1NqLW10aTczX25XR25RMFcwaTNTR0NGdEgxM3lNNnFmWWtSX1haM3VadjRBTVZ6ZjBKaU94ZWdOcTFFUEd5bFFBaVhhUDRreE12b29uem1TZjNDUjJhT291V1VLUEJZWlMwYVVwZXZEcTFQcVliOC10UWU5bVBGMnlVS0gyU1kyc01Kbk1oM0Z4bjlmRWdCNFFZQWFv?oc=5",
+              "source": "StockStory",
+              "publishedAt": "2026-09-01T20:50:15.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Strategy (MSTR) Restarts Bitcoin Accumulation With 4,603 BTC After 10 Week Pause - simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUmV0X0w1X0dzWkJBMG9oeVVMOFVNVTh3TUlQTDZJWUVTMHI2aVQ2LVNoZ3g5M1laR3dUQVE1dUpRZjZfeUw4WFc4YzVnWlk5S05tckJRcUdMZ0g5TmtyU3V1OWZqcXBYVTVWRTBBeXdMenZiMkF5YzNPR2lPRFVMWkFLZ3kyU3dDbE91ZDNPLXZSdFVhenY3UUhqQURrQXpqSUZaaXVWQzJDQjFHb09VRjU4VU41MlFkMkxveWpiNzRza09BUkHSAcsBQVVfeXFMT1JjVGpUVTNTU2lfYjBqYi1SaThfWjZCS3JmWS1xWDh3MFZ4MGRoV2hJeHhxTmF3bE5TUTRVQ1BlVHdOcTNtSjA0TXltWnEycHhkSERKelo3cl9FYzNBczg0dTRzVTZoblhzREFzUkVTQkxDeGhoTzBiZzBjbzgtSzVtcVFaRHpPQ3M5MkFpbXVycWUyajJ0Yl90TXJvMVZFU1JIZVh2N2J2VUxMRnVqRE9QWXg0amZCdGVXZ1BfNXRfUFUzTkJsTFFPUTg?oc=5",
+              "source": "simplywall.st",
+              "publishedAt": "2026-09-01T14:28:04.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Michael Saylor Bitcoin Purchase Pushes MicroStrategy’s Holdings to 845,050 BTC - The Cryptonomist",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YenVRNVhPQzVBUkFmLVkxbmpBZHE5Ym1nOExCbzEyYWxrTFQ1T2VXUll1bVo0T0lOSXQzNG9qbUtvYU9rOWp1a29wZ1ZST2NpQWN3TzU2ckx0WV9WaXVQSkVmZlJrVFQteXluMHpYOW5oZ0ttODEwSkpR?oc=5",
+              "source": "The Cryptonomist",
+              "publishedAt": "2026-09-01T10:14:30.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "The world's largest Bitcoin (BTC) Treasure (DAT) company Strategy (MSTR) resumed its purchase of Bit.. - 매일경제",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3eWw3Qm8tZ3J3Q1dyeENCMXJEd0tEYWtId1ZpbGl1R0lGcWpsTjVXSWl5eGp6TDVjT3FycjBiSjV3cFVDcE13eFUyZmFnUk0?oc=5",
+              "source": "매일경제",
+              "publishedAt": "2026-09-01T01:55:37.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "What’s Next for MSTR Stock Price as Strategy Adds 4,603 Bitcoin - The Coin Republic",
+              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX1JRTjVSWjd0WnY0WUVzLTh2M3oteTFuc2tYRGNuQk5BMUZLeTB3Rkd0bTJmMm5sdDF3OHpjOG5xSlJHR2NuVnNHMzJBOFF4YzdwdHAyNkYyVS1weEt4dUlqX19RRnQ1ejdNRWhtYlpqUmRCZ3JhR2xlamw5blVkRVllTjU5Tm0wOTlSSnZwVHVLNnNhU1BQM3B5YWFJUkhZUW00M0pZLS3SAa4BQVVfeXFMTmEzU3lpSmtBeHFVOFBRYU4wT2k0anBxZXN3MEVKMFcxc1oyRXJwcjNFT05MSzE5TWFiMWZxVEx3ZWdvRFlCb25DclRiZjZmSEwyWTNLaUlKQnNDNDhfRjdqeTdnZkZTbXdvVC1qbW5lQWhFWE1LY1E0RW5jZDNPdS1nN1BiY1JwUVhUTmlnR0FiRXlPUU90MkpxcHlrc0FfRTR3UHZCRGx0WS15WXF3?oc=5",
+              "source": "The Coin Republic",
+              "publishedAt": "2026-08-31T18:06:19.000Z",
+              "kind": "news"
+            }
+          ],
           "filings": [
             {
               "title": "8-K — Strategy Inc (8-K)",
@@ -287,10 +344,10 @@
           "cik": "0001045810",
           "weight": 9.37,
           "quote": {
-            "price": 227.63,
+            "price": 227.45,
             "prevClose": 224.41,
-            "changePct": 1.43,
-            "windowChangePct": 10.16,
+            "changePct": 1.35,
+            "windowChangePct": 10.07,
             "windowDays": 24,
             "spark": [
               206.64,
@@ -316,9 +373,9 @@
               220.78,
               217.44,
               224.41,
-              227.63
+              227.45
             ],
-            "asOf": "2026-09-03T13:45:01.000Z",
+            "asOf": "2026-09-03T17:29:49.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -414,10 +471,10 @@
           "cik": "0001652044",
           "weight": 10.84,
           "quote": {
-            "price": 344.01,
+            "price": 342.27,
             "prevClose": 337.12,
-            "changePct": 2.04,
-            "windowChangePct": -7.9,
+            "changePct": 1.53,
+            "windowChangePct": -8.36,
             "windowDays": 24,
             "spark": [
               373.51,
@@ -443,9 +500,9 @@
               339.35,
               335.02,
               337.12,
-              344.01
+              342.27
             ],
-            "asOf": "2026-09-03T13:45:01.000Z",
+            "asOf": "2026-09-03T17:29:44.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -541,10 +598,10 @@
           "cik": "0001018724",
           "weight": 5.74,
           "quote": {
-            "price": 259.1,
+            "price": 258.65,
             "prevClose": 254.98,
-            "changePct": 1.61,
-            "windowChangePct": -8.78,
+            "changePct": 1.44,
+            "windowChangePct": -8.93,
             "windowDays": 24,
             "spark": [
               284.02,
@@ -570,13 +627,70 @@
               259.77,
               254.92,
               254.98,
-              259.1
+              258.65
             ],
-            "asOf": "2026-09-03T13:45:01.000Z",
+            "asOf": "2026-09-03T17:29:48.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
-          "news": [],
+          "news": [
+            {
+              "title": "ChatGPT, Gemini, Claude face widespread outages; Amazon Web Services also hit - The Hindu",
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNE1Bd3FMWFdDbWJhMjluQjRoTzlTX2RoUjd3TU55YVphNDlSbnJBRXJHMWJUX0EyU3FEdlhsRlZhcllmZnM2V3hnOV9IakZ2c2lBMGt0UkVocWwwYmZxS0pqLWtTZlU2MTlKdTdTLXY2bzh6RWFjT0VJNElVNEZSaUc1V3VxVE83UE5ySzBUTDdDMFpJU2RGMDFsTFkzWXFkQzNWcmtkTnNWWEpJZk10UFUwNNIBugFBVV95cUxNam9OTzlLYzlyUDBQTlJOaXphZ21rR2g5OExnOHRGbzBGUFhrV0c2R3ZWTGJveXI4aEg3ZFIyaWFBLUpQZHBwRVAwbHhsNzN5M1c2YTR1NG1PWmxGY0pzUG1WdERCdWxUREdET2E4SFhOQVNnNGZxZnRKNXFpX3hDS1BWUVFlWW9SaE5xWE5iX2pxNUNld3hTWkFhckJJWmlVWDFYQURVNG1Vc1ZZd0YxYnllLXoyQmdoMGc?oc=5",
+              "source": "The Hindu",
+              "publishedAt": "2026-09-03T16:12:13.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Here Are My Top 5 Stocks for September - The Globe and Mail",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQVlQY1FySHBsV3Q1SHdTZ2dJWm9oaTlRc1ZIVmNXenc3VC03OWd4d1ZTQnJ3N3dCNUtBcU9mTVlzWGlaTzJsTjh5cDJJS0lpMzVSNXRVckJCTlNLTUNwa19qRWVXSGxZR1JOQ2xIUnExSDlTNzVTZ3RJcmRudndwN2tmX3NZUG9tNF9oaHRlMlhLTTdJZlNJQ2lheURJa3VuRjB2WlpveWlxOU1YZ1Bia0JmSUZMalhGRlF4SUZPVHJNWVU?oc=5",
+              "source": "The Globe and Mail",
+              "publishedAt": "2026-09-03T15:50:14.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "User reports indicate possible problems with Amazon (AMZN) Web Services in the US, according to Down Detector - Newsquawk",
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOODNpZHhvR0QzS0tqdVZLX0k5R19jTE1tUjNtUXVDY1d3dEtvRWhMa3RySDhxVDJZY19XeEpxV3FJRU5qZFdFcmZhMGxZdDdsemtLWlNSVlU2QXFoRXBicEtJZnBFTkdPSUUteXJoVXVTNmJfazQtYVc4b0hESWQ4dlpDdlJyVDdUTDZJQ2FET3ZONmd4WlZHNko5YWxtQ01qYXZLQ2cyTE5KTlFoblRyY3JMREFJX3lWeVRBaDhMekdqMWgtQ2ljZEM3NWV0ejVwVzVoY1M0UGNEdw?oc=5",
+              "source": "Newsquawk",
+              "publishedAt": "2026-09-03T15:41:05.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Amazon’s Robot Push Raises a Bigger Question About Its Next Margin Lever - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONzJVLVlGcjNiV0dCZTNLekUxeG9BbGZ5Um5zUGpMbEJ4UmlyOWR1Y1pTM3JqQngwYzZKTHpFUzZGMDJ5WV9kVkhhSmdLZHZXZnZFVmFWeDhOS3lXMnV4TVFxSGphRTZxaVRPUk5fSlJvdVgxZHhwb3BOTGJTRjUyZ0g0SnhmeDIzWnkwLXZGcGVYVVFxdEd0UFBQUjBSakZlQzdiVllaRnlacTA5?oc=5",
+              "source": "MarketBeat",
+              "publishedAt": "2026-09-03T15:36:50.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "This Is The Biggest Reason I Keep Accumulating Amazon Stock After Jumping 10% This Year - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM1p3M0R0V2s5ZVd0T1FSLWFVUnF3alQ0eUI5ZllaUWZiM3dSeDJHQ0pIbVBfbkFfT096c1RwVXlRRmRJamFOV3VkS1J0aUxWNUxrNVRvZWh6TEVVRkFZWnMwMkRrTE9oQlBtVUNmZEJvOGUzZzZJMDlZMDVDdnRHSVZQa3ZuTms5clJqajRnU1dfd1pTei1SUkFRaGZ3TXBuRXhWVHVvZw?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-09-03T15:33:45.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Why Microsoft Investors Should Fear Amazon More Than Google - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYUd6WXR6MkctU3oxOXpwdi1yX2Fqa0N6NWs4LVdnNjhkNnRUQV9qbEJTWmxRSl9wc0g4VGhTYU82ZERtOTEzenlZYk5nVG9ucWhBZWhNU1NaTFprYzNNa2tIOTVvamJVRG5PdDZGakxSNlZTemFmcTk4N2lURkFETVFKWXFGc3M0OWlJSFdTdGc4Mzc3Y2V5ZExvVW9ORkNpMVE?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-09-03T13:30:25.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Hyperscalers Are the Backbone of AI. Here's Why I Own Amazon, Alphabet, and Meta Platforms. - The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQamxpQVZBQmFiWjNjal9xeWlic3dKTHRFcWJ0T3BIbzdnMXQ2dHo4bFp0VjVlR1ZuSG9tXzBKaUxnbjlyeHBhSUhXRTZPU2FUZl9acnlKOWNscFkwbVdnZmpHa2szX3hpUGdIcTRkVUl6V2hZcmhVa1BFUDVmMjZhNUozcC1CUEFFb3dCa3RjY05kczhJbWJtQw?oc=5",
+              "source": "The Motley Fool",
+              "publishedAt": "2026-09-03T13:28:24.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Amazon Shares Face Pressure as Technicals Signal Pauses - TradingPedia",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVDlBc2sySjZEU1VqbXdYVURWT2FmM3ZJQW9wMjQ5UHlCcklhMHA5alNxQ3p0aFFKMUpHSVM0VUtlV0Fab3VJRTRMb0xnQW5UbDdTQWwzVzE0STFPVlZDX1lWVmt6MmxJMl9EaFd2YTRFMFhmeUdoTHVDZHVNTE10TWVUVWhqRFlBOVZNYnNhQ2lsZUJvNDFXS01xVV8?oc=5",
+              "source": "TradingPedia",
+              "publishedAt": "2026-09-03T11:05:52.000Z",
+              "kind": "news"
+            }
+          ],
           "filings": [
             {
               "title": "144 — AMAZON COM INC",
@@ -668,10 +782,10 @@
           "cik": "0001818874",
           "weight": 11.86,
           "quote": {
-            "price": 18.65,
+            "price": 18.36,
             "prevClose": 17.84,
-            "changePct": 4.51,
-            "windowChangePct": 3.41,
+            "changePct": 2.89,
+            "windowChangePct": 1.8,
             "windowDays": 24,
             "spark": [
               18.03,
@@ -697,70 +811,13 @@
               17.88,
               17.05,
               17.84,
-              18.65
+              18.35
             ],
-            "asOf": "2026-09-03T13:45:02.000Z",
+            "asOf": "2026-09-03T17:29:45.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
-          "news": [
-            {
-              "title": "Price Prediction: SoFi’s Price Target For 2027 May Surprise Investors - 24/7 Wall St.",
-              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcTNYTUswXzU0QnkzYlZXYVJKc2Z2Z2RQTXlfTzRpZk0tNFZVaVNSQ3ViY05saTNRbjRjcDRDenhiX0hyWFZDSmMzSU5DRk96V1hfVVExamxqdFpVYVp4V3UxWlB4MXRDcjBUYXZSbXhMRkVoZ1ZHT2ZLWkl4NWdSZkdPcTBSdlZmRmNaYWo4YmZudFBYTDVpelY5T1ljd2tucFE4NW93NFZsT2dlb2FSRA?oc=5",
-              "source": "24/7 Wall St.",
-              "publishedAt": "2026-09-03T13:00:00.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "SoFi Technologies: Shares Are Flat So I’m Accumulating More Shares (NASDAQ:SOFI) - Seeking Alpha",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcE05cFlHUEFhSzRRTkpkY1lDdXNKVHlqY0lHaC1veEpfNzMxNWp3cTQ3eDZaY1VPeU9aTTZKWTRKZEkzUFZ2TUVYN2tqQzRZZDhZNDNCU0p4U01UVFJiN2kzS3BhU0NZN0JrRUVYVC1RWlptYkQxZUwwdUgwZmNrNWc5UDhrLXZxVkpXSWgxQkFsSFFMVjRmYg?oc=5",
-              "source": "Seeking Alpha",
-              "publishedAt": "2026-09-03T09:30:04.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "SoFi Technologies, Inc. $SOFI Shares Sold by Quantitative Investment Management LLC - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVEh0dkhEeWtRWXU0ZlpVQlkwZTZYbHFfTzZmYmhacnlZNGlKbFVBZmYzQ1BucUp6ZjB3a3FDRnkxWExfLW1UeFljM2lzNFpuTDV2VjdfdTdLVElPV2hXMHgtMWR5bGNQWmVmMjBVUkpuT19mWTdTX0hhQ25mQjBkV0lvRHA5YjVKSEdYNGp3RzRzaVA0cFptX2NlckRaMUNTWXJEV3drR2Zac2pVTmVzNEhKb2xFcTlZalM2TkhxNnBuUXJUX0U3VENqYTBJVDJIRHNmSUpCM0M?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-09-03T09:28:53.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "SOFI Stock Rises Premarket: Why This Analyst Sees 40% Upside From Here - TradingView",
-              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdUdFd09zVFlxQy1HeGp0UkhJS25oREdveVRVSVFjdndRdnVEVTIzRk1oYjJleFZYeHFEVkVQX1dRWWNyQVR6VEtROVlDaEtpS0t1REczZWhTWjBxZmZQMGpuaS1lU1hDbUVyY0RKREE0SlExdjhUc1FVMklId094bm8zTmNINWRnTVROSFNGdjJ5V091c2lXZ2Y5ZlR3TEhJNGx0T3Zvak16cWdHQmFjM2J2aDkteDduS2drVTZOR3pZRnJtTVB6cg?oc=5",
-              "source": "TradingView",
-              "publishedAt": "2026-09-03T08:04:15.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "130,647 Shares in SoFi Technologies, Inc. $SOFI Purchased by Corient Private Wealth LP - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVDZpVkpsMm9qV19vTE85ZF9VWFJpVGdraGE4TFE4WUs4Q3ZuaW81bXJyX3lvX2JiOURSaDJPYVcyZUE3TFhzVkhLaHlCbDJEeUpkSEtDdS11aG1mRUhRYlpqaFRxRzA1OGdSd1l4SW5SSE5OZkRiSUZmcDRNZUJ0S0N1MlhTVlhXSnM0YnltVEZaSFphbmRvanVCNnFFYl95c3pUWXlraUZuLVVpTWZCejZtSllobm9LWUc4blc5NHkydDd6OV8xOHJESFpEdWhwYkJOV0VaSU1rVms?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-09-03T07:52:32.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "SOFI Stock Draws Bullish Targets As New Funds Launch - StocksToTrade",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcnJsbTFjMFpHNDlKci1idncxLWxjU252MGNPZks3bXJ6amNlbWEzR2NXZXY0aHhqazhXeGxPVG5JMzRqY2ZHXzRwWXZPMHJLYjRqR3hKeXVsQmJDZmwtczgzY005SE4waUhWNUpuSnFaMzdWSHRqMHNycEU1aXRIcWpR?oc=5",
-              "source": "StocksToTrade",
-              "publishedAt": "2026-09-02T20:47:00.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "SOFI Stock Grinds Higher As Wall Street Boosts Targets - StocksToTrade",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4ydHhTNEV5TEJYYmgtREdWaTY3TFdQc203Mm9LdGFmMXR6aktQVEdTcG1xUFZVeENyQTg5aS1Yd2VmT2N2S0ctTkxOWFdLcTkwZWVMMWl0eDAwbkUzLVctdnlDcWc4Vnd6OW5teHlDQ3JDVWo4Y21LWTZLVGZSUDQ?oc=5",
-              "source": "StocksToTrade",
-              "publishedAt": "2026-09-02T19:03:00.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "SOFI Stock Climbs As Wall Street Targets Higher Prices - timothysykes.com",
-              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sVjA5VDNsV3Zzd19ZM2FBcTY0QmpGZHEzT1IxclZGb0JlNjFXRENjOUhwcUtvZXVaZVAwWmNZbTF4MlRjamlfSHlsTDRPdXBuamJfdlp3RnUxNUs4aVdVTFRldVIzWjhIamF1ekxDVTZNQnEwellPYzVpWVBFdw?oc=5",
-              "source": "timothysykes.com",
-              "publishedAt": "2026-09-02T19:02:00.000Z",
-              "kind": "news"
-            }
-          ],
+          "news": [],
           "filings": [
             {
               "title": "4 — SoFi Technologies, Inc. (FORM 4)",
@@ -852,10 +909,10 @@
           "cik": "0001783879",
           "weight": 5.75,
           "quote": {
-            "price": 120.68,
+            "price": 123.02,
             "prevClose": 106.99,
-            "changePct": 12.79,
-            "windowChangePct": 33.58,
+            "changePct": 14.98,
+            "windowChangePct": 36.17,
             "windowDays": 24,
             "spark": [
               90.34,
@@ -881,9 +938,9 @@
               104.81,
               103.51,
               106.99,
-              120.68
+              123.02
             ],
-            "asOf": "2026-09-03T13:45:01.000Z",
+            "asOf": "2026-09-03T17:29:48.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -979,10 +1036,10 @@
           "cik": "0001907982",
           "weight": 7.12,
           "quote": {
-            "price": 16.8,
+            "price": 16.67,
             "prevClose": 16.49,
-            "changePct": 1.88,
-            "windowChangePct": -15.92,
+            "changePct": 1.09,
+            "windowChangePct": -16.57,
             "windowDays": 24,
             "spark": [
               19.98,
@@ -1008,9 +1065,9 @@
               17.2,
               16.54,
               16.49,
-              16.8
+              16.67
             ],
-            "asOf": "2026-09-03T13:45:00.000Z",
+            "asOf": "2026-09-03T17:29:45.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -1106,10 +1163,10 @@
           "cik": null,
           "weight": 1.75,
           "quote": {
-            "price": 2433.74,
+            "price": 2499.21,
             "prevClose": 2391.5,
-            "changePct": 1.77,
-            "windowChangePct": 30.97,
+            "changePct": 4.5,
+            "windowChangePct": 34.49,
             "windowDays": 32,
             "spark": [
               1858.26,
@@ -1143,13 +1200,70 @@
               2466.82,
               2417.84,
               2391.5,
-              2433.74
+              2499.21
             ],
-            "asOf": "2026-09-03T13:45:00.000Z",
+            "asOf": "2026-09-03T17:29:47.000Z",
             "currency": "USD",
             "exchange": "CCC"
           },
-          "news": [],
+          "news": [
+            {
+              "title": "ETH price on Sep 3, 2026 at 1pm EDT Crypto Prediction Market - Robinhood",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON19ROXNEQmVmeHVSR2ZjSWRERmlnQ0hMRFNKcjhnUkh0ZEh0Mzg0QWYzZnNFMWFEd19qcGxHRl9ELU1lSGlNc0hmSGYyeU5JVWhnckdFU2EzNnU0aUdJazdFQkxvTWdOdzB2eU5wck1hdTZPLUV5aE9aNEg5YUk1QUNqdmJGckU3TlE1X2hjeVJMTnVabkpoMXVaaW5nWDlkbTZzTmRaOGxZQXJf?oc=5",
+              "source": "Robinhood",
+              "publishedAt": "2026-09-03T16:07:57.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQk5jRldaOVh2UEJWdGJTVWpSVEhWVE90dXFmOVZOWW1GTC1CWDBIRnhfWHY0eHczLW1TejQxQzVXOUktVnJmdnM1aDlXMUt3ZDFfazhNOEx3MTh0dDVaNXRVbmo5OEE5aUlfNkZncVVldEJpVkpfdGd3NndXNkJNV1B4bFZ0X1Ftdi04b2hB?oc=5",
+              "source": "MarketForces Africa",
+              "publishedAt": "2026-09-03T15:45:07.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Bitcoin Hits $80,000, Ethereum, XRP Rally as Fed's Waller Says He's 'Willing to Support' Rate Hold - benzinga.com",
+              "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORVJieVNlR0pnckcwaDJENmFkbjdZR3U0aU5zQ3ZvMGVQb2lfeC1oOXV0d0NjVlBhZkNxY2pFRUZpS3lfUzR6elRaZnBvNXBnZ2lQMGwyUEpzald5UW9lSGFqT1JWVi13R2JFUTVlM1VxdnFiWU4yZlZYeDdBTUl5WGlnMWZrYXEzNm81THM5blM0clo4UWJRUl9XUndfMUNWVjVOOUdmeDMzUVhBSUZjd216RVhpLXNUaEtBVHA5Z3JIRkNienEtbTNVNEFKQlR6QjlBMGFrT1lReUhLc2E1MS1MbEhlZmc?oc=5",
+              "source": "benzinga.com",
+              "publishedAt": "2026-09-03T15:33:35.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Crypto Treasury Companies Hit $340 Billion: Is the Bitcoin Treasury Boom Turning Into an Altcoin Race? - Bitcoin Foundation",
+              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORVZkRnpRQVhqS3YtQ1NIVTlfYmFHa3NuNXJoVlVkVDJla0VOT0xmSTRZbXpFQlEzQzNfVDVsTmRWcTg4TUl3ZEtkWk1oeldxLTNxZUZ3Tk1iT2pkMEs1dFRaM3RFM3JyRzBrY3Z3MkRTcFcwZHdXaDlkaS1LZ0o1X3JEVWtzbnBpcEF4MklYNmdfTkliR2J4OUx3TEhaamswdTlnajA1bFJFaWJjaHZiVFFYR1lZaWowVlZULWZTLTdPWXFNNzNRdWZZc05PZVdMT2E1TEhNMGt5bHJP?oc=5",
+              "source": "Bitcoin Foundation",
+              "publishedAt": "2026-09-03T15:20:15.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Why is Ethereum rising? - FXStreet",
+              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaTI3bXl5SHFHVHRzM0dIWkRMV3NhRlRCeVFINWdHU25zR3BWZ2FPRjdxZzZPUHFHdHA2MElvSFhBWHAxR05xd1d5WFVkVkxRQzJpblE1NW5rYVpXMlo3dVhGbWs1dkpFRlpUb2RSN3B4WUdxQWdPOHNseTFtSlRWdjR2bTRLamFqRVBUV2tQbFZGRm9TQTY2azYzeEhPQkg0NVZyOXpsZm9JZEdUeDQ0ajBoVUJOZHlOUmZtajlnUGJOY1VGSXUwYjVCVktveXRLSk95OU5vQQ?oc=5",
+              "source": "FXStreet",
+              "publishedAt": "2026-09-03T15:04:11.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Arthur Hayes Predicts Ethereum Price to Hit $10K, Massive ENA & ETHFI Rally - Cryptonews.net",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fOWVORGlHQWhfZ0N5OVFQbFNGTnl6TXN2VUplcHdCSnRQWWdJRGh6ZWNiSzhEd2sxQ0szMkhYSlI2WUEyajc3aEVFcEJjRmhtQzBSalNFUzl0UQ?oc=5",
+              "source": "Cryptonews.net",
+              "publishedAt": "2026-09-03T14:05:31.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Current price of Bitcoin for Sept. 3, 2026 - fortune.com",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SeGdkS01VSHdOUnpkeGlJNmhZZ3h5TERsMlliZUVBNDB3R2xWS1RLOHV2NHlsNURnTnNYaWZwd2tTU200X0FRQkxRck00T2RsRTFRZHY2eXIxeTFST0U4czBLaXlxMlk?oc=5",
+              "source": "fortune.com",
+              "publishedAt": "2026-09-03T13:37:08.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "What to Expect From Ethereum Price in September 2026 - Analytics Insight",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDY1eXVFWERJbk05eXFmNmJPLUoxODBOTGRqUm4teml2LWNqU25LNHFsNHViT2ZzSFNoZkFHSGdLQm44UUlwZGE2Rnlpc2tDZzZONHZTeWljRGlNYndJTU9ZZU53OUVkcGcxTGx4SGZaRUFnZG81c3AxN0ZhaVNjWVRfVGhrNjdaTDBROFVmc3pVaW1FRTJ2MDFBdHZBOTgwOWxSY3NwQnVBaDFwVE1neDd1MnVYYUI1SlHSAccBQVVfeXFMTlpLUEMtV0p1V0VvZzFXOUxPMXNueDFOWDhjWTRWcGdURnJ4VUZ4MVJ6cU5OeVNVdk1SU0JEMmlLaTZMT3VOZHk4UFJvZXRYVjhlSFdTYjZPaXpKSmFtUFF2eHpFZ2dGM1FycEZrVHM1M2JZUTltazNsNDBzVnp6NlI3N21xV2ZMS2MxVllRUkNPSHRWVVNyb0NxbXVoODliZEthTjBYVTM3azNyOXRkLUNSbUFhMGlXbFh2aFYtSWt5V0JQenZDbw?oc=5",
+              "source": "Analytics Insight",
+              "publishedAt": "2026-09-03T13:19:10.000Z",
+              "kind": "news"
+            }
+          ],
           "filings": []
         },
         {
@@ -1160,10 +1274,10 @@
           "cik": null,
           "weight": 1.5,
           "quote": {
-            "price": 1.4,
+            "price": 1.45,
             "prevClose": 1.3498,
-            "changePct": 3.74,
-            "windowChangePct": 30.31,
+            "changePct": 7.73,
+            "windowChangePct": 35.32,
             "windowDays": 32,
             "spark": [
               1.0746,
@@ -1197,13 +1311,70 @@
               1.379,
               1.3516,
               1.3498,
-              1.4003
+              1.4542
             ],
-            "asOf": "2026-09-03T13:44:57.000Z",
+            "asOf": "2026-09-03T17:29:48.000Z",
             "currency": "USD",
             "exchange": "CCC"
           },
-          "news": [],
+          "news": [
+            {
+              "title": "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQk5jRldaOVh2UEJWdGJTVWpSVEhWVE90dXFmOVZOWW1GTC1CWDBIRnhfWHY0eHczLW1TejQxQzVXOUktVnJmdnM1aDlXMUt3ZDFfazhNOEx3MTh0dDVaNXRVbmo5OEE5aUlfNkZncVVldEJpVkpfdGd3NndXNkJNV1B4bFZ0X1Ftdi04b2hB?oc=5",
+              "source": "MarketForces Africa",
+              "publishedAt": "2026-09-03T15:45:07.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Bitcoin Hits $80,000, Ethereum, XRP Rally as Fed's Waller Says He's 'Willing to Support' Rate Hold - benzinga.com",
+              "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORVJieVNlR0pnckcwaDJENmFkbjdZR3U0aU5zQ3ZvMGVQb2lfeC1oOXV0d0NjVlBhZkNxY2pFRUZpS3lfUzR6elRaZnBvNXBnZ2lQMGwyUEpzald5UW9lSGFqT1JWVi13R2JFUTVlM1VxdnFiWU4yZlZYeDdBTUl5WGlnMWZrYXEzNm81THM5blM0clo4UWJRUl9XUndfMUNWVjVOOUdmeDMzUVhBSUZjd216RVhpLXNUaEtBVHA5Z3JIRkNienEtbTNVNEFKQlR6QjlBMGFrT1lReUhLc2E1MS1MbEhlZmc?oc=5",
+              "source": "benzinga.com",
+              "publishedAt": "2026-09-03T15:33:35.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Is XRP poised for extended recovery? - FXStreet",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeDVsUVlWZVdvNWtMWEUtSTBCM3lmUU0wOXVRX0I5Z2diVTVSakgxaW84dllxQXpmekphVDUwMzl5MXFQTC1JX0laMFBRak1RVFZVRThiRTV4NGhyeU9XNzIyY1UyLTJFd0sweGduMWFmNExFMEp5NlNsRTVyQUtWVVBIY3FZcFZnRUlUU3JlYVZMTDhHMm1ZZHNvTDBXNXJ6dHpQMzNYUWRwR2hyRWROZjVIdzFsWTR3Z01KaA?oc=5",
+              "source": "FXStreet",
+              "publishedAt": "2026-09-03T15:30:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "XRP price at Sep 3, 2026 at 12pm EDT? Crypto Prediction Market - Robinhood",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTzRCTzUtNHBWM1hnTUxKXzBOMXUwU3dxcGpjWjJzdk43dGFxUGZYWmlDMk9qLUNVMXhKalhaRExudjV2ekZwdEhWOGR6OTAyVUhuV0MteHRjbzNEMEJ2MWdDc2E4YkpuNm1JcDd1TDhKWGNpN0RiUTg1alJsWGE4UzE2d2NsSXZaRllfUWJOMzU2RjhkVG9rRmlqZVRxS05aZFRLZkxYalY1OEx5Qmc?oc=5",
+              "source": "Robinhood",
+              "publishedAt": "2026-09-03T15:03:40.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "XRP Price Prediction: XRP Jumps +4% And Could It Target $2? - TradingView",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcVRkd3FqOVFuX3hITUpRQW9JVzlXZjM2N0xldGpybmR4MGcxV2JRV0l4M3RKN1dySE9KWFU3eW45dEZDZXhudV9BN2lndV9CcEF6bHFLNkV3ZnV3UE5ndGhMWVN0UlhPWXlzaVFzcU5IemdLSkNrWVM2UjZuTE4wNmxtTFBZZDgtUFJWdGEyRHVsWl92YmlYS3lLNU5FenpaRjZjeUdMLVBXSkFlZnhDZzE4dDJRZw?oc=5",
+              "source": "TradingView",
+              "publishedAt": "2026-09-03T14:53:23.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "XRP Price Analysis: Can XRP Resume Its Rally After Defending Key Support? - CryptoPotato",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbFNaZWEyeFZFTFBZanFVdEx1RldqVlVyaDFub2pmS0k4Z0hpQlZTT2xEcEtiQlRNZ2NseUVQTkVQaGRTN2cwd1FZbjk3QW4wZDBHSEpBd1kyTUEzNWZHSVFoNS1KRERGdUJVSVVTY1NMRkcxbUZQOWJEYkttYm9hRWc1YmZSQlRISU4wRDVZeDNBZzhlS1VxNEhhX1ZkUQ?oc=5",
+              "source": "CryptoPotato",
+              "publishedAt": "2026-09-03T14:04:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Better Buy: XRP vs. Bitcoin - The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1xd2NBNjE0MGQ4eXBnOVdrbkwzQy1OYmVNTHg3Wk1UX2tBbWhLMUoxeUlpRHdvbERMQTZmWFN4b1ZlVDB4N21WSDVmNTRnQzJVLXBaTkttcDF3bHhwR1haUWJVTWZ5d25IOTk0a2tFWkhTa3VyMjVN?oc=5",
+              "source": "The Motley Fool",
+              "publishedAt": "2026-09-03T13:32:01.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Crypto Rally Alert: XRP, Zcash and ADA Stage Comeback as Bitcoin Lags - Coinpedia",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWTFUaFJHcExPcC1NcHFUYVhEcGszTjJfYXA2bkZsOVlWRGk5NjRteGJVcFBrLTJIbVp3YVpjdGprTGo4U2dDSDlCLVpUOVhUNE5IdDhQUW14UXBvQW52Rmp3T1M4NHlnaVdXVWw4U0ZoWWFxUGNlYjl4QlJCNndJUml1T0hqRTlOVzRwdjcxYWJiSDN4TzNkZ0ZmTdIBoAFBVV95cUxQbm13V0hpamJvQ3J1Y1U0MHBhQVNwQkFlb0J1T3hNOE9qYTNQWVN4ekV1SXVnd2hCOTlsa3RBTWczeFR0RlpjWFFDcUdJYWEwSzVJWjRhOEM3ZVJGSXcyLTlpM2hDS2l4OHB2WjAybWJWVnNVZ3o5X202OGIwRWtfUHRIa0tWRFkxSFpPdFhiaDdCZ3ZFeHhJVm5Na2xmdEZm?oc=5",
+              "source": "Coinpedia",
+              "publishedAt": "2026-09-03T13:08:32.000Z",
+              "kind": "news"
+            }
+          ],
           "filings": []
         }
       ]
@@ -1217,17 +1388,17 @@
         "priced": 6,
         "up": 6,
         "down": 0,
-        "newsCount": 0,
+        "newsCount": 8,
         "filingsCount": 32,
         "topGainer": {
           "symbol": "MSTR",
-          "changePct": 7.05
+          "changePct": 14.19
         },
         "topLoser": {
-          "symbol": "VOO",
-          "changePct": 0.6
+          "symbol": "UFO",
+          "changePct": 0.68
         },
-        "avgChangePct": 3.25
+        "avgChangePct": 4.66
       },
       "holdings": [
         {
@@ -1238,10 +1409,10 @@
           "cik": "0001321655",
           "weight": null,
           "quote": {
-            "price": 179.77,
+            "price": 182.88,
             "prevClose": 169.46,
-            "changePct": 6.08,
-            "windowChangePct": 43.07,
+            "changePct": 7.92,
+            "windowChangePct": 45.55,
             "windowDays": 24,
             "spark": [
               125.65,
@@ -1267,9 +1438,9 @@
               186.38,
               179.92,
               169.46,
-              179.77
+              182.88
             ],
-            "asOf": "2026-09-03T13:45:02.000Z",
+            "asOf": "2026-09-03T17:29:50.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -1365,10 +1536,10 @@
           "cik": "0001050446",
           "weight": null,
           "quote": {
-            "price": 131.88,
+            "price": 140.67,
             "prevClose": 123.19,
-            "changePct": 7.05,
-            "windowChangePct": 39.03,
+            "changePct": 14.19,
+            "windowChangePct": 48.29,
             "windowDays": 24,
             "spark": [
               94.86,
@@ -1394,13 +1565,70 @@
               132.94,
               124.88,
               123.19,
-              131.88
+              140.67
             ],
-            "asOf": "2026-09-03T13:45:02.000Z",
+            "asOf": "2026-09-03T17:29:47.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
-          "news": [],
+          "news": [
+            {
+              "title": "B HODL stock performance jumps 67% while Bitcoin treasury sits 29% underwater - Cryptonews.net",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5hZVJIcUxBcjY1dlRhd1cxczVYU1BncjMzNG4xYk9zNFdGWi1SVGttMno0dUFrTFNsa3FHcW9YWWJDZFR6U043YXotNGNCUGM4WHZOU3EzLTE?oc=5",
+              "source": "Cryptonews.net",
+              "publishedAt": "2026-09-03T15:30:14.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Strategy (MSTR) Looks Cheap As Bitcoin Buying Resumes With 4,603 More Coins - Yahoo Finance Singapore",
+              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQem1pZkxsZ2pxMHJzMU9yd1VaM1otRDBjQTh3Rjhncm9HOUE5Y1JYZGdWd0h5ZUFTNkp6c19KMG9tc0VQTWVsaDJOQVpxbzlIektHaXZiRldaUExSbTBuSXM0UzhMS1JBajM5YVp0M0FjLUxCWll5MXVNSTlOQ2NNVTR1ZzE0aTRKdGc?oc=5",
+              "source": "Yahoo Finance Singapore",
+              "publishedAt": "2026-09-03T03:27:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "MicroStrategy Claims Reserve Capital Surpasses S&P 500 Financials Except Berkshire - KuCoin",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZERFVDBJaXRsWHhPelpWV0gyejNKMWdBYkxwQ1BYM2dMaElwWVUwdk1KcmRlMW1IaVRMdmV3NVE0UklkU2VlSUxsbHBCWnVUZVJ4MzhUWDR2ZVFsb3ZMZGlGWXlRejJLdThxcnRHODFnMi1aSU1maUh5QjUyVGc5VEFERmtiQjY5a090WXlLT3ZSVXU3eXVDRFR3OVNuRGJ0aWJzUGtnT05JSmVzc05KSWRhVEJlUkU?oc=5",
+              "source": "KuCoin",
+              "publishedAt": "2026-09-02T20:23:16.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Why Strategy (MSTR) Stock Is Trading Lower Today - StockStory",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUkdjalRoYmtBYkdqUmE5U1ZUY1NqLW10aTczX25XR25RMFcwaTNTR0NGdEgxM3lNNnFmWWtSX1haM3VadjRBTVZ6ZjBKaU94ZWdOcTFFUEd5bFFBaVhhUDRreE12b29uem1TZjNDUjJhT291V1VLUEJZWlMwYVVwZXZEcTFQcVliOC10UWU5bVBGMnlVS0gyU1kyc01Kbk1oM0Z4bjlmRWdCNFFZQWFv?oc=5",
+              "source": "StockStory",
+              "publishedAt": "2026-09-01T20:50:15.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Strategy (MSTR) Restarts Bitcoin Accumulation With 4,603 BTC After 10 Week Pause - simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUmV0X0w1X0dzWkJBMG9oeVVMOFVNVTh3TUlQTDZJWUVTMHI2aVQ2LVNoZ3g5M1laR3dUQVE1dUpRZjZfeUw4WFc4YzVnWlk5S05tckJRcUdMZ0g5TmtyU3V1OWZqcXBYVTVWRTBBeXdMenZiMkF5YzNPR2lPRFVMWkFLZ3kyU3dDbE91ZDNPLXZSdFVhenY3UUhqQURrQXpqSUZaaXVWQzJDQjFHb09VRjU4VU41MlFkMkxveWpiNzRza09BUkHSAcsBQVVfeXFMT1JjVGpUVTNTU2lfYjBqYi1SaThfWjZCS3JmWS1xWDh3MFZ4MGRoV2hJeHhxTmF3bE5TUTRVQ1BlVHdOcTNtSjA0TXltWnEycHhkSERKelo3cl9FYzNBczg0dTRzVTZoblhzREFzUkVTQkxDeGhoTzBiZzBjbzgtSzVtcVFaRHpPQ3M5MkFpbXVycWUyajJ0Yl90TXJvMVZFU1JIZVh2N2J2VUxMRnVqRE9QWXg0amZCdGVXZ1BfNXRfUFUzTkJsTFFPUTg?oc=5",
+              "source": "simplywall.st",
+              "publishedAt": "2026-09-01T14:28:04.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Michael Saylor Bitcoin Purchase Pushes MicroStrategy’s Holdings to 845,050 BTC - The Cryptonomist",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YenVRNVhPQzVBUkFmLVkxbmpBZHE5Ym1nOExCbzEyYWxrTFQ1T2VXUll1bVo0T0lOSXQzNG9qbUtvYU9rOWp1a29wZ1ZST2NpQWN3TzU2ckx0WV9WaXVQSkVmZlJrVFQteXluMHpYOW5oZ0ttODEwSkpR?oc=5",
+              "source": "The Cryptonomist",
+              "publishedAt": "2026-09-01T10:14:30.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "The world's largest Bitcoin (BTC) Treasure (DAT) company Strategy (MSTR) resumed its purchase of Bit.. - 매일경제",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3eWw3Qm8tZ3J3Q1dyeENCMXJEd0tEYWtId1ZpbGl1R0lGcWpsTjVXSWl5eGp6TDVjT3FycjBiSjV3cFVDcE13eFUyZmFnUk0?oc=5",
+              "source": "매일경제",
+              "publishedAt": "2026-09-01T01:55:37.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "What’s Next for MSTR Stock Price as Strategy Adds 4,603 Bitcoin - The Coin Republic",
+              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX1JRTjVSWjd0WnY0WUVzLTh2M3oteTFuc2tYRGNuQk5BMUZLeTB3Rkd0bTJmMm5sdDF3OHpjOG5xSlJHR2NuVnNHMzJBOFF4YzdwdHAyNkYyVS1weEt4dUlqX19RRnQ1ejdNRWhtYlpqUmRCZ3JhR2xlamw5blVkRVllTjU5Tm0wOTlSSnZwVHVLNnNhU1BQM3B5YWFJUkhZUW00M0pZLS3SAa4BQVVfeXFMTmEzU3lpSmtBeHFVOFBRYU4wT2k0anBxZXN3MEVKMFcxc1oyRXJwcjNFT05MSzE5TWFiMWZxVEx3ZWdvRFlCb25DclRiZjZmSEwyWTNLaUlKQnNDNDhfRjdqeTdnZkZTbXdvVC1qbW5lQWhFWE1LY1E0RW5jZDNPdS1nN1BiY1JwUVhUTmlnR0FiRXlPUU90MkpxcHlrc0FfRTR3UHZCRGx0WS15WXF3?oc=5",
+              "source": "The Coin Republic",
+              "publishedAt": "2026-08-31T18:06:19.000Z",
+              "kind": "news"
+            }
+          ],
           "filings": [
             {
               "title": "8-K — Strategy Inc (8-K)",
@@ -1492,10 +1720,10 @@
           "cik": "0000789019",
           "weight": null,
           "quote": {
-            "price": 510.66,
+            "price": 510.11,
             "prevClose": 496.82,
-            "changePct": 2.79,
-            "windowChangePct": 4.72,
+            "changePct": 2.67,
+            "windowChangePct": 4.6,
             "windowDays": 24,
             "spark": [
               487.65,
@@ -1521,9 +1749,9 @@
               507.29,
               501.02,
               496.82,
-              510.66
+              510.11
             ],
-            "asOf": "2026-09-03T13:45:02.000Z",
+            "asOf": "2026-09-03T17:29:49.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -1619,10 +1847,10 @@
           "cik": "0001652044",
           "weight": null,
           "quote": {
-            "price": 344.01,
+            "price": 342.27,
             "prevClose": 337.12,
-            "changePct": 2.04,
-            "windowChangePct": -7.9,
+            "changePct": 1.53,
+            "windowChangePct": -8.36,
             "windowDays": 24,
             "spark": [
               373.51,
@@ -1648,9 +1876,9 @@
               339.35,
               335.02,
               337.12,
-              344.01
+              342.27
             ],
-            "asOf": "2026-09-03T13:45:01.000Z",
+            "asOf": "2026-09-03T17:29:44.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
@@ -1746,10 +1974,10 @@
           "cik": null,
           "weight": null,
           "quote": {
-            "price": 707.66,
+            "price": 710.17,
             "prevClose": 703.41,
-            "changePct": 0.6,
-            "windowChangePct": 1.62,
+            "changePct": 0.96,
+            "windowChangePct": 1.98,
             "windowDays": 24,
             "spark": [
               696.4,
@@ -1775,9 +2003,9 @@
               704.89,
               700.28,
               703.41,
-              707.66
+              710.17
             ],
-            "asOf": "2026-09-03T13:45:01.000Z",
+            "asOf": "2026-09-03T17:29:36.000Z",
             "currency": "USD",
             "exchange": "PCX"
           },
@@ -1792,10 +2020,10 @@
           "cik": null,
           "weight": null,
           "quote": {
-            "price": 43.55,
+            "price": 43.44,
             "prevClose": 43.14,
-            "changePct": 0.94,
-            "windowChangePct": -4.19,
+            "changePct": 0.68,
+            "windowChangePct": -4.43,
             "windowDays": 24,
             "spark": [
               45.45,
@@ -1821,9 +2049,9 @@
               43.62,
               42.75,
               43.14,
-              43.54
+              43.44
             ],
-            "asOf": "2026-09-03T13:41:35.000Z",
+            "asOf": "2026-09-03T17:28:12.000Z",
             "currency": "USD",
             "exchange": "NGM"
           },
@@ -1835,68 +2063,244 @@
   ],
   "latestNews": [
     {
-      "title": "Price Prediction: SoFi’s Price Target For 2027 May Surprise Investors - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcTNYTUswXzU0QnkzYlZXYVJKc2Z2Z2RQTXlfTzRpZk0tNFZVaVNSQ3ViY05saTNRbjRjcDRDenhiX0hyWFZDSmMzSU5DRk96V1hfVVExamxqdFpVYVp4V3UxWlB4MXRDcjBUYXZSbXhMRkVoZ1ZHT2ZLWkl4NWdSZkdPcTBSdlZmRmNaYWo4YmZudFBYTDVpelY5T1ljd2tucFE4NW93NFZsT2dlb2FSRA?oc=5",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-09-03T13:00:00.000Z",
+      "title": "ChatGPT, Gemini, Claude face widespread outages; Amazon Web Services also hit - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNE1Bd3FMWFdDbWJhMjluQjRoTzlTX2RoUjd3TU55YVphNDlSbnJBRXJHMWJUX0EyU3FEdlhsRlZhcllmZnM2V3hnOV9IakZ2c2lBMGt0UkVocWwwYmZxS0pqLWtTZlU2MTlKdTdTLXY2bzh6RWFjT0VJNElVNEZSaUc1V3VxVE83UE5ySzBUTDdDMFpJU2RGMDFsTFkzWXFkQzNWcmtkTnNWWEpJZk10UFUwNNIBugFBVV95cUxNam9OTzlLYzlyUDBQTlJOaXphZ21rR2g5OExnOHRGbzBGUFhrV0c2R3ZWTGJveXI4aEg3ZFIyaWFBLUpQZHBwRVAwbHhsNzN5M1c2YTR1NG1PWmxGY0pzUG1WdERCdWxUREdET2E4SFhOQVNnNGZxZnRKNXFpX3hDS1BWUVFlWW9SaE5xWE5iX2pxNUNld3hTWkFhckJJWmlVWDFYQURVNG1Vc1ZZd0YxYnllLXoyQmdoMGc?oc=5",
+      "source": "The Hindu",
+      "publishedAt": "2026-09-03T16:12:13.000Z",
       "kind": "news",
-      "symbol": "SOFI"
+      "symbol": "AMZN"
     },
     {
-      "title": "SoFi Technologies: Shares Are Flat So I’m Accumulating More Shares (NASDAQ:SOFI) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcE05cFlHUEFhSzRRTkpkY1lDdXNKVHlqY0lHaC1veEpfNzMxNWp3cTQ3eDZaY1VPeU9aTTZKWTRKZEkzUFZ2TUVYN2tqQzRZZDhZNDNCU0p4U01UVFJiN2kzS3BhU0NZN0JrRUVYVC1RWlptYkQxZUwwdUgwZmNrNWc5UDhrLXZxVkpXSWgxQkFsSFFMVjRmYg?oc=5",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-09-03T09:30:04.000Z",
+      "title": "ETH price on Sep 3, 2026 at 1pm EDT Crypto Prediction Market - Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON19ROXNEQmVmeHVSR2ZjSWRERmlnQ0hMRFNKcjhnUkh0ZEh0Mzg0QWYzZnNFMWFEd19qcGxHRl9ELU1lSGlNc0hmSGYyeU5JVWhnckdFU2EzNnU0aUdJazdFQkxvTWdOdzB2eU5wck1hdTZPLUV5aE9aNEg5YUk1QUNqdmJGckU3TlE1X2hjeVJMTnVabkpoMXVaaW5nWDlkbTZzTmRaOGxZQXJf?oc=5",
+      "source": "Robinhood",
+      "publishedAt": "2026-09-03T16:07:57.000Z",
       "kind": "news",
-      "symbol": "SOFI"
+      "symbol": "ETH"
     },
     {
-      "title": "SoFi Technologies, Inc. $SOFI Shares Sold by Quantitative Investment Management LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVEh0dkhEeWtRWXU0ZlpVQlkwZTZYbHFfTzZmYmhacnlZNGlKbFVBZmYzQ1BucUp6ZjB3a3FDRnkxWExfLW1UeFljM2lzNFpuTDV2VjdfdTdLVElPV2hXMHgtMWR5bGNQWmVmMjBVUkpuT19mWTdTX0hhQ25mQjBkV0lvRHA5YjVKSEdYNGp3RzRzaVA0cFptX2NlckRaMUNTWXJEV3drR2Zac2pVTmVzNEhKb2xFcTlZalM2TkhxNnBuUXJUX0U3VENqYTBJVDJIRHNmSUpCM0M?oc=5",
+      "title": "Here Are My Top 5 Stocks for September - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQVlQY1FySHBsV3Q1SHdTZ2dJWm9oaTlRc1ZIVmNXenc3VC03OWd4d1ZTQnJ3N3dCNUtBcU9mTVlzWGlaTzJsTjh5cDJJS0lpMzVSNXRVckJCTlNLTUNwa19qRWVXSGxZR1JOQ2xIUnExSDlTNzVTZ3RJcmRudndwN2tmX3NZUG9tNF9oaHRlMlhLTTdJZlNJQ2lheURJa3VuRjB2WlpveWlxOU1YZ1Bia0JmSUZMalhGRlF4SUZPVHJNWVU?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-09-03T15:50:14.000Z",
+      "kind": "news",
+      "symbol": "AMZN"
+    },
+    {
+      "title": "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQk5jRldaOVh2UEJWdGJTVWpSVEhWVE90dXFmOVZOWW1GTC1CWDBIRnhfWHY0eHczLW1TejQxQzVXOUktVnJmdnM1aDlXMUt3ZDFfazhNOEx3MTh0dDVaNXRVbmo5OEE5aUlfNkZncVVldEJpVkpfdGd3NndXNkJNV1B4bFZ0X1Ftdi04b2hB?oc=5",
+      "source": "MarketForces Africa",
+      "publishedAt": "2026-09-03T15:45:07.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
+      "title": "BTC, ETH, XRP Rally Boost Global Crypto Market Cap To $2.7trn - MarketForces Africa",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQk5jRldaOVh2UEJWdGJTVWpSVEhWVE90dXFmOVZOWW1GTC1CWDBIRnhfWHY0eHczLW1TejQxQzVXOUktVnJmdnM1aDlXMUt3ZDFfazhNOEx3MTh0dDVaNXRVbmo5OEE5aUlfNkZncVVldEJpVkpfdGd3NndXNkJNV1B4bFZ0X1Ftdi04b2hB?oc=5",
+      "source": "MarketForces Africa",
+      "publishedAt": "2026-09-03T15:45:07.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    },
+    {
+      "title": "User reports indicate possible problems with Amazon (AMZN) Web Services in the US, according to Down Detector - Newsquawk",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOODNpZHhvR0QzS0tqdVZLX0k5R19jTE1tUjNtUXVDY1d3dEtvRWhMa3RySDhxVDJZY19XeEpxV3FJRU5qZFdFcmZhMGxZdDdsemtLWlNSVlU2QXFoRXBicEtJZnBFTkdPSUUteXJoVXVTNmJfazQtYVc4b0hESWQ4dlpDdlJyVDdUTDZJQ2FET3ZONmd4WlZHNko5YWxtQ01qYXZLQ2cyTE5KTlFoblRyY3JMREFJX3lWeVRBaDhMekdqMWgtQ2ljZEM3NWV0ejVwVzVoY1M0UGNEdw?oc=5",
+      "source": "Newsquawk",
+      "publishedAt": "2026-09-03T15:41:05.000Z",
+      "kind": "news",
+      "symbol": "AMZN"
+    },
+    {
+      "title": "Amazon’s Robot Push Raises a Bigger Question About Its Next Margin Lever - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONzJVLVlGcjNiV0dCZTNLekUxeG9BbGZ5Um5zUGpMbEJ4UmlyOWR1Y1pTM3JqQngwYzZKTHpFUzZGMDJ5WV9kVkhhSmdLZHZXZnZFVmFWeDhOS3lXMnV4TVFxSGphRTZxaVRPUk5fSlJvdVgxZHhwb3BOTGJTRjUyZ0g0SnhmeDIzWnkwLXZGcGVYVVFxdEd0UFBQUjBSakZlQzdiVllaRnlacTA5?oc=5",
       "source": "MarketBeat",
-      "publishedAt": "2026-09-03T09:28:53.000Z",
+      "publishedAt": "2026-09-03T15:36:50.000Z",
       "kind": "news",
-      "symbol": "SOFI"
+      "symbol": "AMZN"
     },
     {
-      "title": "SOFI Stock Rises Premarket: Why This Analyst Sees 40% Upside From Here - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdUdFd09zVFlxQy1HeGp0UkhJS25oREdveVRVSVFjdndRdnVEVTIzRk1oYjJleFZYeHFEVkVQX1dRWWNyQVR6VEtROVlDaEtpS0t1REczZWhTWjBxZmZQMGpuaS1lU1hDbUVyY0RKREE0SlExdjhUc1FVMklId094bm8zTmNINWRnTVROSFNGdjJ5V091c2lXZ2Y5ZlR3TEhJNGx0T3Zvak16cWdHQmFjM2J2aDkteDduS2drVTZOR3pZRnJtTVB6cg?oc=5",
+      "title": "This Is The Biggest Reason I Keep Accumulating Amazon Stock After Jumping 10% This Year - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM1p3M0R0V2s5ZVd0T1FSLWFVUnF3alQ0eUI5ZllaUWZiM3dSeDJHQ0pIbVBfbkFfT096c1RwVXlRRmRJamFOV3VkS1J0aUxWNUxrNVRvZWh6TEVVRkFZWnMwMkRrTE9oQlBtVUNmZEJvOGUzZzZJMDlZMDVDdnRHSVZQa3ZuTms5clJqajRnU1dfd1pTei1SUkFRaGZ3TXBuRXhWVHVvZw?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-09-03T15:33:45.000Z",
+      "kind": "news",
+      "symbol": "AMZN"
+    },
+    {
+      "title": "Bitcoin Hits $80,000, Ethereum, XRP Rally as Fed's Waller Says He's 'Willing to Support' Rate Hold - benzinga.com",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORVJieVNlR0pnckcwaDJENmFkbjdZR3U0aU5zQ3ZvMGVQb2lfeC1oOXV0d0NjVlBhZkNxY2pFRUZpS3lfUzR6elRaZnBvNXBnZ2lQMGwyUEpzald5UW9lSGFqT1JWVi13R2JFUTVlM1VxdnFiWU4yZlZYeDdBTUl5WGlnMWZrYXEzNm81THM5blM0clo4UWJRUl9XUndfMUNWVjVOOUdmeDMzUVhBSUZjd216RVhpLXNUaEtBVHA5Z3JIRkNienEtbTNVNEFKQlR6QjlBMGFrT1lReUhLc2E1MS1MbEhlZmc?oc=5",
+      "source": "benzinga.com",
+      "publishedAt": "2026-09-03T15:33:35.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
+      "title": "Bitcoin Hits $80,000, Ethereum, XRP Rally as Fed's Waller Says He's 'Willing to Support' Rate Hold - benzinga.com",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORVJieVNlR0pnckcwaDJENmFkbjdZR3U0aU5zQ3ZvMGVQb2lfeC1oOXV0d0NjVlBhZkNxY2pFRUZpS3lfUzR6elRaZnBvNXBnZ2lQMGwyUEpzald5UW9lSGFqT1JWVi13R2JFUTVlM1VxdnFiWU4yZlZYeDdBTUl5WGlnMWZrYXEzNm81THM5blM0clo4UWJRUl9XUndfMUNWVjVOOUdmeDMzUVhBSUZjd216RVhpLXNUaEtBVHA5Z3JIRkNienEtbTNVNEFKQlR6QjlBMGFrT1lReUhLc2E1MS1MbEhlZmc?oc=5",
+      "source": "benzinga.com",
+      "publishedAt": "2026-09-03T15:33:35.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    },
+    {
+      "title": "B HODL stock performance jumps 67% while Bitcoin treasury sits 29% underwater - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5hZVJIcUxBcjY1dlRhd1cxczVYU1BncjMzNG4xYk9zNFdGWi1SVGttMno0dUFrTFNsa3FHcW9YWWJDZFR6U043YXotNGNCUGM4WHZOU3EzLTE?oc=5",
+      "source": "Cryptonews.net",
+      "publishedAt": "2026-09-03T15:30:14.000Z",
+      "kind": "news",
+      "symbol": "MSTR"
+    },
+    {
+      "title": "Is XRP poised for extended recovery? - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeDVsUVlWZVdvNWtMWEUtSTBCM3lmUU0wOXVRX0I5Z2diVTVSakgxaW84dllxQXpmekphVDUwMzl5MXFQTC1JX0laMFBRak1RVFZVRThiRTV4NGhyeU9XNzIyY1UyLTJFd0sweGduMWFmNExFMEp5NlNsRTVyQUtWVVBIY3FZcFZnRUlUU3JlYVZMTDhHMm1ZZHNvTDBXNXJ6dHpQMzNYUWRwR2hyRWROZjVIdzFsWTR3Z01KaA?oc=5",
+      "source": "FXStreet",
+      "publishedAt": "2026-09-03T15:30:00.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
+      "title": "Crypto Treasury Companies Hit $340 Billion: Is the Bitcoin Treasury Boom Turning Into an Altcoin Race? - Bitcoin Foundation",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORVZkRnpRQVhqS3YtQ1NIVTlfYmFHa3NuNXJoVlVkVDJla0VOT0xmSTRZbXpFQlEzQzNfVDVsTmRWcTg4TUl3ZEtkWk1oeldxLTNxZUZ3Tk1iT2pkMEs1dFRaM3RFM3JyRzBrY3Z3MkRTcFcwZHdXaDlkaS1LZ0o1X3JEVWtzbnBpcEF4MklYNmdfTkliR2J4OUx3TEhaamswdTlnajA1bFJFaWJjaHZiVFFYR1lZaWowVlZULWZTLTdPWXFNNzNRdWZZc05PZVdMT2E1TEhNMGt5bHJP?oc=5",
+      "source": "Bitcoin Foundation",
+      "publishedAt": "2026-09-03T15:20:15.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    },
+    {
+      "title": "Why is Ethereum rising? - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaTI3bXl5SHFHVHRzM0dIWkRMV3NhRlRCeVFINWdHU25zR3BWZ2FPRjdxZzZPUHFHdHA2MElvSFhBWHAxR05xd1d5WFVkVkxRQzJpblE1NW5rYVpXMlo3dVhGbWs1dkpFRlpUb2RSN3B4WUdxQWdPOHNseTFtSlRWdjR2bTRLamFqRVBUV2tQbFZGRm9TQTY2azYzeEhPQkg0NVZyOXpsZm9JZEdUeDQ0ajBoVUJOZHlOUmZtajlnUGJOY1VGSXUwYjVCVktveXRLSk95OU5vQQ?oc=5",
+      "source": "FXStreet",
+      "publishedAt": "2026-09-03T15:04:11.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    },
+    {
+      "title": "XRP price at Sep 3, 2026 at 12pm EDT? Crypto Prediction Market - Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTzRCTzUtNHBWM1hnTUxKXzBOMXUwU3dxcGpjWjJzdk43dGFxUGZYWmlDMk9qLUNVMXhKalhaRExudjV2ekZwdEhWOGR6OTAyVUhuV0MteHRjbzNEMEJ2MWdDc2E4YkpuNm1JcDd1TDhKWGNpN0RiUTg1alJsWGE4UzE2d2NsSXZaRllfUWJOMzU2RjhkVG9rRmlqZVRxS05aZFRLZkxYalY1OEx5Qmc?oc=5",
+      "source": "Robinhood",
+      "publishedAt": "2026-09-03T15:03:40.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
+      "title": "XRP Price Prediction: XRP Jumps +4% And Could It Target $2? - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcVRkd3FqOVFuX3hITUpRQW9JVzlXZjM2N0xldGpybmR4MGcxV2JRV0l4M3RKN1dySE9KWFU3eW45dEZDZXhudV9BN2lndV9CcEF6bHFLNkV3ZnV3UE5ndGhMWVN0UlhPWXlzaVFzcU5IemdLSkNrWVM2UjZuTE4wNmxtTFBZZDgtUFJWdGEyRHVsWl92YmlYS3lLNU5FenpaRjZjeUdMLVBXSkFlZnhDZzE4dDJRZw?oc=5",
       "source": "TradingView",
-      "publishedAt": "2026-09-03T08:04:15.000Z",
+      "publishedAt": "2026-09-03T14:53:23.000Z",
       "kind": "news",
-      "symbol": "SOFI"
+      "symbol": "XRP"
     },
     {
-      "title": "130,647 Shares in SoFi Technologies, Inc. $SOFI Purchased by Corient Private Wealth LP - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVDZpVkpsMm9qV19vTE85ZF9VWFJpVGdraGE4TFE4WUs4Q3ZuaW81bXJyX3lvX2JiOURSaDJPYVcyZUE3TFhzVkhLaHlCbDJEeUpkSEtDdS11aG1mRUhRYlpqaFRxRzA1OGdSd1l4SW5SSE5OZkRiSUZmcDRNZUJ0S0N1MlhTVlhXSnM0YnltVEZaSFphbmRvanVCNnFFYl95c3pUWXlraUZuLVVpTWZCejZtSllobm9LWUc4blc5NHkydDd6OV8xOHJESFpEdWhwYkJOV0VaSU1rVms?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-09-03T07:52:32.000Z",
+      "title": "Arthur Hayes Predicts Ethereum Price to Hit $10K, Massive ENA & ETHFI Rally - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fOWVORGlHQWhfZ0N5OVFQbFNGTnl6TXN2VUplcHdCSnRQWWdJRGh6ZWNiSzhEd2sxQ0szMkhYSlI2WUEyajc3aEVFcEJjRmhtQzBSalNFUzl0UQ?oc=5",
+      "source": "Cryptonews.net",
+      "publishedAt": "2026-09-03T14:05:31.000Z",
       "kind": "news",
-      "symbol": "SOFI"
+      "symbol": "ETH"
     },
     {
-      "title": "SOFI Stock Draws Bullish Targets As New Funds Launch - StocksToTrade",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcnJsbTFjMFpHNDlKci1idncxLWxjU252MGNPZks3bXJ6amNlbWEzR2NXZXY0aHhqazhXeGxPVG5JMzRqY2ZHXzRwWXZPMHJLYjRqR3hKeXVsQmJDZmwtczgzY005SE4waUhWNUpuSnFaMzdWSHRqMHNycEU1aXRIcWpR?oc=5",
-      "source": "StocksToTrade",
-      "publishedAt": "2026-09-02T20:47:00.000Z",
+      "title": "XRP Price Analysis: Can XRP Resume Its Rally After Defending Key Support? - CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbFNaZWEyeFZFTFBZanFVdEx1RldqVlVyaDFub2pmS0k4Z0hpQlZTT2xEcEtiQlRNZ2NseUVQTkVQaGRTN2cwd1FZbjk3QW4wZDBHSEpBd1kyTUEzNWZHSVFoNS1KRERGdUJVSVVTY1NMRkcxbUZQOWJEYkttYm9hRWc1YmZSQlRISU4wRDVZeDNBZzhlS1VxNEhhX1ZkUQ?oc=5",
+      "source": "CryptoPotato",
+      "publishedAt": "2026-09-03T14:04:00.000Z",
       "kind": "news",
-      "symbol": "SOFI"
+      "symbol": "XRP"
     },
     {
-      "title": "SOFI Stock Grinds Higher As Wall Street Boosts Targets - StocksToTrade",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4ydHhTNEV5TEJYYmgtREdWaTY3TFdQc203Mm9LdGFmMXR6aktQVEdTcG1xUFZVeENyQTg5aS1Yd2VmT2N2S0ctTkxOWFdLcTkwZWVMMWl0eDAwbkUzLVctdnlDcWc4Vnd6OW5teHlDQ3JDVWo4Y21LWTZLVGZSUDQ?oc=5",
-      "source": "StocksToTrade",
-      "publishedAt": "2026-09-02T19:03:00.000Z",
+      "title": "Current price of Bitcoin for Sept. 3, 2026 - fortune.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SeGdkS01VSHdOUnpkeGlJNmhZZ3h5TERsMlliZUVBNDB3R2xWS1RLOHV2NHlsNURnTnNYaWZwd2tTU200X0FRQkxRck00T2RsRTFRZHY2eXIxeTFST0U4czBLaXlxMlk?oc=5",
+      "source": "fortune.com",
+      "publishedAt": "2026-09-03T13:37:08.000Z",
       "kind": "news",
-      "symbol": "SOFI"
+      "symbol": "ETH"
     },
     {
-      "title": "SOFI Stock Climbs As Wall Street Targets Higher Prices - timothysykes.com",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sVjA5VDNsV3Zzd19ZM2FBcTY0QmpGZHEzT1IxclZGb0JlNjFXRENjOUhwcUtvZXVaZVAwWmNZbTF4MlRjamlfSHlsTDRPdXBuamJfdlp3RnUxNUs4aVdVTFRldVIzWjhIamF1ekxDVTZNQnEwellPYzVpWVBFdw?oc=5",
-      "source": "timothysykes.com",
-      "publishedAt": "2026-09-02T19:02:00.000Z",
+      "title": "Better Buy: XRP vs. Bitcoin - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1xd2NBNjE0MGQ4eXBnOVdrbkwzQy1OYmVNTHg3Wk1UX2tBbWhLMUoxeUlpRHdvbERMQTZmWFN4b1ZlVDB4N21WSDVmNTRnQzJVLXBaTkttcDF3bHhwR1haUWJVTWZ5d25IOTk0a2tFWkhTa3VyMjVN?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-03T13:32:01.000Z",
       "kind": "news",
-      "symbol": "SOFI"
+      "symbol": "XRP"
+    },
+    {
+      "title": "Why Microsoft Investors Should Fear Amazon More Than Google - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYUd6WXR6MkctU3oxOXpwdi1yX2Fqa0N6NWs4LVdnNjhkNnRUQV9qbEJTWmxRSl9wc0g4VGhTYU82ZERtOTEzenlZYk5nVG9ucWhBZWhNU1NaTFprYzNNa2tIOTVvamJVRG5PdDZGakxSNlZTemFmcTk4N2lURkFETVFKWXFGc3M0OWlJSFdTdGc4Mzc3Y2V5ZExvVW9ORkNpMVE?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-09-03T13:30:25.000Z",
+      "kind": "news",
+      "symbol": "AMZN"
+    },
+    {
+      "title": "Hyperscalers Are the Backbone of AI. Here's Why I Own Amazon, Alphabet, and Meta Platforms. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQamxpQVZBQmFiWjNjal9xeWlic3dKTHRFcWJ0T3BIbzdnMXQ2dHo4bFp0VjVlR1ZuSG9tXzBKaUxnbjlyeHBhSUhXRTZPU2FUZl9acnlKOWNscFkwbVdnZmpHa2szX3hpUGdIcTRkVUl6V2hZcmhVa1BFUDVmMjZhNUozcC1CUEFFb3dCa3RjY05kczhJbWJtQw?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-03T13:28:24.000Z",
+      "kind": "news",
+      "symbol": "AMZN"
+    },
+    {
+      "title": "What to Expect From Ethereum Price in September 2026 - Analytics Insight",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDY1eXVFWERJbk05eXFmNmJPLUoxODBOTGRqUm4teml2LWNqU25LNHFsNHViT2ZzSFNoZkFHSGdLQm44UUlwZGE2Rnlpc2tDZzZONHZTeWljRGlNYndJTU9ZZU53OUVkcGcxTGx4SGZaRUFnZG81c3AxN0ZhaVNjWVRfVGhrNjdaTDBROFVmc3pVaW1FRTJ2MDFBdHZBOTgwOWxSY3NwQnVBaDFwVE1neDd1MnVYYUI1SlHSAccBQVVfeXFMTlpLUEMtV0p1V0VvZzFXOUxPMXNueDFOWDhjWTRWcGdURnJ4VUZ4MVJ6cU5OeVNVdk1SU0JEMmlLaTZMT3VOZHk4UFJvZXRYVjhlSFdTYjZPaXpKSmFtUFF2eHpFZ2dGM1FycEZrVHM1M2JZUTltazNsNDBzVnp6NlI3N21xV2ZMS2MxVllRUkNPSHRWVVNyb0NxbXVoODliZEthTjBYVTM3azNyOXRkLUNSbUFhMGlXbFh2aFYtSWt5V0JQenZDbw?oc=5",
+      "source": "Analytics Insight",
+      "publishedAt": "2026-09-03T13:19:10.000Z",
+      "kind": "news",
+      "symbol": "ETH"
+    },
+    {
+      "title": "Crypto Rally Alert: XRP, Zcash and ADA Stage Comeback as Bitcoin Lags - Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWTFUaFJHcExPcC1NcHFUYVhEcGszTjJfYXA2bkZsOVlWRGk5NjRteGJVcFBrLTJIbVp3YVpjdGprTGo4U2dDSDlCLVpUOVhUNE5IdDhQUW14UXBvQW52Rmp3T1M4NHlnaVdXVWw4U0ZoWWFxUGNlYjl4QlJCNndJUml1T0hqRTlOVzRwdjcxYWJiSDN4TzNkZ0ZmTdIBoAFBVV95cUxQbm13V0hpamJvQ3J1Y1U0MHBhQVNwQkFlb0J1T3hNOE9qYTNQWVN4ekV1SXVnd2hCOTlsa3RBTWczeFR0RlpjWFFDcUdJYWEwSzVJWjRhOEM3ZVJGSXcyLTlpM2hDS2l4OHB2WjAybWJWVnNVZ3o5X202OGIwRWtfUHRIa0tWRFkxSFpPdFhiaDdCZ3ZFeHhJVm5Na2xmdEZm?oc=5",
+      "source": "Coinpedia",
+      "publishedAt": "2026-09-03T13:08:32.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
+      "title": "Amazon Shares Face Pressure as Technicals Signal Pauses - TradingPedia",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVDlBc2sySjZEU1VqbXdYVURWT2FmM3ZJQW9wMjQ5UHlCcklhMHA5alNxQ3p0aFFKMUpHSVM0VUtlV0Fab3VJRTRMb0xnQW5UbDdTQWwzVzE0STFPVlZDX1lWVmt6MmxJMl9EaFd2YTRFMFhmeUdoTHVDZHVNTE10TWVUVWhqRFlBOVZNYnNhQ2lsZUJvNDFXS01xVV8?oc=5",
+      "source": "TradingPedia",
+      "publishedAt": "2026-09-03T11:05:52.000Z",
+      "kind": "news",
+      "symbol": "AMZN"
+    },
+    {
+      "title": "Strategy (MSTR) Looks Cheap As Bitcoin Buying Resumes With 4,603 More Coins - Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQem1pZkxsZ2pxMHJzMU9yd1VaM1otRDBjQTh3Rjhncm9HOUE5Y1JYZGdWd0h5ZUFTNkp6c19KMG9tc0VQTWVsaDJOQVpxbzlIektHaXZiRldaUExSbTBuSXM0UzhMS1JBajM5YVp0M0FjLUxCWll5MXVNSTlOQ2NNVTR1ZzE0aTRKdGc?oc=5",
+      "source": "Yahoo Finance Singapore",
+      "publishedAt": "2026-09-03T03:27:00.000Z",
+      "kind": "news",
+      "symbol": "MSTR"
+    },
+    {
+      "title": "MicroStrategy Claims Reserve Capital Surpasses S&P 500 Financials Except Berkshire - KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZERFVDBJaXRsWHhPelpWV0gyejNKMWdBYkxwQ1BYM2dMaElwWVUwdk1KcmRlMW1IaVRMdmV3NVE0UklkU2VlSUxsbHBCWnVUZVJ4MzhUWDR2ZVFsb3ZMZGlGWXlRejJLdThxcnRHODFnMi1aSU1maUh5QjUyVGc5VEFERmtiQjY5a090WXlLT3ZSVXU3eXVDRFR3OVNuRGJ0aWJzUGtnT05JSmVzc05KSWRhVEJlUkU?oc=5",
+      "source": "KuCoin",
+      "publishedAt": "2026-09-02T20:23:16.000Z",
+      "kind": "news",
+      "symbol": "MSTR"
+    },
+    {
+      "title": "Why Strategy (MSTR) Stock Is Trading Lower Today - StockStory",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUkdjalRoYmtBYkdqUmE5U1ZUY1NqLW10aTczX25XR25RMFcwaTNTR0NGdEgxM3lNNnFmWWtSX1haM3VadjRBTVZ6ZjBKaU94ZWdOcTFFUEd5bFFBaVhhUDRreE12b29uem1TZjNDUjJhT291V1VLUEJZWlMwYVVwZXZEcTFQcVliOC10UWU5bVBGMnlVS0gyU1kyc01Kbk1oM0Z4bjlmRWdCNFFZQWFv?oc=5",
+      "source": "StockStory",
+      "publishedAt": "2026-09-01T20:50:15.000Z",
+      "kind": "news",
+      "symbol": "MSTR"
+    },
+    {
+      "title": "Strategy (MSTR) Restarts Bitcoin Accumulation With 4,603 BTC After 10 Week Pause - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUmV0X0w1X0dzWkJBMG9oeVVMOFVNVTh3TUlQTDZJWUVTMHI2aVQ2LVNoZ3g5M1laR3dUQVE1dUpRZjZfeUw4WFc4YzVnWlk5S05tckJRcUdMZ0g5TmtyU3V1OWZqcXBYVTVWRTBBeXdMenZiMkF5YzNPR2lPRFVMWkFLZ3kyU3dDbE91ZDNPLXZSdFVhenY3UUhqQURrQXpqSUZaaXVWQzJDQjFHb09VRjU4VU41MlFkMkxveWpiNzRza09BUkHSAcsBQVVfeXFMT1JjVGpUVTNTU2lfYjBqYi1SaThfWjZCS3JmWS1xWDh3MFZ4MGRoV2hJeHhxTmF3bE5TUTRVQ1BlVHdOcTNtSjA0TXltWnEycHhkSERKelo3cl9FYzNBczg0dTRzVTZoblhzREFzUkVTQkxDeGhoTzBiZzBjbzgtSzVtcVFaRHpPQ3M5MkFpbXVycWUyajJ0Yl90TXJvMVZFU1JIZVh2N2J2VUxMRnVqRE9QWXg0amZCdGVXZ1BfNXRfUFUzTkJsTFFPUTg?oc=5",
+      "source": "simplywall.st",
+      "publishedAt": "2026-09-01T14:28:04.000Z",
+      "kind": "news",
+      "symbol": "MSTR"
+    },
+    {
+      "title": "Michael Saylor Bitcoin Purchase Pushes MicroStrategy’s Holdings to 845,050 BTC - The Cryptonomist",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YenVRNVhPQzVBUkFmLVkxbmpBZHE5Ym1nOExCbzEyYWxrTFQ1T2VXUll1bVo0T0lOSXQzNG9qbUtvYU9rOWp1a29wZ1ZST2NpQWN3TzU2ckx0WV9WaXVQSkVmZlJrVFQteXluMHpYOW5oZ0ttODEwSkpR?oc=5",
+      "source": "The Cryptonomist",
+      "publishedAt": "2026-09-01T10:14:30.000Z",
+      "kind": "news",
+      "symbol": "MSTR"
     }
   ],
   "latestFilings": [
