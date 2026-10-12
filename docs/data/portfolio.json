@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T07:51:32.638Z",
+  "generatedAt": "2026-10-12T17:19:32.492Z",
   "siteTitle": "Jack Portfolio",
   "tagline": "Live prices, news, and SEC filings across both portfolios",
   "portfolios": [
@@ -10,19 +10,19 @@
       "summary": {
         "holdings": 10,
         "priced": 10,
-        "up": 7,
-        "down": 3,
-        "newsCount": 80,
+        "up": 0,
+        "down": 10,
+        "newsCount": 72,
         "filingsCount": 64,
         "topGainer": {
-          "symbol": "AMZN",
-          "changePct": 3.29
+          "symbol": "GOOGL",
+          "changePct": -0.11
         },
         "topLoser": {
-          "symbol": "FRMI",
-          "changePct": -6.28
+          "symbol": "QBTS",
+          "changePct": -5.42
         },
-        "avgChangePct": 0.36
+        "avgChangePct": -2.17
       },
       "holdings": [
         {
@@ -33,14 +33,12 @@
           "cik": "0002071778",
           "weight": 27.28,
           "quote": {
-            "price": 3.43,
-            "prevClose": 3.66,
-            "changePct": -6.28,
-            "windowChangePct": -36.36,
-            "windowDays": 22,
+            "price": 3.26,
+            "prevClose": 3.43,
+            "changePct": -5.1,
+            "windowChangePct": -35.54,
+            "windowDays": 21,
             "spark": [
-              5.39,
-              5.5,
               5.05,
               4.74,
               4.77,
@@ -60,13 +58,28 @@
               4.23,
               3.97,
               3.66,
-              3.43
+              3.43,
+              3.255
             ],
-            "asOf": "2026-10-09T20:00:01.000Z",
+            "asOf": "2026-10-12T17:19:26.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
+            {
+              "title": "Fermi: The Risks Are Still Rising (NASDAQ:FRMI) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BZXV6U053MDRfb2RxOGtKMGVkc1BBRGJwN3BoV2NNdzlrYWRLUHl3NzNONXdpLVpBcEk4bzNBcEZRUHpRTWZEUDRsZVZSLVdMcTAzdHptNU9BZnc1TE9TTUFPZkU1MXh5dTVBZmVMcW9EenM?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-10-12T15:34:42.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Fermi America, Blue Energy make strides in Texas - American Nuclear Society -- ANS",
+              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPU2JIT0hzd1hUUnlMM0RsZU5sMnhHLUVRS20zQXZOOElRWkxvWEdHYjRycUk4Q3lhTVZYR1lIY1lwUV9ZZE5kYzU0M3pvU01Xd1QtSnJOWGVsSVRPUjJVNGQ2eHZFRWpWM0FGRnEzT1lnbUtMaExqQ1k5bklWM3FpVUZvd2Y4V2JUT3lxc05vMA?oc=5",
+              "source": "American Nuclear Society -- ANS",
+              "publishedAt": "2026-10-12T10:42:07.000Z",
+              "kind": "news"
+            },
             {
               "title": "Fermi Inc. (NASDAQ:FRMI) Stock Has Consensus Target Price of $20.67 According to Brokerages - MarketBeat",
               "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOODN6dnd0djZUcVZQUmM0aU5RRFNsMXdORzBKTTZramdFMzRoUUxFY3NGdU1uWDYyMl9ES0xWZUc1NElVQmdEZlNWQVlxdUpwSUpIQTNmT1ZZVkxPdE5UOHZuZjVRNE5XVVdVWTlkaEFTNWxnSU1lblAzMVZPVjVkbW83NGNiRnJqMG5RT010WE95aENFcHdVeTlnRjRZUGR6QUtmSU5vc0VvWkROdTZIeHd1d3VQQlp1bVBZYmJuTE1fcURsUXRWR0pJWktKSjFFNEZQbVpnRTdWaWU5N3dpbFJFcW4?oc=5",
@@ -103,24 +116,10 @@
               "kind": "news"
             },
             {
-              "title": "FRMI Oct 2026 6.000 put (FRMI261030P00006000) stock historical prices and data - Yahoo Finance UK",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zOFI5YUNkU0RfaUN0YjAtaFJObXpPRmdkajJpUV9UZTFzQnV5MWFwd0ZGZmJUTnptSWxUREJkN1MxX1BkRm1oZHdRZHpvdFNMNUVPa2ZSWlVUVUR1VjZzRnVnd2drYnFocTFCSDNKZW4?oc=5",
+              "title": "FRMI Oct 2026 6.000 put (FRMI261030P00006000) interactive stock chart - Yahoo Finance UK",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ETEY5SG9KdzNUNUUtbWYzOTBnS2MwZmZGUXJTWUVMSHd0TGRrMzFsc19FSXNmUUtoQTlnSnBQUG9YcHZuN3lqdFRDX052Rjh1ZmtTTGlJRFVfTU5pc2M3QlNYNXM5SHgyQzlKb1Z3?oc=5",
               "source": "Yahoo Finance UK",
-              "publishedAt": "2026-10-11T19:48:21.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Fermi Cofounder Toby Neugebauer Says Market ‘Clearly Wants’ This As FRMI Stock Surges To Over 3-Month Highs - Stocktwits",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM2tkM0UyR2Vma2YyejVIeGczT0xua1BLcVZZWlhDYnR4NUhCVDNIT0t4ZFBlamYtMC1YT0diOC12Tk1neXRqSldicTlVNnF6UzRJdXJIOVVSbG1SR0s3aE9PaDNFRmR1UlYwcU5XdVVoeHZwOV8wSVpMLVZUX2JOUWZpSm1rYTVxUUV0d29ZX3JsZHRkVjJ0TzhuYkpyTDZSbkFnc3k4NFRzOGpiMVkxNWNTOFh3QQ?oc=5",
-              "source": "Stocktwits",
-              "publishedAt": "2026-10-11T10:59:33.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "FRMI Oct 2026 4.500 call (FRMI261016C00004500) stock historical prices and data - Yahoo Finance Singapore",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9pd2JVOWZWNElyUnIzUC1MWm5sZ3JFS0FSVVk3dFY3eV9KN1VHeXI5ZHlURGVaVktvMmdTbG5LY3NjMWdLeHpLSENDeHZGRzJRT1lfNWFTeURQSW4yYzhIZi1kVHNxRGo5REdodllVdTk?oc=5",
-              "source": "Yahoo Finance Singapore",
-              "publishedAt": "2026-10-11T05:03:25.000Z",
+              "publishedAt": "2026-10-11T19:57:14.000Z",
               "kind": "news"
             }
           ],
@@ -215,14 +214,12 @@
           "cik": "0001050446",
           "weight": 14.54,
           "quote": {
-            "price": 154.34,
-            "prevClose": 151.47,
-            "changePct": 1.89,
-            "windowChangePct": 20.05,
-            "windowDays": 22,
+            "price": 153.37,
+            "prevClose": 154.34,
+            "changePct": -0.63,
+            "windowChangePct": 12,
+            "windowDays": 21,
             "spark": [
-              128.56,
-              130.97,
               136.94,
               129.6,
               126.18,
@@ -242,13 +239,28 @@
               164.55,
               153.37,
               151.47,
-              154.34
+              154.34,
+              153.37
             ],
-            "asOf": "2026-10-09T20:00:01.000Z",
+            "asOf": "2026-10-12T17:19:29.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
+            {
+              "title": "MicroStrategy buys 250 Bitcoin, repurchases shares - Breakingthenews.net",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbVczV3ZPaHRUVlFveDZva2JHa3JJTGNNNWZTWldZTTI1OGNkNllpdEtFMlJwazhEUVV4TEZVY0JIVkIxV0txWTdxOWVzUWRTNHdMY3R1dzJwU3pYQmV1Nl83eTZqZ19tQU9hTHgtX3hIMHViMGhnZFBmR2hZbHc4UEREQUU0UUZReTN4U1p1dWp5SnZvWVpCV2Rn?oc=5",
+              "source": "Breakingthenews.net",
+              "publishedAt": "2026-10-12T12:12:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "MicroStrategy's Bitcoin Buys Drop 84% in 2 Weeks. Why Is Saylor Slowing Down? - BeInCrypto",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xcG1YakY5N0hNYzBnVnFQVWFUOTgwOW1Bems2eWFqYkdSMzJJSjd1N2ZoVFM1dDk3X1Bzc2RNcmhkYkd6dm1OUDYxeURlZXA0Rm5jZ0xvVUM4Z2JRRXlyb01FWjhpUExEQVc2dnNOVzE?oc=5",
+              "source": "BeInCrypto",
+              "publishedAt": "2026-10-12T12:06:00.000Z",
+              "kind": "news"
+            },
             {
               "title": "Strategy (MSTR) Weekend Outlook: Can 847,363 Bitcoin Reverse the Stock’s 56% Slide? - TradingKey",
               "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQalRGWndSZDV2UzhFMnJzRURFTUpWclFGZ2U2NmFqTTN1c2EtSWFPcWZRRHRNN3JtOVFPS1pUeTNpMzIwREhSQzVtYy0zLUNnc3lBcXZtNEFraF9XUGdEemVZYnZKNWs1RHhIMVk5ZXhCVFBjV0lHWFVjRE5RZHlPd1VQV1drOS01MXd2cUFYUER5c3JZM1RNa1B2LW9XZXNKR09hZDIwd3QweU9rYVlmNlRaTG9kSDg5a2l3eHM4N2dKNWFRVXBIQmtxOC0?oc=5",
@@ -285,24 +297,10 @@
               "kind": "news"
             },
             {
-              "title": "MSTR Stock Rallies As Bitcoin Bets And Price Targets Climb - StocksToTrade",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51YnkyVkVpaFJXRUMtQU93WmtHREh2QUdYbFlIeGtPbExUcHVBMlJKOEhGelhNN1JYZ3F5R0ViZ1paVkRtZ0gzREZCZWpDRkFqb1pRcHRlaGFnY05tSXNjUUpVNjRHS2haSFZPVHJvZjJGc1U?oc=5",
-              "source": "StocksToTrade",
-              "publishedAt": "2026-10-05T13:18:00.000Z",
-              "kind": "news"
-            },
-            {
               "title": "Strategy (MSTR) announces ATM offering programme update; sold 92,894 MSTR shares for net proceeds of USD 15.70mln during Oct 1-4th and USD 15.7mln in net proceeds from MSTR stock sales used to fund Bitcoin purchases - Newsquawk",
               "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNdEFGMDQ3Mzh0ZDVXYW5TOEl5SEVYRE9NUm53dmc4dXNxa2MwNk01ODhQZnNjSDJCak9GT0pJYWI2RGllaTJVQmxKZlh2eWR2blhkd1llLTNtX1NMWEhWd2ZJSnNBNWFmYmJHc0h3Z2tBWEhKZU9KcXdPMWlQaTdFU2x0V1JseTFCbDluQmZlWnFJSVEzaTVQOHBva1hzbG9QeUx2WWxDa09haWtmaWZGWk1TcjZBTVdtSTFvQlJGTHJRQ1NaWTU4ZVFlSW9MSlZYUUZEUDlTOTlrbWJwa1laNTdLeTBJbTNLSk82ZnNXamNRVFlXVTM4aTJpY0twLW1NOFRFVlVEYTNmSW5MaWFrTlRlN1hFV21aMmtDT2o5a21VYW9sN2FlRDFkUWN3d1E2MVhrSFk1ZEQtTDRQcTRWVzUxTXpEXzVVX3VuUWtQZ3NjRko3LV85X0dPYWV3eV9SaTNN?oc=5",
               "source": "Newsquawk",
               "publishedAt": "2026-10-05T12:27:29.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "MicroStrategy Buys Just 334 Bitcoin, Spends 6x More on Buybacks: What Changed? - Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM2ZiRENCNEFPVFA3RnkwUDBKVDItb2pBcFhzeEdlTnBRU1hVdFBFVDZ4UmtLRmpPSDlmR1dWRDc3eTJQSTlkd3ZHZkpTWEJHUnZCM1NKR0NIekhILWIzRzJKdXdrb1pFTUhrUUFtUUM4MUtkV1FwUEgyLVRzNzQyU0dRVk1LQ21kRldXcVJja2FXQkxMZW1kbkI3Tk9vaVRpY1E?oc=5",
-              "source": "Yahoo Finance",
-              "publishedAt": "2026-10-05T12:04:29.000Z",
               "kind": "news"
             }
           ],
@@ -397,14 +395,12 @@
           "cik": "0001045810",
           "weight": 9.37,
           "quote": {
-            "price": 229.28,
-            "prevClose": 230.48,
-            "changePct": -0.52,
-            "windowChangePct": 5,
-            "windowDays": 22,
+            "price": 226.4,
+            "prevClose": 229.28,
+            "changePct": -1.26,
+            "windowChangePct": 7.32,
+            "windowDays": 21,
             "spark": [
-              218.36,
-              218.29,
               210.96,
               212.17,
               213.9,
@@ -424,67 +420,68 @@
               239.24,
               237.47,
               230.48,
-              229.28
+              229.28,
+              226.4
             ],
-            "asOf": "2026-10-09T20:00:00.000Z",
+            "asOf": "2026-10-12T17:19:30.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
             {
-              "title": "Nvidia and Visa Have Little in Common. I'd Split $1,000 Between Them and Hold Until 2035. - The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWmkxZ3hyc3NvajJkQXI3V2pvR3E1V280S3dBMVl6bGh4Zjl2T0hGNmRxakZpVTM4bzZrZEVFbUpOV2RTdUZKcXVOUWJsRERrZ2hYZTd6QU9KNEFTYlRLOW5OZ2ZiNmxUMW5rVkUzQXp4NTl6MmpEZnRqeFQ5ZTBQTE8yYzdnY05FLTRpVTZxRFZhMy1mTFhVWmg2VGRGcGNvaTVmaHJNTGJ4bFdEV2M0TGd0bTM4cGR1QUN5TXpjbmswQU1zZGE3SHhtQng?oc=5",
-              "source": "The Motley Fool",
-              "publishedAt": "2026-10-12T07:40:44.000Z",
+              "title": "NVDA Stock Falls to $225 as Microsoft Chip and Talks to Invest in Reflection AI Raise Debt Fears - FXLeaders",
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQi1kRFM2TlhPWllzeE9LeGdRNGF0V1VROGNqOEtCM2JraDB4N2xta1czaE1ZeE9MRzljZlpfaUdSTFdFV05vM0JodkZibGh1MktvcHBhdkR0VWRjZEVaeUN4QVFydzhVdFJmYmlsM3Vsb3RFS21qTHhvdmFDUGJYTEpuNVRFV1Eza0l5Qk9MVF82eEozb2N1dk02dGdSRVU5NElMd183SzNKQjlYSXF1amFXaWdyZWxQcXh1Y0xZVy1vdjlKUUxaNFNEdmhvcEw4TVRseA?oc=5",
+              "source": "FXLeaders",
+              "publishedAt": "2026-10-12T17:02:45.000Z",
               "kind": "news"
             },
             {
-              "title": "NVIDIA Corporation $NVDA Stock Acquired by Roberts Glore & Co. Inc. IL - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPckt2dU8wck1hSjYzWG5ENm5uc0FEemxPcXhMeTV6U1lnZ2c4S3dlZHZsZnNlNmI2VU1SVml5a0xLVzUyekZfNXVuWWNhY2dkbS1XakNob0pvdThuTWcyX041SHQ5UFd1VzZSdjlzbG44RlF1SFZMTXBfOTBnX1ZWMVNHcWZDdmIybTV4bnFSeFhPVDhOTUVPOEx4M3Nab1A5V1phUUZYdkE3RDRhSXR6WDF0TVJXX0lUb3RIcUdRRlhtcTF4?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:25:36.000Z",
+              "title": "NVIDIA Tokenised BStocks Slides On Bearish IMF Report - MarketForces Africa",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQnhkaUdyY0liWHg0VkNQcUJXalpKbWdHZHY5RW5uei1IdXR0OFVSbWk2YmNGZnpnN1ZPeUk0WnRvdUlKUG02N0FfcjVrY0JnbWRWU3FHOEtSV2sydnpFblRxZzhfU21LTXlGUEl3WS1HQVQySGRDcnZtS2VZbW4zSGo2cC1SbXM?oc=5",
+              "source": "MarketForces Africa",
+              "publishedAt": "2026-10-12T16:56:49.000Z",
               "kind": "news"
             },
             {
-              "title": "8,505 NVIDIA Corporation $NVDA Shares Acquired by Point Break Capital Management LLC - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMWxTR2JEVXIzVUsxdTVXdmhYMHp5N2RpSmpCZl9BeUVsNmlxel9Zc2NVcDQ2WXNUTTF6T01UbkQ5X1dQcENrODRGOHhHXzVCTVdacFVxLWZNNzFiUUtPdktuREhDRUN2c2t6dHhyUjUtTnNTeG5RSjJXaTJZLXhuMS1IekZTa0wzWVI4RzFZTWVqNDJoRlAzVkZiMmdZdDBHSkxUZlZlVjdTUURJcjJzc1doNk96Skt5bVY3VkVzMGN5SEhKRlB6VUxPc004SlViVU5jeGU4X3F0V1k?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:25:36.000Z",
+              "title": "Microsoft Stock Rises as Tech Giant Takes Aim at Nvidia's AI Chip Dominance - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzZWT2tfclZ6eHlKbzJ1ZjZSNFRJc3ZYVDhJMzRKVWI0SWRaRU5Nc0p0UjVJWEVBVS1PX0xfZ3I0UHk1VlN4MkQ0VjZsMEwwdjROa0FJOEIweHBFQzNvT2NuQnZaWlh4cFo4eXNiYUxsUXRfZV9MQTN2OTg3Q2ZpV3YzZF9US3JWN01EZ2hxajZydUstRktoTnY2cG4?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-10-12T16:52:13.000Z",
               "kind": "news"
             },
             {
-              "title": "NVIDIA Corporation $NVDA Shares Purchased by Waverly Advisors LLC - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb1k3cEhWUkVZYXAyd1VPOHFBVFVnNm1QQmZaSVR5XzViWTNxUlFNVkZpLTRlbVVmVzFIZmh3bldZZ2pDeFA5c21tdEYzejlGMGtyUy10Tk1XVEtHcnRLNWF1MWZkNmhFZ0NveXhHNWlNQV9WRTBBVHkwc1dnX1lLdkxpazhxNXQ4b2JEeHFWdzV3Z1dXOUNUTENLNUpnMDBsZWxmVkkyMmphZlBDT2kyUXY2bVdKY0tsVzZVYUVLQUxwT1U?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:25:36.000Z",
+              "title": "AMD Vs. Nvidia: If You Can Only Own One to Finish 2026, It’s This One - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQVFaZWZDaFZUTGhVMkVnV0ZtRnZVcmptbHJxbUtzRjFWSEpvLTdoVnZsSUoyRGtWdU91a2t0VlU0czBtaEdueWwyYWF5U0NtWnlxWGJWc0JYc3BFVlhBMVppTzM1c2p5SlpjSTNnbDR4SF8zaHFOaVZZbmFfc1FXcEFtNk1TYjdYbEdOdmxBcHNLQVZocUpQYk1JZUNfcW1ZZ0NWajU3NWljdWN6amc?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-10-12T16:45:00.000Z",
               "kind": "news"
             },
             {
-              "title": "NVIDIA Corporation $NVDA Holdings Boosted by Windsor Advisory Group LLC - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNlVCblJwajVhRGFvOFVhdllpQk80anJFU3U4dDltUWVqZmVoRDlJbGN5SHJLR0VSNDd3WTg2V1o3MHBCMWdYZ09SZ0hXN1NwdThDamx0eWxoR0Y4dW1kZGNhSGZtOVUtdmg4QV81b1ppZVJ2REVTcGtUbWN1d2E5ZEEtMGdLZFYwMDlHZDFQQ0g4aGlDXzJyUnRRMXFvVTNBbHJDVzZkLTFRaVI0SV8wMzZnM3dickRjRG52c1JfdEk4UUMxV2pvc1FDaw?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:25:36.000Z",
+              "title": "Nvidia Falls Back From Record High. Its Stock Chart Offers a Warning. - Barron's",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOejVzVFN5MzdQZlAybkJUWldaVW5Db2lsbUZZeHF6MW9mdkxVYl9JSE5iZFpmV1R2NlhiWmw3a0M4RFRjNW9uV0V0OVZqSXRYUDBRamZCdk5EYmZpMFlwbzZPVUFJc2ZvZ0RmVXJodEJoMHRwZkFjVk5uVC1OS3dpdmZRSnQtX2hncndRQQ?oc=5",
+              "source": "Barron's",
+              "publishedAt": "2026-10-12T16:23:00.000Z",
               "kind": "news"
             },
             {
-              "title": "Port Capital LLC Acquires New Stake in NVIDIA Corporation $NVDA - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGw1d0MzRFp2YVkzTHdIc1VfajFfVjR2TzBHNDFRd3Y5UkdCcjB1Nk5OWEdKVzJVTllRR0lqWmhhMHcwYmlQU1pTa0JyM19MbVBQcXB2MUhEQloxTTFQVHhNTUFWN1F6ZkFuTVBzbThkS0VsSGI5QTlGTTdwYTdBSmRfRVpuTVZNbGpWYUNFVzlZWWI4X1dCU2E3Vlc2UHR3NW4tTEhoMnphcmROY09oNXFEVHI3U0ZFQkJaaTZmUi0?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:25:36.000Z",
+              "title": "Nvidia Stock May Have Peaked. How to Spot the Warning Signs. - Moomoo",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYjZGMnNCMmxKUklyUlNMVVI0bVpwRHhyZENJWThZeHBKYWx3NVRBQmVJQkh3dEVSXy16OWo4WlREdFZKUnhSVDlxYWI2NTR0bi00NnNqX1E5Q3M1RHFoVzdzUHNaakVUVVB5alZ3X0NPbWFlMWNPbWJZcEJfV2pIQVNhUlNiNlJ3cXJvZkE1d2NiR2NyelpBZXl1dDI?oc=5",
+              "source": "Moomoo",
+              "publishedAt": "2026-10-12T15:45:17.000Z",
               "kind": "news"
             },
             {
-              "title": "Rational Advisors Inc. Sells 6,077 Shares of NVIDIA Corporation $NVDA - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVmlBRkkzZ3hwUEtlenhFaklPQXV5eFgxY3hkcHRUXzdBSHpnUW9PM2ItbHY2VHBqdnBTandQLXJDWUthMV9tRzVRMXRfTXdPY1NJVGtYVDgtRmNqY1RTWDFGOFhDS3laTnpud1dqX2l3aDhYSURqN2FlVVhvekFaNThKTFZyMGJTUnFqYVRpcHY5RDZZeDVZNlBjLVJudzNMYlNyY2FzdkZ1aTlLS2JMdVRQYU16dHRmcWpHQzlIa3FxeWFibXc?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:25:35.000Z",
+              "title": "Microsoft Unveils New Maia AI Chips on a Rough Day for Nvidia Stock - Barron's",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa0xiX25MdWZKcWVyVVUyN013VnRRQkhXRzlqeUtaeHVmc2ExMjVKb1k4bmRWTzFRY0pUQXItRE1TcWs1RUxpSVVvU2Zmb0s2TkRsMVN1cnFYeTlydmlSVUZxOXUweXBobGZrcGU5WUs5ODU1eVBORW95UmpncmZBVg?oc=5",
+              "source": "Barron's",
+              "publishedAt": "2026-10-12T15:39:00.000Z",
               "kind": "news"
             },
             {
-              "title": "NVIDIA Corporation $NVDA Holdings Increased by Strategic Global Advisors LLC - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORlRHd05lMnlxVlNjREE3dlVpaFk1ME0zems2SGppMVV6ZGV2bkNWX3VOcmpOZFlpVjBxcVJjcW5nQy1FWTdQYWdxNlpCOTN5ZGl2RUtSQmpUVHh5ZTB1cEZ2dzFrNEF1MUhKTTBTc2RZVldRLXo3SFpYR1hWZzlONy10NU5WV2hyeDgtQVhORmFQeVRmNXJ1M3F5bTJzY21pbTZkVlE1NFA4ZXN6cE93TEE0UEJPRVpGTnlwYUhTbW5rN3ZmMVo3bVY0NmNaeHFESXc?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:25:35.000Z",
+              "title": "Nvidia, AMD, Google, and Meta team up on global blueprint for data center design - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdFN3R3NFLVVVZE40T3c5ZmVhdzFFQ24taFViMElfVC1STTkwSWlIMHJ5X1BCZWJWQ2Vkck1EWklDS2Z1cEktb3NyY2FNMzBST2ozM08wUU44VnUwc3hKQ0pwT2JtQlpsd1RrMzlPbWh1UVQxM2Z1ZzRNclhCbTFMdDd0LU56MmRIYTM3cGpBZl9zaklycS1VMmlycHNPTGpQN21lNUxEbDVzMXByMDBrazZfbmRCLXlialBEbFVaN1N5SFRnRlRFOThFUXA0Yl9jdjNN?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-10-12T15:00:00.000Z",
               "kind": "news"
             }
           ],
@@ -579,14 +576,12 @@
           "cik": "0001652044",
           "weight": 10.84,
           "quote": {
-            "price": 351.66,
-            "prevClose": 348.29,
-            "changePct": 0.97,
-            "windowChangePct": 5.73,
-            "windowDays": 22,
+            "price": 351.26,
+            "prevClose": 351.66,
+            "changePct": -0.11,
+            "windowChangePct": 0.54,
+            "windowDays": 21,
             "spark": [
-              332.6,
-              338.5,
               349.39,
               344.98,
               342.87,
@@ -606,67 +601,68 @@
               347.68,
               350.5,
               348.29,
-              351.66
+              351.66,
+              351.26
             ],
-            "asOf": "2026-10-09T20:00:00.000Z",
+            "asOf": "2026-10-12T17:19:31.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
             {
-              "title": "Is Alphabet (GOOGL) Reasonable As AI Spending And Cash Flow Collide? - Simply Wall Street",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQmV2b3RnZnUyN3dxbzN0TVVoZDYtM19zUklNNTdsZ1NMVkRydGpWQ05tZkRsanZuNTdiWkJjS1hwcW03cUFEMDJSbmVpRnpoakFzLVN0U1cwSGpFc0xZS1labV9adV9jRDZNQldOUkxrUmxvUVRqakdTVHN1LWRWMzEzZ3Y0UW5VakdhZkh5ekJOcUZobXZIOG9KSlRBZmpHMU0zZU5XSmNLUTIzbkpyWmdmZnpyVmxVbndvSnlHSkc0OVXSAcgBQVVfeXFMTWdsTDRwamFyd2RUekhRczU5NFhEajhtbzAzR0ZMRGhZejM1R0RTRkdycWhtRmw3akJwVHFra2xGYmpDVHBuRkRqUE9MS0NwMVFnLTkxekpuejg4NEhqWHRaZ0F0X3FYeDdXMHVZYUpHbzNtNnF0ZFZCaDNhREZiY3VEcHl0cGZmUmJ6bnRRZGFrcE4wR1ZDNzJoWTlHZndfWjZ2MFJtT2NWREh4QUo0dnU4WnQ0Z0RMTldKTEdKc01DcEZzNmdXQ2c?oc=5",
-              "source": "Simply Wall Street",
-              "publishedAt": "2026-10-11T22:44:37.000Z",
+              "title": "If This Tech Stock Doubles, Here’s What $10,000 Could Become - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTkV3UTg0MVF5aGFiUDItdDBQQTI0QVhMZHZrYnVLb1F6bVIySVY2eFVKM3FtaHowRlV5WmdmcDBLbTc3VjY5a25FRnU3YlpLbFc4SFNBRUZJTjhLcDFwTll1VFdCVUFhYW1Bbk82eGZ3dHkxVXdvd2dUbVd2X1RlWXRnU3RiWE5oOUlRWGdtWDhZWWhtR1R3ZXdMejJjaDI4eWc?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-10-12T16:30:00.000Z",
               "kind": "news"
             },
             {
-              "title": "Alphabet (NASDAQ: GOOGL) stock price forecast: Analysts see 22% upside - Beinsure",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTV9QSml6MTdaUHJzdThNUG1NaTllZDBPS3gwemUtOG15dWdEMzRjNjlVdUxuZ0N0TU80SVd2bm5mX3pJMjJYblBEanBUcmtaaVJ6SG12STdmQVRORVdLOGxvb3JJaXVrM0R0Y0hDMDdzM1hOY3IxZUc4Z3BzcDdlREN3?oc=5",
-              "source": "Beinsure",
-              "publishedAt": "2026-10-11T19:56:49.000Z",
+              "title": "Google release details on the new Fitbit Edge fitness tracker (GOOG:NASDAQ) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcG9RQVMzdi1UNlFrM0VWSHF4WVpMMk10bHFWbEYteERvSGpnQVMxU2xiaHNqbW1FNEsyRHBrR3dEcDZpdy16Qkhab2xDRERmTEdsSTNUUU1QdnpEemp4N2FjVGd1RW9EN212Rzh4LTBtZ194SzVuOWNMbjBkN2FaQkJ2QWV1RjZTeW1lVDVlQWFzYXJxZUxuNnc0WnZjTDhR?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-10-12T16:01:26.000Z",
               "kind": "news"
             },
             {
-              "title": "Alphabet Stock Is Up 46% Since Last October. Is It Still a Buy? - Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTnpnY2FSMDVmN1JpUXNvemVNUHNObV9HcDEwQXR5MFNvOUQyVEREVjhDVFVfT3VoX0tXck5lemlacEo4Zk9GX25QNEp6bnh5OFBsUHhqaGFjbEVaMHhPVmhPbXl0eno1THFuVUVoT21HclZvVTc4STMzTUpRV1RYckNXaHlxUkdZampKSjI3WFdUTUpGYkN3Qw?oc=5",
-              "source": "Yahoo Finance",
-              "publishedAt": "2026-10-11T14:04:17.000Z",
+              "title": "Alphabet to partner with Flo Health on major women's health initiative (GOOG:NASDAQ) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSW1qZHNyYmVENDB4Y2NqQzlCZnhUcVA1dWFrd3VHLURzN1l3Z2lOb1N2UG1XVUc3N2w0aEpYNWJoVjh5XzVIckRuTkhYV1lUYmxLV3JFTWRHM1lnMjRIejBBOUtEUUllUHZmaEtVOEVjMktPQk9Kb0xUMWNnVkh5STF1SGdMR2gwYjU1ZDVkUk1waElEcVRuQnlBWHozRU5ibTlIYTJsMXJDWnM?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-10-12T13:47:27.000Z",
               "kind": "news"
             },
             {
-              "title": "GOOGL Stock Dips Premarket After Breakout Week: Analyst Says Google Developing Next-Gen AI Chip With MediaTek - Stocktwits",
-              "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPVW9xZ1RSVnlmM1R6bFVma0lBZzd2bmNObFVsWnhmQnVaNHdEN1FBM2ZZX0JtakFtWEpHazhuUU5UX0FienlVRi1acHVYd2l6U05UQlVkV3ZDZ3NhOG1aekxGTnkxdkxINlJJaEExb1FvMjVKTjZlYnFxdUhyWTIzQWtxSHowYkloYXlESnpEY2hYZEtWMENoVXFVVFpZWlZTaWRudDI0V0pDQURRWFlUcW9OcTNVdE1hYVJGbDh0U3hqUFl0ZlNMbWhqb2RLOGc4QkJsazZsYjV5QmdlM2ZMU3ZVVFF0VTloMDhndHNLMkRpVWV4U2dONDY3eXV1S1dUbnpZ?oc=5",
+              "title": "GOOGL Stock Rises After Gemini 4 Argon Launch, But JPMorgan Says Google Must Reclaim AI Leadership - Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcjJSRG9ZOEhRSERuWlJZSUFBNTZnaEVMNlBmMDJjemhZMFRaNkk5TUwyZG9FXzY2MmZFRXQ3QmhuTU1xV05lYUYwSjZOUURIZkYwUm1MbGMwOG9iMl9FSnVqdzVUZjUtQjMteW91VW9VTjIwQnZ2Nlg4Z3FvSmhSUERuSVNIZF9ENS0yNXlyU2Q2MXFiQ3A0SlFraUpFZEpFM1Iwb3U1SWNwSDluTjc2NHVXMktWMHM?oc=5",
               "source": "Stocktwits",
-              "publishedAt": "2026-10-11T13:10:56.000Z",
+              "publishedAt": "2026-10-12T08:43:38.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Growth at a Reasonable Price: Alphabet Inc - GOOGL 6 1/4 05/15/29 (NASDAQ:GOOGN) Screens as a GARP Candidate - ChartMill",
+              "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUlhfY0NraVpMU2g0b0w0STBIeTBRZklqNUt1RUtXdWdIWTZ5UkpDYmZnbk1jWkF2cWt4eWhtTWZZZWwxa2d5ZU5QYnEwSU10bzFxQTZNTDdIYVFiU3VhQlo4S2kwYUEzNmxpWmdPd25qX2NjQlYxZWUtM3d5RGttdm9GT3BsQVpENGgtbmlydkJLX1FTT01teGVObUIyaGRYQ3hpYUZIem1LOW1tWGphUDZmY1ZsbEowcE9paVdDdTBHRWdVb3BNR3ZvTU05QWdQWkw3NDN3R3l5ZzFlNjdvRURfbFdRclpOOGc?oc=5",
+              "source": "ChartMill",
+              "publishedAt": "2026-10-12T08:21:15.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Alphabet Inc. - GOOGL 6 1/4 05/15/29 (NASDAQ:GOOGM): A Peter Lynch GARP Candidate - ChartMill",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOHg4azE4d1A5SGpFUzdLb0FEbTVLSkdTcU53c2trbFdhT0hUOVdRSUJ1MFBxem9GR0NGNWVsR2ZkRGw5MjJLdDhDU3QwUHQwSGlLckE0SXlrcEllMmhEUFVQMXAxQ012TkpRd3IwcVBuZE1MSmxPMW1vcW1TWi1sdllNZFpySkR6azljLWF5ZEIxa1hza3RlcXR5WDlLWEh2Q2wtRVVDVGlOYkxzcEpFLVpBZEtJWXl2MGJOTHpkRllOc2NR?oc=5",
+              "source": "ChartMill",
+              "publishedAt": "2026-10-12T08:01:18.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "GOOGL Stock Gains Over 5%: Google Locks Major Long-Term Solar Power Deal With RWE — Retail Sees An AI Infrastructure Play - Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNdzdiVGMyV2JkbVZWM3c3cTQ1YlFMQUxGOXQ1Wk9YMUNVSlFGWDFhQXBkZzhmWFlUeTA2UGtqUjhSVXJ2bFlvZVhqMGpCZHlFRVhpb2F4TnI0bjJ2bHV2Y1ZobXUyWWRfTGxMS0tNUHhpVl9BS1h5YmwzU3hVMzE2RE5LVk9lNUVaMWh4TndrN3JMNUZJcmFtOHJKWmZ2NDNWVHlXZDJ5ZW1QQU5WYl9ZZEU2RU53YnpHQV9rQ0NzQXpneDFRM19PYzY0Nm52VVU3b1h5T0Jfd0lVZ1UyTTE0b3A3Nld4dHdGZVJLYURDSVBBOV83VG1jdmEzM2hjbkZYVklFaGNCa0JtVF9xZ0wtUy1qQkZhRUw3?oc=5",
+              "source": "Stocktwits",
+              "publishedAt": "2026-10-12T02:19:05.000Z",
               "kind": "news"
             },
             {
               "title": "Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B But FCF Collapsed — Buy or Short? - TradingKey",
               "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXNna0FPVFVzVTBlNUM5NVVCNU9TLVhBazdFMVhkaFpBelZTMHBGV2ZqWTBwdFhwUVp3ajJLWXVaNTZURlFrRlhVQ010NDZzVTFhblZESDlvME0wWkhhemJBaXlyREZDLXhpckVRM3QxUlA2dW1idHlFQkEtT3FlbEdIb05UT1QtOFcySkRlc0pwRzc2Z25JQXE2YU8zS2JvLUh1ZUxEd3c5a2lETlItcXo3UEN6ZnA0c185SjNlN1J1QzI2VkE?oc=5",
               "source": "TradingKey",
-              "publishedAt": "2026-10-11T12:57:58.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Alphabet Is the Robotaxi Stock to Buy as Waymo Chases 1 Million Rides a Week - Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNemFSYXZiM2RQQlZ6Wk5uUUFUZUNtQTJMV0VjQXZidXhLenk5UXQ0VG84ekVicVAzTzVTVVdRUWRoWjFYT3RhTk04SEFrREVMV3I4dnNxVWlKdmxyakxKakUyX2VHVGt2MnRyTkdPVHZReHBlN09xdmtqVkswNFlPazE2RU9sWE5VVUtSQTlQLVV1S0JIU0ZnN2FKNmFKSVk?oc=5",
-              "source": "Yahoo Finance",
-              "publishedAt": "2026-10-11T09:37:02.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Alphabet Inc. Cl A Stock Grades | GOOGL - Barron's",
-              "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPQUFkcUZwNXJrSmI4TVU3Z05yQ1lpV21IVkUzbkdiSEgyeWZ6TS1ZelptNHVyeG5yY0ZQbFFBUklVdzNFYnE3YlJPTEdNVlJObEdjYm5aRlAxZXRvWm1GNGxJenAxTUkwTWo5TkdwSUlhdDZZeWx2UTZfRzRDUVlBVEp6bVBWV2NOY25NRVlJSnpGZ2Y1bk9wQ0pBb1pRV0F0R2Zuc2hGdzE2WGdKV3RlZ3JfV1hXcExBb0lxUWxTUTZITkZaZkE4M0szX0VrX3ZKTFpCZHhyQWZMbkRXQm15YVNOdFVvd1JvZ1BsSzltLXRKYnFnZUE4aVhLbFhJQlhUWXExLThuWFpnZ0tBNGRUWk9SR0hjOHc?oc=5",
-              "source": "Barron's",
-              "publishedAt": "2026-10-11T07:16:10.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Alphabet (GOOGL) Unit Seeks Multibillion Dollar Funding Round - Simply Wall Street",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3JjWG1ZQnRoZmhYcE82SkVFcWt5Tk9nS3o3bmJMYjR1ZHItaTg1dndtV0t1NFd0WWxDcy1kWmpYc1B2QU9ONmx2WFoxX2tnaXJKUXlaWWIyeVZEWVlPRDJEQUpkZmFBREVXYkhMXzRlRUxEOVlYd251bGNoVEc3XzllUktjdzdGUmhWaFlwbVI1OWRIVzNLLXVzU2J1aGljUmhkLThwWFlsQmE2cDBSRkZJQlA1OE85ZFpuajN6UE9MQdIBxwFBVV95cUxPd3N3elljZlEyYjliTy1HNVBIXzBhM1JUM0JFekFCb0Y4WjVZVUJrMnpkTHhRT05ZN1FNMDNmaW5wVlFkc0E4OXhlMVpZeDZkcW9leXlRenB1V3laMXdLYS0xYzBWRFlxNHgyZlVCbUVXZkNSMW9TbklhUlVVVzJnM1JCRVBCUFdrNXczQzFuVHE0aWltVFFvdE8tTXNRQ3o4a241ZHprRkJCVS1HUjJ5Z1RKTDFwaFJuQ2ltWm9JVWJfRExaVnZN?oc=5",
-              "source": "Simply Wall Street",
-              "publishedAt": "2026-10-10T20:49:12.000Z",
+              "publishedAt": "2026-10-12T00:49:04.000Z",
               "kind": "news"
             }
           ],
@@ -761,14 +757,12 @@
           "cik": "0001018724",
           "weight": 5.74,
           "quote": {
-            "price": 262.43,
-            "prevClose": 254.06,
-            "changePct": 3.29,
-            "windowChangePct": 4.18,
-            "windowDays": 22,
+            "price": 259.68,
+            "prevClose": 262.43,
+            "changePct": -1.05,
+            "windowChangePct": 2.42,
+            "windowDays": 21,
             "spark": [
-              251.89,
-              256.78,
               253.54,
               248.42,
               245.96,
@@ -788,67 +782,68 @@
               256.29,
               259.92,
               254.06,
-              262.43
+              262.43,
+              259.67
             ],
-            "asOf": "2026-10-09T20:00:01.000Z",
+            "asOf": "2026-10-12T17:19:30.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
             {
-              "title": "Amazon.com, Inc. $AMZN Shares Sold by Tompkins Financial Corp - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQVRhUVNTSHRwdEx2ZzRlS29wWDZHd0p5d1hNYlVyR3N2Tk5XVDlKVGhxZXU5SjJUVmpYWE4tckUtVGYtNDMzV3Vtcl9LTVd4VkVuMmVZU3FrSWNSZmxKMExHdVc0T0x5eTBpWTRRM1hDVFRtREc3RGRVUENBR3R2TUpiaU54dXlaWF9YNmVNdExwR29HaVYyWEg0dTUzM2dLR1RXNU5rVFc0ZGh5c2twVXlHYkhEVjd4ZUE?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:27:41.000Z",
+              "title": "Amazon Analysts Slash Price Targets Ahead Of Q3 – Wells Fargo Sees AWS Acceleration To Continue In Q4 - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOb1dmWXZwQjFvbU44YWFkWnNVNkUtOE9IbHgxUUlrV29JRHBFa1M5TDFuR21nZHRwWllfN29xTGptZktYSGcwYUxrQk9xVUk2bHdVLTJUMXVJQ09wNy1YcWprQTkzbVRMUzZsMVJxVlFNbHhreGV0ejhPQWQxZUpYWmx6RVlQZkRvelFYdnNVZ1JzWkhDNjlLQjQ4SnBUNEVxUFE?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-10-12T14:38:55.000Z",
               "kind": "news"
             },
             {
-              "title": "Amazon.com, Inc. $AMZN Shares Bought by Ridgewood Investments LLC - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTkdqQkZMWUM1cjRGb2xrelpkTHZIaFJ0LTl5aHZSa0JnMmx5Q1hiRndtOEt6ckwyQ0duUExFcjBZclJHT3Zzd0lHdEg3U0twaGZIblNnVEI1c05pN0tzUmtfRDJMRlhNZ2dNRmpvREZoVXF4N3JhcVhRVWlWOFVHRlFWb2lTNlFPZ2IzVkNuMXhFZHJNUXNwVzNLQ29SemRGTFVReWt6NUhTem9KMGpsMzJsMEFNX0VCZFB0MU9HNA?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:27:37.000Z",
+              "title": "Amazon Reportedly In Talks To Acquire AI Startup Decart For $7 Billion - Investor's Business Daily",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLUVOekYtQXRZQ0pzTXdMR194YTNGRnNEaUVCU2Zsb0hFSGRfT0haQ3dTSDRqcVhWVEs2cnlWWkplOWk2cUphV0h6TFlCQ18wcjhkenl3SEZpYVE5ZjFqd0E3QUFkMUlhZWhydC1FWGYzNnN0TXlSMUYydHdxUXA0NEVFMA?oc=5",
+              "source": "Investor's Business Daily",
+              "publishedAt": "2026-10-12T13:29:00.000Z",
               "kind": "news"
             },
             {
-              "title": "Amazon.com, Inc. $AMZN Stock: Congress Asset Management Co. Raises Position - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUV9SOXNmOGthWlZ1cjFuRVlDajlIYUpPQmVLVFpFU3pmOWV3eDNUQl9BaXAzNW5iTGpqU0FYQ2V0TFpIZ2c5RlplS1JySEtsYVJodk1TcnVlWFVjQWF3elI1OEo5bm94UkQyUldfQ1JQTmduMnRWTWFvUmY1V2tLWTdKamRVNEZqUHUwZ291ZVdVb3g1U25WWWJEVXdKQTE5bGU3clBfSlpNZVlZdlFrbVVIeGVpOVFpeDdka2x3VTFfQ2VpQmxnZDRB?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:19:33.000Z",
+              "title": "Amazon Negotiates $7 Billion Deal to Acquire AI Startup Decart - TIKR.com",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xWHU4djNGcDR2WkU2VkpjQlNOX0FCQUgwc29ORnp0a1NhODg0cHBNd1UzOFhRQlAxQlFJWVB1cUMwcTlOOE1QdW1CQnRhWGVWTGpnbHF3WWpMTE5ScklNWUZUalU1blJKTm9hTldLeUFNWENkYVgw?oc=5",
+              "source": "TIKR.com",
+              "publishedAt": "2026-10-12T13:07:11.000Z",
               "kind": "news"
             },
             {
-              "title": "2,648 Amazon.com, Inc. $AMZN Shares Bought by Baker Tilly Wealth Management LLC - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTThJSl9EMGZLVUI4UHdacktSVDM2VW5tcEctY002c3FRZEp1Ylp3LWNhQjB5RGRHWUo1dFc3ZVF3RUh1ZEw5Q0ROMzNEd05IM1lmUk5sQU1STHBnOU03WHlGaFRZOUd0YWR5UUNSVU5fdkcwNHh4alVKMlhaVGV3ZElESEVCS19TSU9YZXJLeVhwZkdqNU9DWjV5WnBkcDRMcThiYTZOQ3JtYV9yMURqd2dVcGtmYWhMaHUwU2JyUWtScGFyZHlGanhQbkgtczZa?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:19:33.000Z",
+              "title": "Is Amazon (NASDAQ:AMZN) stock a buy after its reported 7 billion dollar talks to acquire AI startup Decart? - kalkine.ca",
+              "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObDA0aTZHWl9lRzNBVGxBZG9IR0NBUVFHYTdSNVFLRXNZN1VIUklIaWswOXJqUWwyVTZiVDVOLTRnRUlvbEFtVUJvUHFyMzJPWkdWOEVDM2t5blNkSGloQzdSVmtVMHoyd0lJUlRVa3V0VlEwdXZ5NEt3YUR5a3lPbU5mZGtvNHdlckdMM0RielBpeVB0M2x4Mk5lOFh1VzFSYjUtaTBWZ2RhRjJXT0NLVEEySFhDYnU2TnZpMTdMVkdIeFJRVVRDM3NrSVFYdlBOMlo4QUJCY2hUNEh5MnFLMmtVa1VJUQ?oc=5",
+              "source": "kalkine.ca",
+              "publishedAt": "2026-10-12T12:44:00.000Z",
               "kind": "news"
             },
             {
-              "title": "Amazon.com, Inc. $AMZN Stock: Central Pacific Bank Trust Division Decreases Position - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZGZ3ZHd2cnI4M1FXQmdRQzRkZUE5TnVqNjJ2QjE5OHhxbEFKSGFLeFFkTDh3SE1iRnRvOGlvYzJLaWIwYzBYNVk1cGc4ZXY2SU9RaXJyM1JicFFrS3oxeU9zVzVaOFc4SURpcHB4YXJVdXg1ajNlX3hBSGJGWXFzd0kwUXNrYUp3QnNETW5IOTNSNWUwMDBiTWVxdndLd0VvajRqTU11UG5DSEg4djljWmpvZXpOUHFyeUxKMVJrZW5XaDFfanNZcW9vVUhqQnNxb1BHUWtkaw?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:19:32.000Z",
+              "title": "Qualcomm (QCOM) Has Amazon Now. Why Is It Still Priced Like a Phone Stock? - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMS1jNGpvdm9td0dOd2Y5d3loM1NRbkxzMFl1b0pHeVFYWHcwaXpDbXNkOEZzRmV0NmxVaWItUXAzdGZEa2FGWnpxb1R6aDdWM3l2Rk1GLTl5N0h1OVRNb19XOTNKWlN1b0hHWFVDSldiajdsSlp0anFMZ1lNc0VTRHRyV0tMa214NVhCU1JvcVM2dGJub3FlVg?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-10-12T12:37:24.000Z",
               "kind": "news"
             },
             {
-              "title": "Amazon.com, Inc. $AMZN Stock: Eleva Capital SAS Boosts Position - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaEp5eDNxMFR6QzRLNDBPUlZoU29TX0tpdE8wTTlRU2ZEVjNmcFl2SmFaUHpaWDVIbTYyU1E1bXQxWGdRbUdhVXdPN1BGUDlIZFQ5dGRDQkhPblRSVkM5VlNFalB6NUd2Um83T3dJRE4wdjd6dE54RUhJNG43elZBSVhSd195Q3RGbDVOU2NWOEVCc1RSS0Uzc21jbkV4UE1VRFR3ZktuLXRkMkpleDJvUk9oTnFLQWJ1NFRz?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:19:32.000Z",
+              "title": "Amazon To $310? Here Are 10 Top Analyst Forecasts For Monday - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNY21xZWllRWU1dGxYRURLd1dhRnVfd2JzWWhmckZEWW9CS21IdW5wQTNJNWc5MFMzYjViaHM0Z2ZDbXpVY0FHTjJhMnM0SWtCOXZQbzFXd0ZfRmhoTGVaSXNvVnJsLU5VMTNLaFVrLTJCQlhNazRRQ0RhcHkwclJiN0paeTRpbmxYRmNTWXl6UFVkYWhsUnBvUTE3TjVGUU9MS1cwRlNiQ1NMWVgtb2cwOHk0SDJEUlpkMlpVWnZlb2pCUlpQY3dlWDFQenBxUQ?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-10-12T12:19:24.000Z",
               "kind": "news"
             },
             {
-              "title": "Amazon.com, Inc. $AMZN Stock Holdings Lessened by Lakehouse Capital Pty Ltd - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLUU2MUJQOXp5RVFlaFByazlycWpkSWdiM2lxejJySjZzWVlWNGZkVEhUc2thblc4TWdYM2psSExxTnEyWXNvdGZqd096ZjMyM1pjUUxGR2MzaFdhelNLSEtvWVJZajR3dkpLOUdjQ2JObDI2TllKdEJHaGRQalhYdUxtNXYtQ3JoUnFvbU5WdDNaUE5QejVLVEthS2RvZm1QMzRlV29CMk90UVotTHBtOWdtSnRHMjFjeGQxUkYwall4bDJOWS1UdkJRSmE?oc=5",
+              "title": "Amazon.com (NASDAQ:AMZN) Stock Price Target Cut by Cantor Fitzgerald - MarketBeat",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLXBMMnJDR3NfSm50WDdwZ1lUSXY4LTEtS2Qzek9XVkFTTTZkRzA0Vm5ULW5pbExIcXZwNzdsMjlrMTdXRzBVNjNKR1M5LXplSnN1UF9xdW9BbWJKbXNabU1haXd5TFlPeUVfd1BuT0VuenFiTFlYLVNrRU1iTnVVS1YwaVVQN0YtRzduRFZubGZONU1MWktqYmpXZmF1SmNIeUxzUFhDRV92UlBNUnNpSVdKRmhpZ1VwWWwtNGs1b01EanFWcEE?oc=5",
               "source": "MarketBeat",
-              "publishedAt": "2026-10-12T07:17:42.000Z",
+              "publishedAt": "2026-10-12T12:11:52.000Z",
               "kind": "news"
             },
             {
-              "title": "AMZN Technical Analysis: Stock Price Breaks Above Upper Bollinger Band But Volume Does Not Follow. What's Next? - Moomoo",
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN3R1SVlJbGZjcG1vOXpNUTE4bTNNbUxPU1JHdkxFQ005OVpERC04c21sLU1VVUlyc1pUbFAwazhINktsdHFtMzJKNFFqN2NiUW5lNzBzWWFVcUt6cTNuVXAwV0dNeFdlRmRETlhlbERTUXJFVEI5bDhBRE9zOG5CMkp6ZHJjU1FYeVBqTHUtYWhIMHBHT1F4NTdjMlNURGM0T09KendCdHh6X2R1Y3BFOV9qOHluRlA1WnFJYUp6Q3Y?oc=5",
-              "source": "Moomoo",
-              "publishedAt": "2026-10-12T04:38:56.000Z",
+              "title": "Amazon's Prime Big Deal Days Drive $9.86B in U.S. Online Sales, AMZN Stock Reflects Growth Optimism - GuruFocus",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUFVUaEs1T1VXaGdhMDhaY0hETFZLWldzS0VCVzFyMERLRlZRc3dTUzJtNGtrcE8xTERtS3hNZ1NQNVZ0cUlTV1I2OG9lTkhMelBZRWVnLWpzWDc3WTJTM1ZScXg3M2I1ZENoRFNtNjdUdGstRjdsSEVGN0VWX2hjM1o0Yi10c3UyeDVvdS1aTDVzeEY2WTNPSVI0NUNYOW45QTAtSXU5c05ZU3psZ1pSLWVEb0ZlQ2VMV01tYy1JbzBsclhsZm1heWhjYUU?oc=5",
+              "source": "GuruFocus",
+              "publishedAt": "2026-10-12T12:06:30.000Z",
               "kind": "news"
             }
           ],
@@ -943,14 +938,12 @@
           "cik": "0001818874",
           "weight": 11.86,
           "quote": {
-            "price": 15.8,
-            "prevClose": 15.61,
-            "changePct": 1.22,
-            "windowChangePct": -8.19,
-            "windowDays": 22,
+            "price": 15.3,
+            "prevClose": 15.8,
+            "changePct": -3.2,
+            "windowChangePct": -13.34,
+            "windowDays": 21,
             "spark": [
-              17.21,
-              17.32,
               17.65,
               17.07,
               16.84,
@@ -970,25 +963,40 @@
               15.76,
               15.66,
               15.61,
-              15.8
+              15.8,
+              15.3
             ],
-            "asOf": "2026-10-09T20:00:00.000Z",
+            "asOf": "2026-10-12T17:19:29.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
             {
+              "title": "SoFi Stock Drops: What's Going On? - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZnpod3YzanY3US1EdHZsQXFHenotd1ZvQmJxd0JGUnFJQmNEMzYyYjViVnVuZFhueFJSTTlqeHBzOS14TERjSHRFRU9aRUhkTFFOSXpZazUybUticUZJLWpsSjRUcHFIdVd2QUpoUW1FbXdRekNWS1U3aHk4RTdKUzFnWDZrM19WS0NINktlbkFkYnJfbWI4?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-10-12T16:15:58.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Keefe Bruyette cuts SoFi stock price target on capital concerns By Investing.com - Investing.com Canada",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTlhIR29uNERqTzlEd096VWNEV3R1dHVzc0F0N3d5RVM1d3lncFNMdGdKelZrOFpwajhwcVI2MlpscDY5YmV0NXMtZXpzbWtjOElQZnV5TmR1ZlhIbzV0RUNQR0VuR2Z5VW5XUTM5SlZUencxWG1CNllpM1BBeFRCdzh1ZWpjb0N1ZWpyMDdrSW5wbF9wOHN6a1M3LUpQOVVXQ1RNaldTYXZRejhucW13TS1wZmJaTFpteVRoR0tpQkhUZw?oc=5",
+              "source": "Investing.com Canada",
+              "publishedAt": "2026-10-12T14:10:28.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "SoFi Technologies Stock Price: SOFI Stock Chart, Market Cap & News Today - CoinGecko",
+              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9XMFQ0bkpVazRuU0hyMkFWb0pFRFhENHdaS1ZycUxzeVEwMENOR09oRWpiTGxUTEJSa1B0WlpXcEhMckV4dVV6S1hJaXAyYkgzZnRqTl9BLWhHdXVSQTE3QlAzdw?oc=5",
+              "source": "CoinGecko",
+              "publishedAt": "2026-10-12T10:10:48.000Z",
+              "kind": "news"
+            },
+            {
               "title": "SoFi Technologies (SOFI) Could Be 6% Undervalued On Its Mexico Crypto Card Push - Simply Wall Street",
               "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWTM5MnM0aVhROWlLaThYdTZUREZWX1NlaFVibTZreEl1VGFCUXBadEM4QnV2d1RsbXdheGNGTExCTEFKTTI1YTdrUThmMjJWVjJLM21SRWNtc1Y1OTR2UFE2enFyV1I2SjZoS3ZjZ3l3NUtEM3VtOTVnUDVmeTZZWXM2NTdZODRMaVk5SVFEZG1JMnhLMW5UdTVOanBESEtsREU0OWliaUpWYTJUNmJSUXI4VGtCOVREbjNMQ3lySk1DZGE1eVZsemJoamdLV012NWh0RU93UHhvdC04TWFLZkl3NNIB6AFBVV95cUxQSGNidmxEdWwxUGlqSFFtaFJJa2hTR3l3d2tQWDBwZmJjR0p3TUkwUjlnUldEVENEQnFWTWNWZGFnN3BGQmdyWE9MazlHWlplMW5GM3Y2UjZYbGFOdEs5S0Ixck80YmxrUEJmd1JSMHJEQ0U1cUY0aGQ1MGs0TjQtQnJXaVhlQS1MUmQyOFpXdjE2WElMODRUenNUeHkycWFIWHQzZW9qams5VVlHU19DYmswMnVhYy1FbGdDQnY2emxnbHFZTFJyRGtkVWl2N1ZfVWlaYzhmdWctLW1OS1FkVkNRaThHaV9G?oc=5",
               "source": "Simply Wall Street",
               "publishedAt": "2026-10-12T07:07:30.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "How Is SoFi Turning a Finance App Into a Full Digital Bank? - Kalkine Media",
-              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYVNWem13LXJRZ0plTEVPZlBLRjRhQ2hZR3RBYjNMY2ZFd0V0bVRmMjZ1OTVScldySndXOWh6T204X2t2Q1oteHRZVC1ENFVVWHM4WVNqM1BJb1p6Q3dxYXBLU2pISVNKQ2didkdRWmlIaU91TFJ5b1NzMHRJWmtWOEhpUFdHaHNfa0FWN0N6NjFMNUFOMXJRN2tUNTFwN0ZlTzZIb3J3?oc=5",
-              "source": "Kalkine Media",
-              "publishedAt": "2026-10-11T19:44:00.000Z",
               "kind": "news"
             },
             {
@@ -1006,10 +1014,10 @@
               "kind": "news"
             },
             {
-              "title": "SoFi Technologies (SOFI) Enters LATAM With Mexico Crypto Linked Card Program - Simply Wall Street",
-              "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMWxEQjNBUkhxR1V2a0ZLTTkwZWlDLVIzd1hvMHpfaV9idTZCdzRSWHZPWGVyQ0Y4b3gxT1BDZ1lnR0d0QW5GeHJhbzlrQ1dNS2JSbE95X3V1cGZ0RDVOVzhvQkhvRU9HMGl4ZldTR2Y0QmF6bXFBWnJ4SVVSMFVrQ05XZlJNNFdaYzVwWXpLeTBqNldEQmZabzBiSW5IM2xqdG9QTHBjdnlVU1piZjFQVi02NEt1U3M4ZndHc05WVEtxY2VTVWdKd0xiWVNUZXo1cTRjM1lCOU5MbEVBRXVWNmNGdDjSAeoBQVVfeXFMTVVnd01KVVJMaDVyOXRDQW9tRVBVRk1kb0RWbVRicF9PeWNaRW5tVnFPd280N0NkVWVPVHRiMzBSSkJkYy0xbHdyZ1lsdXlfS3FKMkc3anJSWXBySFVPMnVtazNZWDhPVEJqMTZCRnpvcTRMYWNJa3M1TmtnNjkyTWdHSk9mbWJLb1oxNHdGRi1fNVNJUkU3RkpaQUI0RjE5MHdIMXJBVnlCNnhNbUdjemQ1b2hhMExDeU9JUElyVkZ2SU1lOHZIakU3RDRqc1NncUduNHZWRVlxdDBRZUhGMkZGX2xjOTdBZUNn?oc=5",
-              "source": "Simply Wall Street",
-              "publishedAt": "2026-10-09T22:52:43.000Z",
+              "title": "SoFi Technologies Inc. (SOFI) Stock Price | Live Quotes & Charts | NASDAQ - Timothy Sykes",
+              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BN0UxNlRFd09FNWN5VkJJRFdwS04xV0p0QTJVNWJpQnZSZnZ6RGh3TDhGYUhjLVN3bHFicXZTNFZsZF80YVhYTlJYcUE?oc=5",
+              "source": "Timothy Sykes",
+              "publishedAt": "2026-10-10T00:44:00.000Z",
               "kind": "news"
             },
             {
@@ -1017,20 +1025,6 @@
               "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOC1lbTZVRHZmMnBqS0VlcWVLVTY0alpQT05tR1VhUmhIcWtua2o2RmdDcjJITWtab1pQNnA4M2dwUDFDbkIxSXpTc2pRMWphYVZPdU1lWFNDVWNUcWhOT2NRR2oxOFN2N1Rkcm5yN202VUZtLXh2NTJ0Sk9UaGJtYnVjMG91OVIwU3JnSVN6M0pRalUxQW1LX1JKU0ZTVG1PX1F3SzRmdDdMeUtmZ3UtTElMa29TakdJ?oc=5",
               "source": "MarketBeat",
               "publishedAt": "2026-10-09T21:38:20.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "SoFi: Game Changer Incoming (Earnings Preview) (NASDAQ:SOFI) - Seeking Alpha",
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaklGR1hRRWRlM0ZSeUJGUGZJMDZoQjRDZGFLV2ZsWnBKWDEyMjdZVzYteFlhbVB5ZDZsSkxMTlRUOEVZdnJIM0RleWJtamRDZmswWTZGT0otU2k4dTg3RGFEVGhTckxRekNac2tkN1hmV1R3cXJVcnNsVHpsQUF2MUpMMmM4ZHpPVUVTdUhNdWhFcjI4dnBlSDE5Rkd5TXBqSTNDR0Q2bkZYbWUw?oc=5",
-              "source": "Seeking Alpha",
-              "publishedAt": "2026-10-09T10:09:28.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "SoFi Technologies, Inc. (SOFI) Stock forecasts - Yahoo Finance Australia",
-              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN3lpd29ONFpLY2tSeUt1YkFrWXNhNzUzVEJ2dU9wWFVnbkpneElJQ05WVDFCQk5jWFJjbU54Q1I3UHNKdmNISGNhX042aXBPSDJ1RnNobld6SXhwUHU1elVSRzRKbVZFTm1oMW5yQlF1V2lYU0dBMTljRmJsUHctUzZrLVpIM2VFcmRIYXE0SDBPdw?oc=5",
-              "source": "Yahoo Finance Australia",
-              "publishedAt": "2026-10-09T08:54:20.000Z",
               "kind": "news"
             }
           ],
@@ -1125,14 +1119,12 @@
           "cik": "0001783879",
           "weight": 5.75,
           "quote": {
-            "price": 109.02,
-            "prevClose": 107.01,
-            "changePct": 1.88,
-            "windowChangePct": -3.8,
-            "windowDays": 22,
+            "price": 108.11,
+            "prevClose": 109.02,
+            "changePct": -0.83,
+            "windowChangePct": -5.44,
+            "windowDays": 21,
             "spark": [
-              113.33,
-              112.57,
               114.33,
               110.45,
               104.42,
@@ -1152,67 +1144,68 @@
               112,
               109.51,
               107.01,
-              109.02
+              109.02,
+              108.11
             ],
-            "asOf": "2026-10-09T20:00:01.000Z",
+            "asOf": "2026-10-12T17:19:21.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
             {
-              "title": "Robinhood Markets stock pre-market at EUR 98.70 - ad-hoc-news.de",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQal84MDloZmx6azZnMlF0eERuTjF6Z3BzWFFmU2I2OHFxRXM1NXN0Z2VWQUd1dWV4cWNmU08xMmVfbVptREJXM0d4SzdvbEh2VHpMaFhRLU44Uk4wN3poWlg5Zl9raTZ2cGJEb3RtSXhiZGxNWDBBemoxRkZ3UUFfenlrWHdRek1YRGRJUGhBWUJFUWpLX3AycHVYZkdTal9MMU1maGVmdjk?oc=5",
-              "source": "ad-hoc-news.de",
-              "publishedAt": "2026-10-12T06:09:22.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Robinhood Markets, Inc. (HOOD) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nOWhuVkNCeW9oRnN4eGxGSDh1VmkxWFdaeGZkN3FKX0NjVzd3U2FsUURMaEYzV3ZTTkdGVDRWR01sMzVpbEZTZS1JWXAzd1hxS2c?oc=5",
-              "source": "Yahoo! Finance Canada",
-              "publishedAt": "2026-10-11T04:44:06.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Robinhood chief legal officer sells $1.14m in HOOD stock - Investing.com",
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT2tnNENINW9sYzJ6VnYtNzZoQ3E5MFBGc3R6NmJ3a3BjYXdlRFhoVUdFQ1BoU0ZiQXVaRE9zTFE1dGNnQXVkQndGY2k5MWhvdDR4RnVuS0pqN2IxMXUwQ3lzeVlpMDdyUGNKSUJRbmkyV1lHQzdva1NRbUJNeHFRZXZ6clZ3eHdpODFSV0p6NkhLZnNmZ0ZMZUtDcko1V2t4enBDaW1GNllmaUh2VkVZakxhS0tNbTczamVz?oc=5",
-              "source": "Investing.com",
-              "publishedAt": "2026-10-11T00:03:48.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Form 4 Robinhood Markets Inc For: 10 October By Investing.com - Investing.com India",
-              "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPakI4TUFVRl9NWXM2RkJUQ3BqVmVvVW9iQkFZQUI4VExET2xONzBBZExlM3JZUHVxbTZMSjJVdGhmMXhRU002dVJpLWpQcHl0OHJUUXZSMDZ2dHBlVGxDUEhSOWIxVXpaVUhHQV9HMzlTWjRXa2pMNnpOT2VvM3ZGUkFfSWNQNlBUUTgtSWNWaXNOZWVndWo1cjJxaGx5dWxBbl96MkQ0Zw?oc=5",
-              "source": "Investing.com India",
-              "publishedAt": "2026-10-10T23:42:20.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "At Robinhood’s Mecca for Risk-Loving Traders, Everyone Has a Tale of Getting Rich - WSJ",
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdlBnc1JVN1doY1RvU3FTTnM5ZzBoTk1GTzJYX1VSNXBmQWtaT2NYNnFLNHdjbEN4WWlxWHBoWk1FX2xpcXBrd2FqT2lWZnA3R2R6N2dZZVpIb1NGbTNieFRORk5XTEJsUDI3cTc4T0RtUXJuSl9VNkFGY3M3c1JHZzUydTVmV1poZ2taWVNaZHh4Y3otTVAxRzVBMm1MWnA0b0c2SWlrN0p0SkhXVFhpU2lwaHFzWWc?oc=5",
-              "source": "WSJ",
-              "publishedAt": "2026-10-10T02:00:00.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Robinhood Markets (NASDAQ:HOOD) Stock Price Up 1.9% Following Analyst Upgrade - MarketBeat",
-              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPN3FSVTB2VDhFR053Z3BnRXRMRDlTcU1WRS1DbmFnb0otcXVkVWsxUElfai1xWDc0bTQ0MUVCUmtWQ1UydGxHbEtMcDkxQ1QxUTF5dUgteFdaN1pfMENUNVNLNVgyUUhxZXplTXRLM1NPMmpqWDkzcjdPc25Sa1pCM1dYSWlGTEVKVlNSQTlSMG1ZQXRkYnBTNWVITlJOMGJ5LVFlYnJFd2JyWlk3aVpFbV83NnlGMWtNU2FvVVBadGZnZEMyYXQxUWhSWXRwZw?oc=5",
-              "source": "MarketBeat",
-              "publishedAt": "2026-10-09T21:18:19.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Bruce Markets Plans Weekend Stock Trading, Backed by PEAK6 and Robinhood - https://www.connectmoney.com/",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORnVHVFhfX2ZaclFFN2JHbXBiaEoxZnVxaHZPWUlDVWJ0LURKWERmUjhnMFlIUThBcWpSUjBUYUltUjE4bk9kOVdwTUVJVmRxODdtYTl6ZTVUSzVNTWdQdzk0TEprSFBMVDhUa0hwYXJwV1N3bVhvbGt5R1VRTXZFRFh6ZUdHY2ZrbU9EMXg3U2xJbUZuMzRiRk9id0V6UE01OFg5M1ZqV0dENzdDTVE?oc=5",
-              "source": "https://www.connectmoney.com/",
-              "publishedAt": "2026-10-09T15:16:03.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Robinhood CEO Sells $42 Million in HOOD Stock - Robinhood Markets (NASDAQ:HOOD) - Benzinga",
-              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOFpQRjR2Z3pJN09CSUVqaU5qVVY0UktDcjc0SENTMmdsYXJXekJQU3BleVZlTjVYcjdHX0NkRF80Y0JLQ2JESlItNlVRV01BWmtJQnllNDd5MHF3bjF0dWJvT3Y0RWpJclMxbTFzZmtBenVqQU9zOU13OXR1NXVlM0h5ZmdyV1RsbDBQdmtaMUhlUWs?oc=5",
+              "title": "Robinhood Is ‘Compelling’ For Fintech Exposure Given Deposits Growth: Analyst - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbENWQ1Iyd1pCUVdkS2dLeXg0UjR5Wm91eU8xQURSbnNLd1h3VXdyUEw0d3RSWERMOURRUTJYaFU2OE5RMkg0MWpiRGduZU9YVEtQZEZUTHFkUXFSS3pMSy1kNDZNQWYzYVdlTl9zMm8xRmFzeTRhQjVRUTNJeUpXWEpEWWNZaHZlbWltQXVxaUR6WVVqUmt4NU1Lcmt1TjdVMWtCNWRNb25NVm1oNTlRUGFaWXV3SDRTOWQwOVB2Xy1XYXFxNGROVWdvMzFmOHdQT19OaC15d1RaRkVwME1LRA?oc=5",
               "source": "Benzinga",
-              "publishedAt": "2026-10-09T14:26:56.000Z",
+              "publishedAt": "2026-10-12T15:20:27.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Robinhood’s CEO Sold $42.6 Million of Stock, and Cathie Wood Dumped $38 Million More - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWFRpVVR4aGZQY2p6bW1rXzRqN1hJWS0tVUFXRzAtWHh0azR4djhHVDk4LVNTd1hlSDZXOWV3YTdNcHV1cXVqd0VFZzh4OEUtUV9hMjlCRVRSX0JkUDJrZ0gyTktVYWpWdlppaEk2M2JqYlZVMGtTN2g5b3h0d3l5R0tCenRReXFJOWNzc1NPYWYzV1NvSHpiTmRMX2xNRWp6TklDVXhLemloWlhmbG1QQkZjY3hObjUxdnRuZ1lSUzItQQ?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-10-12T15:10:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Robinhood’s ‘One Stop Shop’ Strategy Wins Over Evercore: Next Chapter Hinges On Growth, Monetization - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaElWdTQ4ZzBvT0o3YjBibndFcDJZNmRkSUVhMGl4NXpHN2dFYmtlZzBVcmhwUkZHbkljNDA3Q1NiSWQzYV9ldWFBWGNJQW5YclFCMWVxZ1VwRFN0T3lRTU5SLTJkNUJlQW5VWGxuMHFoMHdFMlZLcFJ1MnJwTG4wOVdmY054SjJPUjI5MmxQa3ZiMVplUDZLUXpaeWRCQQ?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-10-12T14:48:32.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Robinhood Markets stock trades at EUR 96.74 with USD 97.8 billion value - ad-hoc-news.de",
+              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOUNxdHdxM3BzSEVtejI1bi04VF9xdjdYQmlqdXRnUUVvSzZpRWhzellheXJFdnpudk4wU1p5VmJUR2FqZkJpQ0V4X19QMVVkeUVJaG5fUXAwc2UwZTdWdnBxUjNqaVQ2cVg0QnRMMzJ0b3BudzZvRk8zNUpVbWo4NDUtU2E1Q1k1dUUzbzFTZm5yTk5iVzRyb3N1dkx5MmNNeVpwLVpKd2dqSkZ6cC1raUxxcWpqQk03TlJINGlVaEo4N2o4dkRnUUFlMzUyY28?oc=5",
+              "source": "ad-hoc-news.de",
+              "publishedAt": "2026-10-12T13:35:42.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Robinhood Markets initiated with Buy equivalent at Evercore ISI (HOOD:NASDAQ) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQREpfdlM2YTRQREFfQ3FGM1NaYWZWbGVRYlhsdlJEZ3U2SFgyUU9OeWk5SVhTN0didm9BeFlDcFV5THB6VUJKQ0Z1OXc3VGI2Sm1JanJoNWNRYmNHRUltT1hGQ20yb0lHSFF6ZG5CdXJmTFV6a1hoc3ZScTZVNWZGNXMzNmF6WFoxMFBsOUlGUDkxQzk3bzRfdngxbks2UlFoMkJF?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-10-12T12:25:26.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Here Are Monday’s Top Wall Street Analyst Research Calls: Adobe, Biogen, First Solar, GoDaddy, Hubspot, Palantir Technologies, Robinhood Markets, Snowflake, TeraWulf, T-Mobile US and More - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOdkdXQlhqakxPb3FkdDJTMmJ3d1Q5MDFUblRTRVp6eUNNbm9BdEM2SFJLWXZJOXlSVjRWdFhsMllhMlRsMjJhcG1VTmpwV1JMVHZJNTNYLU5FSkE4V2N0ZXZGUHF1WkRXdUg4Tk9faU5NVzFUdHk0ZzZlTFpyTWxtR2doR1owVEZWRWZGNUJ2M2FfUG91YzI5N3NEekVTSEJEcUNFc3BUa2o0b003TS1TQXdLRF9ZSGFWUlZoZTM2eFNpMWlsZWZVeWtmcTI2RC04Z3JldkVscU9ZSTNkbzhJbG93RkhHcWQxOGQtUkxUaVBJMElzTjZuZ3NiVk9DSkhhTmZKQ0tSMGxZdVNsdEVhblNJbkk3UTgzNFZSYy0tLXJmcU1rX1pFZ3prREF1R3EtR3l2NmhKZGZhQlo3aHFjanRn?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-10-12T12:14:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "This Robinhood Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Monday - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPZlpwb2haaHZSclhlVWZNZnZzdS1jc2V1Vms2bXNDNGh0QjY3NG8xVzdJT0VMNjZDMElpU0IweENKeUwwZUJsMGRMTmNzdGM0bWVzTERHRFBUNzZZSGhFZnZJeDJoUHRSUmxaRXhFazJoN1JHSTJCV2hORFdYaUNiaUVNY3AzZ1U4elNiTHBDdUVQLWN1LXRHQnhzemY1cE1NMEJyOVRLcVV3dmFmdEd2UEc3Vm5uU0hER1dkbzRDZVZTUEVHR01vWm1lWmdISklTcjNxTldCdXZGUFpXZFNkRzdpOWE0WnM0SlhVdzVYV2NLY1pWYlBSdUJVQWloQQ?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-10-12T11:54:48.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Barclays raises target to USD 132 for Robinhood Markets stock - ad-hoc-news.de",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbUpYTVlYQUd0cHdRWEdGVUNMVnhKSmlfNWZacnhlWDk3UFhaT2hSSnpLWXR2YTlma0F4aXBaODFicDQwWVd5dk5tUmJoNHhpOHQtbC1lbWM4dVhWbnk3N2g0cllJWUxVNEx1ZjZUVllqU3JkV1lRRDdWeUkyRU5fWnVWZ2FKZjkwcVBza0k0YnVqWjViUmNPMEd6Z1JnQ1RrTDJqZ040VXVjS0lWeVJkckhETktZR21FSHYxVVZKeVdVZw?oc=5",
+              "source": "ad-hoc-news.de",
+              "publishedAt": "2026-10-12T10:26:33.000Z",
               "kind": "news"
             }
           ],
@@ -1307,14 +1300,12 @@
           "cik": "0001907982",
           "weight": 7.12,
           "quote": {
-            "price": 14.57,
-            "prevClose": 14.6,
-            "changePct": -0.21,
-            "windowChangePct": -12.55,
-            "windowDays": 22,
+            "price": 13.78,
+            "prevClose": 14.57,
+            "changePct": -5.42,
+            "windowChangePct": -18.12,
+            "windowDays": 21,
             "spark": [
-              16.66,
-              16.8,
               16.83,
               16.41,
               16.27,
@@ -1334,18 +1325,47 @@
               15.79,
               15.22,
               14.6,
-              14.57
+              14.57,
+              13.78
             ],
-            "asOf": "2026-10-09T20:00:00.000Z",
+            "asOf": "2026-10-12T17:19:28.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
             {
+              "title": "D-Wave Quantum Sinks As Earnings Miss Spurs Jitters - TipRanks",
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTjUyamdiZ2VnOTl6UXYxbnFJTWVhZDU2T0xtVVNweG9xc2FCMDZ4Q05wZHdxcnZjb2ZMQUlfUmhnS09SZU1pVWJ6Wk5HNUNmWjRFeGxGOXdxRVhKd3FPREFEUmRPV1BqMkFzb2JXYjNwaDJndnhzNUNaYmREUFc0Zl9YVUVHS1l4SW9pOFJxOEtHLXhm?oc=5",
+              "source": "TipRanks",
+              "publishedAt": "2026-10-12T16:14:28.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "D-Wave Quantum's Campus Deals Advance as Rate Fears and Cash Burn Weigh on the Stock - ad-hoc-news.de",
+              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWGRIMXo1WFZBdGdXajliaGE3YlRvcGdGSFhkdk9vNER1c3AxV2VsXzQ1ejBrTkp1NGI4eW8yVnpRb2JtaVQ1cFBPT3ZtMVJLS3hiTndoQ1E4bEx6YzdrQVY1MTdvQndxOHNXcS1iMUJGQTNVZFA4S3htZk9tTTNwQk5BdkRUcmYycTlVd1hCMTlLOTJjUDVWc1hjeW1YWVdwME9kdGJqWFp4YkZ2bkV2b2x1eVdHZWxWNThPY25sU2hCTjRxRzF4MHA5b2QyWnU3eHZ3Z19hRDh4V0hoVzdR?oc=5",
+              "source": "ad-hoc-news.de",
+              "publishedAt": "2026-10-12T15:21:17.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "IonQ Sinks 9% on All-Stock Elisity Deal Worth Up to $1.3B; D-Wave and Rigetti Fall 4% - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY1VObnVSb3JFR1E1R1ZGVzE5YVRFRm9NRl9KWHFfQ1g0Z1dXcW52N2tUZkQwWXZra3BnQ1FseGY5OU5QUEVRYmY0UTJXdG5jMlF6M1MzQ2Q0dW9VTERMQmQ2Y1NnR3R5MHlzQndDMFYtRmE1d3l2N1pZb1d1SXRuYVUtX2Q3SWJ6aTdhT3JlXzVqT29qd1V6QldPUkxzX0wzVDdNQUtVeFc4TUxlalNNNDJEM0lUSjA1cVRTUDNYVVNCRnM?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-10-12T14:33:00.000Z",
+              "kind": "news"
+            },
+            {
               "title": "D-Wave Quantum Faces Legal Scrutiny as Academic Alliances Expand - ad-hoc-news.de",
               "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRmJKSlpmdmhXZXpMTlVfVGdIZ2d0eDZ0TWdUclcyMlRmdDVZQTdFTzVjSWZtM255WnZYaXgwakZSQ3FLbkhFa08wcG5JaTItN0JaV2RiVnBXRXk1NURJcllVV2tITVh5YTctQ3gwWUFDdEQtMXFZR05xVkVkMG1FRS1LOHY2U2NRWFZZZlpHbVhVTGdaYVM5Qk1sODZfQXB3Yk5Gd2FiSUo5dXdseFJERXJRczdoVnJ4b3JRcldsRERJSThUSzRwXzB0VzVxUWxTUnc?oc=5",
               "source": "ad-hoc-news.de",
               "publishedAt": "2026-10-12T04:02:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "D-Wave CEO Says QBTS Ready To 'Lead’ The Quantum Market After 1,100% Surge In First-Half Bookings - Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOHVhMlp1TXdIYUcwUXM3d1o1UjEyc2Zhc3UzZlprOXhROUlhMU9LUjZtUnowQ2dYWmxsSWliOTNDUkVHYzF5cERvU2EtRkJOR05CSVFkTXlTMVBjMzNQVDZOWVo0NnFnRklYYm1BZkY1eFVnNWJRRXpMV3dzT2l1UWZ6MmU3WFhldHJ1NFNYTGh6cFpDbzZtVWpYR29kbFE1bkU2Si1nQzY2SlUzSUJzQko1WGxDQ2JJUm84NEtJT2VHblowejB5QWtpVDZhdmc0blE?oc=5",
+              "source": "Stocktwits",
+              "publishedAt": "2026-10-12T00:57:06.000Z",
               "kind": "news"
             },
             {
@@ -1367,34 +1387,6 @@
               "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcTYweXZGdXVieGI5TFZISjRFRlp6a0h1VHQ5bjR2TDhrVlpneHJHS0N4djlTd0V3bnZfXy16SXlOWXVFTDJyWEhxRjQ0M2VZdnUzY2V6SHgtUDZnaUFrSXExRUlrdHQ5bWxReDllMjU5OFVNTEtMdENGT1lPRml3dUc4QnZETjlrd25ITEhOS0d3UFJwZ3FZQ1lyWGRrNGlXOGlpTFltamVsa3NpMGdMU2E0RjhwWXRuY01UZ0dmeFJJUzk2YTBJaW5hMlM?oc=5",
               "source": "TradingKey",
               "publishedAt": "2026-10-11T14:49:59.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "D-Wave Quantum Slips to EUR 12.99 as Treasury Yields Rewrite the Quantum Playbook - ad-hoc-news.de",
-              "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPS0s1cmxYSGhNTkxMbnZEV2xaTHZDajJuYjA5VXdBVHlaaWhYblN6b0NnWHYzR1gwaEN5THRUQ0pmak1YQTNGekZPc1Y1V25qVUhWaUpyTWVVbHVhWUhGendCcWVOdE9ycU5iU2RfRk95NDdCS24wUFpldTFNZzgxYXVNQVE2dUhHZUV3ZHM2ZlpHTEtCZm5MTzNlZzl5THhCSFV5Q1BlSjhZLTd4SURqeVAycWFLeWVXeURfZ3ItNzU2ZW5iQnFyQ1VVaFlCQ21KN3U2Z3hGNWNvQzNBTXNrRC1URkxJNVJs?oc=5",
-              "source": "ad-hoc-news.de",
-              "publishedAt": "2026-10-11T11:20:42.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "D-Wave Quantum's Lab Deals Can't Outrun the Bond Market - ad-hoc-news.de",
-              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTjMtT1lSdEwwQm9OX244SWEyNFlEMFRaZG1VM2RKbmV1WUgwTDh1aG9PaHdfRjhKZUtfVFFvMEFFWG43dER6U01fWGtsR01ESkZSX2pIMTA0a2VIYXlxaUdXWkFwa25PeXB3YzRDVFZJZnI1SVhKMEJxRldJQ1FZeGlrT21YVVpkcmd3WERCMVlKNTN5WU5SSUlEWWlUQ09mN01oc2VZQXd0c3g4aUpQUl9ESFF4SkhFX1JMRnZUaTZTcWlxVkE?oc=5",
-              "source": "ad-hoc-news.de",
-              "publishedAt": "2026-10-11T09:50:37.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "D-Wave Quantum Inc (RQ0.DE) stock price, news, quote and history - Yahoo Finance Australia",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFM1FDVTNLaDZfa3BoLTVFbDFwek04QnVCQklSMG5uMjZtYk1wRmRGS0htQWZwRTNWMkxWM3hBZ0kzRUZnN29EMlNHRGRDMEo5ZDZwcnZPSnNuaDJ5dlNWcUU4SHY?oc=5",
-              "source": "Yahoo Finance Australia",
-              "publishedAt": "2026-10-10T20:07:46.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "QBTS Stock Gains Premarket: Nasdaq Verafin Picks D-Wave’s Quantum Technology For Financial Crime Detection - Stocktwits",
-              "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWWFFbE9QWTNnTEZzUS1mTHg4Sm5nN01GSlZYSm9tNFVDWGFXaG9ac2JoeDZ1NWFsQ1Y2bUtPUWx4UzFRRWM5NVpobHhoWjNMN1pjWEU2eXdjb21KYmt5Y2RrVVlJMXE1cUd5RXpYVnRGZXprUldsMWoyYUY1SVE3YmZTOW8xU2NSOWZpM2QxUTY3M2c1LXh1bHo1bWcyenJQM2RQLVI1Wm56cVlCRVVqUzhIa0hyUlRneS1fN0pNWl8xZ1RkZHN1VGFOY0VyX09RRUljQUNFZWZLbFE?oc=5",
-              "source": "Stocktwits",
-              "publishedAt": "2026-10-10T18:26:24.000Z",
               "kind": "news"
             }
           ],
@@ -1489,10 +1481,10 @@
           "cik": null,
           "weight": 1.75,
           "quote": {
-            "price": 2563.93,
+            "price": 2513.91,
             "prevClose": 2534.7,
-            "changePct": 1.15,
-            "windowChangePct": 1.5,
+            "changePct": -0.82,
+            "windowChangePct": -0.48,
             "windowDays": 31,
             "spark": [
               2525.94,
@@ -1525,70 +1517,13 @@
               2485.54,
               2504.03,
               2534.7,
-              2563.93
+              2513.91
             ],
-            "asOf": "2026-10-12T07:51:27.000Z",
+            "asOf": "2026-10-12T17:17:50.000Z",
             "currency": "USD",
             "exchange": "CCC"
           },
-          "news": [
-            {
-              "title": "Best Crypto to Buy Now: Bitcoin and Ethereum Face Macro Pressure as Remittix Approaches Launch - TechBullion",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYWhiUHE3Y3RxNFE2Umt6dUljdGJWekhVR0xPa2REeWlUeDlrazdTWEduU1ZDWGk4LUJRUGhqR0pmcU5VTGlKalBTNE8tZURvWE1yT3BIczNBWFRCRFpyYUQtbnI5aTFWX05jQjBZM1pOTzIwa1lBVjgtTGtNM1lia0JMSDZoUE1GNEp1VlFHbXlDb3JWcEJQcjhmUlR0OTJ5bWRkczJvd3NaUGhkcGJSZGpJMHAwMWl1Snc?oc=5",
-              "source": "TechBullion",
-              "publishedAt": "2026-10-12T07:28:54.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Ethereum wallets move $11M to Kraken: Is a sell-off coming? - Cryptonews.net",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwZlVXNkV2czJoMl9iM1lSZWpaeGRjTnVSUTlnUE9CQTBZdjg0dXF6MUNlVzMzOHRSX2NORTZTTkVDdElpM2lJVjlPbnN1MVdWVlZKVDJPQ3UwUQ?oc=5",
-              "source": "Cryptonews.net",
-              "publishedAt": "2026-10-12T05:51:20.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Bitcoin, Ethereum Struggled Last Week, But This Token Doubled Its Market Cap in 4 Days on Layer-1 Buzz - Benzinga",
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQamtJMG1NdE9tVmV3bzIyMThwb01sWUlsLWVPQ2NPRmVTUzRic3ZaTG5TbXpxQWNTcXdWQXpNZ2pzY1V1TTFXN05pM3JXTklLQjVnRDRYRTFiYUNMeG5XR3E1S1lRS00wRzFSYklJZFJ2MEF4WW1NY0xJSk1uM0N2Q25QRnpWeUpNLWdPNTYzeFRqTDdLRUR0dWpueG1mMGtjS1o0cGNDLW5YZHlZLTh1Y2xYMW1qQUhZX05yWHNPZ0hLcmlXOTliSUV3?oc=5",
-              "source": "Benzinga",
-              "publishedAt": "2026-10-12T05:38:24.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Ethereum Price Prediction: Will ETF Selling Push ETH Lower as Remittix Approaches Its Final Price Stage? - TechBullion",
-              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdVJGTjl1NG9ULU1RTFhIenVNb0oxZ1JrTmxzZEdQakQ3SUVSb3Rhb21sWWxydmYzYWxUMzZ3OU1uSGdVWTJuRDVVZ3dwNF9PQ1JxOVZkM1h1aG9nOGZTeTE1akNNMC1nOEVJUjJGNEFzbGo4cFlnU0NIQmRHajh6dkFRNFZWM1lkTWRsSjVJeGdUaUZ4NmV5akhyRmhtZDdpY3RCVmFGbVV3U01fMHd1OEhiVXhjUGhGckdKYkRjZlZoa2hRZVE?oc=5",
-              "source": "TechBullion",
-              "publishedAt": "2026-10-12T05:28:53.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Ethereum Needs To Double By Year-End To Reach Tom Lee’s $5,000 Target - Yellow.com",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvWDdjYTVJVWRBNGY5VTIyUTZZcTU1WkY5dUlsTXgzZ1I2ZVFPZ3otbnE4Yjg4RFRPdjcyM2JrM3NORjdwQTNacTVmb3MwZU0wdWlhZEtRVm1fcTRHbDJvajdsYkdqWGxMU1dF?oc=5",
-              "source": "Yellow.com",
-              "publishedAt": "2026-10-12T05:20:39.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "ETH price range on Oct 12, 2026 at 2am EDT Crypto Prediction Market - Robinhood",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeHF1bFp5QlAwN3FSLXdFOFhUNXJQMWJSWXJnWHlxY0M4Z3JPQ2M4alZvM2o5X1pEc2tHdDh3enNXOGhISTllU3d6VU5nVDZzSWx5WjUyVS1mdGNxMEJnVnpZOUw4ZU1uTDVNT0QtNjg1OFp5WDNTNEgwUGwtSjFsSlhHTTk5RmEtdmxwTzROM1FTN1NUNF9oeGFTdnM1MEZpaHZYUFJHci11WkhHNlBJZFVURzZBUQ?oc=5",
-              "source": "Robinhood",
-              "publishedAt": "2026-10-12T05:04:43.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC reclaims $83,500, ETH takes back 50-day EMA, XRP holds support - FXStreet",
-              "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNcVdVYTRibS0tbzNQNXloV0pmUy1IcklyZHExQUhvTVJnTDFueWt1LVFsQUR2aWl6RkNxaW5XUWZBeGRxbEo2VVM2Q3lGWlB3VVFyR25lX2VpWGtDaWZNWmtBN3VJTUE1NEFmQU94S2JBb1lKN3ZyS0tzUmRvLWltVGRSWExPTGp4VFNYamJzclpKUFhTVnFncHRldzc1amUtMnFqeGRnQlRRUVdxV2JMQkMwNGp1QW5QSXEzbGdLVXlVUm9rRFM3dEtaRDM5eXFPdlUzenpYSnk0N1IxWi1fanlXYUx2R21FRzVzbWdKWU9zc1VxWUVDQ2NOSmJBWW8?oc=5",
-              "source": "FXStreet",
-              "publishedAt": "2026-10-12T03:11:30.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Bitcoin, Ethereum 3x ETF listings come into view; investors could lose money even if prices rise - 디지털투데이",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNWstNzhEdEc3bGl3SnRycDU0MWROSjEtZmUzTm9JZ1ZSU1diR3lyaDliYVN5cExnbzZCZ3JrZHg5ZVZ3LW5RWkJRM3ZaMUxhRVVENV9mLWFLUkVOWEpwNUtoR054bDVvbWZmOHNqNUNIQ1Brangtc0RBREx4Qks2UWJKYUh5U2kwcjVleXk1cVdxSXBEUm53aG01SXJFX2c1a3FIY2FmOHZKQ0htTEMzRGFXNA?oc=5",
-              "source": "디지털투데이",
-              "publishedAt": "2026-10-12T01:58:37.000Z",
-              "kind": "news"
-            }
-          ],
+          "news": [],
           "filings": []
         },
         {
@@ -1599,10 +1534,10 @@
           "cik": null,
           "weight": 1.5,
           "quote": {
-            "price": 1.41,
+            "price": 1.36,
             "prevClose": 1.4092,
-            "changePct": 0.21,
-            "windowChangePct": 3.33,
+            "changePct": -3.3,
+            "windowChangePct": -0.28,
             "windowDays": 31,
             "spark": [
               1.3666,
@@ -1635,67 +1570,67 @@
               1.3953,
               1.4017,
               1.4092,
-              1.4121
+              1.3627
             ],
-            "asOf": "2026-10-12T07:51:24.000Z",
+            "asOf": "2026-10-12T17:17:05.000Z",
             "currency": "USD",
             "exchange": "CCC"
           },
           "news": [
             {
-              "title": "XRP and Hyperliquid Price Prediction: HYPE Holds Near the Top 10 as Remittix Targets Its Exchange Breakout - TechBullion",
-              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZGlmcjRaZTItZmNrazBiRFlORHI3T2ZwUHdsLXE2R3hVd3hpRUpTejJYQkl4V3RhVnR0bTVLREp0Vjc1NUZRWmJHLWNKSjdCazFxRVZIeGdVekxWLWlNRkxUendaQ284b25WNzA4X3VHNFB3RUFnZWt2QUNQVGlvRExJY3BGdzBQcXpZc3dYbTNsLXZEOXZiRnNlVEtCUTVrZy04RnJfTlV2d1l4UHoxYmpSNmphYmlBU3FUTjVSX21JSkFUcjBwNld3?oc=5",
-              "source": "TechBullion",
-              "publishedAt": "2026-10-12T06:29:05.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "XRP Price Prediction After New ETF Inflows: Could XRP Reach $5 or Will Remittix Outperform? - TechBullion",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZFFVcXVVNHI4cFV5ZVViakFkSGlLNjhGcTlzUm9IVEp4MFNlWGlEdXNPNm16cENvcmFlZl9vb1RGeU9tZHVjTldHeENpM2V4S3ZMNkZSSDM2dDhmcTNfZUc2c0NTT2FHdW1CWFhuRFNTTkV4ZlphazZsamR0S2N0X0NxREJOQUlQN20ta3RPV2F2WlA2NmVOT2VEeWxDejRNNXNJMlZWSkFfaGlIUE1qUFMzbw?oc=5",
-              "source": "TechBullion",
-              "publishedAt": "2026-10-12T05:28:53.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC reclaims $83,500, ETH takes back 50-day EMA, XRP holds support - FXStreet",
-              "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNcVdVYTRibS0tbzNQNXloV0pmUy1IcklyZHExQUhvTVJnTDFueWt1LVFsQUR2aWl6RkNxaW5XUWZBeGRxbEo2VVM2Q3lGWlB3VVFyR25lX2VpWGtDaWZNWmtBN3VJTUE1NEFmQU94S2JBb1lKN3ZyS0tzUmRvLWltVGRSWExPTGp4VFNYamJzclpKUFhTVnFncHRldzc1amUtMnFqeGRnQlRRUVdxV2JMQkMwNGp1QW5QSXEzbGdLVXlVUm9rRFM3dEtaRDM5eXFPdlUzenpYSnk0N1IxWi1fanlXYUx2R21FRzVzbWdKWU9zc1VxWUVDQ2NOSmJBWW8?oc=5",
-              "source": "FXStreet",
-              "publishedAt": "2026-10-12T03:11:30.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Best Crypto to Buy Now: XRP Faces $1.40 Resistance as Remittix Nears Its Most Important Launch Catalyst - TechBullion",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbmxPc1J0ZE5vZmV0WENDR2tmTm5Kd2I2RWx3dnVqV1ByaTNfcFZ5cmNrZWo5WnEzX2dLUEZLS0JXdVdpLS1Ea0FfRGxpcU1sWDdqTDBtMEM5LW93TE5ETGNxWDFWUDREN0pNb0VGRGVOWkpWRGVXNHVWYi1vYzU3RkdOSGdYd2Iwb1MwNjUwNDJHUjVpSXdLUHBoeUJmR2FXbHFKVjdUNDVDOXVRMFhvNlFtYzNXRFFfY0FKa0Q2UF9Jd2d2?oc=5",
-              "source": "TechBullion",
-              "publishedAt": "2026-10-12T02:28:53.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Bitcoin, Ethereum, XRP, Dogecoin Rise as ‘Greed’ Persists: Analyst Says BTC Bulls Must Get ‘Moving’ From This Area - Benzinga",
-              "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPYnR4eGYxZzYzbl9PV0VkZFpDNUVJMHFIYzlIQVlCVjRMMGFhcU1QdXNGOVlKREVKNzNZUzNHUUt2ZzFXX2h3ZHpHYi1Qa1V1RFJWS1B6ZDlVSWFtdXBFU1ZETUhIWG83UnN4SVhrQlN2NGliMTRHdzNzdlF6WnZrV3h5cnNTZzRyV3BFVDAxanI0M2RUMkV4cV9vOUFURlRGODdscC1kMFpjWWc1VEE2SW9hTGlkRDdrLVdMSGItLUpnU2FwWW9kMHZiTEhOaTNNX0pua2RscUk4MnVfQ3R5S241TG1abUZfQTBXZGszMW5QdlVkdXpHREx3Vm5YQlJWd2tKSWRueDlCQ1h5ZnNaeFVhQkJrXzd5YWc?oc=5",
-              "source": "Benzinga",
-              "publishedAt": "2026-10-12T01:52:55.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "What Will XRP Be Worth in 2028? Exploring Three Scenarios Starting at $1.41 - Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkxuTDlSdEFfaDNBTzBEdXRLZzgtQk80bl94OTFMTHV4X2dJaE4wa2JWTldyZ0d3V3BhYzNrWW8tM1FaNVdzZWZudlY0bUt4Q3ZJZHVjZ2hMZlVIbXRoeENvRXBIVW9DQXVyUkFmbTlPUDVKOHdlWE9LVW9oaXNaN1YxV3RsSklKRHExdUw0MUhEZTcyYjZOM3pjQQ?oc=5",
-              "source": "Yahoo Finance",
-              "publishedAt": "2026-10-11T23:19:56.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "XRP’s Nasdaq Moment Nears: 5 Things to Know About Evernorth - BeInCrypto",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAzYlAxVGprZkEyN0Z3V3hUNVcyZkVXa1k0UzJzbFV6T2ZxMGdtT2otV3JUTHBpS2xBQzNHS1ZESE5sUDVvVm9BRlJpaVBJMWo3S0FUeTZ5dmhhdnk3UDh0alpUakw1VFFKQ3dVcHFabw?oc=5",
-              "source": "BeInCrypto",
-              "publishedAt": "2026-10-11T22:50:00.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Stellar Now Hosts More Tokenized Assets Than the XRP Ledger. Why Is XRP Still Worth Nearly 13 Times More? - 24/7 Wall St.",
-              "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQLUlUUC1oQV9OS1psdVVsMmNEbG0yOTVvdXYzUmNhZFFFcU1SbTgwUmk4WFlmOGx1LTk4MDV1ZjQ4YlZObXl3UmNEdldScTZ5NVo5bDBpUUZWNDE2emhKa2ZTMzROeGUyOExLcUNCZjhlY3JpSnV4YUtieFBuNEFwd250TWhvYUJFTENkdFAyQ3Q2WmxhZktSVmw5cm1kSDhaLU11MDdZcGprX05xUEg3eXhHa1o0cDd3a1ZSWmxZVE5LRTRuZ1lTcUhLamZyN2JxYXVYX0VFSDFqbkF5b2xINktGN2gyWjZCMmlJbWdJeE1HNFVv?oc=5",
+              "title": "Solana Beat Bitcoin, Ethereum and XRP Over the Month and Lost to All Three This Week. One of Those Streaks Is About to End. - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNV21aVjJTTW9QdFhZbkVsWlB6YW5GYTN0alBQLUw2NlI5OUkySGZNdGxYb0ZwUEc1QnFqaHpNOC1ha3JRWW83RndManMya29SdnFfbzR3Z0M4ZkxmRWt1QXdxZFhGNnR2N1VaczdkVGZYaVgwTTVyZTVWVGRKay0zemlEdkNCRU43N1I4VjJ5d0R5eDl2Nmk4aVdZc2pJek13eElPZS1HMU04NEUwMElOMHNFZWx3V281eE1qbHA4WTF6UE54bVJXYlVSTkpYM2RCWXJ2bzNaMHVlRkl1cFFmREVydTd4Si1Id2loNVBIWlRRdFBUbWI0d2NYMDdDRnpUQVpJVnhOb1lSQ1E?oc=5",
               "source": "24/7 Wall St.",
-              "publishedAt": "2026-10-11T22:14:00.000Z",
+              "publishedAt": "2026-10-12T17:00:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Cryptocurrencies price prediction: XRP, Bitcoin & Cryptos – American Wrap 12 October - FXStreet",
+              "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZGZQVWFXTFVZeHpEMGxTa1ZjNDlPeDVkclhMYlg4M0FTUzktOGVCVnAySzIzcm84VnpOLU1vTXhzc0pBdklQWW0xTXpKbGFUeXhKWFV6Q3FRTW5sOV9CT2dTSHlMdTFtc2tmZzViQkNPVVdvTlYzWmRHQVVsU0F2cXlOUmd3cmFxTzczUVdpNUVoSHY2ellEVEE2ZzVYNFRKOUg1eUxoOWcwVXFjVFFILVczLTN0ZTFkc0dBZi1kUmdpc2pGbGdtRkFfS1ZLdmJha0QxUQ?oc=5",
+              "source": "FXStreet",
+              "publishedAt": "2026-10-12T16:26:05.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Ethereum, XRP Could Drop Another 10% Before Real Relief, Trader Warns - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTTlJb1RWSUJWS0FDbjdmQ2thVlZna3hkRXI1RFYxbVJIYzBEYnZmQk40cS1hZGt0ZjN3a3BOeXVhOTMwcWdsVndoMUZQWmI4UEVpUVU3cnlnTS1LY2FZbFljUUl2Wjg3WXdoQklzSHJHbi1QQ1ZydU10WlAwejNYR0wtaDUtM19TZlYydWJGal9KRFJIaUJxeGVfSC0yb0c1SHlTU1RUTTBUVU5HaV9haVFBYmlGQmRZcmYzNGhhTXRfcVdoUmpB?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-10-12T16:00:13.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "What's next as XRP defends 50-day EMA support? - FXStreet",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcWZ3NEJSLWdyNDNDcGpWVXVQdHJtVGNwTWtqRVhQQmlWWGxreWpjTU5BVHFaNnNTOGNLTEo4M3ExTXR0a0U0QUpSV2VqT0hIVXFidWFLVkwtVnJyZmVxLTRWMTllZFZDdmNzbTZwbk5MYzRuVTN5SG5nVXpJWHUzeGhxMGFuM2tvQkh5ZmdEcFhHenlybmZ2RHRSZ2FaUlpBZnlWQzN0MVdkblRUektvOVIxNlBWalZjU19kZVpsRjdjelJReUlnbDJwVms3dDJ6YnNCWDZoTzNwNEg1d0xfVVpwUQ?oc=5",
+              "source": "FXStreet",
+              "publishedAt": "2026-10-12T15:30:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "XRP price prediction: ETF gap to Solana at $160m - CryptoTicker",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNzBtNTB6VHBGbTUzSm9lamRWN2szZkhHYVFOUC1YdXhURVZfUTF2OG84Mk02WGNrRms5eGNraWZ3aTA3dzBiMGRNODVnSDlaWkRRNzNWSGt1ei1pVURCcWFNbjg3X0JhREt1d0VrQUV1R1ljNkFrVTFXY0Z1WGJ5dg?oc=5",
+              "source": "CryptoTicker",
+              "publishedAt": "2026-10-12T15:28:13.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Evernorth’s 473 Million XRP Wager Hikes as XRP Struggles to Regain Ground - Bitcoin Foundation",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV1NsMVk2VVQzNnlSZFZORVZ3QTdPTW9pNG9iX2xSODc3SG9zcVVPU09KQ2dELWJxeTBZbWNfQ0lJTlFnYXVXcE9pYV9ISmFGV1FiQ2JHR2Y0OW81NUtjSndSRnhzQ0NZbE42MFNEMzZKb2thVG9jc2pSV3NyRk5XMlYwdWJJR1lET0x2aHBGLTZFV2pqUnhTMXcxdzQybmp0Q1lzUWI3YWU4SndBYmNSUmw2SmoxaDRhN2c?oc=5",
+              "source": "Bitcoin Foundation",
+              "publishedAt": "2026-10-12T15:20:22.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "XRP Price Forecast as Spot Volume Falls 1.94B and Open Interest Hits 3-Week Low - CoinGape",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTTFfQy14N2pzendMbklUYjVGakNrNU8yQ19SMS1sMGVqQ1JPM195Vl8yZjZmRXZMYkZxRnBSNVhfMUZkQjFmam0ybVl6M3dSVV9nSHZJZDVEVUVfRl9NZzYwcUszbFczZDlxVUtUZVk1TWVmbDJZMGVXaUh1bWY4T2NkNTB1Z09zenFsYXBjYzBPeDdDNEZkbVR4a2k1WnExLV9qdjJfUXlEYVVtd1E?oc=5",
+              "source": "CoinGape",
+              "publishedAt": "2026-10-12T15:08:11.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "XRP Price Prediction: Evernorth Listing May Keep XRP Above $1.32 Key Support - FXEmpire",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQandENktvUFVvaURHRlVndW9WV0VONlFwY3NBZmQzR1V5bk9iRm5QWlJDY25ZSEZEOHNRTVlaT3JuUWdXME1IRWJFLV83T3RqNDRMOWNhbHhvV0hnTkwzc0Q2dHEwd0FzN19Cai1KR1MteklJazQtaWU0STJLRlR5XzVNU2M2M2Q0bDhpUUhoWmNHQ3IzSWpnd0VSeUZjblFrTkQ5VGZGX21QRHQtWUJyWkI1X3VZdkdob1MxOGx0VjhEVTQ?oc=5",
+              "source": "FXEmpire",
+              "publishedAt": "2026-10-12T15:00:51.000Z",
               "kind": "news"
             }
           ],
@@ -1710,19 +1645,19 @@
       "summary": {
         "holdings": 6,
         "priced": 6,
-        "up": 5,
-        "down": 1,
+        "up": 1,
+        "down": 5,
         "newsCount": 47,
         "filingsCount": 32,
         "topGainer": {
-          "symbol": "PLTR",
-          "changePct": 5.17
+          "symbol": "MSFT",
+          "changePct": 1.04
         },
         "topLoser": {
-          "symbol": "UFO",
-          "changePct": -0.07
+          "symbol": "PLTR",
+          "changePct": -0.86
         },
-        "avgChangePct": 1.83
+        "avgChangePct": -0.2
       },
       "holdings": [
         {
@@ -1733,14 +1668,12 @@
           "cik": "0001321655",
           "weight": null,
           "quote": {
-            "price": 209.05,
-            "prevClose": 198.78,
-            "changePct": 5.17,
-            "windowChangePct": 26.04,
-            "windowDays": 22,
+            "price": 207.25,
+            "prevClose": 209.05,
+            "changePct": -0.86,
+            "windowChangePct": 19.58,
+            "windowDays": 21,
             "spark": [
-              165.86,
-              167.23,
               173.31,
               172.56,
               174.34,
@@ -1760,67 +1693,68 @@
               192.07,
               194.12,
               198.78,
-              209.05
+              209.05,
+              207.25
             ],
-            "asOf": "2026-10-09T20:00:00.000Z",
+            "asOf": "2026-10-12T17:19:30.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
             {
-              "title": "PLTR Stock At Record High: CTO Slams Report Of Maven Role In Iran School Strike, Retail Bulls Embrace Wall Street Upgrades - Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYnhQa3BYMnF1RXZFUks1Q3hRekhjR2xvY1VHVjRwVDlsenhiMzhSYW5kZkhScEN4Vzc4aVFBS0pMRVRyQTVJV29VZ1lIYnEydHVIeWdneUZRVXdkTlcway1iWmlwMVpKaHVoa1VNQTEyc0xzeGNUM0k3eWU0OWN6NFZaaGhLbVhYOGNDbUtrSnNNZGpIMXc?oc=5",
-              "source": "Yahoo Finance",
-              "publishedAt": "2026-10-12T06:03:00.000Z",
+              "title": "Palantir Stock Gets Price-Target Boost. Cheaper AI Could Fuel More Growth. - Barron's",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaTlUTkVrei1iOTFPTXhURlZuSlVNZDN5djFacVBJYlFmQzVyMUV1NnJNZjBFNDgwUnNtQjIwcnROVDJjdGV0N3JjamdDTExuVFNuT2QyTURxWXlHQkE3Z2JFdDg1YjVCVDEtZ05JZW0wRkFUWGNFeWU3SUVfaEFaWk91b1IxUQ?oc=5",
+              "source": "Barron's",
+              "publishedAt": "2026-10-12T17:05:00.000Z",
               "kind": "news"
             },
             {
-              "title": "3 Tech Stocks Wall Street Upgraded Last Week, and the One I'd Buy First - The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ1UxY1lUWjQwdmI2VlVLVFZjSVpMbjZ6YXpYQ0lPdWRnR1lIVlAwY0l5eWxfSG11dU02a1RsdFAwYV9CVFJEWHFZSXBKUld2WmhDTFVBZ3BqQXZDZHhMMVZUeW5jdW8wS2sySktGYnBiZUdXZms4VWxBUGZyOHpFQzFRVmlVS2VqbFZVb2VaeTF0WmJtTlE?oc=5",
-              "source": "The Motley Fool",
-              "publishedAt": "2026-10-12T03:30:00.000Z",
+              "title": "Palantir Stock Gets Fresh Wall Street Vote of Confidence - GuruFocus",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTWZRN2ZqbnVEUnotS3k0VUwwZDdzd0lVZ0puWTRXNThYMDVNX1hwTlFwX0VUT0l1UzZmbG9MNE53dWh4YjNXLXYxUEVwX1AxT25MY0pGZER6N0ZBaFdKdk00bjliWnc0SE1xeGVTSXN0NXV6NlNnM0NBaks3bEl5ZldBTHI4VjBiRjJTODRjcWVnWHhpZDZwRUNHSQ?oc=5",
+              "source": "GuruFocus",
+              "publishedAt": "2026-10-12T17:02:38.000Z",
               "kind": "news"
             },
             {
-              "title": "Palantir Technologies Announces October Seoul Pop-Up with Korea-First Exclusive Merchandise Release - Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMVlWZFoxeHI0RDI3bXpEYnNWOWdYQ1RpQWVYOTB5WEdOc2xDTGY5X3B1TWVCUmwxaVdrX3QzS3BHUHJnajhMSGRheVV0eERILW44cHFVcjRTZVAxaHVBZ1BoS1BGMDk2RzlEMzU4enZjTzhPWlh3Y2FpUVdtV1dwc09CM0VhNUR4T2t6Vm84TTBQcmpseTJSMkZwc2t1SnpacUVmc1hiaXVoeUJQZVE?oc=5",
-              "source": "Yahoo Finance",
-              "publishedAt": "2026-10-12T01:00:00.000Z",
+              "title": "Gorilla Sinks 9% as Data Center Pivot Keeps Selling Off; BigBear.ai Dips, Palantir Slips - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQ0Y1by1IUnZlMjNfRXA0bko4Z192ZWRuQnc4czRPSktOMzRKWG9IeGZFb0tOUF85Z3RxQUs4aXc2c3hLRUZnSHlkZ0ZlbGxFTWJaQnM5d242eDdpUDlMaTJ5bzNyeWJHOVZ0RXk1bUNIMmtheUJFZ1JaYWlLMzVVcWJIcUdwNkozVXdLS3Z0Tmg4aEdEckpBaHdONFFlWmVZMTA3eE41eWhzMjBlTEJXQUVVTVdic0N0TDN3bTJSMzdXSlJNck5lSg?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-10-12T16:56:00.000Z",
               "kind": "news"
             },
             {
-              "title": "Palantir hits record as its next AI market gets awkward - TheStreet",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdnk2M0kzcERBR0NPNnU3QkxNcE40YmpUQjl1WnNxcFAxN25SZHhIUVpoNWcxRXFHX0NBSWJjQmpDclNTZndQYjZNUFBuRlI5T2ZQQ0NoNVRJMGh4alhEVjJjeWVPbUE5Q1dlRUNiNVVMQ0RKcU1VZEVzYjktMWlfQVl5N1lBSUs5VTBnRThOR09KdmRQaHc?oc=5",
-              "source": "TheStreet",
-              "publishedAt": "2026-10-11T22:03:00.000Z",
+              "title": "Palantir: Outstanding Execution, But The Current Valuation Demands Exceptional Growth - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRlgyU3NEbU8xSGFCZXpYZzJJYU1FandINFU5WkNBY1E4LXgwWDlMZjh0bXZkR040VXFIX2NKYThoMGVzMVFBeUNjeUtrU1NUYXJHbmlIdzNuMC1NUW9yTzBjWFR4NFBBZVA2WEx6QjkxenlobGo0d2pPT3Q3a1NjZGZvZC1heHNNQmUwekVYN3VqcGJ1QXhoZktrTEh0VGZ3NWVDd3hWd1RjX0ltY2I1VE9GSjhlcGd5Z1BqVE1HNnBjZw?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-10-12T16:39:25.000Z",
               "kind": "news"
             },
             {
-              "title": "History Says This Will Happen to Palantir Stock by 2028 - The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa2dRWWlGUU8tNG1RQWFDVzJ2YWl4enRPM0p2dmtqZEh0ekhDVklfSi1QQ2V6SXJjV2F4X0VVNFczQk5yT0xfa2NwbUNnakJFWGZRU0VQZXFWdWt5azRhdHozd1Fub1NaUDdLYVVxRnRRQW14T2NLS2tvQ2Jzak0zRnJVaGlCMGxIMmszLVRUd1dyYnJzd29wZg?oc=5",
-              "source": "The Motley Fool",
-              "publishedAt": "2026-10-11T20:10:00.000Z",
+              "title": "Ondas Wants to Run Pentagon AI with Palantir-Powered Regna AI - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU2hhWFR0YUZra0JxYW1sNzNvSzlGMEIxRmlQbGRvYWU3RTVJLUwzMXhUWTF4YVl5aG90NkhmMTBVMnhfQjhqdHhUWWJIOTBqV0RrZGluTDdTY0Fzb3FsZ2R4ZE45dF9mYnlTWk9ZZnIzYmVURFAtTDB5M0x4dHpNSzB0bGpfMGxjeF9ocnFhcDgzeFp5Z1huekhQbDF1WkNFYm93aDdFU19zb1BsU0dhTFZEZE8?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-10-12T16:18:50.000Z",
               "kind": "news"
             },
             {
-              "title": "Palantir hits record high; investors eye Snowfl... - Pluang",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGFmbURLOWJLTGd1V3E5MVQ2bEU5Vk9pOUM0N1psblhDbUpNNlhrMjFXdTF0QmNieWNCQnlYTlM1OWZGVW9PaVJpcEd2Z3oxSTN6TlFicVlDdG4wNUU1cTdpQzRmM1M2NjNBTTdhN0dFZGdsdzhuLU82TVM2WnZYODdtQjc4a0FLak9PTkMxWmxLZk5q?oc=5",
-              "source": "Pluang",
-              "publishedAt": "2026-10-11T15:34:17.000Z",
+              "title": "Ondas, Palantir Partner To Launch New AI Company For Defense Missions – Everything To Know About Regna AI - Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVk0weWd2amxTbW53dnpHSEhtM2ZFczNqekxuWXZ2TUFPV3l4VUlwT1FlcDF6dndsXzJGc3NtM2dfanp4bkMwVWtoakw1Wk1rTTNjRUJLNHVzX1dCTEU5bmdYT2p1NHI3ZmxtQk4xdEc4dmo2RnFqVkV1dFpZdVZaaDl6dC1sUGNveXJSMHJ2WHR2MnpkbXVMMG5EUFRYTmhwcjc5RjdMR0pxTDBXNF9VQnlJQXRHYjBQMDlRMkFoUzZsWkNpcDh6cm5aSzdWaURSQjN0RUNlU3I?oc=5",
+              "source": "Stocktwits",
+              "publishedAt": "2026-10-12T15:40:23.000Z",
               "kind": "news"
             },
             {
-              "title": "2 Palantir (PLTR) stock alternatives to buy now - Finbold",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uN2k3YVB0S2pCX3FrMHk1OUk1cWlEWUp0a1hPZGtiV0ZNMERjVVZRZjV1Tk9PLVJiS1c0a2xEVUZ3bC1HeUYyeV85d0FEWGRmMWNZdXROS2VMNWxkclIzN1lQckJXUVlMMFVHNUZDTWxiT3NN?oc=5",
-              "source": "Finbold",
-              "publishedAt": "2026-10-11T15:17:58.000Z",
+              "title": "Palantir Technologies (PLTR) Target Price Raised by Baird to $25 - GuruFocus",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZzI5a3FOZGdnNDZscGE5WHBlM0tmZjFXY1VBSWVxVmFKN3BSRnN1WEFxRFlGM3VPaDZjcWlCTllHbFpVWGJRSUVsOGZKZUwyMGpkdm9QbUxTN1B1cWhMaHczRFlMX2tUMjdsY2kzLUxPTzdLenFQX0ZtSkVxV0c0b0FnYVlkelJobTVyNWtvTlVidWptbWpGbl9pWkttcVFTdno4?oc=5",
+              "source": "GuruFocus",
+              "publishedAt": "2026-10-12T15:39:29.000Z",
               "kind": "news"
             },
             {
-              "title": "Palantir Q2 2026: Record 93% Revenue Growth, 155% Rule of 40, Stock Up 30% — Then Consolidates - TradingKey",
-              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQVNYN3B5QVdkM3dLS21MRXhGV2JQcFp4MnpuaGY0WXdiSTBfS09KeDRfeFBES0tDMkh1US1mTXZxMjZQUmJ6bzlPYlhwYmRjdXdPeW9UTVBfaWVCMUdEOUpnTGk1OTdlMF9sRFU0RGV6VDUtcTNVd3E5RXdXbVVhbDVJSHlkbzh1NWRsRzlaaHFQX0tXSlBSRl9KX2YzOEpmRlZWMzlnbHJNLWtCcjJ1WVNQSkM2cGxlS3ZIekI3VHFHYjBHVFlaOWNLS1c0d0ljRDJv?oc=5",
-              "source": "TradingKey",
-              "publishedAt": "2026-10-11T14:46:05.000Z",
+              "title": "Ondas Takes Its Palantir Partnership Deeper With New Sovereign AI Company - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYklkMW43dHJtR3ZFUXhxRTlldlFTbUUtWVAzMTRUb1YzbUhmdWRPcUFUTjZRUF85U29DTVVTU1lia2dUbWlLVjZVaFNiR1dCMy0tZGllRzd2eWtUZkJCdk4xclJXQTJoTGJFanA4UXc3NDVDVU1sNFRIR2JWRUpxVUZuQU1leFVDcjZKVlNXSnZqRlhjZmdZVkYycVJoOWlRcEpJWkRwRWU2eWVvZjhYMS1CNDM2blVOcXFMOU5kVTdsSVNB?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-10-12T15:33:05.000Z",
               "kind": "news"
             }
           ],
@@ -1915,14 +1849,12 @@
           "cik": "0001050446",
           "weight": null,
           "quote": {
-            "price": 154.34,
-            "prevClose": 151.47,
-            "changePct": 1.89,
-            "windowChangePct": 20.05,
-            "windowDays": 22,
+            "price": 153.37,
+            "prevClose": 154.34,
+            "changePct": -0.63,
+            "windowChangePct": 12,
+            "windowDays": 21,
             "spark": [
-              128.56,
-              130.97,
               136.94,
               129.6,
               126.18,
@@ -1942,13 +1874,28 @@
               164.55,
               153.37,
               151.47,
-              154.34
+              154.34,
+              153.37
             ],
-            "asOf": "2026-10-09T20:00:01.000Z",
+            "asOf": "2026-10-12T17:19:29.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
+            {
+              "title": "MicroStrategy buys 250 Bitcoin, repurchases shares - Breakingthenews.net",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbVczV3ZPaHRUVlFveDZva2JHa3JJTGNNNWZTWldZTTI1OGNkNllpdEtFMlJwazhEUVV4TEZVY0JIVkIxV0txWTdxOWVzUWRTNHdMY3R1dzJwU3pYQmV1Nl83eTZqZ19tQU9hTHgtX3hIMHViMGhnZFBmR2hZbHc4UEREQUU0UUZReTN4U1p1dWp5SnZvWVpCV2Rn?oc=5",
+              "source": "Breakingthenews.net",
+              "publishedAt": "2026-10-12T12:12:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "MicroStrategy's Bitcoin Buys Drop 84% in 2 Weeks. Why Is Saylor Slowing Down? - BeInCrypto",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xcG1YakY5N0hNYzBnVnFQVWFUOTgwOW1Bems2eWFqYkdSMzJJSjd1N2ZoVFM1dDk3X1Bzc2RNcmhkYkd6dm1OUDYxeURlZXA0Rm5jZ0xvVUM4Z2JRRXlyb01FWjhpUExEQVc2dnNOVzE?oc=5",
+              "source": "BeInCrypto",
+              "publishedAt": "2026-10-12T12:06:00.000Z",
+              "kind": "news"
+            },
             {
               "title": "Strategy (MSTR) Weekend Outlook: Can 847,363 Bitcoin Reverse the Stock’s 56% Slide? - TradingKey",
               "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQalRGWndSZDV2UzhFMnJzRURFTUpWclFGZ2U2NmFqTTN1c2EtSWFPcWZRRHRNN3JtOVFPS1pUeTNpMzIwREhSQzVtYy0zLUNnc3lBcXZtNEFraF9XUGdEemVZYnZKNWs1RHhIMVk5ZXhCVFBjV0lHWFVjRE5RZHlPd1VQV1drOS01MXd2cUFYUER5c3JZM1RNa1B2LW9XZXNKR09hZDIwd3QweU9rYVlmNlRaTG9kSDg5a2l3eHM4N2dKNWFRVXBIQmtxOC0?oc=5",
@@ -1985,24 +1932,10 @@
               "kind": "news"
             },
             {
-              "title": "MSTR Stock Rallies As Bitcoin Bets And Price Targets Climb - StocksToTrade",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51YnkyVkVpaFJXRUMtQU93WmtHREh2QUdYbFlIeGtPbExUcHVBMlJKOEhGelhNN1JYZ3F5R0ViZ1paVkRtZ0gzREZCZWpDRkFqb1pRcHRlaGFnY05tSXNjUUpVNjRHS2haSFZPVHJvZjJGc1U?oc=5",
-              "source": "StocksToTrade",
-              "publishedAt": "2026-10-05T13:18:00.000Z",
-              "kind": "news"
-            },
-            {
               "title": "Strategy (MSTR) announces ATM offering programme update; sold 92,894 MSTR shares for net proceeds of USD 15.70mln during Oct 1-4th and USD 15.7mln in net proceeds from MSTR stock sales used to fund Bitcoin purchases - Newsquawk",
               "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNdEFGMDQ3Mzh0ZDVXYW5TOEl5SEVYRE9NUm53dmc4dXNxa2MwNk01ODhQZnNjSDJCak9GT0pJYWI2RGllaTJVQmxKZlh2eWR2blhkd1llLTNtX1NMWEhWd2ZJSnNBNWFmYmJHc0h3Z2tBWEhKZU9KcXdPMWlQaTdFU2x0V1JseTFCbDluQmZlWnFJSVEzaTVQOHBva1hzbG9QeUx2WWxDa09haWtmaWZGWk1TcjZBTVdtSTFvQlJGTHJRQ1NaWTU4ZVFlSW9MSlZYUUZEUDlTOTlrbWJwa1laNTdLeTBJbTNLSk82ZnNXamNRVFlXVTM4aTJpY0twLW1NOFRFVlVEYTNmSW5MaWFrTlRlN1hFV21aMmtDT2o5a21VYW9sN2FlRDFkUWN3d1E2MVhrSFk1ZEQtTDRQcTRWVzUxTXpEXzVVX3VuUWtQZ3NjRko3LV85X0dPYWV3eV9SaTNN?oc=5",
               "source": "Newsquawk",
               "publishedAt": "2026-10-05T12:27:29.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "MicroStrategy Buys Just 334 Bitcoin, Spends 6x More on Buybacks: What Changed? - Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM2ZiRENCNEFPVFA3RnkwUDBKVDItb2pBcFhzeEdlTnBRU1hVdFBFVDZ4UmtLRmpPSDlmR1dWRDc3eTJQSTlkd3ZHZkpTWEJHUnZCM1NKR0NIekhILWIzRzJKdXdrb1pFTUhrUUFtUUM4MUtkV1FwUEgyLVRzNzQyU0dRVk1LQ21kRldXcVJja2FXQkxMZW1kbkI3Tk9vaVRpY1E?oc=5",
-              "source": "Yahoo Finance",
-              "publishedAt": "2026-10-05T12:04:29.000Z",
               "kind": "news"
             }
           ],
@@ -2097,14 +2030,12 @@
           "cik": "0000789019",
           "weight": null,
           "quote": {
-            "price": 535.07,
-            "prevClose": 522.61,
-            "changePct": 2.38,
-            "windowChangePct": 8.66,
-            "windowDays": 22,
+            "price": 540.63,
+            "prevClose": 535.07,
+            "changePct": 1.04,
+            "windowChangePct": 6.97,
+            "windowDays": 21,
             "spark": [
-              492.44,
-              495.63,
               505.41,
               497.12,
               490.3,
@@ -2124,67 +2055,68 @@
               529.3,
               529.76,
               522.61,
-              535.07
+              535.07,
+              540.63
             ],
-            "asOf": "2026-10-09T20:00:01.000Z",
+            "asOf": "2026-10-12T17:19:30.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
             {
-              "title": "MSFT Stock Gains 2.38%, Testing Key: Explained - JournalArta",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2RrN2gyaWJ4dm9OTG40Z2h5a1kzdm1qN2RBNDlUV3ZDYmktNjhsdE5vQVh2d2JmUC04RnJZNWxxblVZVGQwOFdwM3hqM2s2ektnLVdFMHJHX0FjN1BOemxTNDFRdWZqODBlSWc4eHM3UERRV042OVJQRXJPVk5IU1piV1JmT2NHaXFHeFVtTHBsRFZ6TnEw?oc=5",
-              "source": "JournalArta",
-              "publishedAt": "2026-10-12T07:42:52.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Microsoft stock pre-market at EUR 479.78 - ad-hoc-news.de",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRkFiRWt4enp6eTVsdlpDbHlrbTl6cVhkeUdsR0drVVZVekx6VkUxaVY0UzZXSURsMFRINko4Rmdyb05NY19hNURESTFYQ254T2NWbVU5R0w5T0tMT0xYb0h1dHVseURYUTZQYjc3MV9LUnRBTFRXMzYwQXl4QUFLd3VtREt3Q19qQjBGTFBwYlROWDFyY2tIbTRabDNCeHc?oc=5",
-              "source": "ad-hoc-news.de",
-              "publishedAt": "2026-10-12T06:03:59.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Microsoft Is Down 4%. Here's Why I'm Buying More. - The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdEFRVEo0UW9wUGpzUHpCNEM0cmdGeGZLa29FOW9kbGxhRk9oWU9wczlCM29YSEFVbnlDN3FtVnNtN3lnRVFfMTMtZ1BsalNXd1dyeVlsX0hOX1FCR0puQnM4Tm9WallKbTJRZkpRQWNYNWdia1NaanhZSU1EV2RaaTFBSzlMZ1lMemdfT092SDY?oc=5",
-              "source": "The Motley Fool",
-              "publishedAt": "2026-10-12T06:02:40.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "3 Tech Stocks Wall Street Upgraded Last Week, and the One I'd Buy First - The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ1UxY1lUWjQwdmI2VlVLVFZjSVpMbjZ6YXpYQ0lPdWRnR1lIVlAwY0l5eWxfSG11dU02a1RsdFAwYV9CVFJEWHFZSXBKUld2WmhDTFVBZ3BqQXZDZHhMMVZUeW5jdW8wS2sySktGYnBiZUdXZms4VWxBUGZyOHpFQzFRVmlVS2VqbFZVb2VaeTF0WmJtTlE?oc=5",
-              "source": "The Motley Fool",
-              "publishedAt": "2026-10-12T03:30:00.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Microsoft Needs Azure to Keep Growing Faster Than 40% When It Reports on Oct. 28 - Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTzVQZi1KenRsQlg2R1VpckM5QUh0YzN4RDRyRURRekZQZFJTNlk0YWQzY1FwZWpzUUxONVdPWUQ4cU9HckEzRFhrbnBfVDM0UktFZjIxNzZ3STlveHlMQUllbU1VQUdwTFlLbk5HLXdtZmFrenM4RGpua1JNTG9JYlUyZmxFUWw2eVpUNURiMzJTcTlOTXBWcF9xX185UWhD?oc=5",
+              "title": "Microsoft Stock Rises as Tech Giant Takes Aim at Nvidia's AI Chip Dominance - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzZWT2tfclZ6eHlKbzJ1ZjZSNFRJc3ZYVDhJMzRKVWI0SWRaRU5Nc0p0UjVJWEVBVS1PX0xfZ3I0UHk1VlN4MkQ0VjZsMEwwdjROa0FJOEIweHBFQzNvT2NuQnZaWlh4cFo4eXNiYUxsUXRfZV9MQTN2OTg3Q2ZpV3YzZF9US3JWN01EZ2hxajZydUstRktoTnY2cG4?oc=5",
               "source": "Yahoo Finance",
-              "publishedAt": "2026-10-12T00:43:00.000Z",
+              "publishedAt": "2026-10-12T16:52:13.000Z",
               "kind": "news"
             },
             {
-              "title": "Microsoft's Cloud Growth Signals Strong Five-Year Holding Potential - Intellectia AI",
-              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZGJaU1JHelM4U3Z4ZXE0eS1jYXo0aTAwRG1aT3VfZWxLODYxRGFwbWtja29IeTh5RmFtVU9xS0o0TElEakZPSmlJNmV6dGhBTW55WUNhc1VQUDVta2tHdWU1X1ZybXdrRm10UWNQcTQ1c1pZNFh5ZnZRXzAzNlB1UHpVcGdQd3VFTWlTUE5zbzFkcXliRzZ5b05GZXdVN1B5?oc=5",
-              "source": "Intellectia AI",
-              "publishedAt": "2026-10-11T23:28:28.000Z",
+              "title": "Microsoft Stock Moves Higher Monday: What's Happening? - Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQVlQMFNxelRGT08zajBvZkFqSk1OdWhFRDlCXzFOUkdtV25xVjRBWGx6aGw2TFdXZjhXcUlNcU9qSU9JaEpBSW4tY20wUEtxNV9jSkNuMEU2YzFLVUY1LTk5S3JWU05yZDlkaFk0akpFSVlxcFdvcVhpM0h2eGVCbGdEdFBtYXlveWJxUVpydkIxMzQ0dEMxOEtpMjItVE1TWkY2S1lNcGJoSGEza1p4dllR?oc=5",
+              "source": "Benzinga",
+              "publishedAt": "2026-10-12T15:47:34.000Z",
               "kind": "news"
             },
             {
-              "title": "Forget Chasing Volume. Here's the Most Active Stock I'd Actually Hold for 5 Years. - Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdFFfel8yTnBidnZlVE5XZU93ZjQ5aURaZ1c3VnNvQzZRckxUdjdFbVJDUXlKS0pXNU0teHIwNS1nd19ndnlpNUI0c3RFWmNwZzhEMzRBVUhON29RRWFTQnBod1lTWnhqbEhRNWh3UGJlaTN0V2FFQnI1WWcyM3BnWU8xdDl6em9vXzdUZlpMeFpLNHZ0X0dROXdBRFJpdw?oc=5",
-              "source": "Yahoo Finance",
-              "publishedAt": "2026-10-11T23:20:00.000Z",
+              "title": "Why is Microsoft stock climbing today? - Investing.com",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT2oya3FhQWcwWGlveEU4N1R3dUtVcjJqODBXMV8yWXgtY3FtX2ZRTlZjOVhGOTloQzFmWURseENDZGpPejRwcWVUMFZQcjdfMkpPLVlzbE5kZTVmdkxYalZ1eHAtV0V3T0dTNjNmM0kxTGQyTWotSXdXa0dWZVJFUFNMWW5VUkpIbW1JcW9sUlpyeGhfakNlODdsczZ3cWNx?oc=5",
+              "source": "Investing.com",
+              "publishedAt": "2026-10-12T15:42:22.000Z",
               "kind": "news"
             },
             {
-              "title": "Microsoft Is Taking AI Beyond the Data Center, But Its Surface Business Is Just a Small Piece of the Pie - Barchart.com",
-              "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVVR1NURrRUNmSnlIWUNISmdOQ3E3NHl6YTVZRVkzUXJ6QnR3VGh0TnBNbXlyajhmUzlESEh5c0hSMjVCNnJKaDR0SW1DVk9FZDBjN245V3NTaWs5ejdyLWdkeFdfenB0Z2VvcHVKUjUtc3hxN2NiMmgzMWYzMlpuVEkwOHNUYnUxZXVRUkdUQ0g2LXQ1cS0wWWctQ0ltUWlBT0FEaUZOYVc2bTF4MFFidEZ4ZE5LUG1HS19OdjVtbHNGY29zVktkQVo4RHpfcERMbHV5QWhNNkRYMG5nZUxkOA?oc=5",
-              "source": "Barchart.com",
-              "publishedAt": "2026-10-11T20:30:02.000Z",
+              "title": "Microsoft Unveils New Maia AI Chips on a Rough Day for Nvidia Stock - Barron's",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa0xiX25MdWZKcWVyVVUyN013VnRRQkhXRzlqeUtaeHVmc2ExMjVKb1k4bmRWTzFRY0pUQXItRE1TcWs1RUxpSVVvU2Zmb0s2TkRsMVN1cnFYeTlydmlSVUZxOXUweXBobGZrcGU5WUs5ODU1eVBORW95UmpncmZBVg?oc=5",
+              "source": "Barron's",
+              "publishedAt": "2026-10-12T15:39:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "If You Invest $500 a Month in Microsoft Starting Now, This is What You’d Have in 2030 - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVhnVWFqWUFvbDk1Ymo5UXdRaWQ0WG9WZmRKazJyRmJpX2lDOHluN0x1QXFiWXdMeTlwSndPUzFDbVo2T0E2VDVnSnZFNmlqS3pEVXE0eW5nM2dObUxxZUJ1cVkxaEl5ZThON3ZmblBrSW1WNWdNWHJ2ZnpoZ0t1LURXVVo0TDRwU0NOYXlPdW81TmRHMWQ5SXByWFRLb2tPOFVvblY0SzVrZElld04yM05iR2pSUXd1Z0J5QXZYaTk2aFFZ?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-10-12T15:30:00.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "U.S. Stock Market Movers | Reports Suggest Microsoft (MSFT.US) to Deploy Self-Developed AI Chips on a Large Scale Next Year; Shares Rise Nearly 1% in Early Trading - Moomoo",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcjl6bUFyZW5uQlUxMEpTY3VXOFp0VHNhN2cyT2FvNVJGTF9OUVdJaWxJNTVra2RadjdPQTE0LTRKaVR0WEs1Vldydld4WTZCSWRENGh1YjY1M1drRnp4cF9McWgySTUzbjRYbUZoOUhoeGlmVGdxZ1YxN2wyZS05NXcxbTItcXRoLUdHMTRURzI1LUxZbDJ3WjN1UndOQ1M3ZFFzX3MxM3hSUl9LYWc?oc=5",
+              "source": "Moomoo",
+              "publishedAt": "2026-10-12T15:01:15.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Microsoft Market Capitalization Rises Above $4 Trillion - grafa.com",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOODJoLVU1eU1mQUpqX3hhMWpDM0k1d2FmM2lFWW9XQ09sUC1yZFFEYU1UbFhid1N6WGFOZ0tQM3I3WDlaWW5hZkVROTc3dE8xMzVrT3dMTE5wVk1NLTVucHFYV1VFRnlmbldQU0hHS2hqdnU3ODhZWUFOSFk5SE5uUmRkZldsQ0VQMXdYT2NhVWJ2LS1zMUtMWjBR?oc=5",
+              "source": "grafa.com",
+              "publishedAt": "2026-10-12T14:48:35.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Microsoft surpasses $4T valuation again - Breakingthenews.net",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORU9MUjBLMnNxUDRjSnFMeXhRRUlLSHE5ZjN6RnMzVmpObEg4UktiT0IxMUFiWklnWV9PQnhtVTJMaFZNajZfemtNWENja01lMXF1Z0duaWEzZFV3Z3V2RnlqX1pOdEJ2djE0ZkdXS2ZRNWVGajFjc1JmdzFwczFneml1WnB2T1lFZ195emt3eGNDY2s?oc=5",
+              "source": "Breakingthenews.net",
+              "publishedAt": "2026-10-12T14:35:00.000Z",
               "kind": "news"
             }
           ],
@@ -2279,14 +2211,12 @@
           "cik": "0001652044",
           "weight": null,
           "quote": {
-            "price": 351.66,
-            "prevClose": 348.29,
-            "changePct": 0.97,
-            "windowChangePct": 5.73,
-            "windowDays": 22,
+            "price": 351.26,
+            "prevClose": 351.66,
+            "changePct": -0.11,
+            "windowChangePct": 0.54,
+            "windowDays": 21,
             "spark": [
-              332.6,
-              338.5,
               349.39,
               344.98,
               342.87,
@@ -2306,67 +2236,68 @@
               347.68,
               350.5,
               348.29,
-              351.66
+              351.66,
+              351.26
             ],
-            "asOf": "2026-10-09T20:00:00.000Z",
+            "asOf": "2026-10-12T17:19:31.000Z",
             "currency": "USD",
             "exchange": "NMS"
           },
           "news": [
             {
-              "title": "Is Alphabet (GOOGL) Reasonable As AI Spending And Cash Flow Collide? - Simply Wall Street",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQmV2b3RnZnUyN3dxbzN0TVVoZDYtM19zUklNNTdsZ1NMVkRydGpWQ05tZkRsanZuNTdiWkJjS1hwcW03cUFEMDJSbmVpRnpoakFzLVN0U1cwSGpFc0xZS1labV9adV9jRDZNQldOUkxrUmxvUVRqakdTVHN1LWRWMzEzZ3Y0UW5VakdhZkh5ekJOcUZobXZIOG9KSlRBZmpHMU0zZU5XSmNLUTIzbkpyWmdmZnpyVmxVbndvSnlHSkc0OVXSAcgBQVVfeXFMTWdsTDRwamFyd2RUekhRczU5NFhEajhtbzAzR0ZMRGhZejM1R0RTRkdycWhtRmw3akJwVHFra2xGYmpDVHBuRkRqUE9MS0NwMVFnLTkxekpuejg4NEhqWHRaZ0F0X3FYeDdXMHVZYUpHbzNtNnF0ZFZCaDNhREZiY3VEcHl0cGZmUmJ6bnRRZGFrcE4wR1ZDNzJoWTlHZndfWjZ2MFJtT2NWREh4QUo0dnU4WnQ0Z0RMTldKTEdKc01DcEZzNmdXQ2c?oc=5",
-              "source": "Simply Wall Street",
-              "publishedAt": "2026-10-11T22:44:37.000Z",
+              "title": "If This Tech Stock Doubles, Here’s What $10,000 Could Become - 24/7 Wall St.",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTkV3UTg0MVF5aGFiUDItdDBQQTI0QVhMZHZrYnVLb1F6bVIySVY2eFVKM3FtaHowRlV5WmdmcDBLbTc3VjY5a25FRnU3YlpLbFc4SFNBRUZJTjhLcDFwTll1VFdCVUFhYW1Bbk82eGZ3dHkxVXdvd2dUbVd2X1RlWXRnU3RiWE5oOUlRWGdtWDhZWWhtR1R3ZXdMejJjaDI4eWc?oc=5",
+              "source": "24/7 Wall St.",
+              "publishedAt": "2026-10-12T16:30:00.000Z",
               "kind": "news"
             },
             {
-              "title": "Alphabet (NASDAQ: GOOGL) stock price forecast: Analysts see 22% upside - Beinsure",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTV9QSml6MTdaUHJzdThNUG1NaTllZDBPS3gwemUtOG15dWdEMzRjNjlVdUxuZ0N0TU80SVd2bm5mX3pJMjJYblBEanBUcmtaaVJ6SG12STdmQVRORVdLOGxvb3JJaXVrM0R0Y0hDMDdzM1hOY3IxZUc4Z3BzcDdlREN3?oc=5",
-              "source": "Beinsure",
-              "publishedAt": "2026-10-11T19:56:49.000Z",
+              "title": "Google release details on the new Fitbit Edge fitness tracker (GOOG:NASDAQ) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcG9RQVMzdi1UNlFrM0VWSHF4WVpMMk10bHFWbEYteERvSGpnQVMxU2xiaHNqbW1FNEsyRHBrR3dEcDZpdy16Qkhab2xDRERmTEdsSTNUUU1QdnpEemp4N2FjVGd1RW9EN212Rzh4LTBtZ194SzVuOWNMbjBkN2FaQkJ2QWV1RjZTeW1lVDVlQWFzYXJxZUxuNnc0WnZjTDhR?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-10-12T16:01:26.000Z",
               "kind": "news"
             },
             {
-              "title": "Alphabet Stock Is Up 46% Since Last October. Is It Still a Buy? - Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTnpnY2FSMDVmN1JpUXNvemVNUHNObV9HcDEwQXR5MFNvOUQyVEREVjhDVFVfT3VoX0tXck5lemlacEo4Zk9GX25QNEp6bnh5OFBsUHhqaGFjbEVaMHhPVmhPbXl0eno1THFuVUVoT21HclZvVTc4STMzTUpRV1RYckNXaHlxUkdZampKSjI3WFdUTUpGYkN3Qw?oc=5",
-              "source": "Yahoo Finance",
-              "publishedAt": "2026-10-11T14:04:17.000Z",
+              "title": "Alphabet to partner with Flo Health on major women's health initiative (GOOG:NASDAQ) - Seeking Alpha",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSW1qZHNyYmVENDB4Y2NqQzlCZnhUcVA1dWFrd3VHLURzN1l3Z2lOb1N2UG1XVUc3N2w0aEpYNWJoVjh5XzVIckRuTkhYV1lUYmxLV3JFTWRHM1lnMjRIejBBOUtEUUllUHZmaEtVOEVjMktPQk9Kb0xUMWNnVkh5STF1SGdMR2gwYjU1ZDVkUk1waElEcVRuQnlBWHozRU5ibTlIYTJsMXJDWnM?oc=5",
+              "source": "Seeking Alpha",
+              "publishedAt": "2026-10-12T13:47:27.000Z",
               "kind": "news"
             },
             {
-              "title": "GOOGL Stock Dips Premarket After Breakout Week: Analyst Says Google Developing Next-Gen AI Chip With MediaTek - Stocktwits",
-              "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPVW9xZ1RSVnlmM1R6bFVma0lBZzd2bmNObFVsWnhmQnVaNHdEN1FBM2ZZX0JtakFtWEpHazhuUU5UX0FienlVRi1acHVYd2l6U05UQlVkV3ZDZ3NhOG1aekxGTnkxdkxINlJJaEExb1FvMjVKTjZlYnFxdUhyWTIzQWtxSHowYkloYXlESnpEY2hYZEtWMENoVXFVVFpZWlZTaWRudDI0V0pDQURRWFlUcW9OcTNVdE1hYVJGbDh0U3hqUFl0ZlNMbWhqb2RLOGc4QkJsazZsYjV5QmdlM2ZMU3ZVVFF0VTloMDhndHNLMkRpVWV4U2dONDY3eXV1S1dUbnpZ?oc=5",
+              "title": "GOOGL Stock Rises After Gemini 4 Argon Launch, But JPMorgan Says Google Must Reclaim AI Leadership - Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcjJSRG9ZOEhRSERuWlJZSUFBNTZnaEVMNlBmMDJjemhZMFRaNkk5TUwyZG9FXzY2MmZFRXQ3QmhuTU1xV05lYUYwSjZOUURIZkYwUm1MbGMwOG9iMl9FSnVqdzVUZjUtQjMteW91VW9VTjIwQnZ2Nlg4Z3FvSmhSUERuSVNIZF9ENS0yNXlyU2Q2MXFiQ3A0SlFraUpFZEpFM1Iwb3U1SWNwSDluTjc2NHVXMktWMHM?oc=5",
               "source": "Stocktwits",
-              "publishedAt": "2026-10-11T13:10:56.000Z",
+              "publishedAt": "2026-10-12T08:43:38.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Growth at a Reasonable Price: Alphabet Inc - GOOGL 6 1/4 05/15/29 (NASDAQ:GOOGN) Screens as a GARP Candidate - ChartMill",
+              "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUlhfY0NraVpMU2g0b0w0STBIeTBRZklqNUt1RUtXdWdIWTZ5UkpDYmZnbk1jWkF2cWt4eWhtTWZZZWwxa2d5ZU5QYnEwSU10bzFxQTZNTDdIYVFiU3VhQlo4S2kwYUEzNmxpWmdPd25qX2NjQlYxZWUtM3d5RGttdm9GT3BsQVpENGgtbmlydkJLX1FTT01teGVObUIyaGRYQ3hpYUZIem1LOW1tWGphUDZmY1ZsbEowcE9paVdDdTBHRWdVb3BNR3ZvTU05QWdQWkw3NDN3R3l5ZzFlNjdvRURfbFdRclpOOGc?oc=5",
+              "source": "ChartMill",
+              "publishedAt": "2026-10-12T08:21:15.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "Alphabet Inc. - GOOGL 6 1/4 05/15/29 (NASDAQ:GOOGM): A Peter Lynch GARP Candidate - ChartMill",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOHg4azE4d1A5SGpFUzdLb0FEbTVLSkdTcU53c2trbFdhT0hUOVdRSUJ1MFBxem9GR0NGNWVsR2ZkRGw5MjJLdDhDU3QwUHQwSGlLckE0SXlrcEllMmhEUFVQMXAxQ012TkpRd3IwcVBuZE1MSmxPMW1vcW1TWi1sdllNZFpySkR6azljLWF5ZEIxa1hza3RlcXR5WDlLWEh2Q2wtRVVDVGlOYkxzcEpFLVpBZEtJWXl2MGJOTHpkRllOc2NR?oc=5",
+              "source": "ChartMill",
+              "publishedAt": "2026-10-12T08:01:18.000Z",
+              "kind": "news"
+            },
+            {
+              "title": "GOOGL Stock Gains Over 5%: Google Locks Major Long-Term Solar Power Deal With RWE — Retail Sees An AI Infrastructure Play - Stocktwits",
+              "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNdzdiVGMyV2JkbVZWM3c3cTQ1YlFMQUxGOXQ1Wk9YMUNVSlFGWDFhQXBkZzhmWFlUeTA2UGtqUjhSVXJ2bFlvZVhqMGpCZHlFRVhpb2F4TnI0bjJ2bHV2Y1ZobXUyWWRfTGxMS0tNUHhpVl9BS1h5YmwzU3hVMzE2RE5LVk9lNUVaMWh4TndrN3JMNUZJcmFtOHJKWmZ2NDNWVHlXZDJ5ZW1QQU5WYl9ZZEU2RU53YnpHQV9rQ0NzQXpneDFRM19PYzY0Nm52VVU3b1h5T0Jfd0lVZ1UyTTE0b3A3Nld4dHdGZVJLYURDSVBBOV83VG1jdmEzM2hjbkZYVklFaGNCa0JtVF9xZ0wtUy1qQkZhRUw3?oc=5",
+              "source": "Stocktwits",
+              "publishedAt": "2026-10-12T02:19:05.000Z",
               "kind": "news"
             },
             {
               "title": "Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B But FCF Collapsed — Buy or Short? - TradingKey",
               "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXNna0FPVFVzVTBlNUM5NVVCNU9TLVhBazdFMVhkaFpBelZTMHBGV2ZqWTBwdFhwUVp3ajJLWXVaNTZURlFrRlhVQ010NDZzVTFhblZESDlvME0wWkhhemJBaXlyREZDLXhpckVRM3QxUlA2dW1idHlFQkEtT3FlbEdIb05UT1QtOFcySkRlc0pwRzc2Z25JQXE2YU8zS2JvLUh1ZUxEd3c5a2lETlItcXo3UEN6ZnA0c185SjNlN1J1QzI2VkE?oc=5",
               "source": "TradingKey",
-              "publishedAt": "2026-10-11T12:57:58.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Alphabet Is the Robotaxi Stock to Buy as Waymo Chases 1 Million Rides a Week - Yahoo Finance",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNemFSYXZiM2RQQlZ6Wk5uUUFUZUNtQTJMV0VjQXZidXhLenk5UXQ0VG84ekVicVAzTzVTVVdRUWRoWjFYT3RhTk04SEFrREVMV3I4dnNxVWlKdmxyakxKakUyX2VHVGt2MnRyTkdPVHZReHBlN09xdmtqVkswNFlPazE2RU9sWE5VVUtSQTlQLVV1S0JIU0ZnN2FKNmFKSVk?oc=5",
-              "source": "Yahoo Finance",
-              "publishedAt": "2026-10-11T09:37:02.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Alphabet Inc. Cl A Stock Grades | GOOGL - Barron's",
-              "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPQUFkcUZwNXJrSmI4TVU3Z05yQ1lpV21IVkUzbkdiSEgyeWZ6TS1ZelptNHVyeG5yY0ZQbFFBUklVdzNFYnE3YlJPTEdNVlJObEdjYm5aRlAxZXRvWm1GNGxJenAxTUkwTWo5TkdwSUlhdDZZeWx2UTZfRzRDUVlBVEp6bVBWV2NOY25NRVlJSnpGZ2Y1bk9wQ0pBb1pRV0F0R2Zuc2hGdzE2WGdKV3RlZ3JfV1hXcExBb0lxUWxTUTZITkZaZkE4M0szX0VrX3ZKTFpCZHhyQWZMbkRXQm15YVNOdFVvd1JvZ1BsSzltLXRKYnFnZUE4aVhLbFhJQlhUWXExLThuWFpnZ0tBNGRUWk9SR0hjOHc?oc=5",
-              "source": "Barron's",
-              "publishedAt": "2026-10-11T07:16:10.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Alphabet (GOOGL) Unit Seeks Multibillion Dollar Funding Round - Simply Wall Street",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3JjWG1ZQnRoZmhYcE82SkVFcWt5Tk9nS3o3bmJMYjR1ZHItaTg1dndtV0t1NFd0WWxDcy1kWmpYc1B2QU9ONmx2WFoxX2tnaXJKUXlaWWIyeVZEWVlPRDJEQUpkZmFBREVXYkhMXzRlRUxEOVlYd251bGNoVEc3XzllUktjdzdGUmhWaFlwbVI1OWRIVzNLLXVzU2J1aGljUmhkLThwWFlsQmE2cDBSRkZJQlA1OE85ZFpuajN6UE9MQdIBxwFBVV95cUxPd3N3elljZlEyYjliTy1HNVBIXzBhM1JUM0JFekFCb0Y4WjVZVUJrMnpkTHhRT05ZN1FNMDNmaW5wVlFkc0E4OXhlMVpZeDZkcW9leXlRenB1V3laMXdLYS0xYzBWRFlxNHgyZlVCbUVXZkNSMW9TbklhUlVVVzJnM1JCRVBCUFdrNXczQzFuVHE0aWltVFFvdE8tTXNRQ3o4a241ZHprRkJCVS1HUjJ5Z1RKTDFwaFJuQ2ltWm9JVWJfRExaVnZN?oc=5",
-              "source": "Simply Wall Street",
-              "publishedAt": "2026-10-10T20:49:12.000Z",
+              "publishedAt": "2026-10-12T00:49:04.000Z",
               "kind": "news"
             }
           ],
@@ -2461,14 +2392,12 @@
           "cik": null,
           "weight": null,
           "quote": {
-            "price": 715.59,
-            "prevClose": 711.28,
-            "changePct": 0.61,
-            "windowChangePct": 2.72,
-            "windowDays": 22,
+            "price": 714.98,
+            "prevClose": 715.59,
+            "changePct": -0.09,
+            "windowChangePct": 2.24,
+            "windowDays": 21,
             "spark": [
-              696.65,
-              702.56,
               699.3,
               696.2,
               693.24,
@@ -2488,13 +2417,21 @@
               716.2,
               714.34,
               711.28,
-              715.59
+              715.59,
+              714.98
             ],
-            "asOf": "2026-10-09T20:00:00.000Z",
+            "asOf": "2026-10-12T17:19:28.000Z",
             "currency": "USD",
             "exchange": "PCX"
           },
           "news": [
+            {
+              "title": "Own Both VOO and QQQM? You May Be Buying the Same Stocks Twice. - The Motley Fool",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMURZRkR6ZHRuRkcwV0UwU1EwRDhaQWI4TkdNNS1sd2pHMHctc3B6UUFjN0FmaFAwN0ZSSjJTWTdMSjdra0pFU3ZuQ2F4M2tTVUlOTmNqbzhNME50MXkxbmJxZXA0ckI1aG9namg5alhYRU16d0dyUmd0UXJzRnpUblkwWV9uTFAzZWcwdW9R?oc=5",
+              "source": "The Motley Fool",
+              "publishedAt": "2026-10-12T11:41:23.000Z",
+              "kind": "news"
+            },
             {
               "title": "Forget VOO. \"VT and Chill\" Owns 9,000 Stocks and Skips the Lost Decade Problem - 24/7 Wall St.",
               "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa2VBUmlPZlVnT05SQzByUGRiYThFRmxsUkluV3ZPMjF6WnNWQllYNGlhMl9WSW5YTHB5TGFsWk9XVjZGUVh5aC1tbEFXeVI2TXJxNUNRVGxaTGlOY0NDX1ZkbDZnTjdKcXBXV0JrbEFySF9faURhY3RVNHNHdlIwdVRaMjc0NGR6a185MFhITnk5VmpsYlJZQ1NhUHI0VEtieGVUMnZmemZnVEd1QkhSM0NJbllhZDliYzBJMHhfTQ?oc=5",
@@ -2517,17 +2454,10 @@
               "kind": "news"
             },
             {
-              "title": "VOO Doesn't Hold SpaceX, Taiwan Semiconductor, Samsung Electronics, SK Hynix, or ASML. Meet the Vanguard ETF That Does. - The Motley Fool",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZFAyWmdyUXVYVnB0UkVSZ0dSREVrcjV0UFBncUZEOURwdGdVT3NMcDAyc3B5dHZaQWJiSjJCSGlxc0pxZXVLSlo3Njk1UDNhNDJIRFlCMnBOMWw2eXE3SVFJUHZXUnRrTHZRaEhWdjhEbXRoZExRN2ZEYVVaUEdHeFgxTVZMc1lXVXJlN25ETEwxYVlrb3lyeA?oc=5",
-              "source": "The Motley Fool",
-              "publishedAt": "2026-10-10T21:31:00.000Z",
-              "kind": "news"
-            },
-            {
-              "title": "Vanguard S&P 500 ETF (VOO) Price, Quote & Chart, NYSE ARCA - TechGraph",
-              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Oa0hRN0FPbGRYT0NxT0R4a3JoekxGYk5uN2ZUN1JhbERlSzZ0NTJhSFhjQnh1ay13MmpRWjk5UGdJbTZPN3lfRkxJVmZlU05NbEFuZ2haMA?oc=5",
-              "source": "TechGraph",
-              "publishedAt": "2026-10-10T18:53:52.000Z",
+              "title": "VOO Doesn't Hold SpaceX, Taiwan Semiconductor, Samsung Electronics, SK Hynix, or ASML. Meet the Vanguard ETF That Does. - Yahoo Finance",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWThZcmZIVUZBVHVva2RsWWhDdUNFdHI0VUVjM0pVQkQybjFYVHk0QjZsWWliWThKTHdKZHRBSG9obGtMdjJmTlIxTVJnMXBaOFZEZDlGMDFCcU1XQTJPMDd5Tl9jVW5teXNmb2FzeldsWTBDZ1FyRzN6eWgyYUd5enFtRUwxM19xeU9USlJ3QUZfUG9ndExHNkx3?oc=5",
+              "source": "Yahoo Finance",
+              "publishedAt": "2026-10-10T20:51:33.000Z",
               "kind": "news"
             },
             {
@@ -2562,14 +2492,12 @@
           "cik": null,
           "weight": null,
           "quote": {
-            "price": 41.98,
-            "prevClose": 42.01,
-            "changePct": -0.07,
-            "windowChangePct": -1.89,
-            "windowDays": 22,
+            "price": 41.75,
+            "prevClose": 41.98,
+            "changePct": -0.54,
+            "windowChangePct": -2.81,
+            "windowDays": 21,
             "spark": [
-              42.79,
-              43.28,
               42.96,
               42.89,
               42.96,
@@ -2589,9 +2517,10 @@
               44.33,
               43.04,
               42.01,
-              41.98
+              41.98,
+              41.75
             ],
-            "asOf": "2026-10-09T20:00:00.000Z",
+            "asOf": "2026-10-12T17:15:57.000Z",
             "currency": "USD",
             "exchange": "NGM"
           },
@@ -2653,244 +2582,244 @@
   ],
   "latestNews": [
     {
-      "title": "MSFT Stock Gains 2.38%, Testing Key: Explained - JournalArta",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb2RrN2gyaWJ4dm9OTG40Z2h5a1kzdm1qN2RBNDlUV3ZDYmktNjhsdE5vQVh2d2JmUC04RnJZNWxxblVZVGQwOFdwM3hqM2s2ektnLVdFMHJHX0FjN1BOemxTNDFRdWZqODBlSWc4eHM3UERRV042OVJQRXJPVk5IU1piV1JmT2NHaXFHeFVtTHBsRFZ6TnEw?oc=5",
-      "source": "JournalArta",
-      "publishedAt": "2026-10-12T07:42:52.000Z",
-      "kind": "news",
-      "symbol": "MSFT"
-    },
-    {
-      "title": "Nvidia and Visa Have Little in Common. I'd Split $1,000 Between Them and Hold Until 2035. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWmkxZ3hyc3NvajJkQXI3V2pvR3E1V280S3dBMVl6bGh4Zjl2T0hGNmRxakZpVTM4bzZrZEVFbUpOV2RTdUZKcXVOUWJsRERrZ2hYZTd6QU9KNEFTYlRLOW5OZ2ZiNmxUMW5rVkUzQXp4NTl6MmpEZnRqeFQ5ZTBQTE8yYzdnY05FLTRpVTZxRFZhMy1mTFhVWmg2VGRGcGNvaTVmaHJNTGJ4bFdEV2M0TGd0bTM4cGR1QUN5TXpjbmswQU1zZGE3SHhtQng?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-12T07:40:44.000Z",
-      "kind": "news",
-      "symbol": "NVDA"
-    },
-    {
-      "title": "Best Crypto to Buy Now: Bitcoin and Ethereum Face Macro Pressure as Remittix Approaches Launch - TechBullion",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYWhiUHE3Y3RxNFE2Umt6dUljdGJWekhVR0xPa2REeWlUeDlrazdTWEduU1ZDWGk4LUJRUGhqR0pmcU5VTGlKalBTNE8tZURvWE1yT3BIczNBWFRCRFpyYUQtbnI5aTFWX05jQjBZM1pOTzIwa1lBVjgtTGtNM1lia0JMSDZoUE1GNEp1VlFHbXlDb3JWcEJQcjhmUlR0OTJ5bWRkczJvd3NaUGhkcGJSZGpJMHAwMWl1Snc?oc=5",
-      "source": "TechBullion",
-      "publishedAt": "2026-10-12T07:28:54.000Z",
-      "kind": "news",
-      "symbol": "ETH"
-    },
-    {
-      "title": "Amazon.com, Inc. $AMZN Shares Sold by Tompkins Financial Corp - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQVRhUVNTSHRwdEx2ZzRlS29wWDZHd0p5d1hNYlVyR3N2Tk5XVDlKVGhxZXU5SjJUVmpYWE4tckUtVGYtNDMzV3Vtcl9LTVd4VkVuMmVZU3FrSWNSZmxKMExHdVc0T0x5eTBpWTRRM1hDVFRtREc3RGRVUENBR3R2TUpiaU54dXlaWF9YNmVNdExwR29HaVYyWEg0dTUzM2dLR1RXNU5rVFc0ZGh5c2twVXlHYkhEVjd4ZUE?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:27:41.000Z",
-      "kind": "news",
-      "symbol": "AMZN"
-    },
-    {
-      "title": "Amazon.com, Inc. $AMZN Shares Bought by Ridgewood Investments LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTkdqQkZMWUM1cjRGb2xrelpkTHZIaFJ0LTl5aHZSa0JnMmx5Q1hiRndtOEt6ckwyQ0duUExFcjBZclJHT3Zzd0lHdEg3U0twaGZIblNnVEI1c05pN0tzUmtfRDJMRlhNZ2dNRmpvREZoVXF4N3JhcVhRVWlWOFVHRlFWb2lTNlFPZ2IzVkNuMXhFZHJNUXNwVzNLQ29SemRGTFVReWt6NUhTem9KMGpsMzJsMEFNX0VCZFB0MU9HNA?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:27:37.000Z",
-      "kind": "news",
-      "symbol": "AMZN"
-    },
-    {
-      "title": "NVIDIA Corporation $NVDA Stock Acquired by Roberts Glore & Co. Inc. IL - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPckt2dU8wck1hSjYzWG5ENm5uc0FEemxPcXhMeTV6U1lnZ2c4S3dlZHZsZnNlNmI2VU1SVml5a0xLVzUyekZfNXVuWWNhY2dkbS1XakNob0pvdThuTWcyX041SHQ5UFd1VzZSdjlzbG44RlF1SFZMTXBfOTBnX1ZWMVNHcWZDdmIybTV4bnFSeFhPVDhOTUVPOEx4M3Nab1A5V1phUUZYdkE3RDRhSXR6WDF0TVJXX0lUb3RIcUdRRlhtcTF4?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:25:36.000Z",
-      "kind": "news",
-      "symbol": "NVDA"
-    },
-    {
-      "title": "8,505 NVIDIA Corporation $NVDA Shares Acquired by Point Break Capital Management LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMWxTR2JEVXIzVUsxdTVXdmhYMHp5N2RpSmpCZl9BeUVsNmlxel9Zc2NVcDQ2WXNUTTF6T01UbkQ5X1dQcENrODRGOHhHXzVCTVdacFVxLWZNNzFiUUtPdktuREhDRUN2c2t6dHhyUjUtTnNTeG5RSjJXaTJZLXhuMS1IekZTa0wzWVI4RzFZTWVqNDJoRlAzVkZiMmdZdDBHSkxUZlZlVjdTUURJcjJzc1doNk96Skt5bVY3VkVzMGN5SEhKRlB6VUxPc004SlViVU5jeGU4X3F0V1k?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:25:36.000Z",
-      "kind": "news",
-      "symbol": "NVDA"
-    },
-    {
-      "title": "NVIDIA Corporation $NVDA Shares Purchased by Waverly Advisors LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb1k3cEhWUkVZYXAyd1VPOHFBVFVnNm1QQmZaSVR5XzViWTNxUlFNVkZpLTRlbVVmVzFIZmh3bldZZ2pDeFA5c21tdEYzejlGMGtyUy10Tk1XVEtHcnRLNWF1MWZkNmhFZ0NveXhHNWlNQV9WRTBBVHkwc1dnX1lLdkxpazhxNXQ4b2JEeHFWdzV3Z1dXOUNUTENLNUpnMDBsZWxmVkkyMmphZlBDT2kyUXY2bVdKY0tsVzZVYUVLQUxwT1U?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:25:36.000Z",
-      "kind": "news",
-      "symbol": "NVDA"
-    },
-    {
-      "title": "NVIDIA Corporation $NVDA Holdings Boosted by Windsor Advisory Group LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNlVCblJwajVhRGFvOFVhdllpQk80anJFU3U4dDltUWVqZmVoRDlJbGN5SHJLR0VSNDd3WTg2V1o3MHBCMWdYZ09SZ0hXN1NwdThDamx0eWxoR0Y4dW1kZGNhSGZtOVUtdmg4QV81b1ppZVJ2REVTcGtUbWN1d2E5ZEEtMGdLZFYwMDlHZDFQQ0g4aGlDXzJyUnRRMXFvVTNBbHJDVzZkLTFRaVI0SV8wMzZnM3dickRjRG52c1JfdEk4UUMxV2pvc1FDaw?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:25:36.000Z",
-      "kind": "news",
-      "symbol": "NVDA"
-    },
-    {
-      "title": "Port Capital LLC Acquires New Stake in NVIDIA Corporation $NVDA - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcGw1d0MzRFp2YVkzTHdIc1VfajFfVjR2TzBHNDFRd3Y5UkdCcjB1Nk5OWEdKVzJVTllRR0lqWmhhMHcwYmlQU1pTa0JyM19MbVBQcXB2MUhEQloxTTFQVHhNTUFWN1F6ZkFuTVBzbThkS0VsSGI5QTlGTTdwYTdBSmRfRVpuTVZNbGpWYUNFVzlZWWI4X1dCU2E3Vlc2UHR3NW4tTEhoMnphcmROY09oNXFEVHI3U0ZFQkJaaTZmUi0?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:25:36.000Z",
-      "kind": "news",
-      "symbol": "NVDA"
-    },
-    {
-      "title": "Rational Advisors Inc. Sells 6,077 Shares of NVIDIA Corporation $NVDA - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVmlBRkkzZ3hwUEtlenhFaklPQXV5eFgxY3hkcHRUXzdBSHpnUW9PM2ItbHY2VHBqdnBTandQLXJDWUthMV9tRzVRMXRfTXdPY1NJVGtYVDgtRmNqY1RTWDFGOFhDS3laTnpud1dqX2l3aDhYSURqN2FlVVhvekFaNThKTFZyMGJTUnFqYVRpcHY5RDZZeDVZNlBjLVJudzNMYlNyY2FzdkZ1aTlLS2JMdVRQYU16dHRmcWpHQzlIa3FxeWFibXc?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:25:35.000Z",
-      "kind": "news",
-      "symbol": "NVDA"
-    },
-    {
-      "title": "NVIDIA Corporation $NVDA Holdings Increased by Strategic Global Advisors LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORlRHd05lMnlxVlNjREE3dlVpaFk1ME0zems2SGppMVV6ZGV2bkNWX3VOcmpOZFlpVjBxcVJjcW5nQy1FWTdQYWdxNlpCOTN5ZGl2RUtSQmpUVHh5ZTB1cEZ2dzFrNEF1MUhKTTBTc2RZVldRLXo3SFpYR1hWZzlONy10NU5WV2hyeDgtQVhORmFQeVRmNXJ1M3F5bTJzY21pbTZkVlE1NFA4ZXN6cE93TEE0UEJPRVpGTnlwYUhTbW5rN3ZmMVo3bVY0NmNaeHFESXc?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:25:35.000Z",
-      "kind": "news",
-      "symbol": "NVDA"
-    },
-    {
-      "title": "Amazon.com, Inc. $AMZN Stock: Congress Asset Management Co. Raises Position - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUV9SOXNmOGthWlZ1cjFuRVlDajlIYUpPQmVLVFpFU3pmOWV3eDNUQl9BaXAzNW5iTGpqU0FYQ2V0TFpIZ2c5RlplS1JySEtsYVJodk1TcnVlWFVjQWF3elI1OEo5bm94UkQyUldfQ1JQTmduMnRWTWFvUmY1V2tLWTdKamRVNEZqUHUwZ291ZVdVb3g1U25WWWJEVXdKQTE5bGU3clBfSlpNZVlZdlFrbVVIeGVpOVFpeDdka2x3VTFfQ2VpQmxnZDRB?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:19:33.000Z",
-      "kind": "news",
-      "symbol": "AMZN"
-    },
-    {
-      "title": "2,648 Amazon.com, Inc. $AMZN Shares Bought by Baker Tilly Wealth Management LLC - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTThJSl9EMGZLVUI4UHdacktSVDM2VW5tcEctY002c3FRZEp1Ylp3LWNhQjB5RGRHWUo1dFc3ZVF3RUh1ZEw5Q0ROMzNEd05IM1lmUk5sQU1STHBnOU03WHlGaFRZOUd0YWR5UUNSVU5fdkcwNHh4alVKMlhaVGV3ZElESEVCS19TSU9YZXJLeVhwZkdqNU9DWjV5WnBkcDRMcThiYTZOQ3JtYV9yMURqd2dVcGtmYWhMaHUwU2JyUWtScGFyZHlGanhQbkgtczZa?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:19:33.000Z",
-      "kind": "news",
-      "symbol": "AMZN"
-    },
-    {
-      "title": "Amazon.com, Inc. $AMZN Stock: Central Pacific Bank Trust Division Decreases Position - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZGZ3ZHd2cnI4M1FXQmdRQzRkZUE5TnVqNjJ2QjE5OHhxbEFKSGFLeFFkTDh3SE1iRnRvOGlvYzJLaWIwYzBYNVk1cGc4ZXY2SU9RaXJyM1JicFFrS3oxeU9zVzVaOFc4SURpcHB4YXJVdXg1ajNlX3hBSGJGWXFzd0kwUXNrYUp3QnNETW5IOTNSNWUwMDBiTWVxdndLd0VvajRqTU11UG5DSEg4djljWmpvZXpOUHFyeUxKMVJrZW5XaDFfanNZcW9vVUhqQnNxb1BHUWtkaw?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:19:32.000Z",
-      "kind": "news",
-      "symbol": "AMZN"
-    },
-    {
-      "title": "Amazon.com, Inc. $AMZN Stock: Eleva Capital SAS Boosts Position - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaEp5eDNxMFR6QzRLNDBPUlZoU29TX0tpdE8wTTlRU2ZEVjNmcFl2SmFaUHpaWDVIbTYyU1E1bXQxWGdRbUdhVXdPN1BGUDlIZFQ5dGRDQkhPblRSVkM5VlNFalB6NUd2Um83T3dJRE4wdjd6dE54RUhJNG43elZBSVhSd195Q3RGbDVOU2NWOEVCc1RSS0Uzc21jbkV4UE1VRFR3ZktuLXRkMkpleDJvUk9oTnFLQWJ1NFRz?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:19:32.000Z",
-      "kind": "news",
-      "symbol": "AMZN"
-    },
-    {
-      "title": "Amazon.com, Inc. $AMZN Stock Holdings Lessened by Lakehouse Capital Pty Ltd - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLUU2MUJQOXp5RVFlaFByazlycWpkSWdiM2lxejJySjZzWVlWNGZkVEhUc2thblc4TWdYM2psSExxTnEyWXNvdGZqd096ZjMyM1pjUUxGR2MzaFdhelNLSEtvWVJZajR3dkpLOUdjQ2JObDI2TllKdEJHaGRQalhYdUxtNXYtQ3JoUnFvbU5WdDNaUE5QejVLVEthS2RvZm1QMzRlV29CMk90UVotTHBtOWdtSnRHMjFjeGQxUkYwall4bDJOWS1UdkJRSmE?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T07:17:42.000Z",
-      "kind": "news",
-      "symbol": "AMZN"
-    },
-    {
-      "title": "SoFi Technologies (SOFI) Could Be 6% Undervalued On Its Mexico Crypto Card Push - Simply Wall Street",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWTM5MnM0aVhROWlLaThYdTZUREZWX1NlaFVibTZreEl1VGFCUXBadEM4QnV2d1RsbXdheGNGTExCTEFKTTI1YTdrUThmMjJWVjJLM21SRWNtc1Y1OTR2UFE2enFyV1I2SjZoS3ZjZ3l3NUtEM3VtOTVnUDVmeTZZWXM2NTdZODRMaVk5SVFEZG1JMnhLMW5UdTVOanBESEtsREU0OWliaUpWYTJUNmJSUXI4VGtCOVREbjNMQ3lySk1DZGE1eVZsemJoamdLV012NWh0RU93UHhvdC04TWFLZkl3NNIB6AFBVV95cUxQSGNidmxEdWwxUGlqSFFtaFJJa2hTR3l3d2tQWDBwZmJjR0p3TUkwUjlnUldEVENEQnFWTWNWZGFnN3BGQmdyWE9MazlHWlplMW5GM3Y2UjZYbGFOdEs5S0Ixck80YmxrUEJmd1JSMHJEQ0U1cUY0aGQ1MGs0TjQtQnJXaVhlQS1MUmQyOFpXdjE2WElMODRUenNUeHkycWFIWHQzZW9qams5VVlHU19DYmswMnVhYy1FbGdDQnY2emxnbHFZTFJyRGtkVWl2N1ZfVWlaYzhmdWctLW1OS1FkVkNRaThHaV9G?oc=5",
-      "source": "Simply Wall Street",
-      "publishedAt": "2026-10-12T07:07:30.000Z",
-      "kind": "news",
-      "symbol": "SOFI"
-    },
-    {
-      "title": "XRP and Hyperliquid Price Prediction: HYPE Holds Near the Top 10 as Remittix Targets Its Exchange Breakout - TechBullion",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZGlmcjRaZTItZmNrazBiRFlORHI3T2ZwUHdsLXE2R3hVd3hpRUpTejJYQkl4V3RhVnR0bTVLREp0Vjc1NUZRWmJHLWNKSjdCazFxRVZIeGdVekxWLWlNRkxUendaQ284b25WNzA4X3VHNFB3RUFnZWt2QUNQVGlvRExJY3BGdzBQcXpZc3dYbTNsLXZEOXZiRnNlVEtCUTVrZy04RnJfTlV2d1l4UHoxYmpSNmphYmlBU3FUTjVSX21JSkFUcjBwNld3?oc=5",
-      "source": "TechBullion",
-      "publishedAt": "2026-10-12T06:29:05.000Z",
-      "kind": "news",
-      "symbol": "XRP"
-    },
-    {
-      "title": "Fermi Inc. (NASDAQ:FRMI) Stock Has Consensus Target Price of $20.67 According to Brokerages - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOODN6dnd0djZUcVZQUmM0aU5RRFNsMXdORzBKTTZramdFMzRoUUxFY3NGdU1uWDYyMl9ES0xWZUc1NElVQmdEZlNWQVlxdUpwSUpIQTNmT1ZZVkxPdE5UOHZuZjVRNE5XVVdVWTlkaEFTNWxnSU1lblAzMVZPVjVkbW83NGNiRnJqMG5RT010WE95aENFcHdVeTlnRjRZUGR6QUtmSU5vc0VvWkROdTZIeHd1d3VQQlp1bVBZYmJuTE1fcURsUXRWR0pJWktKSjFFNEZQbVpnRTdWaWU5N3dpbFJFcW4?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-12T06:21:13.000Z",
-      "kind": "news",
-      "symbol": "FRMI"
-    },
-    {
-      "title": "Robinhood Markets stock pre-market at EUR 98.70 - ad-hoc-news.de",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQal84MDloZmx6azZnMlF0eERuTjF6Z3BzWFFmU2I2OHFxRXM1NXN0Z2VWQUd1dWV4cWNmU08xMmVfbVptREJXM0d4SzdvbEh2VHpMaFhRLU44Uk4wN3poWlg5Zl9raTZ2cGJEb3RtSXhiZGxNWDBBemoxRkZ3UUFfenlrWHdRek1YRGRJUGhBWUJFUWpLX3AycHVYZkdTal9MMU1maGVmdjk?oc=5",
-      "source": "ad-hoc-news.de",
-      "publishedAt": "2026-10-12T06:09:22.000Z",
-      "kind": "news",
-      "symbol": "HOOD"
-    },
-    {
-      "title": "Microsoft stock pre-market at EUR 479.78 - ad-hoc-news.de",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRkFiRWt4enp6eTVsdlpDbHlrbTl6cVhkeUdsR0drVVZVekx6VkUxaVY0UzZXSURsMFRINko4Rmdyb05NY19hNURESTFYQ254T2NWbVU5R0w5T0tMT0xYb0h1dHVseURYUTZQYjc3MV9LUnRBTFRXMzYwQXl4QUFLd3VtREt3Q19qQjBGTFBwYlROWDFyY2tIbTRabDNCeHc?oc=5",
-      "source": "ad-hoc-news.de",
-      "publishedAt": "2026-10-12T06:03:59.000Z",
-      "kind": "news",
-      "symbol": "MSFT"
-    },
-    {
-      "title": "PLTR Stock At Record High: CTO Slams Report Of Maven Role In Iran School Strike, Retail Bulls Embrace Wall Street Upgrades - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYnhQa3BYMnF1RXZFUks1Q3hRekhjR2xvY1VHVjRwVDlsenhiMzhSYW5kZkhScEN4Vzc4aVFBS0pMRVRyQTVJV29VZ1lIYnEydHVIeWdneUZRVXdkTlcway1iWmlwMVpKaHVoa1VNQTEyc0xzeGNUM0k3eWU0OWN6NFZaaGhLbVhYOGNDbUtrSnNNZGpIMXc?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-12T06:03:00.000Z",
+      "title": "Palantir Stock Gets Price-Target Boost. Cheaper AI Could Fuel More Growth. - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaTlUTkVrei1iOTFPTXhURlZuSlVNZDN5djFacVBJYlFmQzVyMUV1NnJNZjBFNDgwUnNtQjIwcnROVDJjdGV0N3JjamdDTExuVFNuT2QyTURxWXlHQkE3Z2JFdDg1YjVCVDEtZ05JZW0wRkFUWGNFeWU3SUVfaEFaWk91b1IxUQ?oc=5",
+      "source": "Barron's",
+      "publishedAt": "2026-10-12T17:05:00.000Z",
       "kind": "news",
       "symbol": "PLTR"
     },
     {
-      "title": "Microsoft Is Down 4%. Here's Why I'm Buying More. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdEFRVEo0UW9wUGpzUHpCNEM0cmdGeGZLa29FOW9kbGxhRk9oWU9wczlCM29YSEFVbnlDN3FtVnNtN3lnRVFfMTMtZ1BsalNXd1dyeVlsX0hOX1FCR0puQnM4Tm9WallKbTJRZkpRQWNYNWdia1NaanhZSU1EV2RaaTFBSzlMZ1lMemdfT092SDY?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-12T06:02:40.000Z",
+      "title": "NVDA Stock Falls to $225 as Microsoft Chip and Talks to Invest in Reflection AI Raise Debt Fears - FXLeaders",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQi1kRFM2TlhPWllzeE9LeGdRNGF0V1VROGNqOEtCM2JraDB4N2xta1czaE1ZeE9MRzljZlpfaUdSTFdFV05vM0JodkZibGh1MktvcHBhdkR0VWRjZEVaeUN4QVFydzhVdFJmYmlsM3Vsb3RFS21qTHhvdmFDUGJYTEpuNVRFV1Eza0l5Qk9MVF82eEozb2N1dk02dGdSRVU5NElMd183SzNKQjlYSXF1amFXaWdyZWxQcXh1Y0xZVy1vdjlKUUxaNFNEdmhvcEw4TVRseA?oc=5",
+      "source": "FXLeaders",
+      "publishedAt": "2026-10-12T17:02:45.000Z",
       "kind": "news",
-      "symbol": "MSFT"
+      "symbol": "NVDA"
     },
     {
-      "title": "Ethereum wallets move $11M to Kraken: Is a sell-off coming? - Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwZlVXNkV2czJoMl9iM1lSZWpaeGRjTnVSUTlnUE9CQTBZdjg0dXF6MUNlVzMzOHRSX2NORTZTTkVDdElpM2lJVjlPbnN1MVdWVlZKVDJPQ3UwUQ?oc=5",
-      "source": "Cryptonews.net",
-      "publishedAt": "2026-10-12T05:51:20.000Z",
+      "title": "Palantir Stock Gets Fresh Wall Street Vote of Confidence - GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTWZRN2ZqbnVEUnotS3k0VUwwZDdzd0lVZ0puWTRXNThYMDVNX1hwTlFwX0VUT0l1UzZmbG9MNE53dWh4YjNXLXYxUEVwX1AxT25MY0pGZER6N0ZBaFdKdk00bjliWnc0SE1xeGVTSXN0NXV6NlNnM0NBaks3bEl5ZldBTHI4VjBiRjJTODRjcWVnWHhpZDZwRUNHSQ?oc=5",
+      "source": "GuruFocus",
+      "publishedAt": "2026-10-12T17:02:38.000Z",
       "kind": "news",
-      "symbol": "ETH"
+      "symbol": "PLTR"
     },
     {
-      "title": "Bitcoin, Ethereum Struggled Last Week, But This Token Doubled Its Market Cap in 4 Days on Layer-1 Buzz - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQamtJMG1NdE9tVmV3bzIyMThwb01sWUlsLWVPQ2NPRmVTUzRic3ZaTG5TbXpxQWNTcXdWQXpNZ2pzY1V1TTFXN05pM3JXTklLQjVnRDRYRTFiYUNMeG5XR3E1S1lRS00wRzFSYklJZFJ2MEF4WW1NY0xJSk1uM0N2Q25QRnpWeUpNLWdPNTYzeFRqTDdLRUR0dWpueG1mMGtjS1o0cGNDLW5YZHlZLTh1Y2xYMW1qQUhZX05yWHNPZ0hLcmlXOTliSUV3?oc=5",
-      "source": "Benzinga",
-      "publishedAt": "2026-10-12T05:38:24.000Z",
-      "kind": "news",
-      "symbol": "ETH"
-    },
-    {
-      "title": "Ethereum Price Prediction: Will ETF Selling Push ETH Lower as Remittix Approaches Its Final Price Stage? - TechBullion",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdVJGTjl1NG9ULU1RTFhIenVNb0oxZ1JrTmxzZEdQakQ3SUVSb3Rhb21sWWxydmYzYWxUMzZ3OU1uSGdVWTJuRDVVZ3dwNF9PQ1JxOVZkM1h1aG9nOGZTeTE1akNNMC1nOEVJUjJGNEFzbGo4cFlnU0NIQmRHajh6dkFRNFZWM1lkTWRsSjVJeGdUaUZ4NmV5akhyRmhtZDdpY3RCVmFGbVV3U01fMHd1OEhiVXhjUGhGckdKYkRjZlZoa2hRZVE?oc=5",
-      "source": "TechBullion",
-      "publishedAt": "2026-10-12T05:28:53.000Z",
-      "kind": "news",
-      "symbol": "ETH"
-    },
-    {
-      "title": "XRP Price Prediction After New ETF Inflows: Could XRP Reach $5 or Will Remittix Outperform? - TechBullion",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZFFVcXVVNHI4cFV5ZVViakFkSGlLNjhGcTlzUm9IVEp4MFNlWGlEdXNPNm16cENvcmFlZl9vb1RGeU9tZHVjTldHeENpM2V4S3ZMNkZSSDM2dDhmcTNfZUc2c0NTT2FHdW1CWFhuRFNTTkV4ZlphazZsamR0S2N0X0NxREJOQUlQN20ta3RPV2F2WlA2NmVOT2VEeWxDejRNNXNJMlZWSkFfaGlIUE1qUFMzbw?oc=5",
-      "source": "TechBullion",
-      "publishedAt": "2026-10-12T05:28:53.000Z",
+      "title": "Solana Beat Bitcoin, Ethereum and XRP Over the Month and Lost to All Three This Week. One of Those Streaks Is About to End. - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNV21aVjJTTW9QdFhZbkVsWlB6YW5GYTN0alBQLUw2NlI5OUkySGZNdGxYb0ZwUEc1QnFqaHpNOC1ha3JRWW83RndManMya29SdnFfbzR3Z0M4ZkxmRWt1QXdxZFhGNnR2N1VaczdkVGZYaVgwTTVyZTVWVGRKay0zemlEdkNCRU43N1I4VjJ5d0R5eDl2Nmk4aVdZc2pJek13eElPZS1HMU04NEUwMElOMHNFZWx3V281eE1qbHA4WTF6UE54bVJXYlVSTkpYM2RCWXJ2bzNaMHVlRkl1cFFmREVydTd4Si1Id2loNVBIWlRRdFBUbWI0d2NYMDdDRnpUQVpJVnhOb1lSQ1E?oc=5",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-10-12T17:00:00.000Z",
       "kind": "news",
       "symbol": "XRP"
     },
     {
-      "title": "Ethereum Needs To Double By Year-End To Reach Tom Lee’s $5,000 Target - Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvWDdjYTVJVWRBNGY5VTIyUTZZcTU1WkY5dUlsTXgzZ1I2ZVFPZ3otbnE4Yjg4RFRPdjcyM2JrM3NORjdwQTNacTVmb3MwZU0wdWlhZEtRVm1fcTRHbDJvajdsYkdqWGxMU1dF?oc=5",
-      "source": "Yellow.com",
-      "publishedAt": "2026-10-12T05:20:39.000Z",
+      "title": "NVIDIA Tokenised BStocks Slides On Bearish IMF Report - MarketForces Africa",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQnhkaUdyY0liWHg0VkNQcUJXalpKbWdHZHY5RW5uei1IdXR0OFVSbWk2YmNGZnpnN1ZPeUk0WnRvdUlKUG02N0FfcjVrY0JnbWRWU3FHOEtSV2sydnpFblRxZzhfU21LTXlGUEl3WS1HQVQySGRDcnZtS2VZbW4zSGo2cC1SbXM?oc=5",
+      "source": "MarketForces Africa",
+      "publishedAt": "2026-10-12T16:56:49.000Z",
       "kind": "news",
-      "symbol": "ETH"
+      "symbol": "NVDA"
     },
     {
-      "title": "ETH price range on Oct 12, 2026 at 2am EDT Crypto Prediction Market - Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeHF1bFp5QlAwN3FSLXdFOFhUNXJQMWJSWXJnWHlxY0M4Z3JPQ2M4alZvM2o5X1pEc2tHdDh3enNXOGhISTllU3d6VU5nVDZzSWx5WjUyVS1mdGNxMEJnVnpZOUw4ZU1uTDVNT0QtNjg1OFp5WDNTNEgwUGwtSjFsSlhHTTk5RmEtdmxwTzROM1FTN1NUNF9oeGFTdnM1MEZpaHZYUFJHci11WkhHNlBJZFVURzZBUQ?oc=5",
-      "source": "Robinhood",
-      "publishedAt": "2026-10-12T05:04:43.000Z",
+      "title": "Gorilla Sinks 9% as Data Center Pivot Keeps Selling Off; BigBear.ai Dips, Palantir Slips - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQ0Y1by1IUnZlMjNfRXA0bko4Z192ZWRuQnc4czRPSktOMzRKWG9IeGZFb0tOUF85Z3RxQUs4aXc2c3hLRUZnSHlkZ0ZlbGxFTWJaQnM5d242eDdpUDlMaTJ5bzNyeWJHOVZ0RXk1bUNIMmtheUJFZ1JaYWlLMzVVcWJIcUdwNkozVXdLS3Z0Tmg4aEdEckpBaHdONFFlWmVZMTA3eE41eWhzMjBlTEJXQUVVTVdic0N0TDN3bTJSMzdXSlJNck5lSg?oc=5",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-10-12T16:56:00.000Z",
       "kind": "news",
-      "symbol": "ETH"
+      "symbol": "PLTR"
+    },
+    {
+      "title": "Microsoft Stock Rises as Tech Giant Takes Aim at Nvidia's AI Chip Dominance - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzZWT2tfclZ6eHlKbzJ1ZjZSNFRJc3ZYVDhJMzRKVWI0SWRaRU5Nc0p0UjVJWEVBVS1PX0xfZ3I0UHk1VlN4MkQ0VjZsMEwwdjROa0FJOEIweHBFQzNvT2NuQnZaWlh4cFo4eXNiYUxsUXRfZV9MQTN2OTg3Q2ZpV3YzZF9US3JWN01EZ2hxajZydUstRktoTnY2cG4?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-12T16:52:13.000Z",
+      "kind": "news",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "Microsoft Stock Rises as Tech Giant Takes Aim at Nvidia's AI Chip Dominance - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzZWT2tfclZ6eHlKbzJ1ZjZSNFRJc3ZYVDhJMzRKVWI0SWRaRU5Nc0p0UjVJWEVBVS1PX0xfZ3I0UHk1VlN4MkQ0VjZsMEwwdjROa0FJOEIweHBFQzNvT2NuQnZaWlh4cFo4eXNiYUxsUXRfZV9MQTN2OTg3Q2ZpV3YzZF9US3JWN01EZ2hxajZydUstRktoTnY2cG4?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-12T16:52:13.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "AMD Vs. Nvidia: If You Can Only Own One to Finish 2026, It’s This One - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQVFaZWZDaFZUTGhVMkVnV0ZtRnZVcmptbHJxbUtzRjFWSEpvLTdoVnZsSUoyRGtWdU91a2t0VlU0czBtaEdueWwyYWF5U0NtWnlxWGJWc0JYc3BFVlhBMVppTzM1c2p5SlpjSTNnbDR4SF8zaHFOaVZZbmFfc1FXcEFtNk1TYjdYbEdOdmxBcHNLQVZocUpQYk1JZUNfcW1ZZ0NWajU3NWljdWN6amc?oc=5",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-10-12T16:45:00.000Z",
+      "kind": "news",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "Palantir: Outstanding Execution, But The Current Valuation Demands Exceptional Growth - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRlgyU3NEbU8xSGFCZXpYZzJJYU1FandINFU5WkNBY1E4LXgwWDlMZjh0bXZkR040VXFIX2NKYThoMGVzMVFBeUNjeUtrU1NUYXJHbmlIdzNuMC1NUW9yTzBjWFR4NFBBZVA2WEx6QjkxenlobGo0d2pPT3Q3a1NjZGZvZC1heHNNQmUwekVYN3VqcGJ1QXhoZktrTEh0VGZ3NWVDd3hWd1RjX0ltY2I1VE9GSjhlcGd5Z1BqVE1HNnBjZw?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-10-12T16:39:25.000Z",
+      "kind": "news",
+      "symbol": "PLTR"
+    },
+    {
+      "title": "If This Tech Stock Doubles, Here’s What $10,000 Could Become - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTkV3UTg0MVF5aGFiUDItdDBQQTI0QVhMZHZrYnVLb1F6bVIySVY2eFVKM3FtaHowRlV5WmdmcDBLbTc3VjY5a25FRnU3YlpLbFc4SFNBRUZJTjhLcDFwTll1VFdCVUFhYW1Bbk82eGZ3dHkxVXdvd2dUbVd2X1RlWXRnU3RiWE5oOUlRWGdtWDhZWWhtR1R3ZXdMejJjaDI4eWc?oc=5",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-10-12T16:30:00.000Z",
+      "kind": "news",
+      "symbol": "GOOGL"
+    },
+    {
+      "title": "Cryptocurrencies price prediction: XRP, Bitcoin & Cryptos – American Wrap 12 October - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZGZQVWFXTFVZeHpEMGxTa1ZjNDlPeDVkclhMYlg4M0FTUzktOGVCVnAySzIzcm84VnpOLU1vTXhzc0pBdklQWW0xTXpKbGFUeXhKWFV6Q3FRTW5sOV9CT2dTSHlMdTFtc2tmZzViQkNPVVdvTlYzWmRHQVVsU0F2cXlOUmd3cmFxTzczUVdpNUVoSHY2ellEVEE2ZzVYNFRKOUg1eUxoOWcwVXFjVFFILVczLTN0ZTFkc0dBZi1kUmdpc2pGbGdtRkFfS1ZLdmJha0QxUQ?oc=5",
+      "source": "FXStreet",
+      "publishedAt": "2026-10-12T16:26:05.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
+      "title": "Nvidia Falls Back From Record High. Its Stock Chart Offers a Warning. - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOejVzVFN5MzdQZlAybkJUWldaVW5Db2lsbUZZeHF6MW9mdkxVYl9JSE5iZFpmV1R2NlhiWmw3a0M4RFRjNW9uV0V0OVZqSXRYUDBRamZCdk5EYmZpMFlwbzZPVUFJc2ZvZ0RmVXJodEJoMHRwZkFjVk5uVC1OS3dpdmZRSnQtX2hncndRQQ?oc=5",
+      "source": "Barron's",
+      "publishedAt": "2026-10-12T16:23:00.000Z",
+      "kind": "news",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "Ondas Wants to Run Pentagon AI with Palantir-Powered Regna AI - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU2hhWFR0YUZra0JxYW1sNzNvSzlGMEIxRmlQbGRvYWU3RTVJLUwzMXhUWTF4YVl5aG90NkhmMTBVMnhfQjhqdHhUWWJIOTBqV0RrZGluTDdTY0Fzb3FsZ2R4ZE45dF9mYnlTWk9ZZnIzYmVURFAtTDB5M0x4dHpNSzB0bGpfMGxjeF9ocnFhcDgzeFp5Z1huekhQbDF1WkNFYm93aDdFU19zb1BsU0dhTFZEZE8?oc=5",
+      "source": "Benzinga",
+      "publishedAt": "2026-10-12T16:18:50.000Z",
+      "kind": "news",
+      "symbol": "PLTR"
+    },
+    {
+      "title": "SoFi Stock Drops: What's Going On? - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZnpod3YzanY3US1EdHZsQXFHenotd1ZvQmJxd0JGUnFJQmNEMzYyYjViVnVuZFhueFJSTTlqeHBzOS14TERjSHRFRU9aRUhkTFFOSXpZazUybUticUZJLWpsSjRUcHFIdVd2QUpoUW1FbXdRekNWS1U3aHk4RTdKUzFnWDZrM19WS0NINktlbkFkYnJfbWI4?oc=5",
+      "source": "Benzinga",
+      "publishedAt": "2026-10-12T16:15:58.000Z",
+      "kind": "news",
+      "symbol": "SOFI"
+    },
+    {
+      "title": "D-Wave Quantum Sinks As Earnings Miss Spurs Jitters - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTjUyamdiZ2VnOTl6UXYxbnFJTWVhZDU2T0xtVVNweG9xc2FCMDZ4Q05wZHdxcnZjb2ZMQUlfUmhnS09SZU1pVWJ6Wk5HNUNmWjRFeGxGOXdxRVhKd3FPREFEUmRPV1BqMkFzb2JXYjNwaDJndnhzNUNaYmREUFc0Zl9YVUVHS1l4SW9pOFJxOEtHLXhm?oc=5",
+      "source": "TipRanks",
+      "publishedAt": "2026-10-12T16:14:28.000Z",
+      "kind": "news",
+      "symbol": "QBTS"
+    },
+    {
+      "title": "Google release details on the new Fitbit Edge fitness tracker (GOOG:NASDAQ) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcG9RQVMzdi1UNlFrM0VWSHF4WVpMMk10bHFWbEYteERvSGpnQVMxU2xiaHNqbW1FNEsyRHBrR3dEcDZpdy16Qkhab2xDRERmTEdsSTNUUU1QdnpEemp4N2FjVGd1RW9EN212Rzh4LTBtZ194SzVuOWNMbjBkN2FaQkJ2QWV1RjZTeW1lVDVlQWFzYXJxZUxuNnc0WnZjTDhR?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-10-12T16:01:26.000Z",
+      "kind": "news",
+      "symbol": "GOOGL"
+    },
+    {
+      "title": "Ethereum, XRP Could Drop Another 10% Before Real Relief, Trader Warns - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTTlJb1RWSUJWS0FDbjdmQ2thVlZna3hkRXI1RFYxbVJIYzBEYnZmQk40cS1hZGt0ZjN3a3BOeXVhOTMwcWdsVndoMUZQWmI4UEVpUVU3cnlnTS1LY2FZbFljUUl2Wjg3WXdoQklzSHJHbi1QQ1ZydU10WlAwejNYR0wtaDUtM19TZlYydWJGal9KRFJIaUJxeGVfSC0yb0c1SHlTU1RUTTBUVU5HaV9haVFBYmlGQmRZcmYzNGhhTXRfcVdoUmpB?oc=5",
+      "source": "Benzinga",
+      "publishedAt": "2026-10-12T16:00:13.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
+      "title": "Microsoft Stock Moves Higher Monday: What's Happening? - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQVlQMFNxelRGT08zajBvZkFqSk1OdWhFRDlCXzFOUkdtV25xVjRBWGx6aGw2TFdXZjhXcUlNcU9qSU9JaEpBSW4tY20wUEtxNV9jSkNuMEU2YzFLVUY1LTk5S3JWU05yZDlkaFk0akpFSVlxcFdvcVhpM0h2eGVCbGdEdFBtYXlveWJxUVpydkIxMzQ0dEMxOEtpMjItVE1TWkY2S1lNcGJoSGEza1p4dllR?oc=5",
+      "source": "Benzinga",
+      "publishedAt": "2026-10-12T15:47:34.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "Nvidia Stock May Have Peaked. How to Spot the Warning Signs. - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYjZGMnNCMmxKUklyUlNMVVI0bVpwRHhyZENJWThZeHBKYWx3NVRBQmVJQkh3dEVSXy16OWo4WlREdFZKUnhSVDlxYWI2NTR0bi00NnNqX1E5Q3M1RHFoVzdzUHNaakVUVVB5alZ3X0NPbWFlMWNPbWJZcEJfV2pIQVNhUlNiNlJ3cXJvZkE1d2NiR2NyelpBZXl1dDI?oc=5",
+      "source": "Moomoo",
+      "publishedAt": "2026-10-12T15:45:17.000Z",
+      "kind": "news",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "Why is Microsoft stock climbing today? - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT2oya3FhQWcwWGlveEU4N1R3dUtVcjJqODBXMV8yWXgtY3FtX2ZRTlZjOVhGOTloQzFmWURseENDZGpPejRwcWVUMFZQcjdfMkpPLVlzbE5kZTVmdkxYalZ1eHAtV0V3T0dTNjNmM0kxTGQyTWotSXdXa0dWZVJFUFNMWW5VUkpIbW1JcW9sUlpyeGhfakNlODdsczZ3cWNx?oc=5",
+      "source": "Investing.com",
+      "publishedAt": "2026-10-12T15:42:22.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "Ondas, Palantir Partner To Launch New AI Company For Defense Missions – Everything To Know About Regna AI - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVk0weWd2amxTbW53dnpHSEhtM2ZFczNqekxuWXZ2TUFPV3l4VUlwT1FlcDF6dndsXzJGc3NtM2dfanp4bkMwVWtoakw1Wk1rTTNjRUJLNHVzX1dCTEU5bmdYT2p1NHI3ZmxtQk4xdEc4dmo2RnFqVkV1dFpZdVZaaDl6dC1sUGNveXJSMHJ2WHR2MnpkbXVMMG5EUFRYTmhwcjc5RjdMR0pxTDBXNF9VQnlJQXRHYjBQMDlRMkFoUzZsWkNpcDh6cm5aSzdWaURSQjN0RUNlU3I?oc=5",
+      "source": "Stocktwits",
+      "publishedAt": "2026-10-12T15:40:23.000Z",
+      "kind": "news",
+      "symbol": "PLTR"
+    },
+    {
+      "title": "Palantir Technologies (PLTR) Target Price Raised by Baird to $25 - GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZzI5a3FOZGdnNDZscGE5WHBlM0tmZjFXY1VBSWVxVmFKN3BSRnN1WEFxRFlGM3VPaDZjcWlCTllHbFpVWGJRSUVsOGZKZUwyMGpkdm9QbUxTN1B1cWhMaHczRFlMX2tUMjdsY2kzLUxPTzdLenFQX0ZtSkVxV0c0b0FnYVlkelJobTVyNWtvTlVidWptbWpGbl9pWkttcVFTdno4?oc=5",
+      "source": "GuruFocus",
+      "publishedAt": "2026-10-12T15:39:29.000Z",
+      "kind": "news",
+      "symbol": "PLTR"
+    },
+    {
+      "title": "Microsoft Unveils New Maia AI Chips on a Rough Day for Nvidia Stock - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa0xiX25MdWZKcWVyVVUyN013VnRRQkhXRzlqeUtaeHVmc2ExMjVKb1k4bmRWTzFRY0pUQXItRE1TcWs1RUxpSVVvU2Zmb0s2TkRsMVN1cnFYeTlydmlSVUZxOXUweXBobGZrcGU5WUs5ODU1eVBORW95UmpncmZBVg?oc=5",
+      "source": "Barron's",
+      "publishedAt": "2026-10-12T15:39:00.000Z",
+      "kind": "news",
+      "symbol": "NVDA"
+    },
+    {
+      "title": "Microsoft Unveils New Maia AI Chips on a Rough Day for Nvidia Stock - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa0xiX25MdWZKcWVyVVUyN013VnRRQkhXRzlqeUtaeHVmc2ExMjVKb1k4bmRWTzFRY0pUQXItRE1TcWs1RUxpSVVvU2Zmb0s2TkRsMVN1cnFYeTlydmlSVUZxOXUweXBobGZrcGU5WUs5ODU1eVBORW95UmpncmZBVg?oc=5",
+      "source": "Barron's",
+      "publishedAt": "2026-10-12T15:39:00.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "Fermi: The Risks Are Still Rising (NASDAQ:FRMI) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BZXV6U053MDRfb2RxOGtKMGVkc1BBRGJwN3BoV2NNdzlrYWRLUHl3NzNONXdpLVpBcEk4bzNBcEZRUHpRTWZEUDRsZVZSLVdMcTAzdHptNU9BZnc1TE9TTUFPZkU1MXh5dTVBZmVMcW9EenM?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-10-12T15:34:42.000Z",
+      "kind": "news",
+      "symbol": "FRMI"
+    },
+    {
+      "title": "Ondas Takes Its Palantir Partnership Deeper With New Sovereign AI Company - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYklkMW43dHJtR3ZFUXhxRTlldlFTbUUtWVAzMTRUb1YzbUhmdWRPcUFUTjZRUF85U29DTVVTU1lia2dUbWlLVjZVaFNiR1dCMy0tZGllRzd2eWtUZkJCdk4xclJXQTJoTGJFanA4UXc3NDVDVU1sNFRIR2JWRUpxVUZuQU1leFVDcjZKVlNXSnZqRlhjZmdZVkYycVJoOWlRcEpJWkRwRWU2eWVvZjhYMS1CNDM2blVOcXFMOU5kVTdsSVNB?oc=5",
+      "source": "Benzinga",
+      "publishedAt": "2026-10-12T15:33:05.000Z",
+      "kind": "news",
+      "symbol": "PLTR"
+    },
+    {
+      "title": "If You Invest $500 a Month in Microsoft Starting Now, This is What You’d Have in 2030 - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVhnVWFqWUFvbDk1Ymo5UXdRaWQ0WG9WZmRKazJyRmJpX2lDOHluN0x1QXFiWXdMeTlwSndPUzFDbVo2T0E2VDVnSnZFNmlqS3pEVXE0eW5nM2dObUxxZUJ1cVkxaEl5ZThON3ZmblBrSW1WNWdNWHJ2ZnpoZ0t1LURXVVo0TDRwU0NOYXlPdW81TmRHMWQ5SXByWFRLb2tPOFVvblY0SzVrZElld04yM05iR2pSUXd1Z0J5QXZYaTk2aFFZ?oc=5",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-10-12T15:30:00.000Z",
+      "kind": "news",
+      "symbol": "MSFT"
+    },
+    {
+      "title": "What's next as XRP defends 50-day EMA support? - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcWZ3NEJSLWdyNDNDcGpWVXVQdHJtVGNwTWtqRVhQQmlWWGxreWpjTU5BVHFaNnNTOGNLTEo4M3ExTXR0a0U0QUpSV2VqT0hIVXFidWFLVkwtVnJyZmVxLTRWMTllZFZDdmNzbTZwbk5MYzRuVTN5SG5nVXpJWHUzeGhxMGFuM2tvQkh5ZmdEcFhHenlybmZ2RHRSZ2FaUlpBZnlWQzN0MVdkblRUektvOVIxNlBWalZjU19kZVpsRjdjelJReUlnbDJwVms3dDJ6YnNCWDZoTzNwNEg1d0xfVVpwUQ?oc=5",
+      "source": "FXStreet",
+      "publishedAt": "2026-10-12T15:30:00.000Z",
+      "kind": "news",
+      "symbol": "XRP"
+    },
+    {
+      "title": "XRP price prediction: ETF gap to Solana at $160m - CryptoTicker",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNzBtNTB6VHBGbTUzSm9lamRWN2szZkhHYVFOUC1YdXhURVZfUTF2OG84Mk02WGNrRms5eGNraWZ3aTA3dzBiMGRNODVnSDlaWkRRNzNWSGt1ei1pVURCcWFNbjg3X0JhREt1d0VrQUV1R1ljNkFrVTFXY0Z1WGJ5dg?oc=5",
+      "source": "CryptoTicker",
+      "publishedAt": "2026-10-12T15:28:13.000Z",
+      "kind": "news",
+      "symbol": "XRP"
     }
   ],
   "latestFilings": [
